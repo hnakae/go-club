@@ -1,14 +1,47 @@
 import { CMS_NAME } from "@/lib/constants";
+import Link from "next/link";
 
 export function Intro() {
   return (
-    <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
-      <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-        Go Club
+    <section className=" flex absolute bg-white w-full justify-around h-24">
+      <h1 className="text-5xl  font-bold tracking-tighter leading-tight flex items-center">
+        <Link
+          href="/"
+          className="hover:underline rounded-md hover:bg-slate-200 px-4 py-2 underline decoration-yellow-300"
+        >
+          Eugene Go Club
+        </Link>
       </h1>
-      <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Hosted By Daniel T.
-      </h4>
+      <ul className="flex space-x-4 px-8 items-center text-xl">
+        <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
+          <Link href="/contact" target="_blank">
+            Contact
+          </Link>
+        </li>
+        <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
+          <Link href="https://discord.gg/qVCqJYyVUX" target="_blank">
+            Discord
+          </Link>
+        </li>
+        <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
+          <Link
+            href="https://www.meetup.com/eugene-go-players/"
+            target="_blank"
+          >
+            Meetup
+          </Link>
+        </li>
+        <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
+          <Link href="/faqs" target="_blank">
+            FAQs
+          </Link>
+        </li>
+        <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
+          <Link href="/events" target="_blank">
+            Events
+          </Link>
+        </li>
+      </ul>
     </section>
   );
 }

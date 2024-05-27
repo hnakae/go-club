@@ -1,5 +1,5 @@
 ---
-title: "Go Club @ The Wheel Apizza Pub"
+title: "Meetup Info"
 excerpt: "How to find us
 Look for the gobans and listen for the clacking of slate and shell. We'll be in the back of the restaurant, usually at one of the long tables."
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
