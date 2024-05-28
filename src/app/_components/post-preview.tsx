@@ -22,7 +22,7 @@ export function PostPreview({
   slug,
 }: Props) {
   return (
-    <div className="cursor-pointer border border-black ">
+    <div className="cursor-pointer border border-black bg-[#FFFBF2]">
       {/* <div className="">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div> */}
