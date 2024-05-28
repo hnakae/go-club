@@ -1,9 +1,10 @@
+import Image from "next/image";
 import React from "react";
 
 const JoinCommunity = () => {
   return (
     <div className="">
-      <div className="flex justify-center  my-28 items-center bg-[#EDF3FD] mx-16 rounded-md h-[480px] p-16 ">
+      <div className="flex justify-center px-8 my-28 items-center bg-[#EDF3FD] mx-16 rounded-md h-[480px] ">
         <div className="message flex flex-col space-y-8   w-[500px]">
           <h1 className="text-[28px] font-semibold underline decoration-yellow-300">
             Become A Part Of Our Community!
@@ -18,7 +19,14 @@ const JoinCommunity = () => {
             JOIN COMMUNITY
           </div>
         </div>
-        <div className="images  w-[400px] h-[400px] pl-8">imgs</div>
+        <div className="images  w-[400px] h-[400px] pl-8 flex justify-center items-center">
+          <Image
+            src="/assets/images/placeholder-image.webp"
+            alt="placeholder"
+            width={400}
+            height={400}
+          />
+        </div>
       </div>{" "}
     </div>
   );

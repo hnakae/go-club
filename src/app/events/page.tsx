@@ -4,7 +4,7 @@ import { Events } from "@/app/_components/events";
 
 export default function FAQs() {
   return (
-    <main className="outline w-full  ">
+    <main className="  ">
       <Container>
         <Intro />
         <Events />

@@ -3,7 +3,12 @@ type Props = {
 };
 
 const Container = ({ children }: Props) => {
-  return <div className="container min-w-fit flex flex-col ">{children}</div>;
+  return (
+    // w-[90%] max-w-[1000px]
+    <div className="container flex flex-col w-[1000px] my-0 mx-auto ">
+      {children}
+    </div>
+  );
 };
 
 export default Container;

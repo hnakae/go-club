@@ -4,7 +4,7 @@ import Link from "next/link";
 export function Intro() {
   return (
     <section
-      className=" flex fixed bg-[#ffffff40] w-screen justify-around  h-24"
+      className=" flex fixed bg-[#ffffff40] justify-around  h-24  w-[90%] max-w-[1000px] my-0 mx-auto"
       style={{ backdropFilter: "blur(10px)" }}
     >
       <h1 className="text-5xl  font-bold tracking-tighter leading-tight flex items-center">

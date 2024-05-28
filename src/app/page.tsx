@@ -14,7 +14,7 @@ export default function Index() {
   const morePosts = allPosts.slice(1);
 
   return (
-    <main className="outline w-full  ">
+    <main className=" ">
       <Container>
         <Intro />
         <MeetUpInfo />
