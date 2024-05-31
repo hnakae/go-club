@@ -17,7 +17,7 @@ export function Navbar() {
           Eugene Go Club
         </Link>
       </h1>
-      <ul className="flex space-x-4 px-8 items-center text-xl tracking-tighter leading-tight">
+      <ul className="flex space-x-4 px-8 items-center text-l tracking-tighter leading-tight font-semibold">
         {/* <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
           <Link href="/contact">Contact</Link>
         </li> */}
