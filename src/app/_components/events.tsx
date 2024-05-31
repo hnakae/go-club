@@ -11,7 +11,7 @@ export function Events() {
       <div className=" mx-16 h-fit bg-[#ffffff] flex items-center justify-start">
         <div className="mx-16">
           <Image
-            src="/assets/images/40thUsGoCongress.png"
+            src="/assets/images/40thUSGoCongress.png"
             alt="image"
             width={250}
             height={250}
