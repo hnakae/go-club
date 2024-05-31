@@ -17,7 +17,8 @@ export function PostHeader({ title, coverImage, date, author }: Props) {
       <div className="mt-8 ">
         <PostTitle>{title}</PostTitle>
       </div>
-      <div className="hidden md:block md:mb-12">
+      <div className="flex mb-6 justify-start gap-4">
+        <Avatar name={author.name} picture={author.picture} />
         <Avatar name={author.name} picture={author.picture} />
       </div>
       <div className="mb-8 md:mb-16 sm:mx-0">
