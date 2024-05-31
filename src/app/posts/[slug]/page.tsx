@@ -7,6 +7,7 @@ import Container from "@/app/_components/container";
 import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
+import { Navbar } from "@/app/_components/navbar";
 
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
@@ -19,8 +20,8 @@ export default async function Post({ params }: Params) {
 
   return (
     <main>
+      <Navbar />
       <Container>
-        <Header />
         <article className="mt-24 mb-32  mx-16">
           <PostHeader
             title={post.title}
