@@ -12,7 +12,7 @@ export function Events() {
         <div className="mx-16">
           <Image
             src="/assets/images/40thUsGoCongress.png"
-            alt="logo"
+            alt="image"
             width={250}
             height={250}
           />
@@ -20,7 +20,7 @@ export function Events() {
         <div className="flex flex-col justify-center items-center">
           <a
             className=" p-32 text-[24px] hover:underline text-blue-700 font-bold"
-            href="https://baduk.club/calendar/1700070411561x350166449747918850"
+            href="https://gocongress.org/"
             target="_blank"
           >
             US Go Congress 2024
