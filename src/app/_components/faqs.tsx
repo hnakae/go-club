@@ -2,7 +2,7 @@ export function QA() {
   return (
     <>
       <div className=" mt-36 mb-8 bg-[#ffffff] py-6 mx-16 h-fit flex-col flex items-start justify-start rounded-md ">
-        <div className="mx-16 border-b-2 border-black text-[32px] font-black tracking-tighter leading-tight mb-6">
+        <div className="mx-16 underline decoration-yellow-300 border-black text-[32px] font-black tracking-tighter leading-tight mb-6">
           Frequently Asked Questions
         </div>
         <div className="mx-16 py-6 h-fit  bg-[#ffffff] text-[24px] flex flex-col items-center justify-center border-b-2 font-medium">

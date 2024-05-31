@@ -7,7 +7,7 @@ const MeetUpInfo = () => {
     <div className="w-flex justify-center items-center">
       <div className=" mt-36 mb-8 bg-[#DDEAFC] py-3 px-12 text-start mx-16 h-fit flex-col flex items-center justify-center rounded-md ">
         <div className="  my-8 p-3 mx-16 h-fit flex-col flex items-center justify-center rounded-md ">
-          <div className="border-b-2 border-black decoration-yellow-300 text-[40px] font-black mb-8">
+          <div className="underline border-black decoration-yellow-300 text-[40px] font-black mb-8">
             Meetup Info
           </div>
           <div className="text-3xl mb-4"> Wednesdays</div>
