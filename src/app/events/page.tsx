@@ -1,12 +1,12 @@
 import Container from "@/app/_components/container";
-import { Intro } from "@/app/_components/intro";
+import { Navbar } from "@/app/_components/navbar";
 import { Events } from "@/app/_components/events";
 
 export default function FAQs() {
   return (
-    <main className="  ">
+    <main className="bg-blue-100 h-screen">
+      <Navbar />
       <Container>
-        <Intro />
         <Events />
       </Container>
     </main>

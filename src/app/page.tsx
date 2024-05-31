@@ -1,7 +1,7 @@
 import Container from "@/app/_components/container";
 import { HeroPost } from "@/app/_components/hero-post";
-import { Intro } from "@/app/_components/intro";
-import { MoreStories } from "@/app/_components/more-stories";
+import { Navbar } from "@/app/_components/navbar";
+import { GameReviews } from "@/app/_components/game-reviews";
 import { getAllPosts } from "@/lib/api";
 import MeetUpInfo from "./_components/meetup-info";
 import JoinCommunity from "./_components/join-community";
@@ -14,11 +14,12 @@ export default function Index() {
   const morePosts = allPosts.slice(1);
 
   return (
-    <main className=" ">
+    // bg-[#f0e7db]
+    <main className="">
+      <Navbar />
       <Container>
-        <Intro />
         <MeetUpInfo />
-        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        {morePosts.length > 0 && <GameReviews posts={morePosts} />}
         <JoinCommunity />
         <HeroPost
           title={heroPost.title}
