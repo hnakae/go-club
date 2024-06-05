@@ -24,14 +24,16 @@ export function GameReviews({ posts }: Props) {
             excerpt={post.excerpt}
           />
         ))}
-        <div className="rounded-md shadow-md  bg-white my-auto h-full">
-          <div className="flex flex-col bg-gray-100 p-12 rounded-md">
+        <div className="rounded-md shadow-md  bg-white h-full">
+          <div className="flex flex-col bg-gray-100 px-12 py-9 rounded-md">
             <h1>Name</h1>
             <input></input>
             <div>Comments</div>
             <input className="mb-3"></input>
-            <button className="mb-3 border">select file</button>
-            <button className="py-2 px-4 mb-6 rounded-md bg-teal-500 text-white">
+            <button className="mb-3 border hover:border-black">
+              select file
+            </button>
+            <button className="py-2 px-4 rounded-md bg-teal-500 hover:bg-teal-600 text-white">
               Submit
             </button>
           </div>
