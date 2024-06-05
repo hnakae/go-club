@@ -1,4 +1,5 @@
 import markdownStyles from "./markdown-styles.module.css";
+import Eidogo from "./eidogo";
 
 type Props = {
   content: string;
@@ -11,6 +12,7 @@ export function PostBody({ content }: Props) {
         className={markdownStyles["markdown"]}
         dangerouslySetInnerHTML={{ __html: content }}
       />
+      <Eidogo />
     </div>
   );
 }

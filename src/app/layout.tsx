@@ -55,8 +55,11 @@ export default function RootLayout({
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
+      {/* <script type="text/javascript" src="player/js/all.compressed.js"></script>
+<div class="eidogo-player-auto" sgf="path/to/sgf/file.sgf"></div> */}
       <body className={inter.className}>
         <div className="min-h-screen">{children}</div>
+        {/* <div className="eidogo-player-auto" sgf="sgf/problem.sgf"></div> */}
         <Footer />
       </body>
     </html>

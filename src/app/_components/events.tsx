@@ -13,13 +13,13 @@ export function Events() {
           <Image
             src="/assets/images/40thUSGoCongress.png"
             alt="image"
-            width={250}
-            height={250}
+            width={200}
+            height={200}
           />
         </div>
         <div className="flex flex-col justify-center items-center">
           <a
-            className=" p-32 text-[24px] hover:underline text-blue-700 font-bold"
+            className=" text-[24px] hover:underline text-blue-700 font-bold"
             href="https://gocongress.org/"
             target="_blank"
           >

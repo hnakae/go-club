@@ -9,6 +9,8 @@ import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 import { Navbar } from "@/app/_components/navbar";
 
+// import {Goban} from 'react-go-board';
+
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
 

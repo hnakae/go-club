@@ -15,14 +15,15 @@ export function PostHeader({ title, coverImage, date, author }: Props) {
   return (
     <>
       <div className="mt-8 ">
-        <PostTitle>{title}</PostTitle>
+        <PostTitle>{title} Comments</PostTitle>
       </div>
       <div className="flex mb-6 justify-start gap-4">
-        <Avatar name={author.name} picture={author.picture} />
-        <Avatar name={author.name} picture={author.picture} />
+        {/* <Avatar name={author.name} picture={author.picture} /> */}
+        {/* <Avatar name={author.name} picture={author.picture} /> */}
       </div>
-      <div className="mb-8 md:mb-16 sm:mx-0">
-        <CoverImage title={title} src={coverImage} />
+      <div className="mb-8 w-full flex justify-center ">
+        {/* <CoverImage title={title} src={coverImage} /> */}
+        {/* <iframe src="" /> */}
       </div>
       <div className="max-w-2xl mx-auto">
         <div className="block md:hidden mb-6">

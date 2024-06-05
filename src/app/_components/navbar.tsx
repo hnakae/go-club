@@ -6,7 +6,7 @@ import Link from "next/link";
 export function Navbar() {
   return (
     <section
-      className=" flex fixed bg-[#ffffff40] justify-around  h-auto py-2 w-screen my-0 px-16 shadow-md rounded-md"
+      className=" flex fixed bg-[#ffffff40] justify-around   h-auto py-2 w-screen my-0 px-28 shadow-md "
       style={{ backdropFilter: "blur(10px)" }}
     >
       <h1 className="text-5xl  font-bold tracking-tighter leading-tight flex items-center">

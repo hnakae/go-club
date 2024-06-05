@@ -22,7 +22,7 @@ export function HeroPost({
   slug,
 }: Props) {
   return (
-    <section className="mx-16   py-6 mb-24 bg-white px-6 rounded-md">
+    <section className="mx-10 py-6 mb-24 bg-white px-10 rounded-md">
       {/* <div className="mb-8 md:mb-16">
         <CoverImage title={title} src={coverImage} slug={slug} />
       </div> */}
@@ -38,8 +38,8 @@ export function HeroPost({
             <DateFormatter dateString={date} />
           </div> */}
         </div>
-        <div className="px-6">
-          <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+        <div className="px-6 flex flex-col">
+          <p className="text-lg leading-relaxed mb-4 ">{excerpt}</p>
           <Avatar name={author.name} picture={author.picture} />
         </div>
       </div>
