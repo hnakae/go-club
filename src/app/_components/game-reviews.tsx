@@ -12,7 +12,7 @@ export function GameReviews({ posts }: Props) {
         Games Reviews
       </h2>
 
-      <div className="grid grid-cols-3 gap-x-4   ">
+      <div className="flex  justify-around items-center  ">
         {posts.slice(0, 1).map((post) => (
           <PostPreview
             key={post.slug}
@@ -24,7 +24,7 @@ export function GameReviews({ posts }: Props) {
             excerpt={post.excerpt}
           />
         ))}
-        <div className="rounded-md shadow-sm hover:shadow-md  bg-white my-auto h-full">
+        <div className="rounded-md shadow-md  bg-white my-auto h-full">
           <div className="flex flex-col bg-gray-100 p-12 rounded-md">
             <h1>Name</h1>
             <input></input>
