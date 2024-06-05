@@ -24,7 +24,7 @@ export function GameReviews({ posts }: Props) {
             excerpt={post.excerpt}
           />
         ))}
-        <div className="rounded-md shadow-sm hover:shadow-md  bg-white my-auto">
+        <div className="rounded-md shadow-sm hover:shadow-md  bg-white my-auto h-full">
           <div className="flex flex-col bg-gray-100 p-12 rounded-md">
             <h1>Name</h1>
             <input></input>
