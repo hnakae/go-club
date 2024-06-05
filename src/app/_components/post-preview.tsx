@@ -22,25 +22,10 @@ export function PostPreview({
   slug,
 }: Props) {
   return (
-    <div className="rounded-md shadow-sm hover:shadow-md  bg-white h-full ">
-      <div className="bg-blue-100 h-32 flex justify-center items-center rounded-t-sm">
+    <div className="rounded-md shadow-sm hover:shadow-md  bg-white h-[260px] w-full mx-3">
+      <div className="bg-blue-100 h-32 flex justify-center items-center rounded-t-md">
         {/* <CoverImage slug={slug} title={title} src={coverImage} /> */}Coming
         Soon
-      </div>
-      <div className=" px-6 py-4">
-        <h3 className="text-3xl mb-3 leading-snug">
-          <Link
-            href={`/posts/${slug}`}
-            className="hover:underline text-blue-700"
-          >
-            {title}
-          </Link>
-        </h3>
-        <div className="text-lg mb-4">
-          <DateFormatter dateString={date} />
-        </div>
-        <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-        {/* <Avatar name={author.name} picture={author.picture} /> */}
       </div>
     </div>
   );

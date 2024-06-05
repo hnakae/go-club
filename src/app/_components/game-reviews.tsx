@@ -24,7 +24,7 @@ export function GameReviews({ posts }: Props) {
             excerpt={post.excerpt}
           />
         ))}
-        <div className="rounded-md shadow-md  bg-white h-full">
+        <div className="rounded-md shadow-md  bg-white h-[260px]">
           <div className="flex flex-col bg-gray-100 px-12 py-9 rounded-md">
             <h1>Name</h1>
             <input></input>
