@@ -6,10 +6,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/express-rate-limit": "^6.0.0",
     "classnames": "^2.5.1",
     "date-fns": "^3.3.1",
+    "express-rate-limit": "^7.3.0",
     "gray-matter": "^4.0.3",
     "next": "14.1.0",
+    "nodemailer": "^6.9.13",
     "react": "^18",
     "react-dom": "^18",
     "remark": "^15.0.1",
@@ -17,6 +20,7 @@
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.15",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
