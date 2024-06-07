@@ -31,7 +31,7 @@ const Form = () => {
       formData.append("file", selectedFile);
     }
 
-    const response = await fetch("/api/email", {
+    const response = await fetch("/api/saveGame", {
       method: "POST",
       body: formData,
     });
