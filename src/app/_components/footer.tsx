@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="bg-neutral-50 border-t border-neutral-200 ">
+    <footer className="bg-[url('/assets/images/background.png')]">
       <Container>
-        <div className="py-28 flex flex-col items-start  px-16 ">
-          <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2 underline decoration-yellow-300">
+        <div className="py-28 flex flex-col items-start text-white px-16 ">
+          <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2 ">
             Eugene Go Club
           </h3>
           <h1>Eugene Go Club is a free weekly club for go enthusiasts.</h1>

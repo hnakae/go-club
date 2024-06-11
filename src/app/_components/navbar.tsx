@@ -6,18 +6,18 @@ import Link from "next/link";
 export function Navbar() {
   return (
     <section
-      className=" flex fixed bg-[#ffffff40] justify-around   h-auto py-2 w-screen my-0 px-28 shadow-md "
+      className=" flex  bg-[#ffffff40] justify-around  text-white h-auto py-2 w-screen my-0 px-28 shadow-md "
       style={{ backdropFilter: "blur(10px)" }}
     >
-      <h1 className="text-5xl  font-bold tracking-tighter leading-tight flex items-center">
+      <h1 className="text-3xl  font-bold tracking-tighter leading-tight flex items-center">
         <Link
           href="/"
-          className="hover:underline rounded-md hover:bg-slate-200 px-4 py-2 underline decoration-yellow-300"
+          className="hover:underline rounded-md hover:bg-slate-200 px-4 py-2  decoration-yellow-300"
         >
           Eugene Go Club
         </Link>
       </h1>
-      <ul className="flex space-x-4 px-8 items-center text-l tracking-tighter leading-tight font-semibold">
+      <ul className="flex space-x-2 px-8 items-center tracking-tighter leading-tight ">
         {/* <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
           <Link href="/contact">Contact</Link>
         </li> */}
