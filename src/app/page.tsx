@@ -16,11 +16,11 @@ export default function Index() {
 
   return (
     // bg-[#f0e7db]
-    <main className="bg-[url('/assets/images/background-flipped.png')] bg-no-repeat bg-rotate-180  ">
+    <main className="max-w-screen ">
       <Navbar />
+      <MeetUpInfo />
       <Container>
-        <MeetUpInfo />
-        {/* {morePosts.length > 0 && <GameReviews posts={morePosts} />} */}
+        {morePosts.length > 0 && <GameReviews posts={morePosts} />}
         <JoinCommunity />
         <HeroPost
           title={heroPost.title}

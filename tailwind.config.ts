@@ -19,6 +19,21 @@ const config: Config = {
         "accent-7": "#333",
         success: "#0070f3",
         cyan: "#79FFE1",
+        dark: "#1b1b1b",
+        light: "#fff",
+        primary: "#D3D6E9", // 240,86,199
+        background: "#ebdbff",
+        primaryDark: "#58E6D9", // 80,230,217
+        coffee: "#f0e7db",
+        opaque: "#ffffff40",
+        brand: "#1582CC",
+        brandDark: "#00d5ff",
+        brandPurple: "#ebdbff",
+        brandWhite: "#fff",
+        brandGray: "#f5f7ff",
+        brandBlue: "#F9FEFF",
+        brandBlue2: "#dbeefd",
+        purp: "#D3D6E9",
       },
       spacing: {
         28: "7rem",

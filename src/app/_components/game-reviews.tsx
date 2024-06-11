@@ -8,8 +8,8 @@ type Props = {
 
 export function GameReviews({ posts }: Props) {
   return (
-    <section className="bg-teal-100 rounded-md py-4 mx-16 mb-8 flex flex-col p-6 h-full">
-      <h2 className=" decoration-yellow-300 text-[30px] font-medium tracking-tighter leading-tight  flex justify-center items-center mb-4">
+    <section className="bg-gradient-to-b from-teal-300 to-teal-100 rounded-md py-4 mx-16 mb-8 flex flex-col p-6 h-full">
+      <h2 className=" decoration-yellow-300 text-[30px] font-medium tracking-tighter leading-tight text-white flex justify-center items-center mb-4">
         Games Reviews
       </h2>
 
