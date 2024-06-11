@@ -5,6 +5,7 @@ import { GameReviews } from "@/app/_components/game-reviews";
 import { getAllPosts } from "@/lib/api";
 import MeetUpInfo from "./_components/meetup-info";
 import JoinCommunity from "./_components/join-community";
+import Grid from "./_components/grid";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -20,7 +21,8 @@ export default function Index() {
       <Navbar />
       <MeetUpInfo />
       <Container>
-        {morePosts.length > 0 && <GameReviews posts={morePosts} />}
+        <Grid />
+        {/* {morePosts.length > 0 && <GameReviews posts={morePosts} />} */}
         <JoinCommunity />
         <HeroPost
           title={heroPost.title}

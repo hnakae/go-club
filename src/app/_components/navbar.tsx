@@ -14,13 +14,13 @@ export function Navbar() {
     <>
       {" "}
       <section
-        className=" flex fixed bg-[#ffffff40] justify-around items-center  h-auto py-2 w-full my-0 px-28 shadow-md text-white"
+        className=" flex fixed bg-[#ffffff40] justify-around items-center  h-auto py-2 w-full my-0 px-28 shadow-md select-none"
         style={{ backdropFilter: "blur(10px)" }}
       >
         <div className="text-3xl  font-bold tracking-tighter leading-tight flex items-center">
           <Link
             href="/"
-            className="hover:underline text-nowrap	 rounded-md hover:bg-slate-200 px-4 py-2  decoration-yellow-300"
+            className="hover:underline text-nowrap	 rounded-md px-4 py-2  "
           >
             Eugene Go Club
           </Link>
@@ -29,12 +29,12 @@ export function Navbar() {
           {/* <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
           <Link href="/contact">Contact</Link>
         </li> */}
-          <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
+          <li className="cursor-pointer rounded-md  px-4 py-2 ">
             <Link href="https://discord.gg/qVCqJYyVUX" target="_blank">
               Discord
             </Link>
           </li>
-          <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
+          <li className="cursor-pointer  rounded-md  px-4 py-2">
             <Link
               href="https://www.meetup.com/eugene-go-players/events"
               target="_blank"
@@ -42,10 +42,10 @@ export function Navbar() {
               Meetup
             </Link>
           </li>
-          <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
+          <li className="cursor-pointer rounded-md  px-4 py-2">
             <Link href="/faqs">FAQs</Link>
           </li>
-          <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
+          <li className="cursor-pointer rounded-md  px-4 py-2">
             <Link href="/events">Events</Link>
           </li>
         </ul>
