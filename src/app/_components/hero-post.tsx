@@ -22,10 +22,8 @@ export function HeroPost({
   slug,
 }: Props) {
   return (
-    <section className="mx-6 py-6 mb-24 bg-white px-10 rounded-md">
-      {/* <div className="mb-8 md:mb-16">
-        <CoverImage title={title} src={coverImage} slug={slug} />
-      </div> */}
+    <section className="mx-6 py-6 mb-36 bg-white px-10 rounded-md">
+      <div className="mb-8 text-center text-4xl">How to find us</div>
       <div className="flex items-center gap-2">
         <div className="">
           <CoverImage title={title} src={coverImage} slug={slug} />

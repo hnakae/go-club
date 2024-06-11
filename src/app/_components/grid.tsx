@@ -27,20 +27,20 @@ const Grid = () => {
   ];
   return (
     <>
-      <div className="w-full flex flex-col  mb-16 ">
-        <div className="text-center text-[55px] mb-6">Topics</div>
-        <div className="grid grid-rows-2 grid-cols-3 gap-4 p-4">
+      <div className="w-full flex flex-col  mb-36 ">
+        <div className="text-center text-[55px] mb-6 ">Topics</div>
+        <div className="grid grid-rows-2 grid-cols-3 gap-y-6 p-4">
           {items.map((item, index) => (
             <div
               key={index}
               className="  flex flex-col items-center justify-center "
             >
               <span
-                className="rounded-full w-[50px] h-[50px] mb-2"
+                className="rounded-full w-[50px] h-[50px] mb-3 "
                 style={{ backgroundColor: colors[index] }}
               />
-              {item}
-              <div className="text-center text-sm text-gray-600">
+              <div className="text-lg  leading-tight mb-3">{item}</div>
+              <div className="text-center text-sm text-gray-600 mb-6">
                 {descriptions[index]}
               </div>
             </div>
