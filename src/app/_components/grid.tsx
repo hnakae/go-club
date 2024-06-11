@@ -28,7 +28,7 @@ const Grid = () => {
   return (
     <>
       <div className="w-full flex flex-col  mb-16 ">
-        <div className="text-center text-[55px] mb-6">Services</div>
+        <div className="text-center text-[55px] mb-6">Topics</div>
         <div className="grid grid-rows-2 grid-cols-3 gap-4 p-4">
           {items.map((item, index) => (
             <div
