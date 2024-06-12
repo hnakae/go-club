@@ -31,7 +31,7 @@ const Grid = () => {
         <div className="font-playfair leading-[1.06] tracking-[1.88px] font-semibold text-center text-[52px] mb-20 mt-24 ">
           Our Activities
         </div>
-        <div className="grid grid-rows-2 grid-cols-3 gap-y-6 p-4">
+        <div className="grid grid-rows-2 grid-cols-3 gap-y-6 p-4 xs:grid-rows-3 xs:grid-cols-2">
           {items.map((item, index) => (
             <div
               key={index}
@@ -44,7 +44,7 @@ const Grid = () => {
               <div className="font-lora text-lg font-semibold tracking-wider mb-3">
                 {item}
               </div>
-              <div className="font-lora text-center text-sm text-gray-600">
+              <div className="font-lora text-center text-sm text-gray-600 xs:hidden sm:hidden">
                 {descriptions[index]}
               </div>
             </div>
