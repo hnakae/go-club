@@ -62,6 +62,14 @@ const config: Config = {
         lora: ["Lora", "serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+      screens: {
+        xs: { min: "320px", max: "479px" }, // iPhone Portrait confirmed
+        sm: { min: "480px", max: "1023px" }, // iPhone Landscape
+        md: { min: "768px", max: "1023px" }, // iPad Portrait
+        lg: { min: "1024px", max: "1366px" }, // iPad Landscape
+        xl: { min: "1280px", max: "1366px" }, // Laptop
+        "2xl": { min: "1600px" }, // Desktop
+      },
     },
   },
   plugins: [],

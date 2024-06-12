@@ -23,7 +23,7 @@ export function HeroPost({
 }: Props) {
   return (
     <section className="mx-6 py-6 mb-36  px-10 rounded-md">
-      <div className="font-playfair mb-8 text-center text-4xl">
+      <div className="font-playfair leading-[1.06] tracking-[1.88px] font-semibold mb-8 text-center text-4xl">
         How to find us
       </div>
       <div className="flex items-center gap-2">

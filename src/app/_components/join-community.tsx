@@ -7,7 +7,7 @@ const JoinCommunity = () => {
     // bg-[#DDEAFC]
     <div className=" select-none mx-16 mb-36 flex justify-center  items-center shadow-lg rounded-xl h-[480px] overflow-hidden">
       <div className="bg-white message flex flex-col h-full justify-center items-start w-1/2 px-8">
-        <h1 className="font-playfair text-[28px] font-semibold mb-6">
+        <h1 className="font-playfair text-[28px] leading-[1.06] tracking-wide font-semibold mb-6">
           Become A Part Of Our Community!
         </h1>
         <p className="font-lora text-[16px] pr-8 mb-3">

@@ -17,7 +17,7 @@ export default function Index() {
 
   return (
     // bg-[#f0e7db]
-    <main className="max-w-screen ">
+    <main className="max-w-screen bg-gradient-to-t from-beige1 to-white">
       <Navbar />
       <MeetUpInfo />
       <Container>
