@@ -18,18 +18,18 @@ const Grid = () => {
     "Endgame",
   ];
   const descriptions = [
-    "Play and review with AI",
-    "Watch professional games",
+    "Play and review",
+    "Study professional games",
     "Solve Tsumego puzzles",
-    "Learn and review Joseki",
-    "Understand shapes",
-    "Master the endgame",
+    "Understand Joseki",
+    "Learn shapes",
+    "Practice the endgame",
   ];
   return (
     <>
       <div className="w-full flex flex-col  mb-36 ">
-        <div className="font-playfair text-center text-[55px] mb-6 ">
-          Traditional & Sophisticated
+        <div className="font-playfair leading-[1.06] tracking-[1.88px] font-semibold text-center text-[52px] mb-20 mt-24 ">
+          Our Activities
         </div>
         <div className="grid grid-rows-2 grid-cols-3 gap-y-6 p-4">
           {items.map((item, index) => (
@@ -41,10 +41,10 @@ const Grid = () => {
                 className="rounded-full w-[50px] h-[50px] mb-3 "
                 style={{ backgroundColor: colors[index] }}
               />
-              <div className="font-lora text-lg  leading-tight mb-3">
+              <div className="font-lora text-lg font-semibold tracking-wider mb-3">
                 {item}
               </div>
-              <div className="font-lora text-center text-sm text-gray-600 mb-6">
+              <div className="font-lora text-center text-sm text-gray-600">
                 {descriptions[index]}
               </div>
             </div>
