@@ -63,11 +63,11 @@ const config: Config = {
         montserrat: ["Montserrat", "sans-serif"],
       },
       screens: {
-        xs: { min: "320px", max: "479px" }, // iPhone Portrait confirmed
+        xs: { max: "479px" }, // iPhone Portrait confirmed
         sm: { min: "480px", max: "1023px" }, // iPhone Landscape
         md: { min: "768px", max: "1023px" }, // iPad Portrait
         lg: { min: "1024px", max: "1366px" }, // iPad Landscape
-        xl: { min: "1280px", max: "1366px" }, // Laptop
+        xl: { min: "1367px", max: "1599px" }, // Laptop
         "2xl": { min: "1600px" }, // Desktop
       },
     },
