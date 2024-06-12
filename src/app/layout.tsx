@@ -1,11 +1,23 @@
 import Footer from "@/app/_components/footer";
 import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Playfair_Display, Lora, Montserrat } from "next/font/google";
 
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+const lora = Lora({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 export const metadata: Metadata = {
   title: `Next.js Blog Example with ${CMS_NAME}`,
@@ -54,11 +66,29 @@ export default function RootLayout({
         />
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet"
+        />
       </head>
       {/* <script type="text/javascript" src="player/js/all.compressed.js"></script>
 <div class="eidogo-player-auto" sgf="path/to/sgf/file.sgf"></div> */}
       <body className={inter.className}>
-        <div className="min-h-screen max-w-screen">{children}</div>
+        <div
+          className={`${playfair.className} ${lora.className} ${montserrat.className} min-h-screen max-w-screen`}
+        >
+          {children}
+        </div>
         {/* <div className="eidogo-player-auto" sgf="sgf/problem.sgf"></div> */}
         <Footer />
       </body>

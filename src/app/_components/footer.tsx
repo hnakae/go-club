@@ -8,10 +8,12 @@ export function Footer() {
     <footer className="select-none bg-gradient-to-tr from-sky-500 to-teal-400 max-w-screen mx-0">
       {/* <Container> */}
       <div className="py-28 flex flex-col items-start text-white px-16 ">
-        <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2 ">
+        <h3 className="font-playfair text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2 ">
           Eugene Go Club
         </h3>
-        <h1>Eugene Go Club is a free weekly club for go enthusiasts.</h1>
+        <h1 className="font-montserrat">
+          Eugene Go Club is a free weekly club for go enthusiasts.
+        </h1>
         <div className="socials flex pt-4 space-x-4">
           <Link
             href="/https://www.facebook.com/groups/EugeneGoClub"

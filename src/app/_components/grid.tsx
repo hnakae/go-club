@@ -28,7 +28,9 @@ const Grid = () => {
   return (
     <>
       <div className="w-full flex flex-col  mb-36 ">
-        <div className="text-center text-[55px] mb-6 ">Topics</div>
+        <div className="font-playfair text-center text-[55px] mb-6 ">
+          Traditional & Sophisticated
+        </div>
         <div className="grid grid-rows-2 grid-cols-3 gap-y-6 p-4">
           {items.map((item, index) => (
             <div
@@ -39,8 +41,10 @@ const Grid = () => {
                 className="rounded-full w-[50px] h-[50px] mb-3 "
                 style={{ backgroundColor: colors[index] }}
               />
-              <div className="text-lg  leading-tight mb-3">{item}</div>
-              <div className="text-center text-sm text-gray-600 mb-6">
+              <div className="font-lora text-lg  leading-tight mb-3">
+                {item}
+              </div>
+              <div className="font-lora text-center text-sm text-gray-600 mb-6">
                 {descriptions[index]}
               </div>
             </div>

@@ -22,8 +22,10 @@ export function HeroPost({
   slug,
 }: Props) {
   return (
-    <section className="mx-6 py-6 mb-36 bg-white px-10 rounded-md">
-      <div className="mb-8 text-center text-4xl">How to find us</div>
+    <section className="mx-6 py-6 mb-36  px-10 rounded-md">
+      <div className="font-playfair mb-8 text-center text-4xl">
+        How to find us
+      </div>
       <div className="flex items-center gap-2">
         <div className="">
           <CoverImage title={title} src={coverImage} slug={slug} />
@@ -37,7 +39,7 @@ export function HeroPost({
           </div> */}
         </div>
         <div className="px-6 flex flex-col">
-          <p className="text-lg leading-relaxed mb-4 ">{excerpt}</p>
+          <p className="font-lora mb-4 ">{excerpt}</p>
           <Avatar name={author.name} picture={author.picture} />
         </div>
       </div>

@@ -34,6 +34,11 @@ const config: Config = {
         brandBlue: "#F9FEFF",
         brandBlue2: "#dbeefd",
         purp: "#D3D6E9",
+        navyBlue1: "#0F4C81",
+        beige1: "#F5F5F5",
+        teal1: "#008080",
+        burgundy1: "#800020",
+        emerald1: "#50C878",
       },
       spacing: {
         28: "7rem",
@@ -50,6 +55,12 @@ const config: Config = {
       boxShadow: {
         sm: "0 5px 10px rgba(0, 0, 0, 0.12)",
         md: "0 8px 30px rgba(0, 0, 0, 0.12)",
+      },
+      fontFamily: {
+        playfair: ["Playfair Display", "serif"],
+        inter: ["Inter", "sans-serif"],
+        lora: ["Lora", "serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },

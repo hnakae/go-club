@@ -4,6 +4,7 @@ import { useState } from "react";
 import Menu from "./menu";
 
 // flex flex-col w-[1000px] my-0 mx-auto
+// bg-[#ffffff40]
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,18 +15,18 @@ export function Navbar() {
     <>
       {" "}
       <section
-        className=" flex fixed bg-[#ffffff40] justify-around items-center  h-auto py-2 w-full my-0 px-28 shadow-md select-none"
+        className=" flex bg-sky-600  justify-around items-center  h-auto py-2 w-full my-0 px-28 shadow-md select-none"
         style={{ backdropFilter: "blur(10px)" }}
       >
         <div className="text-3xl  font-bold tracking-tighter leading-tight flex items-center">
           <Link
             href="/"
-            className="hover:underline text-nowrap	 rounded-md px-4 py-2  "
+            className="font-montserrat text-white hover:underline text-nowrap	 rounded-md px-4 py-2  "
           >
             Eugene Go Club
           </Link>
         </div>
-        <ul className="flex space-x-2 px-8 items-center tracking-tighter leading-tight ">
+        <ul className="font-montserrat text-white flex space-x-2 px-8 items-center tracking-tighter leading-tight ">
           {/* <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
           <Link href="/contact">Contact</Link>
         </li> */}
@@ -54,17 +55,17 @@ export function Navbar() {
           onClick={handleClick}
         >
           <span
-            className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
+            className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
               isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
             }`}
           ></span>
           <span
-            className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
+            className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
               isOpen ? "opacity-0" : "opacity-100"
             }`}
           ></span>
           <span
-            className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
+            className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
               isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
             }`}
           ></span>

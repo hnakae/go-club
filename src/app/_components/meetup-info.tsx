@@ -10,9 +10,15 @@ const MeetUpInfo = () => {
 
       <div className="  mt-28  text-start h-fit flex items-center justify-center rounded-md ">
         <div className="py-12  h-fit flex-col flex items-center justify-center rounded-md  text-center  ">
-          <div className="text-[55px] mb-4"> Wednesdays</div>
-          <div className="text-2xl mb-4"> 5:30 pm - 9:00 pm</div>
-          <div className="text-2xl "> Wheel Apizza Pub, on Lincoln St.</div>
+          <div className="font-playfair text-[55px] mb-4"> Wednesdays</div>
+          <div className="font-montserrat text-2xl mb-4">
+            {" "}
+            5:30 pm - 9:00 pm
+          </div>
+          <div className="font-montserrat text-2xl ">
+            {" "}
+            Wheel Apizza Pub, on Lincoln St.
+          </div>
         </div>
         {/* <div className="  my-8 p-3  h-fit flex-col flex items-center justify-center rounded-md   text-center ">
           <div className="text-3xl mb-4"> Sundays</div>
