@@ -19,17 +19,25 @@ const MeetUpInfo = () => {
           </div>
           <div className="font-montserrat text-2xl ">
             {" "}
-            5th Street Alley near Magpie Coffee
+            5th Street Alley near{" "}
+            <a
+              href="https://www.google.com/maps/place/Magpie+Coffeeshop/@44.0534091,-123.0906905,17z/data=!3m1!4b1!4m6!3m5!1s0x54c11f944e770925:0x5d79ed248cc805f2!8m2!3d44.0534091!4d-123.0906905!16s%2Fg%2F11rc73f_8q?entry=ttu"
+              className="underline"
+            >
+              Magpie Coffee
+            </a>
           </div>
         </div>
         <div className="  ml-6 ">
-          <Image
-            src="/assets/images/map.png"
-            alt="map"
-            width={450}
-            height={250}
-            className=" rounded-md "
-          />
+          <a href="https://www.openstreetmap.org/way/1012479109">
+            <Image
+              src="/assets/images/map.png"
+              alt="map"
+              width={450}
+              height={250}
+              className=" rounded-md "
+            />
+          </a>
         </div>
       </div>
     </div>
