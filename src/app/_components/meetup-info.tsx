@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const MeetUpInfo = () => {
@@ -17,14 +18,18 @@ const MeetUpInfo = () => {
           </div>
           <div className="font-montserrat text-2xl ">
             {" "}
-            5th Street Alley near Magpie Coffee 
+            5th Street Alley near Magpie Coffee
           </div>
         </div>
-        {/* <div className="  my-8 p-3  h-fit flex-col flex items-center justify-center rounded-md   text-center ">
-          <div className="text-3xl mb-4"> Sundays</div>
-          <div className="text-2xl mb-4"> 12:00 pm - 2:00 pm</div>
-          <div className="text-2xl "> Espresso Roma, on 13th Ave Every</div>
-        </div> */}
+        <div className="   ">
+          <Image
+            src="/assets/images/black.png"
+            alt="map"
+            width={50}
+            height={50}
+            className=" "
+          />
+        </div>
       </div>
     </div>
   );

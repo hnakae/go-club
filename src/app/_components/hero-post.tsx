@@ -39,9 +39,8 @@ export function HeroPost({
           </div> */}
         </div>
         <div className="px-6 flex flex-col w-full justify-center items-start xs:px-0 sm:px-0">
-          <p className="font-lora mb-4" style={{ textIndent: "2em" }}>
-            "{excerpt}"
-          </p>
+          {/* style={{ textIndent: "2em" }} */}
+          <p className="font-lora mb-4">"{excerpt}"</p>
           <Avatar name={author.name} picture={author.picture} />
         </div>
       </div>
