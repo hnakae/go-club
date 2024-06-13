@@ -1,7 +1,7 @@
 export function QA() {
   return (
     <>
-      <div className=" mt-36 mb-8 bg-[#ffffff] py-6 mx-16 h-fit flex-col flex items-start justify-start rounded-md ">
+      <div className=" mb-8 mt-12 bg-[#ffffff] py-6 mx-16 h-fit flex-col flex items-start justify-start rounded-md ">
         <div className="mx-16  border-black text-[32px] font-black tracking-tighter leading-tight mb-6">
           Frequently Asked Questions
         </div>
