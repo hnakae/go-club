@@ -23,7 +23,7 @@ const MeetUpInfo = () => {
         </div>
         <div className="   ">
           <Image
-            src="/assets/images/black.png"
+            src="/assets/images/map.png"
             alt="map"
             width={50}
             height={50}
