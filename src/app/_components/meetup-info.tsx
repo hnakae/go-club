@@ -6,7 +6,8 @@ const MeetUpInfo = () => {
     // bg-[#DDEAFC] blue
     // bg-gradient-to-b from-blue-500 to-sky-300
     // bg-[url('/assets/images/cover.jpg')]  image background
-    <div className="flex flex-col justify-start items-center bg-[url(/assets/images/background-flipped.png)] bg-no-repeat text-white  h-[69vh] min-h-[500px]">
+    // bg-[url(/assets/images/background-flipped.png)]
+    <div className="flex flex-col justify-start items-center bg-sky-500 bg-no-repeat text-white  h-[69vh] min-h-[500px]">
       {/* <div className=" border-black text-[55px] font-black ">Meetup Info</div> */}
 
       <div className="  mt-28  text-start h-fit flex items-center justify-center rounded-md ">
@@ -21,13 +22,13 @@ const MeetUpInfo = () => {
             5th Street Alley near Magpie Coffee
           </div>
         </div>
-        <div className="   ">
+        <div className="  ml-6 ">
           <Image
             src="/assets/images/map.png"
             alt="map"
-            width={50}
-            height={50}
-            className=" "
+            width={450}
+            height={250}
+            className=" rounded-md "
           />
         </div>
       </div>
