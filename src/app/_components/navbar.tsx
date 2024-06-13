@@ -52,7 +52,7 @@ export function Navbar() {
             </li>
           </ul>
           <button
-            className="flex-col justify-center items-center  lg:hidden xl:hidden 2xl:hidden "
+            className="flex-col justify-center items-center md:hidden  lg:hidden xl:hidden 2xl:hidden "
             onClick={handleClick}
           >
             <span

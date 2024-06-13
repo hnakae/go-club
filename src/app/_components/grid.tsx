@@ -41,9 +41,11 @@ const Grid = () => {
                 className="rounded-full w-[50px] h-[50px] mb-3 "
                 style={{ backgroundColor: colors[index] }}
               />
+
               <div className="font-lora text-lg font-semibold tracking-wider mb-3">
                 {item}
               </div>
+
               <div className="font-lora text-center text-sm text-gray-600 xs:hidden sm:hidden">
                 {descriptions[index]}
               </div>
