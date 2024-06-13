@@ -17,7 +17,7 @@ const MeetUpInfo = () => {
           </div>
           <div className="font-montserrat text-2xl ">
             {" "}
-            Wheel Apizza Pub, on Lincoln St.
+            5th Street Alley near Magpie Coffee 
           </div>
         </div>
         {/* <div className="  my-8 p-3  h-fit flex-col flex items-center justify-center rounded-md   text-center ">
