@@ -15,7 +15,7 @@ export function Navbar() {
     <>
       {" "}
       <section
-        className="z-30  flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
+        className="z-30 bg-white fixed flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
         style={{ backdropFilter: "blur(10px)" }}
       >
         <div className="w-full max-w-[1000px] flex justify-between items-center ">
@@ -31,7 +31,7 @@ export function Navbar() {
             {/* <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
           <Link href="/contact">Contact</Link>
         </li> */}
-            <li className="cursor-pointer rounded-md  px-4 py-2  ">
+            {/* <li className="cursor-pointer rounded-md  px-4 py-2  ">
               <Link href="https://discord.gg/qVCqJYyVUX" target="_blank">
                 Discord
               </Link>
@@ -42,6 +42,16 @@ export function Navbar() {
                 target="_blank"
               >
                 Meetup
+              </Link>
+            </li> */}
+            <li className="cursor-pointer rounded-md  px-4 py-2  ">
+              <Link href="" target="_blank">
+                How to Play
+              </Link>
+            </li>
+            <li className="cursor-pointer  rounded-md  px-4 py-2 ">
+              <Link href="" target="_blank">
+                Articles
               </Link>
             </li>
             <li className="cursor-pointer rounded-md  px-4 py-2">

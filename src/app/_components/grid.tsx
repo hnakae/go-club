@@ -36,7 +36,7 @@ const Grid = () => {
   ];
   return (
     <>
-      <div className="w-full flex flex-col  px-6">
+      <div className="w-full flex flex-col  px-6 sm:mb-6 mb-36">
         <div className="font-playfair leading-[1.06] tracking-wide font-semibold text-center text-4xl xs:text-3xl mb-12 xs:mb-6 ">
           Our Activities
         </div>

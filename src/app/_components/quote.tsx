@@ -4,7 +4,7 @@ import Avatar from "./avatar";
 
 const Quote = () => {
   return (
-    <section className=" px-6 rounded-md w-full ">
+    <section className=" px-6 rounded-md w-full sm:mb-6 mb-36">
       <div className="max-w-[1000px] flex justify-center items-center   sm:flex-col xs:space-y-3 sm:space-y-3  ">
         <div className=" flex justify-center  xs:w-full sm:w-full  xs:mb-3">
           <Image
@@ -19,7 +19,7 @@ const Quote = () => {
           {/* <div className="font-playfair leading-[1.06] tracking-wide xs:tracking-tighter sm:tracking-tight font-semibold mb-12 xs:mb-6 text-center text-4xl xs:text-3xl">
             How To Find Us
           </div> */}
-          <div className="px-6 w-[310px] flex flex-col  justify-center items-start  py-6   rounded-lg ml-3 sm:ml-0 outline relative">
+          <div className="px-6 w-[310px] flex flex-col  justify-center items-start  py-6   rounded-lg ml-3 sm:ml-0 border-2 border-black relative">
             <div className="absolute top-[-16px] left-4 bg-beige1">
               <Image src="/icons/quote.png" alt="icon" width={30} height={30} />
             </div>
