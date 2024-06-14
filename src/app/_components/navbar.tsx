@@ -15,7 +15,7 @@ export function Navbar() {
     <>
       {" "}
       <section
-        className="z-20  fixed flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
+        className="z-30  flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
         style={{ backdropFilter: "blur(10px)" }}
       >
         <div className="w-full max-w-[1000px] flex justify-between items-center ">
@@ -56,17 +56,17 @@ export function Navbar() {
             onClick={handleClick}
           >
             <span
-              className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
+              className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
                 isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
               }`}
             ></span>
             <span
-              className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
+              className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
                 isOpen ? "opacity-0" : "opacity-100"
               }`}
             ></span>
             <span
-              className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
+              className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
                 isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
               }`}
             ></span>

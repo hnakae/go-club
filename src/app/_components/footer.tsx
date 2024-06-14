@@ -13,10 +13,20 @@ export function Footer() {
         <h3 className="font-playfair text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2 ">
           Eugene Go Club
         </h3>
+
         <h1 className="font-montserrat">
           Eugene Go Club is a free weekly club for go enthusiasts.
         </h1>
-        <div className="socials flex pt-4 space-x-4">
+
+        <div className="socials flex pt-4  space-x-4">
+          <ul className="font-montserrat text-white  flex space-x-2  items-center tracking-tighter leading-tight xs:hidden  ">
+            <li className="cursor-pointer rounded-md  px-4 py-2">
+              <Link href="/faqs">FAQs</Link>
+            </li>
+            <li className="cursor-pointer rounded-md  px-4 py-2">
+              <Link href="/events">Events</Link>
+            </li>
+          </ul>
           <Link
             href="/https://www.facebook.com/groups/EugeneGoClub"
             target="_blank"

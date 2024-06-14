@@ -17,7 +17,7 @@ export function QA() {
         </div>
         <div className="font-lora py-6 h-fit  bg-[#ffffff]  flex flex-col items-center justify-center mb-6 text-[18px]">
           Discord will always be up to date and is the best place to get in
-          contact with us 😃
+          contact with us.
         </div>
         <div className="font-playfair  py-6 h-fit  bg-[#ffffff]  flex flex-col items-center justify-center border-b-2 text-[24px]">
           Can I get notifications for club days?
