@@ -7,7 +7,7 @@ const MeetUpInfo = () => {
     // bg-gradient-to-b from-blue-500 to-sky-300
     // bg-[url('/assets/images/cover.jpg')]  image background
     // bg-[url(/assets/images/background-flipped.png)]
-    <div className="flex flex-col justify-start items-center mt-6 ">
+    <div className="flex flex-col justify-start items-center mt-12 ">
       {/* <div className=" border-black text-[55px] font-black ">Meetup Info</div> */}
 
       <div className="   text-start h-fit flex items-center justify-center rounded-md ">
