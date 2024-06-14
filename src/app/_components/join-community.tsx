@@ -83,7 +83,7 @@ const JoinCommunity = () => {
             alt="placeholder"
             width={400}
             height={400}
-            className="absolute min-w-[150px] min-h-[150px] w-auto h-auto pointer-events-none rounded-r-xl "
+            className="absolute z-10 min-w-[150px] min-h-[150px] w-auto h-auto pointer-events-none rounded-r-xl "
             style={{
               top: "50%",
               left: "50%",
