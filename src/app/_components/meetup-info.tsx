@@ -28,7 +28,7 @@ const MeetUpInfo = () => {
             </a>
           </div>
         </div>
-        <div className="  ml-6 ">
+        <div className="  ml-8 ">
           <a href="https://www.openstreetmap.org/way/1012479109">
             <Image
               src="/assets/images/map.png"

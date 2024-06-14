@@ -3,31 +3,33 @@ import Image from "next/image";
 export function Events() {
   return (
     <>
-      <div className=" mt-36 bg-[#ffffff] py-6 mx-16 h-fit flex-col flex items-start  justify-center rounded-md ">
-        <div className="font-playfair font-semibold mx-16  text-[32px]    tracking-tighter leading-tight">
+      <div className="  bg-[#ffffff]  h-fit flex-col flex items-start  justify-center max-w-[1000px]  border-black border-b">
+        <div className="font-playfair font-semibold  text-[32px]    tracking-tighter leading-tight  ">
           Events
         </div>
       </div>
-      <div className=" mx-16 h-fit bg-[#ffffff] flex items-center justify-start">
-        <div className="mx-16">
-          <Image
-            src="/assets/images/40thUSGoCongress.png"
-            alt="image"
-            width={200}
-            height={200}
-          />
+      <a
+        className=" text-[24px] hover:underline text-blue-700 font-bold border"
+        href="https://gocongress.org/"
+        target="_blank"
+      >
+        <div className=" bg-white flex items-center justify-center  ">
+          <div className="">
+            <Image
+              src="/assets/images/40thUSGoCongress.png"
+              alt="image"
+              width={200}
+              height={200}
+            />
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <div className="font-playfair font-bold text-3xl mb-3">
+              US Go Congress 2024
+            </div>
+            <div className="font-montserrat">July 13-21</div>
+          </div>
         </div>
-        <div className="flex flex-col justify-center items-center">
-          <a
-            className=" text-[24px] hover:underline text-blue-700 font-bold"
-            href="https://gocongress.org/"
-            target="_blank"
-          >
-            US Go Congress 2024
-          </a>
-          <div>July 13-21</div>
-        </div>
-      </div>
+      </a>
     </>
   );
 }

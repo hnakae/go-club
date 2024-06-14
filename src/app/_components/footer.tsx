@@ -5,7 +5,8 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="select-none bg-gradient-to-tr from-sky-500 to-teal-400 max-w-screen mx-0">
+    // #A69EF5", to: "#DCC9FE" bg-gradient-to-tr from-[#A69EF5] to-[#DCC9FE]
+    <footer className="select-nonemax-w-screen mx-0 bg-slate-600">
       {/* <Container> */}
       <div className="py-28 flex flex-col items-start text-white px-16 ">
         <h3 className="font-playfair text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2 ">

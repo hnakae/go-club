@@ -19,11 +19,11 @@ const Grid = () => {
   ];
   const icons = [
     "/icons/glass.png", // icon for Game Reviews
-    "/path/to/icon2.png", // icon for Pro Games
-    "/path/to/icon3.png", // icon for Tsumego
-    "/path/to/icon4.png", // icon for Joseki
-    "/path/to/icon5.png", // icon for Shapes
-    "/path/to/icon6.png", // icon for Endgame
+    "/icons/glass.png", // icon for Pro Games
+    "/icons/glass.png", // icon for Tsumego
+    "/icons/glass.png", // icon for Joseki
+    "/icons/glass.png", // icon for Shapes
+    "/icons/glass.png", // icon for Endgame
   ];
   const items = [
     "Game Reviews",
@@ -44,7 +44,7 @@ const Grid = () => {
   return (
     <>
       <div className="w-full flex flex-col   mt-6">
-        <div className="font-playfair leading-[1.06] tracking-[1.88px] font-semibold text-center text-[52px]   ">
+        <div className="font-playfair leading-[1.06] tracking-[1.88px] font-semibold text-center text-[52px]  mb-12 ">
           Our Activities
         </div>
         <div className="grid grid-rows-2 grid-cols-3 gap-y-6 p-4 xs:grid-rows-3 xs:grid-cols-2">
@@ -72,11 +72,11 @@ const Grid = () => {
                 />
               </span>
 
-              <div className="font-lora text-lg font-semibold tracking-wider mb-3">
+              <div className="font-lora text-xl font-semibold tracking-wider mb-3">
                 {item}
               </div>
 
-              <div className="font-lora text-center text-sm text-gray-600 xs:hidden sm:hidden">
+              <div className="font-lora text-center text-md text-gray-600 xs:hidden sm:hidden tracking-wide">
                 {descriptions[index]}
               </div>
             </div>
