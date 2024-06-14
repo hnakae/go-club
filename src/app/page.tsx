@@ -6,6 +6,7 @@ import { getAllPosts } from "@/lib/api";
 import MeetUpInfo from "./_components/meetup-info";
 import JoinCommunity from "./_components/join-community";
 import Grid from "./_components/grid";
+import Quote from "./_components/quote";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -24,14 +25,15 @@ export default function Index() {
         <Grid />
         {/* {morePosts.length > 0 && <GameReviews posts={morePosts} />} */}
         <JoinCommunity />
-        <HeroPost
+        <Quote />
+        {/* <HeroPost
           title={heroPost.title}
           coverImage={heroPost.coverImage}
           date={heroPost.date}
           author={heroPost.author}
           slug={heroPost.slug}
           excerpt={heroPost.excerpt}
-        />
+        /> */}
       </Container>
     </main>
   );

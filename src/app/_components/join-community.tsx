@@ -5,8 +5,8 @@ import React from "react";
 const JoinCommunity = () => {
   return (
     // bg-[#DDEAFC]
-    <div className="select-none  shadow-lg rounded-xl overflow-visible bg-white">
-      <div className="px-12  flex xs:flex-col-reverse sm:flex-col-reverse justify-center items-center shadow-lg rounded-xl h-[480px] overflow-hidden">
+    <div className="select-none   rounded-xl overflow-visible  px-6">
+      <div className="px-12  bg-white flex xs:flex-col-reverse sm:flex-col-reverse justify-center items-center shadow-lg rounded-xl h-[480px] overflow-hidden">
         <div className=" message flex flex-col h-full w-full justify-center items-start md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 p-8">
           <h1 className="font-playfair text-4xl leading-[1.06] tracking-wide font-semibold mb-4">
             Become A Part Of Our Community!

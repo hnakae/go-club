@@ -9,7 +9,7 @@ const MeetUpInfo = () => {
     // bg-[url(/assets/images/background-flipped.png)]
     // <div className="flex flex-col justify-start items-center mt-12 ">
 
-    <div className="   text-start h-fit flex items-center justify-center rounded-md mt-12 sm:flex-col xs:flex-col">
+    <div className=" px-6  text-start h-fit flex items-center justify-center rounded-md mt-12 sm:flex-col xs:flex-col">
       <div className="py-12  h-fit flex-col flex items-center justify-center rounded-md  text-center  ">
         <div className="font-playfair text-[55px] mb-4"> Wednesdays</div>
         <div className="font-montserrat text-2xl mb-4"> 5:30 pm - 9:00 pm</div>

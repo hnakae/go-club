@@ -3,7 +3,7 @@ import Image from "next/image";
 export function Events() {
   return (
     <>
-      <div className="  bg-[#ffffff]  h-fit flex-col flex items-start  justify-center max-w-[1000px]  border-black border-b">
+      <div className=" px-6 bg-[#ffffff]  h-fit flex-col flex items-start  justify-center max-w-[1000px]  border-black border-b">
         <div className="font-playfair font-semibold  text-[32px]    tracking-tighter leading-tight  ">
           Events
         </div>

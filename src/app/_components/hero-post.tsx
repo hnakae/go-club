@@ -28,7 +28,7 @@ export function HeroPost({
       </div>
       <div className="flex items-stretch xs:flex-col sm:flex-col xs:space-y-3 sm:space-y-3  ">
         <div className="w-1/2 flex-grow flex-shrink-0 xs:w-full sm:w-full">
-          <CoverImage title={title} src={coverImage} slug={slug} />
+          <CoverImage title={title} src={author.picture} slug={slug} />
           {/* <h3 className="mb-4 text-3 leading-tight">
             <Link href={`/posts/${slug}`} className="hover:underline">
               {title}
