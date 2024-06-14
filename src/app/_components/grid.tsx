@@ -44,7 +44,7 @@ const Grid = () => {
   return (
     <>
       <div className="w-full flex flex-col   mt-6">
-        <div className="font-playfair leading-[1.06] tracking-[1.88px] font-semibold text-center text-[52px]  mb-12 ">
+        <div className="font-playfair leading-[1.06] tracking-wide font-semibold text-center text-[40px]  mb-12 ">
           Our Activities
         </div>
         <div className="grid grid-rows-2 grid-cols-3 gap-y-6 p-4 xs:grid-rows-3 xs:grid-cols-2">
