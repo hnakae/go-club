@@ -1,9 +1,11 @@
-import Container from "@/app/_components/container";
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 // import { EXAMPLE_PATH } from "@/lib/constants";
 
 export function Footer() {
+  const pathname = usePathname();
   return (
     // #A69EF5", to: "#DCC9FE" bg-gradient-to-tr from-[#A69EF5] to-[#DCC9FE]
     // <footer className="select-none max-w-screen mx-0 bg-slate-600 flex justify-center px-6">
@@ -88,12 +90,42 @@ export function Footer() {
           </div>
           <div className="flex flex-col gap-4">
             <div className="font-bold text-2xl">Company</div>
-            <div>Works</div>
-            <div>Services</div>
-            <div>Industries</div>
-            <div>About</div>
-            <div>Blog</div>
-            <div>Contact Us</div>
+
+            <Link
+              className={`link ${pathname === "/" ? "active" : ""}`}
+              href="/"
+              aria-label="Home"
+            >
+              Home
+            </Link>
+            <Link
+              className={`link ${pathname === "/how-to-play" ? "active" : ""}`}
+              href="/"
+              aria-label="How-to-Play"
+            >
+              How to Play
+            </Link>
+            <Link
+              className={`link ${pathname === "/articles" ? "active" : ""}`}
+              href="/"
+              aria-label="Articles"
+            >
+              Articles
+            </Link>
+            <Link
+              className={`link ${pathname === "/faqs" ? "active" : ""}`}
+              href="/faqs"
+              aria-label="FAQs"
+            >
+              FAQs
+            </Link>
+            <Link
+              className={`link ${pathname === "/events" ? "active" : ""}`}
+              href="/events"
+              aria-label="Events"
+            >
+              Events
+            </Link>
           </div>
           <div className="flex flex-col gap-4">
             <div className="font-bold text-2xl">Services</div>
@@ -105,9 +137,37 @@ export function Footer() {
             <div>Brand identity</div>
           </div>
           <div className="flex flex-col gap-4">
-            <div className="font-bold text-2xl">Solutions</div>
-            <div>For Business</div>
-            <div>For Startups</div>
+            <div className="font-bold text-2xl">Contact</div>
+            <div className="flex ">
+              <Image
+                src="/icons/location.png"
+                alt="icon"
+                width={20}
+                height={20}
+                className="mr-1"
+              />
+              Hogwarts Castle, Narnia
+            </div>
+            <div className="flex">
+              <Image
+                src="/icons/email.png"
+                alt="icon"
+                width={20}
+                height={20}
+                className="mr-1"
+              />
+              yourmom@myhouse.com
+            </div>
+            <div className="flex">
+              <Image
+                src="/icons/call.png"
+                alt="icon"
+                width={20}
+                height={20}
+                className="mr-1"
+              />
+              541-123-4567
+            </div>
           </div>
         </div>
       </div>
