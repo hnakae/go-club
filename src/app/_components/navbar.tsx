@@ -2,6 +2,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import Menu from "./menu";
+// import { NavLink } from "react-router-dom";
+import { usePathname } from "next/navigation";
 
 // flex flex-col w-[1000px] my-0 mx-auto
 // bg-[#ffffff40]
@@ -11,27 +13,28 @@ export function Navbar() {
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
+
+  const pathname = usePathname();
   return (
     <>
       {" "}
       <section
-        className="z-30 bg-white fixed flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
+        className="z-30 bg-white sticky top-0 flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
         style={{ backdropFilter: "blur(10px)" }}
       >
         <div className="w-full max-w-[1000px] flex justify-between items-center ">
-          <div className="text-3xl  font-bold tracking-tighter leading-tight flex items-center">
-            <Link
-              href="/"
-              className="font-montserrat   text-nowrap	 rounded-md  "
-            >
-              Eugene Go Club
-            </Link>
-          </div>
-          <ul className="font-montserrat   flex space-x-2  items-center tracking-tighter leading-tight xs:hidden sm:hidden ">
-            {/* <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
+          <Link
+            href="/"
+            className="font-montserrat   text-nowrap	 rounded-md text-3xl  font-bold tracking-tighter leading-tight flex items-center "
+          >
+            Eugene Go Club
+          </Link>
+          <nav aria-label="primary menu">
+            <ul className="font-montserrat   flex space-x-2  items-center tracking-tighter leading-tight xs:hidden sm:hidden ">
+              {/* <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
           <Link href="/contact">Contact</Link>
         </li> */}
-            {/* <li className="cursor-pointer rounded-md  px-4 py-2  ">
+              {/* <li className="cursor-pointer rounded-md  px-4 py-2  ">
               <Link href="https://discord.gg/qVCqJYyVUX" target="_blank">
                 Discord
               </Link>
@@ -44,23 +47,64 @@ export function Navbar() {
                 Meetup
               </Link>
             </li> */}
-            <li className="cursor-pointer rounded-md  px-4 py-2  ">
-              <Link href="" target="_blank">
-                How to Play
-              </Link>
-            </li>
-            <li className="cursor-pointer  rounded-md  px-4 py-2 ">
-              <Link href="" target="_blank">
-                Articles
-              </Link>
-            </li>
-            <li className="cursor-pointer rounded-md  px-4 py-2">
-              <Link href="/faqs">FAQs</Link>
-            </li>
-            <li className="cursor-pointer rounded-md  px-4 py-2">
-              <Link href="/events">Events</Link>
-            </li>
-          </ul>
+              <li
+                className="cursor-pointer rounded-md  px-4 py-2  "
+                aria-current="page"
+              >
+                <Link
+                  className={`link ${pathname === "/" ? "active" : ""}`}
+                  href="/"
+                  target="_blank"
+                  aria-label="Home"
+                >
+                  Home
+                </Link>
+              </li>
+              {/* <li>
+                <NavLink to="/">hahaha</NavLink>
+              </li> */}
+              <li className="cursor-pointer rounded-md  px-4 py-2  ">
+                <Link
+                  className={`link ${
+                    pathname === "/how-to-play" ? "active" : ""
+                  }`}
+                  href=""
+                  target="_blank"
+                  aria-label="How to Play"
+                >
+                  How to Play
+                </Link>
+              </li>
+              <li className="cursor-pointer  rounded-md  px-4 py-2 ">
+                <Link
+                  className={`link ${pathname === "/articles" ? "active" : ""}`}
+                  href=""
+                  target="_blank"
+                  aria-label="Articles"
+                >
+                  Articles
+                </Link>
+              </li>
+              <li className="cursor-pointer rounded-md  px-4 py-2">
+                <Link
+                  className={`link ${pathname === "/faqs" ? "active" : ""}`}
+                  href="/faqs"
+                  aria-label="FAQs"
+                >
+                  FAQs
+                </Link>
+              </li>
+              <li className="cursor-pointer rounded-md  px-4 py-2">
+                <Link
+                  className={`link ${pathname === "/events" ? "active" : ""}`}
+                  href="/events"
+                  aria-label="Events"
+                >
+                  Events
+                </Link>
+              </li>
+            </ul>
+          </nav>
           <button
             className="flex-col justify-center items-center md:hidden  lg:hidden xl:hidden 2xl:hidden "
             onClick={handleClick}

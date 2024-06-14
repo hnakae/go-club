@@ -120,13 +120,13 @@ export function Footer() {
             &#9825;
           </span>
           by&nbsp;
-          <Link
-            href="/"
-            target={"_blank"}
-            className="underline underline-offset-2 "
-          >
-            Hiro Nakae
-          </Link>
+          {/* <Link */}
+          {/* href="/" */}
+          {/* target={"_blank"} */}
+          {/* className="underline underline-offset-2 " */}
+          {/* > */}
+          Hiro Nakae
+          {/* </Link> */}
         </div>
       </div>
     </footer>

@@ -11,3 +11,7 @@
   /* letter-spacing: -0.05em;
   line-height: 1.25; */
 }
+
+.active {
+  text-decoration: underline;
+}
