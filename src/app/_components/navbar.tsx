@@ -54,7 +54,6 @@ export function Navbar() {
                 <Link
                   className={`link ${pathname === "/" ? "active" : ""}`}
                   href="/"
-                  target="_blank"
                   aria-label="Home"
                 >
                   Home
@@ -69,7 +68,6 @@ export function Navbar() {
                     pathname === "/how-to-play" ? "active" : ""
                   }`}
                   href=""
-                  target="_blank"
                   aria-label="How to Play"
                 >
                   How to Play
@@ -79,7 +77,6 @@ export function Navbar() {
                 <Link
                   className={`link ${pathname === "/articles" ? "active" : ""}`}
                   href=""
-                  target="_blank"
                   aria-label="Articles"
                 >
                   Articles

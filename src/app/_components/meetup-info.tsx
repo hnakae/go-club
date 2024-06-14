@@ -9,7 +9,7 @@ const MeetUpInfo = () => {
     // bg-[url(/assets/images/background-flipped.png)]
     // <div className="flex flex-col justify-start items-center mt-12 ">
 
-    <div className="relative bg-dark text-white   text-start  flex items-center justify-center pt-24 pb-24 sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6 mb-36">
+    <div className="relative bg-dark text-white   text-start  flex items-center justify-center py-24 sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6 mb-36">
       <div className="py-12  h-fit flex-col flex items-center justify-center rounded-md  text-center  z-20">
         <div>Meetup Info</div>
         <div className="font-playfair text-[55px] mb-4"> Wednesdays</div>

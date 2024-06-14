@@ -89,7 +89,7 @@ export function Footer() {
             </div>
           </div>
           <div className="flex flex-col gap-4">
-            <div className="font-bold text-2xl">Company</div>
+            <div className="font-bold text-2xl">Browse</div>
 
             <Link
               className={`link ${pathname === "/" ? "active" : ""}`}
@@ -128,13 +128,12 @@ export function Footer() {
             </Link>
           </div>
           <div className="flex flex-col gap-4">
-            <div className="font-bold text-2xl">Services</div>
-            <div>Product Strategy</div>
-            <div>Business Analysis</div>
-            <div>UX Audit</div>
-            <div>UI/UX Design</div>
-            <div>Web Design</div>
-            <div>Brand identity</div>
+            <div className="font-bold text-2xl">Activities</div>
+            <div>Play Games</div>
+            <div>Study Pro Games</div>
+            <div>Solve Puzzles</div>
+            <div>Discuss Strategy</div>
+            <div>Tournaments</div>
           </div>
           <div className="flex flex-col gap-4">
             <div className="font-bold text-2xl">Contact</div>
