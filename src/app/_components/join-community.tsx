@@ -5,9 +5,9 @@ import React from "react";
 const JoinCommunity = () => {
   return (
     // bg-[#DDEAFC]
-    <div className="select-none  shadow-lg rounded-xl overflow-visible  mt-6">
-      <div className=" flex xs:flex-col-reverse sm:flex-col-reverse justify-center items-center shadow-lg rounded-xl h-[480px] overflow-hidden">
-        <div className="bg-white message flex flex-col h-full w-full justify-center items-start md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 p-8">
+    <div className="select-none  shadow-lg rounded-xl overflow-visible bg-white">
+      <div className="px-12  flex xs:flex-col-reverse sm:flex-col-reverse justify-center items-center shadow-lg rounded-xl h-[480px] overflow-hidden">
+        <div className=" message flex flex-col h-full w-full justify-center items-start md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 p-8">
           <h1 className="font-playfair text-4xl leading-[1.06] tracking-wide font-semibold mb-4">
             Become A Part Of Our Community!
           </h1>
@@ -81,8 +81,8 @@ const JoinCommunity = () => {
           <Image
             src="/assets/images/social.png"
             alt="placeholder"
-            width={400}
-            height={400}
+            width={300}
+            height={300}
             className="absolute z-10 min-w-[150px] min-h-[150px] w-auto h-auto pointer-events-none rounded-r-xl "
             style={{
               top: "50%",

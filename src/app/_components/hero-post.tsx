@@ -22,7 +22,7 @@ export function HeroPost({
   slug,
 }: Props) {
   return (
-    <section className=" py-6 rounded-md  my-6 ">
+    <section className=" py-6 rounded-md  ">
       <div className="font-playfair leading-[1.06] tracking-wide xs:tracking-tighter sm:tracking-tight font-semibold mb-12 text-center text-[40px]">
         How To Find Us
       </div>
