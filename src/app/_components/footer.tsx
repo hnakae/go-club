@@ -6,9 +6,10 @@ import Link from "next/link";
 export function Footer() {
   return (
     // #A69EF5", to: "#DCC9FE" bg-gradient-to-tr from-[#A69EF5] to-[#DCC9FE]
-    <footer className="select-nonemax-w-screen mx-0 bg-slate-600">
+    <footer className="select-none max-w-screen mx-0 bg-slate-600 flex justify-center">
       {/* <Container> */}
-      <div className="py-28 flex flex-col items-start text-white px-16 ">
+      {/* <div className="w-full max-w-[1000px] flex justify-between items-center "> */}
+      <div className="w-full max-w-[1000px] py-28 flex flex-col items-start text-white ">
         <h3 className="font-playfair text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2 ">
           Eugene Go Club
         </h3>

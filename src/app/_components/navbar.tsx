@@ -18,7 +18,7 @@ export function Navbar() {
         className="z-20  fixed flex justify-center items-center h-auto py-2 w-full mx-0 px-0  shadow-md select-none "
         style={{ backdropFilter: "blur(10px)" }}
       >
-        <div className="w-full max-w-[1200px] flex justify-between items-center px-6">
+        <div className="w-full max-w-[1000px] flex justify-between items-center ">
           <div className="text-3xl  font-bold tracking-tighter leading-tight flex items-center">
             <Link
               href="/"

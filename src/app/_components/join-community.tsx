@@ -8,7 +8,7 @@ const JoinCommunity = () => {
     <div className="select-none  shadow-lg rounded-xl overflow-visible  mt-6">
       <div className=" flex xs:flex-col-reverse sm:flex-col-reverse justify-center items-center shadow-lg rounded-xl h-[480px] overflow-hidden">
         <div className="bg-white message flex flex-col h-full w-full justify-center items-start md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 p-8">
-          <h1 className="font-playfair text-[40px] leading-[1.06] tracking-wider font-semibold mb-4">
+          <h1 className="font-playfair text-4xl leading-[1.06] tracking-wide font-semibold mb-4">
             Become A Part Of Our Community!
           </h1>
           <p className="font-lora text-md pr-8 mb-6 tracking-wide">
