@@ -31,7 +31,7 @@ const MeetUpInfo = () => {
             alt="map"
             width={450}
             height={250}
-            className=" rounded-md "
+            className=" rounded-md shadow-lg"
           />
         </a>
       </div>
