@@ -5,7 +5,7 @@ import React from "react";
 const JoinCommunity = () => {
   return (
     // bg-[#DDEAFC]
-    <div className="select-none mx-16 mb-36 shadow-lg rounded-xl overflow-visible">
+    <div className="select-none  shadow-lg rounded-xl overflow-visible  mt-6">
       <div className=" flex xs:flex-col-reverse sm:flex-col-reverse justify-center items-center shadow-lg rounded-xl h-[480px] overflow-hidden">
         <div className="bg-white message flex flex-col h-full w-full justify-center items-start md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 p-8">
           <h1 className="font-playfair text-[28px] leading-[1.06] tracking-wide font-semibold">
@@ -76,7 +76,8 @@ const JoinCommunity = () => {
             </Link>
           </div>
         </div>
-        <div className="relative xs:rounded-t-xl md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 h-full w-full bg-gradient-to-br from-teal-400 to-sky-400 flex justify-center items-center overflow-visible">
+        {/* bg-gradient-to-br from-teal-400 to-sky-400 */}
+        <div className="relative xs:rounded-t-xl md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 h-full w-full bg-white flex justify-center items-center overflow-visible">
           <Image
             src="/assets/images/social.png"
             alt="placeholder"

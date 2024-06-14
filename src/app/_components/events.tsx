@@ -4,7 +4,7 @@ export function Events() {
   return (
     <>
       <div className=" mt-36 bg-[#ffffff] py-6 mx-16 h-fit flex-col flex items-start  justify-center rounded-md ">
-        <div className="mx-16 font-black text-[32px]    tracking-tighter leading-tight">
+        <div className="font-playfair font-semibold mx-16  text-[32px]    tracking-tighter leading-tight">
           Events
         </div>
       </div>

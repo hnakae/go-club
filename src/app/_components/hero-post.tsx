@@ -22,9 +22,9 @@ export function HeroPost({
   slug,
 }: Props) {
   return (
-    <section className="mx-6 py-6 mb-36  px-10 rounded-md ">
+    <section className=" py-6  px-10 rounded-md  my-6 ">
       <div className="font-lora leading-[1.06] tracking-[1.88px] xs:tracking-tighter sm:tracking-tight font-semibold mb-8 text-center text-4xl">
-        How to find us
+        How To Find Us
       </div>
       <div className="flex items-stretch xs:flex-col sm:flex-col xs:space-y-3 sm:space-y-3  ">
         <div className="w-1/2 flex-grow flex-shrink-0 xs:w-full sm:w-full">

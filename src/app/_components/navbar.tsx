@@ -15,19 +15,19 @@ export function Navbar() {
     <>
       {" "}
       <section
-        className="  bg-sky-600  flex justify-center items-center h-auto py-2 w-full mx-0 px-0  shadow-md select-none "
+        className="   flex justify-center items-center h-auto py-2 w-full mx-0 px-0  shadow-md select-none "
         style={{ backdropFilter: "blur(10px)" }}
       >
         <div className="w-full max-w-[1200px] flex justify-between items-center px-6">
           <div className="text-3xl  font-bold tracking-tighter leading-tight flex items-center">
             <Link
               href="/"
-              className="font-montserrat text-white  text-nowrap	 rounded-md  "
+              className="font-montserrat   text-nowrap	 rounded-md  "
             >
               Eugene Go Club
             </Link>
           </div>
-          <ul className="font-montserrat  text-white flex space-x-2  items-center tracking-tighter leading-tight xs:hidden sm:hidden ">
+          <ul className="font-montserrat   flex space-x-2  items-center tracking-tighter leading-tight xs:hidden sm:hidden ">
             {/* <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
           <Link href="/contact">Contact</Link>
         </li> */}
