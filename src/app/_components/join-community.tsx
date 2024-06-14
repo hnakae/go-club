@@ -5,7 +5,7 @@ import React from "react";
 const JoinCommunity = () => {
   return (
     // bg-[#DDEAFC]
-    <div className="select-none    overflow-visible  px-6 sm:mb-6 mb-36">
+    <div className="select-none    overflow-visible  px-6 sm:mb-6 mb-24">
       <div className=" bg-white flex xs:flex-col-reverse sm:flex-col-reverse justify-center items-center shadow-lg rounded-xl  xs:shadow-none h-[480px] xs:h-[400px] w-full overflow-hidden">
         <div className=" message flex flex-col h-full w-full justify-center items-start xs:items-center xs:text-center   md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 p-8 xs:p-0 xs:pb-4 ">
           <h1 className="font-playfair text-4xl xs:text-2xl leading-[1.06] tracking-wide font-semibold mb-4">

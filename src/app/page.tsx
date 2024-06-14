@@ -24,8 +24,8 @@ export default function Index() {
       <Container>
         <Grid />
         {/* {morePosts.length > 0 && <GameReviews posts={morePosts} />} */}
-        <JoinCommunity />
         <Quote />
+        <JoinCommunity />
         {/* <HeroPost
           title={heroPost.title}
           coverImage={heroPost.coverImage}
