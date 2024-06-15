@@ -9,7 +9,7 @@ const MeetUpInfo = () => {
     // bg-[url(/assets/images/5thstreet.jpg)]
     // <div className="flex flex-col justify-start items-center mt-12 ">
 
-    <div className="relative bg-darkFill text-white   text-start  flex items-center justify-center py-24 sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6 mb-36">
+    <div className="relative    text-start  flex items-center justify-center py-24 sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6 mb-36">
       {/* <Image
         src="/assets/images/cloud1.png"
         alt="image"
@@ -64,9 +64,9 @@ const MeetUpInfo = () => {
       <div className="  ml-8 sm:ml-0 xs:ml-0 xs:absolute z-10 sm:hidden">
         <a href="https://www.openstreetmap.org/way/1012479109" target="_blank">
           <Image
-            src="/assets/images/5thstreet.jpg"
+            src="/assets/images/5thstreetalley.jpg"
             alt="map"
-            width={450}
+            width={350}
             height={250}
             className=" rounded-md shadow-lg"
           />

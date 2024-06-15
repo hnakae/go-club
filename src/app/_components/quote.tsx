@@ -24,14 +24,14 @@ const Quote = () => {
             </div>
           </div>
         </div>{" "}
-        <div className="relative flex justify-center items-end h-[450px]">
-          <div className="absolute bottom-0 w-full h-[280px] bg-[url(/assets/images/greenSquiggles.jpg)]"></div>
+        <div className="relative flex justify-center items-end h-[450px] ">
+          <div className="absolute bottom-0 w-full h-[280px] rounded-b-md bg-[url(/assets/images/greenSquiggles.jpg)]"></div>
           <Image
             src="/assets/images/daniel-edited.png"
             width={300}
             height={300}
             alt="daniel"
-            className="z-20 mb-0" // Set margin-bottom to 0 to align properly
+            className="z-20 mb-0 rounded-md" // Set margin-bottom to 0 to align properly
           />
         </div>
       </div>
