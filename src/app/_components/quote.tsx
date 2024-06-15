@@ -5,16 +5,7 @@ import Avatar from "./avatar";
 const Quote = () => {
   return (
     <section className=" px-6 rounded-md w-full sm:mb-6 mb-36">
-      <div className="max-w-[1000px] flex justify-center items-center   sm:flex-col xs:space-y-3 sm:space-y-3  ">
-        <div className=" flex justify-center  xs:w-full sm:w-full  xs:mb-3">
-          <Image
-            src="/assets/blog/authors/daniel.webp"
-            width={150}
-            height={300}
-            alt="daniel"
-            className="rounded-md shadow-sm xs:shadow-none"
-          />
-        </div>
+      <div className="max-w-[1000px] flex justify-center space-x-24 items-center   sm:flex-col-reverse  xs:space-y-3 sm:space-y-3 ">
         <div className="flex flex-col ">
           {/* <div className="font-playfair leading-[1.06] tracking-wide xs:tracking-tighter sm:tracking-tight font-semibold mb-12 xs:mb-6 text-center text-4xl xs:text-3xl">
             How To Find Us
@@ -32,6 +23,16 @@ const Quote = () => {
               Daniel Takamori
             </div>
           </div>
+        </div>{" "}
+        <div className="relative flex justify-center items-end h-[450px]">
+          <div className="absolute bottom-0 w-full h-[280px] bg-[url(/assets/images/greenSquiggles.jpg)]"></div>
+          <Image
+            src="/assets/images/daniel-edited.png"
+            width={300}
+            height={300}
+            alt="daniel"
+            className="z-20 mb-0" // Set margin-bottom to 0 to align properly
+          />
         </div>
       </div>
     </section>

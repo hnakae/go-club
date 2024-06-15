@@ -62,24 +62,24 @@ export function Navbar() {
               {/* <li>
                 <NavLink to="/">hahaha</NavLink>
               </li> */}
-              <li className="cursor-pointer rounded-md  px-4 py-2  ">
+              {/* <li className="cursor-pointer rounded-md  px-4 py-2  ">
                 <Link
                   className={`link ${
                     pathname === "/how-to-play" ? "active" : ""
                   }`}
-                  href=""
+                  href="/how-to-play"
                   aria-label="How to Play"
                 >
                   How to Play
                 </Link>
-              </li>
+              </li> */}
               <li className="cursor-pointer  rounded-md  px-4 py-2 ">
                 <Link
                   className={`link ${pathname === "/articles" ? "active" : ""}`}
-                  href=""
-                  aria-label="Articles"
+                  href="/posts/dynamic-routing"
+                  aria-label="Blog"
                 >
-                  Articles
+                  Blog
                 </Link>
               </li>
               <li className="cursor-pointer rounded-md  px-4 py-2">
@@ -91,7 +91,7 @@ export function Navbar() {
                   FAQs
                 </Link>
               </li>
-              <li className="cursor-pointer rounded-md  px-4 py-2">
+              {/* <li className="cursor-pointer rounded-md  px-4 py-2">
                 <Link
                   className={`link ${pathname === "/events" ? "active" : ""}`}
                   href="/events"
@@ -99,7 +99,7 @@ export function Navbar() {
                 >
                   Events
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <button

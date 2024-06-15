@@ -39,6 +39,10 @@ const config: Config = {
         teal1: "#008080",
         burgundy1: "#800020",
         emerald1: "#50C878",
+        orange1: "#F8AD36",
+        pink1: "#F222A9",
+        borderColor: "#272727",
+        darkFill: "#3E424E",
       },
       spacing: {
         28: "7rem",
