@@ -23,8 +23,8 @@ export default function Index() {
       <Navbar />
       <MeetUpInfo />
       <Container>
-        <Quote />
         <Grid />
+        <Quote />
         {/* {morePosts.length > 0 && <GameReviews posts={morePosts} />} */}
         {/* <HeroPost
           title={heroPost.title}

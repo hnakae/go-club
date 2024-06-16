@@ -5,7 +5,7 @@ import Avatar from "./avatar";
 const Quote = () => {
   return (
     <section className=" px-24  w-full sm:mb-6 mb-36  ">
-      <div className="max-w-[1000px] rounded-md py-4  flex justify-center  space-x-24 items-end   sm:flex-col-reverse  xs:space-y-3 sm:space-y-3 ">
+      <div className="max-w-[1000px] rounded-md py-4  flex justify-center  space-x-12 items-end   sm:flex-col-reverse  xs:space-y-3 sm:space-y-3 ">
         <div className="flex flex-col ">
           {/* <div className="font-playfair leading-[1.06] tracking-wide xs:tracking-tighter sm:tracking-tight font-semibold mb-12 xs:mb-6 text-center text-4xl xs:text-3xl">
             How To Find Us

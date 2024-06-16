@@ -9,7 +9,7 @@ const Squares = () => {
           <div className="flex flex-col justify-center items-center space-y-3 py-12">
             <div className="text-4xl font-bold font-">Title</div>
             <div>Excerpt</div>
-            <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4">
+            <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
               Learn more
             </div>
           </div>
@@ -18,7 +18,7 @@ const Squares = () => {
           <div className="flex flex-col justify-center items-center space-y-3 py-12">
             <div className="text-4xl font-bold font-">Title</div>
             <div>Excerpt</div>
-            <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4">
+            <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
               Learn more
             </div>
           </div>
@@ -27,12 +27,12 @@ const Squares = () => {
           <div className="flex flex-col justify-center items-center space-y-3 py-12">
             <div className="text-4xl font-bold font-">Title</div>
             <div>Excerpt</div>
-            <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4">
+            <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
               Learn more
             </div>
           </div>
         </div>
-        <div className="bg-white flex justify-center items-center text-lg font-semibold">
+        <div className="bg-white flex justify-center items-center text-lg font-semibold hover:cursor-pointer">
           Read more
         </div>
       </div>
