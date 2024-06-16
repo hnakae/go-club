@@ -4,7 +4,7 @@ import { QA } from "@/app/_components/faqs";
 
 export default function FAQs() {
   return (
-    <main className=" h-screen">
+    <main className=" ">
       <Navbar />
       <Container>
         <QA />

@@ -1,7 +1,7 @@
 export function QA() {
   return (
     <>
-      <div className="max-w-[1000px] mb-8 py-24 px-6 bg-[#ffffff]  h-fit flex-col flex items-start justify-start rounded-md  ">
+      <div className=" mb-8 py-24 px-6 bg-[#ffffff]  min-h-screen flex-col flex items-start justify-start rounded-md  ">
         <div className="font-playfair font-semibold  tracking-tighter      text-[32px]   mb-12  border-black border-b w-full">
           Frequently Asked Questions
         </div>
