@@ -8,6 +8,7 @@ import JoinCommunity from "./_components/join-community";
 import Grid from "./_components/grid";
 import Quote from "./_components/quote";
 import Squares from "./_components/squares";
+import GoldenRule from "./_components/goldenRule";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -23,8 +24,9 @@ export default function Index() {
       <Navbar />
       <MeetUpInfo />
       <Container>
-        <Grid />
-        <Quote />
+        
+          <Grid />
+          <Quote />
         {/* {morePosts.length > 0 && <GameReviews posts={morePosts} />} */}
         {/* <HeroPost
           title={heroPost.title}
@@ -33,9 +35,9 @@ export default function Index() {
           author={heroPost.author}
           slug={heroPost.slug}
           excerpt={heroPost.excerpt}
-        /> */}
-        <JoinCommunity />
-        <Squares />
+          /> */}
+        {/* <JoinCommunity /> */}
+        {/* <Squares /> */}
       </Container>
     </main>
   );
