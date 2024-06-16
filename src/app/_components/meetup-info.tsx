@@ -9,15 +9,17 @@ const MeetUpInfo = () => {
     // bg-[url(/assets/images/5thstreet.jpg)]
     // <div className="flex flex-col justify-start items-center mt-12 ">
 
-    <div className="relative  px-24 flex items-center justify-center py-24 sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6 mb-24 bg-dark">
-      <div className="p-4 rounded-md flex justify-around w-full text-white max-w-[1000px] ">
-        <div className="py-12 px-6    flex-col flex items-start justify-center rounded-md  text-center   z-20">
-          <div className="text-lg font-montserrat  ">Meetup Info</div>
-          <div className="font-playfair text-4xl mb-4"> Wednesdays</div>
-          <div className="font-montserrat text-xl mb-4"> 5:30 pm - 9:00 pm</div>
+    <div className="relative   px-24 flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  bg-[#F5F5F7]">
+      <div className="p-4 rounded-md flex flex-col justify-around w-full text-[#1D1D1F] max-w-[1000px] ">
+        <div className="py-12 px-6    flex-col flex items-center justify-center rounded-md  text-center   z-20">
+          {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
+          <div className="font-playfair text-4xl mb-4"> Wednesday Meetups</div>
+          <div className="font-montserrat text-xl mb-4">
+            From 5:30 pm - 9:00 pm.
+          </div>
           <div className="font-montserrat text-xl ">
             {" "}
-            5th Street Alley near{" "}
+            @ 5th Street Alley near{" "}
             <a
               href="https://www.google.com/maps/place/Magpie+Coffeeshop/@44.0534091,-123.0906905,17z/data=!3m1!4b1!4m6!3m5!1s0x54c11f944e770925:0x5d79ed248cc805f2!8m2!3d44.0534091!4d-123.0906905!16s%2Fg%2F11rc73f_8q?entry=ttu"
               className="underline "
@@ -29,12 +31,74 @@ const MeetUpInfo = () => {
           <a
             href="https://www.meetup.com/eugene-go-players/events/"
             target="_blank"
-            className="py-2 px-4 rounded-full w-[100px] mt-6 border-2"
+            className="py-2 px-4 rounded-full w-[100px] mt-6 border-2 text-white bg-[#0071E3]"
           >
             RSVP
           </a>
         </div>
-        <div className="  sm:ml-0 xs:ml-0 xs:absolute z-10 sm:hidden">
+        {/* <div className="flex justify-around items-center">
+          <Image
+            src="/assets/images/black.png"
+            alt="black stone"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/assets/images/white.png"
+            alt="black stone"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/assets/images/black.png"
+            alt="black stone"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/assets/images/white.png"
+            alt="black stone"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/assets/images/black.png"
+            alt="black stone"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/assets/images/white.png"
+            alt="black stone"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/assets/images/black.png"
+            alt="black stone"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/assets/images/white.png"
+            alt="black stone"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/assets/images/black.png"
+            alt="black stone"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/assets/images/white.png"
+            alt="black stone"
+            width={50}
+            height={50}
+          />
+        </div> */}
+        {/* <div className="  sm:ml-0 xs:ml-0 xs:absolute z-10 sm:hidden">
           <a
             href="https://www.openstreetmap.org/way/1012479109"
             target="_blank"
@@ -47,7 +111,7 @@ const MeetUpInfo = () => {
               className=" rounded-md shadow-lg"
             />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
     // </div>

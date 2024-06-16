@@ -19,8 +19,8 @@ export function Navbar() {
     <>
       {" "}
       <section
-        className="z-30 bg-white sticky top-0 flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
-        style={{ backdropFilter: "blur(10px)" }}
+        className="z-50 bg-opaque  backdrop-blur-xl	 sticky top-0 flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
+        // style={{ backdropFilter: "blur(10px)" }}
       >
         <div className="w-full  flex justify-between items-center ">
           <Link

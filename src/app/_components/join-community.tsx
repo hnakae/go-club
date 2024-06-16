@@ -5,9 +5,9 @@ import React from "react";
 const JoinCommunity = () => {
   return (
     // bg-[#DDEAFC]
-    <div className="select-none    overflow-visible  px-24 sm:mb-6 mb-24">
-      <div className=" p-4 bg-white flex xs:flex-col-reverse sm:flex-col-reverse justify-center items-center border rounded-xl  xs:shadow-none h-[350px] xs:h-[400px] w-full overflow-hidden">
-        <div className=" rounded-md bg-yellow-50 sm:w-full  xs:h-[30%] relative xs:rounded-t-xl md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 h-full w-full  flex justify-center items-center overflow-visible">
+    <div className="select-none    overflow-visible   sm:mb-6 my-3">
+      <div className=" p-4 bg-black text-white flex xs:flex-col-reverse  sm:flex-col-reverse justify-center items-center  xs:shadow-none h-[350px] xs:h-[400px] w-full overflow-hidden">
+        <div className=" rounded-md  sm:w-full  xs:h-[30%] relative xs:rounded-t-xl md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 h-full w-full  flex justify-center items-center overflow-visible">
           <Image
             src="/assets/images/social.png"
             alt="placeholder"

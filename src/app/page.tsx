@@ -7,6 +7,7 @@ import MeetUpInfo from "./_components/meetup-info";
 import JoinCommunity from "./_components/join-community";
 import Grid from "./_components/grid";
 import Quote from "./_components/quote";
+import Squares from "./_components/squares";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -18,14 +19,13 @@ export default function Index() {
 
   return (
     // bg-[#f0e7db]
-    <main className="max-w-screen bg-beige1 ">
+    <main className="max-w-screen bg-[#F5F5F7] ">
       <Navbar />
       <MeetUpInfo />
       <Container>
+        <Quote />
         <Grid />
         {/* {morePosts.length > 0 && <GameReviews posts={morePosts} />} */}
-        <Quote />
-        <JoinCommunity />
         {/* <HeroPost
           title={heroPost.title}
           coverImage={heroPost.coverImage}
@@ -34,6 +34,8 @@ export default function Index() {
           slug={heroPost.slug}
           excerpt={heroPost.excerpt}
         /> */}
+        <JoinCommunity />
+        <Squares />
       </Container>
     </main>
   );

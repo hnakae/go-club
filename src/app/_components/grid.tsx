@@ -36,11 +36,11 @@ const Grid = () => {
   ];
   return (
     <>
-      <div className="w-full   px-24 sm:mb-6 mb-24">
-        <div className="flex flex-col  rounded-md py-6 ">
-          <div className="font-playfair leading-[1.06] tracking-wide font-semibold text-center text-4xl xs:text-3xl mb-12 xs:mb-6 ">
+      <div className="w-full   px-24 sm:mb-6 mb-24 ">
+        <div className="flex flex-col  rounded-md  ">
+          {/* <div className="font-playfair leading-[1.06] tracking-wide font-semibold text-center text-4xl xs:text-3xl mb-12 xs:mb-6 ">
             Our Activities
-          </div>
+          </div> */}
           <div className="grid grid-rows-2 grid-cols-3 gap-y-6 p-4 xs:grid-rows-3 xs:grid-cols-2">
             {items.map((item, index) => (
               <div
