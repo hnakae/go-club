@@ -85,7 +85,7 @@ export default function RootLayout({
 <div class="eidogo-player-auto" sgf="path/to/sgf/file.sgf"></div> */}
       <body className={inter.className}>
         <div
-          className={`${playfair.className} ${lora.className} ${montserrat.className} min-h-screen max-w-screen`}
+          className={`${playfair.className} ${lora.className} ${montserrat.className}  max-w-screen`}
         >
           {children}
         </div>

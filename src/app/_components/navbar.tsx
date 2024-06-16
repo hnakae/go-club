@@ -22,7 +22,7 @@ export function Navbar() {
         className="z-30 bg-white sticky top-0 flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
         style={{ backdropFilter: "blur(10px)" }}
       >
-        <div className="w-full max-w-[1000px] flex justify-between items-center ">
+        <div className="w-full  flex justify-between items-center ">
           <Link
             href="/"
             className="font-montserrat   text-nowrap	 rounded-md text-3xl  font-bold tracking-tighter leading-tight flex items-center "

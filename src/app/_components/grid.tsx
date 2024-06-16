@@ -36,44 +36,46 @@ const Grid = () => {
   ];
   return (
     <>
-      <div className="w-full flex flex-col  px-6 sm:mb-6 mb-36">
-        <div className="font-playfair leading-[1.06] tracking-wide font-semibold text-center text-4xl xs:text-3xl mb-12 xs:mb-6 ">
-          Our Activities
-        </div>
-        <div className="grid grid-rows-2 grid-cols-3 gap-y-6 p-4 xs:grid-rows-3 xs:grid-cols-2">
-          {items.map((item, index) => (
-            <div
-              key={index}
-              className="  flex flex-col items-center justify-center "
-            >
-              {/* <span
+      <div className="w-full   px-24 sm:mb-6 mb-24">
+        <div className="flex flex-col  rounded-md py-6 ">
+          <div className="font-playfair leading-[1.06] tracking-wide font-semibold text-center text-4xl xs:text-3xl mb-12 xs:mb-6 ">
+            Our Activities
+          </div>
+          <div className="grid grid-rows-2 grid-cols-3 gap-y-6 p-4 xs:grid-rows-3 xs:grid-cols-2">
+            {items.map((item, index) => (
+              <div
+                key={index}
+                className="  flex flex-col items-center justify-center "
+              >
+                {/* <span
                 className="rounded-full w-[50px] h-[50px] mb-3 "
                 style={{ backgroundColor: colors[index] }}
               /> */}
-              <span
-                className="relative rounded-full w-[80px] h-[80px] mb-3"
-                style={{
-                  background: `linear-gradient(to bottom right, ${gradients[index].from}, ${gradients[index].to})`,
-                }}
-              >
-                <Image
-                  src={icons[index]}
-                  alt={`${item} icon`}
-                  width={25}
-                  height={25}
-                  className="object-contain absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-                />
-              </span>
+                <span
+                  className="relative rounded-full w-[80px] h-[80px] mb-3"
+                  style={{
+                    background: `linear-gradient(to bottom right, ${gradients[index].from}, ${gradients[index].to})`,
+                  }}
+                >
+                  <Image
+                    src={icons[index]}
+                    alt={`${item} icon`}
+                    width={25}
+                    height={25}
+                    className="object-contain absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                  />
+                </span>
 
-              <div className="font-lora text-xl xs:text-lg font-semibold tracking-wider mb-3">
-                {item}
-              </div>
+                <div className="font-lora text-xl xs:text-lg font-semibold tracking-wider mb-3">
+                  {item}
+                </div>
 
-              <div className="font-lora text-center text-md text-gray-600 xs:hidden sm:hidden tracking-wide">
-                {descriptions[index]}
+                <div className="font-lora text-center text-md text-gray-600 xs:hidden sm:hidden tracking-wide">
+                  {descriptions[index]}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </>

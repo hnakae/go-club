@@ -5,9 +5,24 @@ import React from "react";
 const JoinCommunity = () => {
   return (
     // bg-[#DDEAFC]
-    <div className="select-none    overflow-visible  px-6 sm:mb-6 mb-24">
-      <div className=" bg-white flex xs:flex-col-reverse sm:flex-col-reverse justify-center items-center shadow-lg rounded-xl  xs:shadow-none h-[480px] xs:h-[400px] w-full overflow-hidden">
-        <div className=" message flex flex-col h-full w-full justify-center items-start xs:items-center xs:text-center   md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 p-8 xs:p-0 xs:pb-4 ">
+    <div className="select-none    overflow-visible  px-24 sm:mb-6 mb-24">
+      <div className=" p-4 bg-white flex xs:flex-col-reverse sm:flex-col-reverse justify-center items-center border rounded-xl  xs:shadow-none h-[350px] xs:h-[400px] w-full overflow-hidden">
+        <div className=" rounded-md bg-yellow-50 sm:w-full  xs:h-[30%] relative xs:rounded-t-xl md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 h-full w-full  flex justify-center items-center overflow-visible">
+          <Image
+            src="/assets/images/social.png"
+            alt="placeholder"
+            width={300}
+            height={300}
+            className="absolute z-10 min-w-[150px] min-h-[150px] w-auto h-auto pointer-events-none rounded-r-xl xs:h-[150px] xs:top-[80%] top-[50%] "
+            style={{
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              maxWidth: "100%",
+              maxHeight: "100%",
+            }}
+          />
+        </div>
+        <div className=" message flex flex-col h-full w-full justify-center items-start xs:items-center xs:text-center   md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 px-6 xs:p-0 xs:pb-4 ">
           <h1 className="font-playfair text-4xl xs:text-2xl leading-[1.06] tracking-wide font-semibold mb-4">
             Become A Part Of Our Community!
           </h1>
@@ -77,21 +92,6 @@ const JoinCommunity = () => {
           </div>
         </div>
         {/* bg-gradient-to-br from-teal-400 to-sky-400 */}
-        <div className="bg-yellow-50 sm:w-full  xs:h-[30%] relative xs:rounded-t-xl md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 h-full w-full  flex justify-center items-center overflow-visible">
-          <Image
-            src="/assets/images/social.png"
-            alt="placeholder"
-            width={300}
-            height={300}
-            className="absolute z-10 min-w-[150px] min-h-[150px] w-auto h-auto pointer-events-none rounded-r-xl xs:h-[150px] xs:top-[80%] top-[50%] "
-            style={{
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              maxWidth: "100%",
-              maxHeight: "100%",
-            }}
-          />
-        </div>
       </div>
     </div>
   );

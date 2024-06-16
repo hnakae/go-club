@@ -75,9 +75,9 @@ export function Footer() {
     //   </div>
     //   {/* </Container> */}
     // </footer>
-    <footer className=" w-full px-12 font-normal text-sm text-black bg-beige1 sm:text-base  ">
-      <div className="h-[455px]  w-full ">
-        <div className="flex justify-around p-12">
+    <footer className=" w-full px-24 font-normal text-sm text-light bg-dark sm:text-base  ">
+      <div className="w-full ">
+        <div className="flex justify-around py-12">
           <div className="flex flex-col gap-4">
             <div className="font-bold text-2xl">Eugene Go Club</div>
             <div className="mb-24">USA, Eugene Oregon</div>
