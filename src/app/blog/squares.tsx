@@ -1,0 +1,94 @@
+import React from "react";
+import Quote from "../_components/quote";
+import Image from "next/image";
+
+const Squares = () => {
+  return (
+    <>
+      <div className="outline mx-6 p-3 rounded-md mb-4">
+        <div className=" text-3xl  mb-4">Featured Articles</div>
+        <div className="mb-4">
+          Here, you'll find in-depth articles on the fascinating world of Go
+          (also known as Baduk in Korea and Weiqi in China). Explore strategic
+          insights, historical context, and practical tips for improving your
+          game. These articles are designed to provide you with valuable
+          knowledge and actionable advice to enhance your understanding and
+          mastery of this ancient board game.
+        </div>
+        <div className="grid grid-rows-1 grid-cols-3 gap-y-3 gap-x-3 ">
+          <div className="bg-white rounded-md">
+            <div className="flex flex-col justify-center items-center space-y-3 py-12">
+              <div className="text-4xl font-bold font-">Title</div>
+              <div>Excerpt</div>
+              <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
+                Learn more
+              </div>
+            </div>
+          </div>
+          <div className="bg-black  text-white rounded-md">
+            <div className="flex flex-col justify-center items-center space-y-3 py-12">
+              <div className="text-4xl font-bold font-">Title</div>
+              <div>Excerpt</div>
+              <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
+                Learn more
+              </div>
+            </div>
+          </div>
+          <div className="bg-black  text-white rounded-md">
+            <div className="flex flex-col justify-center items-center space-y-3 py-12">
+              <div className="text-4xl font-bold font-">Title</div>
+              <div>Excerpt</div>
+              <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
+                Learn more
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" text-3xl  my-4">Explore More</div>
+        <div className="mb-4">
+          Explore our content by searching for topics. We have a wide range of
+          searchable articles that cover everything you need to know.
+        </div>
+        <div className="w-full outline rounded-md px-2 py-4 mb-8">
+          <Image
+            width={20}
+            height={20}
+            src="/assets/images/searchIcon.png"
+            alt="search icon"
+          />{" "}
+        </div>
+        <div className="grid grid-rows-1 grid-cols-3 gap-y-3 gap-x-3 ">
+          <div className="bg-white rounded-md">
+            <div className="flex flex-col justify-center items-center space-y-3 py-12">
+              <div className="text-4xl font-bold font-">Title</div>
+              <div>Excerpt</div>
+              <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
+                Learn more
+              </div>
+            </div>
+          </div>
+          <div className="bg-black  text-white rounded-md">
+            <div className="flex flex-col justify-center items-center space-y-3 py-12">
+              <div className="text-4xl font-bold font-">Title</div>
+              <div>Excerpt</div>
+              <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
+                Learn more
+              </div>
+            </div>
+          </div>
+          <div className="bg-black  text-white rounded-md">
+            <div className="flex flex-col justify-center items-center space-y-3 py-12">
+              <div className="text-4xl font-bold font-">Title</div>
+              <div>Excerpt</div>
+              <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
+                Learn more
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Squares;

@@ -75,14 +75,14 @@ export function Navbar() {
               </li> */}
               <li className="cursor-pointer  rounded-md  px-4 py-2 ">
                 <Link
-                  className={`link ${pathname === "/articles" ? "active" : ""}`}
+                  className={`link ${pathname === "/blog" ? "active" : ""}`}
                   href="/blog"
                   aria-label="Blog"
                 >
                   Blog
                 </Link>
               </li>
-              <li className="cursor-pointer rounded-md  px-4 py-2">
+              {/* <li className="cursor-pointer rounded-md  px-4 py-2">
                 <Link
                   className={`link ${pathname === "/faqs" ? "active" : ""}`}
                   href="/faqs"
@@ -90,10 +90,10 @@ export function Navbar() {
                 >
                   FAQs
                 </Link>
-              </li>
+              </li> */}
               <li className="cursor-pointer rounded-md  px-4 py-2">
                 <Link
-                  className={`link ${pathname === "/events" ? "active" : ""}`}
+                  className={`link ${pathname === "/contact" ? "active" : ""}`}
                   href="/contact"
                   aria-label="contact"
                 >

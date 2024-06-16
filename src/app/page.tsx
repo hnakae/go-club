@@ -7,7 +7,7 @@ import MeetUpInfo from "./_components/meetup-info";
 import JoinCommunity from "./_components/join-community";
 import Grid from "./_components/grid";
 import Quote from "./_components/quote";
-import Squares from "./_components/squares";
+import Squares from "./blog/squares";
 import GoldenRule from "./_components/goldenRule";
 
 export default function Index() {
@@ -24,9 +24,8 @@ export default function Index() {
       <Navbar />
       <MeetUpInfo />
       <Container>
-        
-          <Grid />
-          <Quote />
+        <Grid />
+        <Quote />
         {/* {morePosts.length > 0 && <GameReviews posts={morePosts} />} */}
         {/* <HeroPost
           title={heroPost.title}

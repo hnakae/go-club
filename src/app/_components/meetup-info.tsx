@@ -9,9 +9,9 @@ const MeetUpInfo = () => {
     // bg-[url(/assets/images/5thstreet.jpg)]
     // <div className="flex flex-col justify-start items-center mt-12 ">
 
-    <div className="relative   px-24 flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  bg-[#F5F5F7]">
-      <div className="p-4 rounded-md flex flex-col justify-around w-full text-[#1D1D1F] max-w-[1128px] ">
-        <div className="py-12 px-6    flex-col flex items-center justify-center rounded-md  text-center   z-20">
+    <div className="   flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  bg-[#F5F5F7]">
+      <div className=" rounded-md flex flex-col justify-around w-full text-[#1D1D1F]  ">
+        <div className="py-12 px-6    flex-col flex items-start justify-center rounded-md  text-center   z-20">
           {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
           <div className="font-playfair text-4xl mb-4"> Wednesday Meetups</div>
           <div className="font-montserrat text-xl mb-4">
