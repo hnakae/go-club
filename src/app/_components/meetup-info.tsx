@@ -11,15 +11,21 @@ const MeetUpInfo = () => {
     // bg-[#F5F5F7] apple light bg
     // text-[#1D1D1F] apple dark text
 
-    <div className="relative   flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  ">
-      <div className="max-w-[1128px] rounded-md flex justify-start w-full   ">
-        <div className="py-12 px-3   flex-col flex items-start justify-center rounded-md  text-center   z-20">
+    <div className="relative h-[80vh]  flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  ">
+      <div className="absolute top-0  text-[200px] font-sans font-bold text-gray-100 ">
+        Eugene Go Club
+      </div>
+      <div className="max-w-[1128px] rounded-md flex justify-center w-full   ">
+        <div className=" px-5   flex-col flex items-center justify-center rounded-md  text-center   z-20">
           {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
-          <div className="font-playfair text-4xl mb-4"> Wednesday Meetups</div>
-          <div className="font-montserrat text-xl mb-4">
+          <div className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl font-playfair">
+            {" "}
+            Wednesday Meetups
+          </div>
+          <div className="font-montserrat text-xl my-4">
             From 5:30 pm - 9:00 pm.
           </div>
-          <div className="font-montserrat text-xl ">
+          <div className="font-montserrat text-xl font-semibold">
             {" "}
             @ 5th Street Alley near{" "}
             <a
@@ -45,7 +51,7 @@ const MeetUpInfo = () => {
             <div className="text-[#4a4a4a]">Card</div>
           </div> */}
         </div>
-        <div className="absolute right-1/4 top-10 flex justify-center items-center  sm:ml-0 xs:ml-0 xs:absolute z-10 sm:hidden">
+        {/* <div className="absolute right-1/4 top-10 flex justify-center items-center  sm:ml-0 xs:ml-0 xs:absolute z-10 sm:hidden">
           <a
             href="https://www.openstreetmap.org/way/1012479109"
             target="_blank"
@@ -59,7 +65,7 @@ const MeetUpInfo = () => {
               className=" rounded-md shadow-lg"
             />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

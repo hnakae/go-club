@@ -7,7 +7,7 @@ const Header = () => {
         <div className="py-12 px-3    flex-col flex items-start justify-center rounded-md  text-center   z-20">
           {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
           <div className="font-playfair text-4xl mb-4"> FAQ</div>
-          <div className="font-montserrat text-xl mb-4">
+          {/* <div className="font-montserrat text-xl mb-4">
             From 5:30 pm - 9:00 pm.
           </div>
           <div className="font-montserrat text-xl ">
@@ -27,7 +27,7 @@ const Header = () => {
             className="py-2 px-4 rounded-full w-[100px] mt-6 border-2 text-white bg-[#0071E3]"
           >
             RSVP
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
