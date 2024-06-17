@@ -4,7 +4,7 @@ import { Navbar } from "@/app/_components/navbar";
 import { GameReviews } from "@/app/_components/game-reviews";
 import { getAllPosts } from "@/lib/api";
 import MeetUpInfo from "./_components/meetup-info";
-import JoinCommunity from "./contact/join-community";
+// import JoinCommunity from "./contact/join-community";
 import Grid from "./_components/grid";
 import Quote from "./_components/quote";
 import Squares from "./blog/squares";

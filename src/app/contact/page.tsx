@@ -1,6 +1,6 @@
 import Container from "@/app/_components/container";
 import { Navbar } from "@/app/_components/navbar";
-import { Events } from "@/app/_components/events";
+// import { Events } from "@/app/_components/events";
 import JoinCommunity from "./join-community";
 import Header from "./header";
 
