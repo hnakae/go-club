@@ -11,7 +11,7 @@ const Squares = () => {
   const heroPost = allPosts[0];
   // console.log(heroPost);
 
-  const morePosts = allPosts.slice(3);
+  const morePosts = allPosts.slice(1, 4);
   return (
     <div className="flex justify-center items-center ">
       <div className=" mx-6 p-3 rounded-md mb-4 max-w-[1128px] bg-opaque">
@@ -33,24 +33,6 @@ const Squares = () => {
             slug={heroPost.slug}
             excerpt={heroPost.excerpt}
           />
-          {/* <div className="bg-black  text-white rounded-md">
-            <div className="flex flex-col justify-center items-center space-y-3 py-12">
-              <div className="text-4xl font-bold font-">Title</div>
-              <div>Excerpt</div>
-              <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
-                Learn more
-              </div>
-            </div>
-          </div>
-          <div className="bg-black  text-white rounded-md">
-            <div className="flex flex-col justify-center items-center space-y-3 py-12">
-              <div className="text-4xl font-bold font-">Title</div>
-              <div>Excerpt</div>
-              <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
-                Learn more
-              </div>
-            </div>
-          </div> */}
         </div>
         <div className=" text-3xl  my-4">Explore More</div>
         <div className="mb-4">
@@ -66,7 +48,18 @@ const Squares = () => {
           />{" "}
         </div>
         <div className="grid grid-rows-1 grid-cols-3 gap-y-3 gap-x-3 ">
-          {/* {morePosts.length > 0 && <PostPreview />} */}
+          {morePosts.length > 0 &&
+            morePosts.map((post) => (
+              <PostPreview
+                key={post.slug}
+                title={post.title}
+                coverImage={post.coverImage}
+                date={post.date}
+                author={post.author}
+                slug={post.slug}
+                excerpt={post.excerpt}
+              />
+            ))}
         </div>
       </div>
     </div>

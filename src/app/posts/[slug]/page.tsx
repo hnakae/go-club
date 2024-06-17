@@ -8,7 +8,6 @@ import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 import { Navbar } from "@/app/_components/navbar";
-import Quote from "@/app/_components/quote";
 
 // import {Goban} from 'react-go-board';
 
@@ -34,7 +33,6 @@ export default async function Post({ params }: Params) {
           />
           <PostBody content={content} />
         </article>
-        <Quote />
       </Container>
     </main>
   );

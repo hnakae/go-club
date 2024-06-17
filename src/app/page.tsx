@@ -24,7 +24,7 @@ export default function Index() {
       <Navbar />
       <MeetUpInfo />
       <Container>
-        <Grid />
+        {/* <Grid /> */}
         {/* {morePosts.length > 0 && <GameReviews posts={morePosts} />} */}
         {/* <HeroPost
           title={heroPost.title}

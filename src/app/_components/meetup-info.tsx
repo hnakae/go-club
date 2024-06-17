@@ -15,11 +15,14 @@ const MeetUpInfo = () => {
       <div className="max-w-[1128px] rounded-md flex justify-start w-full   ">
         <div className="py-12 px-3   flex-col flex items-start justify-center rounded-md  text-center   z-20">
           {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
-          <div className="font-playfair text-4xl mb-4"> Wednesday Meetups</div>
-          <div className="font-montserrat text-xl mb-4">
+          <div className="font-playfair text-[96px] mb-4">
+            {" "}
+            Wednesday Meetups
+          </div>
+          <div className="font-montserrat text-[36px] mb-4">
             From 5:30 pm - 9:00 pm.
           </div>
-          <div className="font-montserrat text-xl ">
+          <div className="font-montserrat text-[36px] ">
             {" "}
             @ 5th Street Alley near{" "}
             <a
@@ -38,7 +41,7 @@ const MeetUpInfo = () => {
             RSVP
           </a>
         </div>
-        <div className="absolute right-1/4 top-10 flex justify-center items-center  sm:ml-0 xs:ml-0 xs:absolute z-10 sm:hidden">
+        <div className="absolute right-1/4 top-1/2 flex justify-center items-center  sm:ml-0 xs:ml-0 xs:absolute z-10 sm:hidden">
           <a
             href="https://www.openstreetmap.org/way/1012479109"
             target="_blank"
