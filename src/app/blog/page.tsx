@@ -6,6 +6,7 @@ import MeetUpInfo from "../_components/meetup-info";
 import Header from "./header";
 
 export default function Blog() {
+  
   return (
     <main className="min-h-screen bg-[#F5F5F7]">
       <Navbar />

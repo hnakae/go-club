@@ -5,13 +5,13 @@ import Avatar from "./avatar";
 const Quote = () => {
   return (
     <section className=" px-24  w-full sm:mb-6  flex justify-center items-center">
-      <div className="max-w-[1128px] rounded-md py-4 w-full flex justify-center  space-x-12 items-end   sm:flex-col-reverse  xs:space-y-3 sm:space-y-3 ">
+      <div className="max-w-[1128px]  rounded-md py-4 w-full flex justify-center  space-x-12 items-end   sm:flex-col-reverse  xs:space-y-3 sm:space-y-3 ">
         <div className="flex flex-col ">
           {/* <div className="font-playfair leading-[1.06] tracking-wide xs:tracking-tighter sm:tracking-tight font-semibold mb-12 xs:mb-6 text-center text-4xl xs:text-3xl">
             How To Find Us
           </div> */}
           <div className="px-6 w-[310px] flex flex-col  justify-center items-start  py-6   rounded-lg ml-3 sm:ml-0 border-2 border-black relative">
-            <div className="absolute top-[-16px] left-4 bg-beige1">
+            <div className="absolute top-[-16px] left-4 bg-white">
               <Image src="/icons/quote.png" alt="icon" width={30} height={30} />
             </div>
             {/* style={{ textIndent: "2em" }} */}

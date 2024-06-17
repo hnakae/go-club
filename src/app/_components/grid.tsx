@@ -37,8 +37,8 @@ const Grid = () => {
   ];
   return (
     <>
-      <div className="w-full   px-24 sm:mb-6 flex justify-center items-center">
-        <div className="flex flex-col  rounded-md  max-w-[1128px]  w-full">
+      <div className="w-full  pt-12 px-24 sm:mb-6 flex justify-center items-center">
+        <div className="flex flex-col justify-center items-center  rounded-md bg-opaque  max-w-[1128px]  w-full">
           {/* <div className="font-playfair leading-[1.06] tracking-wide font-semibold text-center text-4xl xs:text-3xl mb-12 xs:mb-6 ">
             Our Activities
           </div> */}

@@ -8,10 +8,12 @@ const MeetUpInfo = () => {
     // bg-[url('/assets/images/cover.jpg')]  image background
     // bg-[url(/assets/images/5thstreet.jpg)]
     // <div className="flex flex-col justify-start items-center mt-12 ">
+    // bg-[#F5F5F7] apple light bg
+    // text-[#1D1D1F] apple dark text
 
-    <div className="   flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  bg-[#F5F5F7]">
-      <div className=" rounded-md flex flex-col justify-around w-full text-[#1D1D1F]  ">
-        <div className="py-12 px-6    flex-col flex items-start justify-center rounded-md  text-center   z-20">
+    <div className="relative  bg-opaque flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  ">
+      <div className="max-w-[1128px] rounded-md flex justify-start w-full   ">
+        <div className="py-12 px-3   flex-col flex items-start justify-center rounded-md  text-center   z-20">
           {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
           <div className="font-playfair text-4xl mb-4"> Wednesday Meetups</div>
           <div className="font-montserrat text-xl mb-4">
@@ -36,85 +38,22 @@ const MeetUpInfo = () => {
             RSVP
           </a>
         </div>
-        {/* <div className="flex justify-around items-center">
-          <Image
-            src="/assets/images/black.png"
-            alt="black stone"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="/assets/images/white.png"
-            alt="black stone"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="/assets/images/black.png"
-            alt="black stone"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="/assets/images/white.png"
-            alt="black stone"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="/assets/images/black.png"
-            alt="black stone"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="/assets/images/white.png"
-            alt="black stone"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="/assets/images/black.png"
-            alt="black stone"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="/assets/images/white.png"
-            alt="black stone"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="/assets/images/black.png"
-            alt="black stone"
-            width={50}
-            height={50}
-          />
-          <Image
-            src="/assets/images/white.png"
-            alt="black stone"
-            width={50}
-            height={50}
-          />
-        </div> */}
-        {/* <div className="  sm:ml-0 xs:ml-0 xs:absolute z-10 sm:hidden">
+        <div className="absolute right-1/4 top-10 flex justify-center items-center  sm:ml-0 xs:ml-0 xs:absolute z-10 sm:hidden">
           <a
             href="https://www.openstreetmap.org/way/1012479109"
             target="_blank"
           >
             <Image
-              src="/assets/images/5thstreetalley.jpg"
+              src="/assets/images/magpie.png"
               alt="map"
-              width={250}
+              width={450}
               height={250}
               className=" rounded-md shadow-lg"
             />
           </a>
-        </div> */}
+        </div>
       </div>
     </div>
-    // </div>
   );
 };
 

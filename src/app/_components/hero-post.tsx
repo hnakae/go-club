@@ -3,6 +3,7 @@ import CoverImage from "@/app/_components/cover-image";
 import { type Author } from "@/interfaces/author";
 import Link from "next/link";
 import DateFormatter from "./date-formatter";
+import Image from "next/image";
 
 type Props = {
   title: string;
@@ -22,8 +23,16 @@ export function HeroPost({
   slug,
 }: Props) {
   return (
-    <section className="   bg-black  text-white mb-3 ">
+    <section className=" rounded-md overflow-hidden bg-black  text-white mb-3 flex flex-col ">
+      <Image
+        src="/assets/images/cover.jpg"
+        alt="cover"
+        width={400}
+        height={400}
+        className=""
+      />
       <div className="flex flex-col justify-center items-start space-y-3 p-12">
+        {/* <CoverImage title={title} src={author.picture} slug={slug} /> */}
         <h3 className="mb-4 text-3xl leading-tight">
           <Link
             href={`/posts/${slug}`}
@@ -33,9 +42,6 @@ export function HeroPost({
           </Link>
         </h3>
         <p className="font-lora mb-4">"{excerpt}"</p>
-        <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4">
-          Read more
-        </div>
       </div>
       {/* <div className="font-playfair leading-[1.06] tracking-wide xs:tracking-tighter sm:tracking-tight font-semibold mb-12 text-center text-[40px]">
         How To Find Us

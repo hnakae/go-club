@@ -19,7 +19,8 @@ const config: Config = {
         "accent-7": "#333",
         success: "#0070f3",
         cyan: "#79FFE1",
-        dark: "#1b1b1b",
+        dark: "#202023",
+        darkNav: "20202380",
         light: "#fff",
         primary: "#D3D6E9", // 240,86,199
         background: "#ebdbff",

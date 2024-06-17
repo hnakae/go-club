@@ -1,11 +1,20 @@
 import React from "react";
 import Quote from "../_components/quote";
 import Image from "next/image";
-
+import { HeroPost } from "../_components/hero-post";
+import { getAllPosts } from "@/lib/api";
+import { GameReviews } from "../_components/game-reviews";
+import { PostPreview } from "../_components/post-preview";
 const Squares = () => {
+  const allPosts = getAllPosts();
+
+  const heroPost = allPosts[0];
+  // console.log(heroPost);
+
+  const morePosts = allPosts.slice(3);
   return (
-    <>
-      <div className="outline mx-6 p-3 rounded-md mb-4">
+    <div className="flex justify-center items-center ">
+      <div className=" mx-6 p-3 rounded-md mb-4 max-w-[1128px] bg-opaque">
         <div className=" text-3xl  mb-4">Featured Articles</div>
         <div className="mb-4">
           Here, you'll find in-depth articles on the fascinating world of Go
@@ -16,7 +25,15 @@ const Squares = () => {
           mastery of this ancient board game.
         </div>
         <div className="grid grid-rows-1 grid-cols-3 gap-y-3 gap-x-3 ">
-          <div className="bg-white rounded-md">
+          <HeroPost
+            title={heroPost.title}
+            coverImage={heroPost.coverImage}
+            date={heroPost.date}
+            author={heroPost.author}
+            slug={heroPost.slug}
+            excerpt={heroPost.excerpt}
+          />
+          {/* <div className="bg-black  text-white rounded-md">
             <div className="flex flex-col justify-center items-center space-y-3 py-12">
               <div className="text-4xl font-bold font-">Title</div>
               <div>Excerpt</div>
@@ -33,16 +50,7 @@ const Squares = () => {
                 Learn more
               </div>
             </div>
-          </div>
-          <div className="bg-black  text-white rounded-md">
-            <div className="flex flex-col justify-center items-center space-y-3 py-12">
-              <div className="text-4xl font-bold font-">Title</div>
-              <div>Excerpt</div>
-              <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
-                Learn more
-              </div>
-            </div>
-          </div>
+          </div> */}
         </div>
         <div className=" text-3xl  my-4">Explore More</div>
         <div className="mb-4">
@@ -58,36 +66,10 @@ const Squares = () => {
           />{" "}
         </div>
         <div className="grid grid-rows-1 grid-cols-3 gap-y-3 gap-x-3 ">
-          <div className="bg-white rounded-md">
-            <div className="flex flex-col justify-center items-center space-y-3 py-12">
-              <div className="text-4xl font-bold font-">Title</div>
-              <div>Excerpt</div>
-              <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
-                Learn more
-              </div>
-            </div>
-          </div>
-          <div className="bg-black  text-white rounded-md">
-            <div className="flex flex-col justify-center items-center space-y-3 py-12">
-              <div className="text-4xl font-bold font-">Title</div>
-              <div>Excerpt</div>
-              <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
-                Learn more
-              </div>
-            </div>
-          </div>
-          <div className="bg-black  text-white rounded-md">
-            <div className="flex flex-col justify-center items-center space-y-3 py-12">
-              <div className="text-4xl font-bold font-">Title</div>
-              <div>Excerpt</div>
-              <div className="bg-blue-500 flex justify-center items-center rounded-full text-white py-2 px-4 hover:cursor-pointer">
-                Learn more
-              </div>
-            </div>
-          </div>
+          {/* {morePosts.length > 0 && <PostPreview />} */}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
