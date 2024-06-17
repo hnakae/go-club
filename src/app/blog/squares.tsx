@@ -8,13 +8,14 @@ import { PostPreview } from "../_components/post-preview";
 const Squares = () => {
   const allPosts = getAllPosts();
 
-  const heroPost = allPosts[0];
+  // const heroPost = allPosts[0];
+  const featuredPosts = allPosts.slice(0, 2);
   // console.log(heroPost);
 
-  const morePosts = allPosts.slice(1, 4);
+  const morePosts = allPosts.slice(2);
   return (
     <div className="flex justify-center items-center ">
-      <div className=" mx-6 p-3 rounded-md mb-4 max-w-[1128px] bg-opaque">
+      <div className=" mx-6 p-3 rounded-md mb-4 max-w-[1128px] border">
         <div className=" text-3xl  mb-4">Featured Articles</div>
         <div className="mb-4">
           Here, you'll find in-depth articles on the fascinating world of Go
@@ -25,14 +26,17 @@ const Squares = () => {
           mastery of this ancient board game.
         </div>
         <div className="grid grid-rows-1 grid-cols-3 gap-y-3 gap-x-3 ">
-          <HeroPost
-            title={heroPost.title}
-            coverImage={heroPost.coverImage}
-            date={heroPost.date}
-            author={heroPost.author}
-            slug={heroPost.slug}
-            excerpt={heroPost.excerpt}
-          />
+          {featuredPosts.length > 0 &&
+            featuredPosts.map((featuredPost) => (
+              <HeroPost
+                title={featuredPost.title}
+                coverImage={featuredPost.coverImage}
+                date={featuredPost.date}
+                author={featuredPost.author}
+                slug={featuredPost.slug}
+                excerpt={featuredPost.excerpt}
+              />
+            ))}
         </div>
         <div className=" text-3xl  my-4">Explore More</div>
         <div className="mb-4">
@@ -47,7 +51,7 @@ const Squares = () => {
             alt="search icon"
           />{" "}
         </div>
-        <div className="grid grid-rows-1 grid-cols-3 gap-y-3 gap-x-3 ">
+        <div className="grid grid-cols-3 gap-y-3 gap-x-3 ">
           {morePosts.length > 0 &&
             morePosts.map((post) => (
               <PostPreview

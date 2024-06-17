@@ -23,7 +23,7 @@ export function HeroPost({
   slug,
 }: Props) {
   return (
-    <section className=" rounded-md overflow-hidden bg-black  text-white mb-3 flex flex-col ">
+    <section className=" rounded-md overflow-hidden bg-white   mb-3 flex flex-col ">
       <Image
         src="/assets/images/cover.jpg"
         alt="cover"

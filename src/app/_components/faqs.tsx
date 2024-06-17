@@ -1,7 +1,7 @@
 export function QA() {
   return (
-    <>
-      <div className=" mb-8 py-24 px-6 bg-[#ffffff]  min-h-screen flex-col flex items-start justify-start rounded-md  ">
+    <div className="w-full flex justify-center items-center">
+      <div className=" max-w-[1128px] p-3  min-h-screen flex-col flex items-start justify-start rounded-md  border w-full">
         <div className="font-playfair font-semibold  tracking-tighter      text-[32px]   mb-12  border-black border-b w-full">
           Frequently Asked Questions
         </div>
@@ -26,6 +26,6 @@ export function QA() {
           Please check Meetup.com for updates on times/places.
         </div>
       </div>
-    </>
+    </div>
   );
 }

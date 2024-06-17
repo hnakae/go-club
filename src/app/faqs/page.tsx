@@ -5,7 +5,7 @@ import Header from "./header";
 
 export default function FAQs() {
   return (
-    <main className=" ">
+    <main className=" bg-[#F5F5F7]">
       <Navbar />
       <Header />
       <Container>
