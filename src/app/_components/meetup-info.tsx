@@ -42,9 +42,10 @@ const MeetUpInfo = () => {
           <a
             href="https://www.openstreetmap.org/way/1012479109"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <Image
-              src="/assets/images/magpie.png"
+              src="/magpie.png"
               alt="map"
               width={450}
               height={250}
