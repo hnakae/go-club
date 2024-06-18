@@ -1,18 +1,43 @@
-import React from "react";
-import Quote from "../_components/quote";
+"use client";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { HeroPost } from "../_components/hero-post";
-import { getAllPosts } from "@/lib/api";
-import { GameReviews } from "../_components/game-reviews";
+// import { getAllPosts } from "@/lib/api";
+import { fetchPosts } from "../../actions/actions";
 import { PostPreview } from "../_components/post-preview";
+import { Post } from "@/interfaces/post";
 const Articles = () => {
-  const allPosts = getAllPosts();
+  const [searchTerm, setSearchTerm] = useState("");
+  const [posts, setPosts] = useState<Post[]>([]);
+  const [filteredPosts, setFilteredPosts] = useState<Post[]>([]);
 
-  // const heroPost = allPosts[0];
-  const featuredPosts = allPosts.slice(0, 2);
-  // console.log(heroPost);
+  useEffect(() => {
+    const fetchData = async () => {
+      const allPosts = await fetchPosts();
+      setPosts(allPosts);
+      setFilteredPosts(allPosts.slice(2));
+    };
 
-  const morePosts = allPosts.slice(2);
+    fetchData();
+  }, []);
+
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const term = e.target.value.toLowerCase();
+    setSearchTerm(term);
+
+    const filtered = posts
+      .slice(2)
+      .filter(
+        (post) =>
+          post.title.toLowerCase().includes(term) ||
+          post.author.name.toLowerCase().includes(term) ||
+          post.content.toLowerCase().includes(term)
+      );
+
+    setFilteredPosts(filtered);
+  };
+  const featuredPosts = posts.slice(0, 2);
+  // const morePosts = allPosts.slice(2);
   return (
     <div className="flex justify-center items-center z-10 mb-[5rem]">
       <div className=" mx-6 px-14 py-10 rounded-md mb-4 max-w-[1128px] border bg-beige1">
@@ -46,6 +71,8 @@ const Articles = () => {
         <div className="relative w-full mb-12">
           <input
             type="search"
+            value={searchTerm}
+            onChange={handleSearchChange}
             className="w-full border rounded-lg p-4 pl-12"
             placeholder="Search..."
           />
@@ -58,9 +85,9 @@ const Articles = () => {
             />
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-y-3 gap-x-4 ">
-          {morePosts.length > 0 &&
-            morePosts.map((post) => (
+        <div className="grid grid-cols-3 gap-y-3 gap-x-3">
+          {filteredPosts.length > 0 ? (
+            filteredPosts.map((post) => (
               <PostPreview
                 key={post.slug}
                 title={post.title}
@@ -70,7 +97,10 @@ const Articles = () => {
                 slug={post.slug}
                 excerpt={post.excerpt}
               />
-            ))}
+            ))
+          ) : (
+            <div>No posts found</div>
+          )}
         </div>
       </div>
     </div>
