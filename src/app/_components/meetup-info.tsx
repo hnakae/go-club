@@ -11,8 +11,8 @@ const MeetUpInfo = () => {
     // bg-[#F5F5F7] apple light bg
     // text-[#1D1D1F] apple dark text
 
-    <div className="relative h-[80vh]  flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  ">
-      <div className="absolute top-0  text-[200px] font-sans font-bold text-gray-100 ">
+    <div className="relative h-[75vh]  flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  ">
+      <div className="absolute z-0 top-0  text-[200px] font-sans font-bold text-gray-100 ">
         Eugene Go Club
       </div>
       <div className="max-w-[1128px] rounded-md flex justify-center w-full   ">

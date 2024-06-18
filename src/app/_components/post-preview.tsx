@@ -28,21 +28,26 @@ export function PostPreview({
     //     <CoverImage slug={slug} title={title} src={coverImage} />
     //   </div>
     // </div>
-    <div className="border p-4 rounded-md shadow-md">
-      <Link href={`/posts/${slug}`}>
-        <Image
-          src={coverImage}
-          alt={`Cover Image for ${title}`}
-          width={600}
-          height={400}
-          className="rounded-md mb-4"
-        />
-        <h2 className="text-2xl mb-2">{title}</h2>
-        <p className="text-sm mb-4">
-          {date} by {author.name}
-        </p>
-        <p className="text-md">{excerpt}</p>
+    <section className=" rounded-md overflow-hidden bg-white   mb-3 flex flex-col ">
+      <Link href={`/posts/${slug}`} className=" ">
+        <div className="overflow-hidden">
+          <Image
+            src={coverImage}
+            alt={`Cover Image for ${title}`}
+            width={400}
+            height={400}
+            className="md:h-56 md:w-auto h-44 hover:scale-125 transition-transform ease-linear object-cover "
+          />{" "}
+        </div>
+        <div className="flex flex-col justify-center items-start space-y-3 px-3">
+          {/* <CoverImage title={title} src={author.picture} slug={slug} /> */}
+          <h2 className="mt-3 leading-tight text-xl font-semibold font-lora  transition-all duration-75 ease-in-out text-black hover:text-[#0071E3]">
+            {title}
+          </h2>
+          <p className="text-sm pb-5">by {author.name}</p>
+          {/* <p className="font-lora pb-5 overflow-hidden ">{excerpt}</p> */}
+        </div>
       </Link>
-    </div>
+    </section>
   );
 }

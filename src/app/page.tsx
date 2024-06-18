@@ -7,7 +7,7 @@ import MeetUpInfo from "./_components/meetup-info";
 // import JoinCommunity from "./contact/join-community";
 import Grid from "./_components/grid";
 import Quote from "./_components/quote";
-import Squares from "./blog/squares";
+import Squares from "./blog/articles";
 import GoldenRule from "./_components/goldenRule";
 
 export default function Index() {

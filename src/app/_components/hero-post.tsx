@@ -24,26 +24,29 @@ export function HeroPost({
 }: Props) {
   return (
     <section className=" rounded-md overflow-hidden bg-white   mb-3 flex flex-col ">
-      <Image
-        src="/assets/images/cover.jpg"
-        alt="cover"
-        width={400}
-        height={400}
-        className=""
-      />
-      <div className="flex flex-col justify-center items-start space-y-3 p-12">
-        {/* <CoverImage title={title} src={author.picture} slug={slug} /> */}
-        <h3 className="mb-4 text-3xl leading-tight">
-          <Link
-            href={`/posts/${slug}`}
-            className="hover:underline text-4xl font-semibold font-lora"
-          >
+      <Link href={`/posts/${slug}`} className=" ">
+        <div className="overflow-hidden">
+          <Image
+            src="/assets/images/cover.jpg"
+            alt="cover"
+            width={400}
+            height={400}
+            className="md:h-56 md:w-auto h-44 hover:scale-125 transition-transform ease-linear object-cover"
+          />
+        </div>
+        <div className="flex flex-col justify-center items-start space-y-3 px-3">
+          {/* <CoverImage title={title} src={author.picture} slug={slug} /> */}
+          <h3 className=" mt-3 leading-tight text-xl font-semibold font-lora transition-all duration-75 ease-in-out text-black hover:text-[#0071E3]">
             {title}
-          </Link>
-        </h3>
-        <p className="font-lora mb-4">"{excerpt}"</p>
-      </div>
-      {/* <div className="font-playfair leading-[1.06] tracking-wide xs:tracking-tighter sm:tracking-tight font-semibold mb-12 text-center text-[40px]">
+          </h3>
+          <p className="font-lora pb-5 overflow-hidden ">"{excerpt}"</p>
+        </div>
+      </Link>
+    </section>
+  );
+}
+{
+  /* <div className="font-playfair leading-[1.06] tracking-wide xs:tracking-tighter sm:tracking-tight font-semibold mb-12 text-center text-[40px]">
         How To Find Us
       </div>
       <div className="flex items-stretch xs:flex-col sm:flex-col xs:space-y-3 sm:space-y-3  ">
@@ -62,7 +65,5 @@ export function HeroPost({
           <p className="font-lora mb-4">"{excerpt}"</p>
           <Avatar name={author.name} picture={author.picture} />
         </div>
-      </div> */}
-    </section>
-  );
+      </div> */
 }
