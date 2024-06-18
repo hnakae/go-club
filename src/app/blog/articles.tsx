@@ -39,8 +39,8 @@ const Articles = () => {
   const featuredPosts = posts.slice(0, 2);
   // const morePosts = allPosts.slice(2);
   return (
-    <div className="flex justify-center items-center z-10 mb-[5rem]">
-      <div className=" mx-6 px-14 py-10 rounded-md mb-4 max-w-[1128px] border bg-beige1">
+    <div className="flex justify-center items-center z-10 mb-[5rem] ">
+      <div className=" mx-6 px-14 py-10 rounded-md mb-4 max-w-[1128px] border bg-beige1 ">
         <div className=" text-3xl font-bold mb-2">Featured Articles</div>
         <div className="mb-6">
           Here, you'll find in-depth articles on the fascinating world of Go

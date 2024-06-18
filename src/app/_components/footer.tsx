@@ -2,17 +2,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Quote from "./quote";
+import Grid from "./grid";
 // import { EXAMPLE_PATH } from "@/lib/constants";
 
 export function Footer() {
   const pathname = usePathname();
   return (
-    <footer className="relative w-full  px-24 font-normal text-sm text-dark border-t bg-brandWhite sm:text-base  ">
-      <div className="absolute bottom-24  text-[140px] font-sans font-bold text-gray-100 z-0">
-        Eugene Go Club
-      </div>
-      <div className="w-full ">
-        <div className="flex justify-around py-12">
+    <footer className="relative  w-full  rounded-t-3xl bg-beige1   font-normal text-sm text-dark   sm:text-base  ">
+      <div className="flex flex-col justify-center h-screen max-w-[1128px] mx-auto">
+        {/* <Quote /> */}
+        {/* <Grid /> */}
+        <div className="absolute bottom-1/4  text-[140px] font-sans font-bold text-gray-300 z-0 ">
+          Eugene Go Club
+        </div>
+        <div className="flex justify-around items-start  py-12 ">
           <div className="flex flex-col gap-4">
             <div className=" px-5   flex-col flex items-center justify-center rounded-md  text-center z-10  ">
               {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
@@ -137,18 +141,18 @@ export function Footer() {
             </div>
           </div>
         </div>
-      </div>
-      <div className=" flex items-center justify-between py-4 px-12  ">
-        {/* <Logo /> */}
-        <span className="z-10">
-          {new Date().getFullYear()} &copy; All Rights Reserved.
-        </span>
-        <div className="flex items-center lg:py-2 z-10">
-          Built With
-          <span className="text-brand text-2xl px-1 dark:text-primaryDark">
-            &#9825;
+        <div className="absolute bottom-0 flex items-center justify-between py-4 px-12 w-full max-w-[1128px] ">
+          {/* <Logo /> */}
+          <span className="z-10">
+            {new Date().getFullYear()} &copy; All Rights Reserved.
           </span>
-          by&nbsp; Hiro Nakae
+          <div className="flex items-center lg:py-2 z-10">
+            Built With
+            <span className="text-brand text-2xl px-1 dark:text-primaryDark">
+              &#9825;
+            </span>
+            by&nbsp; Hiro Nakae
+          </div>
         </div>
       </div>
     </footer>
