@@ -75,7 +75,7 @@ export function Footer() {
     //   </div>
     //   {/* </Container> */}
     // </footer>
-    <footer className=" w-full px-24 font-normal text-sm text-light bg-dark sm:text-base  ">
+    <footer className=" w-full px-24 font-normal text-sm text-dark border-t bg-brandWhite sm:text-base  ">
       <div className="w-full ">
         <div className="flex justify-around py-12">
           <div className="flex flex-col gap-4">
