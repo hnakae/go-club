@@ -40,7 +40,7 @@ const Articles = () => {
   // const morePosts = allPosts.slice(2);
   return (
     <div className="flex justify-center items-center z-10 ">
-      <div className=" mx-6 px-14 py-10 rounded-md mb-4 max-w-[1128px] border  shadow-sm bg-beige1 ">
+      <div className=" mx-6 px-14 py-10 rounded-md mb-4 max-w-[1128px] border border-[#DAB16D] shadow-sm bg-coffee ">
         <div className="font-playfair text-3xl font-bold mb-2">
           Featured Articles
         </div>
