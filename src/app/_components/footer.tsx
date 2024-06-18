@@ -75,12 +75,45 @@ export function Footer() {
     //   </div>
     //   {/* </Container> */}
     // </footer>
-    <footer className=" w-full px-24 font-normal text-sm text-dark border-t bg-brandWhite sm:text-base  ">
+    <footer className=" w-full  px-24 font-normal text-sm text-dark border-t bg-brandWhite sm:text-base  ">
       <div className="w-full ">
         <div className="flex justify-around py-12">
           <div className="flex flex-col gap-4">
-            <div className="font-bold text-2xl">Eugene Go Club</div>
-            <div className="mb-24">USA, Eugene Oregon</div>
+            <div className=" px-5   flex-col flex items-center justify-center rounded-md  text-center   z-20">
+              {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
+              <div className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl font-playfair">
+                {" "}
+                Wednesday Meetups
+              </div>
+              <div className="font-montserrat text-xl my-4">
+                From 5:30 pm - 9:00 pm.
+              </div>
+              <div className="font-montserrat text-xl font-semibold">
+                {" "}
+                @ 5th Street Alley near{" "}
+                <a
+                  href="https://www.google.com/maps/place/Magpie+Coffeeshop/@44.0534091,-123.0906905,17z/data=!3m1!4b1!4m6!3m5!1s0x54c11f944e770925:0x5d79ed248cc805f2!8m2!3d44.0534091!4d-123.0906905!16s%2Fg%2F11rc73f_8q?entry=ttu"
+                  className="underline "
+                  target="_blank"
+                >
+                  Magpie Coffee
+                </a>
+              </div>
+              <a
+                href="https://www.meetup.com/eugene-go-players/events/"
+                target="_blank"
+                className="py-2 px-4 rounded-full w-[100px] mt-6 border-2 text-white bg-[#0071E3]"
+              >
+                RSVP
+              </a>
+              {/* <div className=" mt-12 p-4 rounded-md   bg-[#3a506b]">Primary</div>
+          <div className=" mt-12 p-4 rounded-md   bg-[#5bc0be]">Secondary</div>
+          <div className=" mt-12 p-4 rounded-md   bg-[#f25f5c]">Accent</div>
+          <div className=" mt-12 p-4 rounded-md   bg-[#ff7f11]">Brand</div>
+          <div className=" mt-12 p-4 rounded-md border-2 border-[#cccccc]  bg-[#ffffff]">
+            <div className="text-[#4a4a4a]">Card</div>
+          </div> */}
+            </div>
             <div className="flex  gap-5">
               {/* <LinkedInIcon className="lg:w-[30px]" />
               <DribbbleIcon className="lg:w-[30px]" />
