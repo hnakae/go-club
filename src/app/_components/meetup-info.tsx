@@ -17,15 +17,14 @@ const MeetUpInfo = () => {
         </div>
         <div className="max-w-[1128px] rounded-md flex justify-center w-full   ">
           <div className=" px-5   flex-col flex items-center justify-center rounded-md  text-center   z-20">
-            {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
             <div className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl font-playfair">
               {" "}
               Wednesday Meetups
             </div>
-            <div className="font-montserrat text-xl my-4">
+            <div className="font-montserrat text-xl my-4 opacity-60">
               From 5:30 pm - 9:00 pm.
             </div>
-            <div className="font-montserrat text-xl font-semibold">
+            <div className="font-montserrat text-xl font-semibold opacity-80">
               {" "}
               @ 5th Street Alley near{" "}
               <a
@@ -39,33 +38,12 @@ const MeetUpInfo = () => {
             <a
               href="https://www.meetup.com/eugene-go-players/events/"
               target="_blank"
-              className="py-2 px-4 rounded-full w-[100px] mt-6 border-2 text-white bg-[#0071E3]"
+              className="relative py-2 px-4 rounded-lg w-[100px] mt-6 text-white bg-[#DAB16D] shadow-faded-2px"
             >
-              RSVP
+              <span className="absolute inset-0 rounded-lg shadow-inner-white"></span>
+              <span className="relative z-10 font-montserrat">RSVP</span>
             </a>
-            {/* <div className=" mt-12 p-4 rounded-md   bg-[#3a506b]">Primary</div>
-          <div className=" mt-12 p-4 rounded-md   bg-[#5bc0be]">Secondary</div>
-          <div className=" mt-12 p-4 rounded-md   bg-[#f25f5c]">Accent</div>
-          <div className=" mt-12 p-4 rounded-md   bg-[#ff7f11]">Brand</div>
-          <div className=" mt-12 p-4 rounded-md border-2 border-[#cccccc]  bg-[#ffffff]">
-            <div className="text-[#4a4a4a]">Card</div>
-          </div> */}
           </div>
-          {/* <div className="absolute right-1/4 top-10 flex justify-center items-center  sm:ml-0 xs:ml-0 xs:absolute z-10 sm:hidden">
-          <a
-            href="https://www.openstreetmap.org/way/1012479109"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/magpie.png"
-              alt="map"
-              width={450}
-              height={250}
-              className=" rounded-md shadow-lg"
-            />
-          </a>
-        </div> */}
         </div>
       </div>
     </div>

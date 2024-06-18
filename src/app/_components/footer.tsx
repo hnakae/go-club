@@ -10,9 +10,9 @@ export function Footer() {
   const pathname = usePathname();
   return (
     <footer className="relative  w-full  rounded-t-3xl bg-beige1   font-normal text-sm text-dark   sm:text-base  ">
-      <div className="flex flex-col justify-center h-screen max-w-[1128px] mx-auto">
+      <div className="flex flex-col justify-around h-screen max-w-[1128px] mx-auto">
         {/* <Quote /> */}
-        {/* <Grid /> */}
+
         <div className="absolute bottom-1/4  text-[140px] font-sans font-bold text-gray-300 z-0 ">
           Eugene Go Club
         </div>
@@ -41,9 +41,10 @@ export function Footer() {
               <a
                 href="https://www.meetup.com/eugene-go-players/events/"
                 target="_blank"
-                className="py-2 px-4 rounded-full w-[100px] mt-6 border-2 text-white bg-[#0071E3]"
+                className="relative py-2 px-4 rounded-lg w-[100px] mt-6 text-white bg-[#DAB16D] shadow-faded-2px"
               >
-                RSVP
+                <span className="absolute inset-0 rounded-lg shadow-inner-white"></span>
+                <span className="relative z-10">RSVP</span>
               </a>
               {/* <div className=" mt-12 p-4 rounded-md   bg-[#3a506b]">Primary</div>
           <div className=" mt-12 p-4 rounded-md   bg-[#5bc0be]">Secondary</div>
@@ -154,6 +155,7 @@ export function Footer() {
             by&nbsp; Hiro Nakae
           </div>
         </div>
+        {/* <Grid /> */}
       </div>
     </footer>
   );

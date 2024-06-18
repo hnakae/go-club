@@ -7,8 +7,8 @@ import MeetUpInfo from "./_components/meetup-info";
 // import JoinCommunity from "./contact/join-community";
 import Grid from "./_components/grid";
 import Quote from "./_components/quote";
-import Squares from "./blog/articles";
 import GoldenRule from "./_components/goldenRule";
+import Articles from "./blog/articles";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -34,8 +34,8 @@ export default function Index() {
           slug={heroPost.slug}
           excerpt={heroPost.excerpt}
         /> */}
-        <Squares />
-        {/* <Quote /> */}
+        <Articles />
+
         {/* <JoinCommunity /> */}
       </Container>
     </main>

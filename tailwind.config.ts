@@ -58,6 +58,8 @@ const config: Config = {
         "8xl": "6.25rem",
       },
       boxShadow: {
+        "inner-white": "inset 0 2px 4px 0 rgba(255, 255, 255, 0.5)",
+        "faded-2px": "0 2px 4px rgba(0, 0, 0, 0.1)",
         sm: "0 5px 10px rgba(0, 0, 0, 0.12)",
         md: "0 8px 30px rgba(0, 0, 0, 0.12)",
       },

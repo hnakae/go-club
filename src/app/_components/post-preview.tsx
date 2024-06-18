@@ -28,7 +28,7 @@ export function PostPreview({
     //     <CoverImage slug={slug} title={title} src={coverImage} />
     //   </div>
     // </div>
-    <section className=" rounded-md overflow-hidden bg-white   mb-3 flex flex-col ">
+    <section className=" rounded-md overflow-hidden bg-white border border-[#DAB16D] shadow-sm mb-3 flex flex-col ">
       <Link href={`/posts/${slug}`} className=" ">
         <div className="overflow-hidden">
           <Image
@@ -41,10 +41,10 @@ export function PostPreview({
         </div>
         <div className="flex flex-col justify-center items-start space-y-3 px-3">
           {/* <CoverImage title={title} src={author.picture} slug={slug} /> */}
-          <h2 className="mt-3 leading-tight text-xl font-semibold font-lora  transition-all duration-75 ease-in-out text-black hover:text-[#0071E3]">
+          <h2 className="mt-3 leading-tight text-xl font-semibold font-montserrat  transition-all duration-75 ease-in-out text-black hover:text-[#0071E3]">
             {title}
           </h2>
-          <p className="text-sm pb-5">by {author.name}</p>
+          <p className="font-lora text-sm pb-5">by {author.name}</p>
           {/* <p className="font-lora pb-5 overflow-hidden ">{excerpt}</p> */}
         </div>
       </Link>
