@@ -44,7 +44,7 @@ const config: Config = {
         pink1: "#F222A9",
         borderColor: "#272727",
         darkFill: "#3E424E",
-        baseColor: "##3E3F40", //website background
+        baseColor: "#3E3F40", //website background
         primaryColor: "#DAB16D", //cta, small details - good contrast against baseColor. - opacity 100, opacity 5
         neutralColor: "#F5F5F5", //text elements - opacity 100, opacity 80, opacity 60
       },
@@ -65,6 +65,7 @@ const config: Config = {
         "faded-2px": "0 2px 4px rgba(0, 0, 0, 0.1)",
         sm: "0 5px 10px rgba(0, 0, 0, 0.12)",
         md: "0 8px 30px rgba(0, 0, 0, 0.12)",
+        "blur-circle": "0 0 20px 10px rgba(218, 177, 109, 0.5)", // Adjust the color and opacity as needed
       },
       fontFamily: {
         playfair: ["Playfair Display", "serif"],

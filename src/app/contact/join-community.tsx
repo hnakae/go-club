@@ -1,98 +1,103 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Quote from "./quote";
 
 const JoinCommunity = () => {
   return (
-    // bg-[#DDEAFC]
-    <div className="select-none    overflow-visible   sm:mb-6 flex justify-center items-center">
-      <div className=" p-3 max-w-[1128px] bg-dark rounded-md text-white flex xs:flex-col-reverse  sm:flex-col-reverse justify-center items-center  xs:shadow-none h-[350px] xs:h-[400px] w-full overflow-hidden">
-        <div className=" rounded-md bg-slate-300  sm:w-full  xs:h-[30%] relative xs:rounded-t-xl md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 h-full w-full  flex justify-center items-center overflow-visible">
-          <Image
-            src="/assets/images/social.png"
-            alt="placeholder"
-            width={300}
-            height={300}
-            className="absolute z-10 min-w-[150px] min-h-[150px] w-auto h-auto pointer-events-none rounded-r-xl xs:h-[150px] xs:top-[80%] top-[50%] "
-            style={{
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              maxWidth: "100%",
-              maxHeight: "100%",
-            }}
-          />
-        </div>
-        <div className=" message flex flex-col h-full w-full justify-center items-start xs:items-center xs:text-center   md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 px-6 xs:p-0 xs:pb-4 ">
-          <h1 className="font-playfair text-4xl xs:text-2xl leading-[1.06] tracking-wide font-semibold mb-4">
+    <div className="select-none overflow-visible  flex  justify-center items-center w-full">
+      <div className=" max-w-[1128px]  rounded-md text-white flex justify-around items-center    w-full h-full overflow-hidden">
+        <div className=" message flex flex-col h-full  justify-center items-start  ">
+          {/* <h1 className="font-playfair text-4xl xs:text-2xl leading-[1.06] tracking-wide font-semibold mb-4">
             Become A Part Of Our Community!
           </h1>
           <p className="font-lora text-md pr-8 xs:pr-0 mb-6 tracking-wide">
             Join the conversation and meet other folks like you!
-          </p>
-          {/* <a
-          href="https://discord.com/channels/1164649557687275703/1164649557687275706"
-          target="_blank"
-          className="text-[14px] w-40 flex justify-center items-center rounded-md py-2 px-2 bg-[#2D2D2D] text-white cursor-pointer transition-opacity hover:bg-black"
-        >
-          JOIN COMMUNITY
-        </a> */}
-          <div className="socials flex space-x-4 ">
-            <Link
-              href="https://www.facebook.com/groups/EugeneGoClub"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          </p> */}
+          <div className="px-6 w-[310px] flex flex-col  justify-center items-start  py-6 backdrop-blur-sm opacity-95  rounded-lg ml-3 sm:ml-0 border border-primaryColor bg-primaryColor/5 shadow-md">
+            {/* <div className="absolute top-[-16px] left-4 bg-baseColor">
+              <Image src="/icons/quote.png" alt="icon" width={30} height={30} />
+            </div> */}
+            {/* style={{ textIndent: "2em" }} */}
+            <p className="font-lora mb-4">
+              Look for the gobans and listen for the clacking of slate and
+              shell. We'll be on the west side near Magpie Coffee.
+            </p>
+            <div className="font-montserrat text-xl font-bold flex">
+              Daniel Takamori
               <Image
-                src="/icons/facebook.png"
-                alt="facebook icon"
-                width={25}
-                height={25}
-                className="pointer-events-none"
+                src="/icons/quote.png"
+                alt="icon"
+                width={30}
+                height={30}
+                className="ml-12 rotate-180 "
               />
-            </Link>
-            <Link
-              href="https://discord.com/channels/1164649557687275703/1174766988787208345"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/icons/discord.png"
-                alt="discord icon"
-                width={25}
-                height={25}
-                className="pointer-events-none"
-              />
-            </Link>
-            <Link
-              href="https://www.meetup.com/eugene-go-players/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/icons/meetup.png"
-                alt="meetup icon"
-                width={25}
-                height={25}
-                className="pointer-events-none"
-              />
-            </Link>
-            <Link
-              href="https://online-go.com/group/6435"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/icons/ogs-icon.png"
-                alt="ogs icon"
-                width={25}
-                height={25}
-                className="rounded-full pointer-events-none"
-              />
-            </Link>
+            </div>
           </div>
         </div>
-        {/* bg-gradient-to-br from-teal-400 to-sky-400 */}
+        <Image
+          src="/assets/images/daniel-edited.png"
+          width={200}
+          height={200}
+          alt="daniel"
+          className="z-20 mb-0 rounded-md border border-primaryColor bg-primaryColor/5 shadow-md" // Set margin-bottom to 0 to align properly
+        />
+        <div className="bg-primaryColor/5 flex flex-col space-y-4 border h-full border-primaryColor rounded-md shadow-md p-8  items-center">
+          <Link
+            href="https://www.facebook.com/groups/EugeneGoClub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/icons/facebook.png"
+              alt="facebook icon"
+              width={25}
+              height={25}
+              className="pointer-events-none"
+            />
+          </Link>
+          <Link
+            href="https://discord.com/channels/1164649557687275703/1174766988787208345"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/icons/discord.png"
+              alt="discord icon"
+              width={25}
+              height={25}
+              className="pointer-events-none"
+            />
+          </Link>
+          <Link
+            href="https://www.meetup.com/eugene-go-players/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/icons/meetup.png"
+              alt="meetup icon"
+              width={25}
+              height={25}
+              className="pointer-events-none"
+            />
+          </Link>
+          <Link
+            href="https://online-go.com/group/6435"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/icons/ogs-icon.png"
+              alt="ogs icon"
+              width={25}
+              height={25}
+              className="rounded-full pointer-events-none"
+            />
+          </Link>
+        </div>
       </div>
+      {/* <Quote /> */}
     </div>
   );
 };

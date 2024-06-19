@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Quote from "./quote";
+import Quote from "../contact/quote";
 import Grid from "./grid";
 // import { EXAMPLE_PATH } from "@/lib/constants";
 

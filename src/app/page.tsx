@@ -6,7 +6,7 @@ import { getAllPosts } from "@/lib/api";
 import MeetUpInfo from "./_components/meetup-info";
 // import JoinCommunity from "./contact/join-community";
 import Grid from "./_components/grid";
-import Quote from "./_components/quote";
+import Quote from "./contact/quote";
 import GoldenRule from "./_components/goldenRule";
 import Articles from "./blog/articles";
 

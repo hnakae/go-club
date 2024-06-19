@@ -1,10 +1,7 @@
 export function QA() {
   return (
-    <div className="w-full flex justify-center items-center">
-      <div className=" max-w-[1128px] p-3  min-h-screen flex-col flex items-start justify-start rounded-md  border w-full">
-        <div className="font-playfair font-semibold  tracking-tighter      text-[32px]   mb-12  border-black border-b w-full">
-          Frequently Asked Questions
-        </div>
+    <div className="w-full flex justify-center items-start z-10 text-neutralColor h-screen">
+      <div className=" max-w-[1128px] mx-6 px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full ">
         <div className="font-playfair  py-6 h-fit  text-[24px] flex flex-col items-center justify-center border-b-2 ">
           Are beginners welcome?
         </div>

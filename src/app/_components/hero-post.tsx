@@ -31,7 +31,7 @@ export function HeroPost({
             alt="cover"
             width={400}
             height={400}
-            className="md:h-56 md:w-auto h-44 hover:scale-125 transition-transform ease-linear object-cover"
+            className=" max-h-44 hover:scale-125 transition-transform ease-linear object-cover"
           />
         </div>
         <div className="flex flex-col justify-center items-start space-y-3 px-3 bg-primaryColor/5">

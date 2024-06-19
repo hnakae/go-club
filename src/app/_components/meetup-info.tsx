@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Quote from "../contact/quote";
 
 const MeetUpInfo = () => {
   return (
@@ -11,12 +12,14 @@ const MeetUpInfo = () => {
     // bg-[#F5F5F7] apple light bg
     // text-[#1D1D1F] apple dark text
     // <div className="sticky top-14">
-    <div className="relative h-[75vh]  flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  ">
+    <div className="relative my-12  mx-6 flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  ">
       <div className="fixed z-0 top-0 h-full w-full text-[200px] font-sans font-bold text-gray-200 bg-[url(/assets/images/slatebg.png)]">
         {/* Eugene Go Club */}
       </div>
-      <div className="max-w-[1128px] rounded-md flex justify-center w-full  text-neutralColor ">
-        <div className="backdrop-blur-md   flex-col flex items-center justify-center rounded-md  text-neutralColor  opacity-95 p-8  z-20 border border-primaryColor shadow-md">
+
+      <div className="max-w-[1128px] rounded-md flex  justify-center items-center  w-full  text-neutralColor z-10">
+        {/* <Quote /> */}
+        <div className="backdrop-blur-md w-full p-24 flex-col flex items-center justify-center rounded-md  text-neutralColor  opacity-95  z-20 border border-primaryColor shadow-md">
           <div className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl font-playfair">
             {" "}
             Wednesday Meetups
@@ -44,6 +47,7 @@ const MeetUpInfo = () => {
             <span className="absolute inset-0 rounded-lg shadow-inner-white"></span>
             <span className="relative z-10 font-montserrat">RSVP</span>
           </a>
+          {/* <Quote /> */}
         </div>
       </div>
     </div>
