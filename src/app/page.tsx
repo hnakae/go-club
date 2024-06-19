@@ -20,8 +20,9 @@ export default function Index() {
   // {morePosts.length > 0 && <GameReviews posts={morePosts} />}
   return (
     // bg-[#f0e7db]
-    <main className="max-w-screen bg-brandWhite ">
+    <main className="max-w-screen bg-beige1">
       <Navbar />
+
       <MeetUpInfo />
       <Container>
         {/* <Grid /> */}

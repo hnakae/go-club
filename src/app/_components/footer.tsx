@@ -9,13 +9,11 @@ import Grid from "./grid";
 export function Footer() {
   const pathname = usePathname();
   return (
-    <footer className="relative  w-full  rounded-t-3xl bg-beige1   font-normal text-sm text-dark   sm:text-base  ">
+    <footer className="relative  w-full      font-normal text-sm text-white   sm:text-base  ">
       <div className="flex flex-col justify-around h-screen max-w-[1128px] mx-auto">
         {/* <Quote /> */}
 
-        <div className="absolute bottom-1/4  text-[140px] font-sans font-bold text-gray-300 z-0 ">
-          Eugene Go Club
-        </div>
+        <div className="absolute bottom-1/4  text-[140px] font-sans font-bold text-gray-300 z-0 "></div>
         <div className="flex justify-around items-start  py-12 ">
           <div className="flex flex-col gap-4">
             <div className=" px-5   flex-col flex items-center justify-center rounded-md  text-center z-10  ">
@@ -41,10 +39,10 @@ export function Footer() {
               <a
                 href="https://www.meetup.com/eugene-go-players/events/"
                 target="_blank"
-                className="relative py-2 px-4 rounded-lg w-[100px] mt-6 text-white bg-[#DAB16D] shadow-faded-2px"
+                className="relative py-2 px-8 rounded-lg  mt-8 border border-primaryColor  shadow-faded-2px hover:-translate-y-1 "
               >
                 <span className="absolute inset-0 rounded-lg shadow-inner-white"></span>
-                <span className="relative z-10">RSVP</span>
+                <span className="relative z-10 font-montserrat">RSVP</span>
               </a>
               {/* <div className=" mt-12 p-4 rounded-md   bg-[#3a506b]">Primary</div>
           <div className=" mt-12 p-4 rounded-md   bg-[#5bc0be]">Secondary</div>

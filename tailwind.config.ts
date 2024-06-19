@@ -44,6 +44,9 @@ const config: Config = {
         pink1: "#F222A9",
         borderColor: "#272727",
         darkFill: "#3E424E",
+        baseColor: "##3E3F40", //website background
+        primaryColor: "#DAB16D", //cta, small details - good contrast against baseColor. - opacity 100, opacity 5
+        neutralColor: "#F5F5F5", //text elements - opacity 100, opacity 80, opacity 60
       },
       spacing: {
         28: "7rem",

@@ -19,7 +19,7 @@ export function Navbar() {
     <>
       {" "}
       <section
-        className="z-50 bg-opaque text-dark backdrop-blur-xl	 sticky top-0 flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
+        className="z-50 bg-opaque text-neutralColor backdrop-blur-xl	 sticky top-0 flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
         // style={{ backdropFilter: "blur(10px)" }}
       >
         <div className="w-full  flex justify-between items-center ">
@@ -52,7 +52,9 @@ export function Navbar() {
                 aria-current="page"
               >
                 <Link
-                  className={`link ${pathname === "/" ? "active" : ""}`}
+                  className={`link ${
+                    pathname === "/" ? "active" : ""
+                  } hover:text-primaryColor`}
                   href="/"
                   aria-label="Home"
                 >
@@ -84,7 +86,9 @@ export function Navbar() {
               </li> */}
               <li className="cursor-pointer rounded-md  px-4 py-2">
                 <Link
-                  className={`link ${pathname === "/faqs" ? "active" : ""}`}
+                  className={`link ${
+                    pathname === "/faqs" ? "active" : ""
+                  } hover:text-primaryColor`}
                   href="/faqs"
                   aria-label="FAQs"
                 >
@@ -93,7 +97,9 @@ export function Navbar() {
               </li>
               <li className="cursor-pointer rounded-md  px-4 py-2">
                 <Link
-                  className={`link ${pathname === "/contact" ? "active" : ""}`}
+                  className={`link ${
+                    pathname === "/contact" ? "active" : ""
+                  } hover:text-primaryColor`}
                   href="/contact"
                   aria-label="contact"
                 >
