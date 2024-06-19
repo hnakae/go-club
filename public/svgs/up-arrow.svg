@@ -1,11 +1,11 @@
-// const UpArrow = (props) => (
+
 <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 512 512"
   width="30"
   height="30"
   className="absolute top-0 right-0 hover:cursor-pointer"
-  onClick={scrollToTop}
+
 >
   <g
     transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -30,6 +30,4 @@ m485 -261 c369 -43 750 -208 1045 -454 320 -266 563 -661 661 -1071 70 -293
     />
   </g>
 </svg>
-// );
-
-// export default UpArrow;
+ 

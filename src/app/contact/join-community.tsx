@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Quote from "./quote";
 import Head from "next/head";
+import Quotation from "../_components/svgs/quotation";
 
 const JoinCommunity = () => {
   return (
@@ -36,15 +37,17 @@ const JoinCommunity = () => {
               Look for the gobans and listen for the clacking of slate and
               shell. We'll be on the west side near Magpie Coffee.
             </p>
-            <div className="font-montserrat text-xl font-bold flex">
-              Daniel Takamori
-              <Image
+            <div className="font-montserrat  font-bold flex">
+              <div className="mr-12 opacity-80"> Daniel Takamori</div>
+
+              <Quotation />
+              {/* <Image
                 src="/icons/quote.png"
                 alt="icon"
                 width={30}
                 height={30}
                 className="ml-12 rotate-180 "
-              />
+              /> */}
             </div>
           </div>
         </div>
