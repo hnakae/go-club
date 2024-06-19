@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Quote from "../contact/quote";
 import Grid from "./grid";
+import Head from "next/head";
 // import UpArrow from "../../../public/svgs/up-arrow";
 // import { EXAMPLE_PATH } from "@/lib/constants";
 
@@ -17,6 +18,13 @@ export function Footer() {
   };
   return (
     <footer className="relative  w-full      font-normal text-sm text-white   sm:text-base  ">
+      <Head>
+        {/* Preload images and SVGs */}
+        <link rel="preload" href="/icons/location.png" as="image" />
+        <link rel="preload" href="/icons/email.png" as="image" />
+        <link rel="preload" href="/icons/call.png" as="image" />
+        <link rel="preload" href="/svgs/up-arrow.svg" as="image" />
+      </Head>
       <div className="flex flex-col justify-around h-screen max-w-[1128px] mx-auto">
         {/* <Quote /> */}
         {/* <UpArrow /> */}

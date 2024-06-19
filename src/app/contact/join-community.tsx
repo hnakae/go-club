@@ -2,10 +2,23 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Quote from "./quote";
+import Head from "next/head";
 
 const JoinCommunity = () => {
   return (
     <div className="select-none overflow-visible  flex  justify-center items-center w-full">
+      <Head>
+        {/* Preload images */}
+        <link
+          rel="preload"
+          href="/assets/images/daniel-edited.png"
+          as="image"
+        />
+        <link rel="preload" href="/icons/facebook.png" as="image" />
+        <link rel="preload" href="/icons/discord.png" as="image" />
+        <link rel="preload" href="/icons/meetup.png" as="image" />
+        <link rel="preload" href="/icons/ogs-icon.png" as="image" />
+      </Head>
       <div className=" max-w-[1128px]  rounded-md text-white flex justify-around items-center    w-full h-full overflow-hidden">
         <div className=" message flex flex-col h-full  justify-center items-start  ">
           {/* <h1 className="font-playfair text-4xl xs:text-2xl leading-[1.06] tracking-wide font-semibold mb-4">
