@@ -10,23 +10,27 @@ import { usePathname } from "next/navigation";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrollDirection, setScrollDirection] = useState("up");
+  const pathname = usePathname();
+
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
 
-  const pathname = usePathname();
-
-  const [scrollY, setScrollY] = useState(0);
-  const [scrollDirection, setScrollDirection] = useState("up");
-
   useEffect(() => {
+    let lastScrollY = window.pageYOffset;
     const handleScroll = () => {
-      if (window.scrollY > scrollY) {
+      const currentScrollY = window.pageYOffset;
+
+      if (currentScrollY > lastScrollY + 10) {
+        // Scrolling down, hide navbar
         setScrollDirection("down");
-      } else {
+      } else if (currentScrollY < lastScrollY - 10) {
+        // Scrolling up, show navbar
         setScrollDirection("up");
       }
-      setScrollY(window.scrollY);
+
+      lastScrollY = currentScrollY > 0 ? currentScrollY : 0;
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -34,7 +38,8 @@ export function Navbar() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [scrollY]);
+  }, []);
+
   return (
     <>
       {/**/}
