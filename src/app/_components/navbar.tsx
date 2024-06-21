@@ -10,45 +10,46 @@ import { usePathname } from "next/navigation";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [scrollDirection, setScrollDirection] = useState("up");
+  // const [scrollDirection, setScrollDirection] = useState("up");
   const pathname = usePathname();
 
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
 
-  useEffect(() => {
-    let lastScrollY = window.pageYOffset;
-    const handleScroll = () => {
-      const currentScrollY = window.pageYOffset;
+  // useEffect(() => {
+  //   let lastScrollY = window.pageYOffset;
+  //   const handleScroll = () => {
+  //     const currentScrollY = window.pageYOffset;
 
-      if (currentScrollY > lastScrollY + 10) {
-        // Scrolling down, hide navbar
-        setScrollDirection("down");
-      } else if (currentScrollY < lastScrollY - 10) {
-        // Scrolling up, show navbar
-        setScrollDirection("up");
-      }
+  //     if (currentScrollY > lastScrollY + 10) {
+  //       // Scrolling down, hide navbar
+  //       setScrollDirection("down");
+  //     } else if (currentScrollY < lastScrollY - 10) {
+  //       // Scrolling up, show navbar
+  //       setScrollDirection("up");
+  //     }
 
-      lastScrollY = currentScrollY > 0 ? currentScrollY : 0;
-    };
+  //     lastScrollY = currentScrollY > 0 ? currentScrollY : 0;
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
+  // ${
+  //   scrollDirection === "down"
+  //     ? "-translate-y-full z-0"
+  //     : "translate-y-0 z-0"
+  // }
 
   return (
     <>
       {/**/}
       <section
-        className={` z-50  transition-all duration-300 linear backdrop-blur-lg  bg-darkNav	 sticky top-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none ${
-          scrollDirection === "down"
-            ? "-translate-y-full z-0"
-            : "translate-y-0 z-0"
-        }`}
+        className={` z-50  transition-all duration-300 linear backdrop-blur-xl  bg-darkNav	shadow-md sticky top-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none`}
       >
         <div className="w-full  flex justify-between items-center">
           <Link
