@@ -71,8 +71,7 @@ const Articles = () => {
             (also known as Baduk in Korea and Weiqi in China). Whether you're a
             beginner seeking foundational knowledge or an experienced player
             looking for advanced strategies, our curated selection is designed
-            to provide valuable knowledge and actionable advice to support your
-            journey in mastering Go.
+            to provide valuable knowledge and inspiration for your next game.
           </div>
           <div className="grid grid-rows-1 grid-cols-3 gap-y-3 gap-x-4 ">
             {featuredPosts.length > 0 &&
