@@ -23,7 +23,7 @@ export function HeroPost({
   slug,
 }: Props) {
   return (
-    <section className=" rounded-md overflow-hidden bg-baseColor   shadow-sm  mb-3 flex flex-col border-primaryColor border">
+    <section className=" rounded-md overflow-hidden bg-baseColor   shadow-sm  mb-3 flex flex-col border-primaryColor border hover:text-primaryColor">
       <Link href={`/posts/${slug}`} className=" ">
         <div className="overflow-hidden">
           <Image
@@ -34,11 +34,13 @@ export function HeroPost({
             className=" max-h-44 hover:scale-125 transition-transform ease-linear object-cover"
           />
         </div>
-        <div className="flex flex-col justify-center items-start space-y-3 px-3 bg-primaryColor/5">
-          <h3 className=" mt-3 leading-tight text-xl font-semibold font-montserrat transition-all duration-75 ease-in-out text-neutralColor hover:text-primaryColor">
+        <div className="flex flex-col justify-center items-start space-y-3 px-3 bg-primaryColor/5 ">
+          <h3 className=" mt-3 leading-tight text-xl font-semibold font-montserrat transition-all duration-75 ease-in-out  ">
             {title}
           </h3>
-          <p className="font-lora pb-5 overflow-hidden ">{excerpt}</p>
+          <p className="font-lora pb-5 overflow-hidden text-neutralColor">
+            {excerpt}
+          </p>
         </div>
       </Link>
     </section>

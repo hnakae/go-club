@@ -61,6 +61,20 @@ export function Navbar() {
                   Home
                 </Link>
               </li>
+              <li
+                className="cursor-pointer rounded-md  px-4 py-2  "
+                aria-current="page"
+              >
+                <Link
+                  className={`link ${
+                    pathname === "/about" ? "active" : ""
+                  } hover:text-primaryColor`}
+                  href="/about"
+                  aria-label="About"
+                >
+                  About
+                </Link>
+              </li>
               {/* <li>
                 <NavLink to="/">hahaha</NavLink>
               </li> */}
