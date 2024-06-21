@@ -66,7 +66,7 @@ export function Navbar() {
                 <Link
                   className={`link ${
                     pathname === "/" ? "active" : ""
-                  } hover:text-primaryColor font-montserrat tracking-tighter `}
+                  } hover:text-primaryColor font-montserrat tracking-tighter leading-tight `}
                   href="/"
                   aria-label="Home"
                 >
@@ -80,7 +80,7 @@ export function Navbar() {
                 <Link
                   className={`link ${
                     pathname === "/about" ? "active" : ""
-                  } hover:text-primaryColor  font-montserrat`}
+                  } hover:text-primaryColor  font-montserrat tracking-tighter leading-tight`}
                   href="/about"
                   aria-label="About"
                 >
@@ -91,7 +91,7 @@ export function Navbar() {
                 <Link
                   className={`link ${
                     pathname === "/faqs" ? "active" : ""
-                  } hover:text-primaryColor  font-montserrat`}
+                  } hover:text-primaryColor  font-montserrat tracking-tighter leading-tight`}
                   href="/faqs"
                   aria-label="FAQs"
                 >
@@ -102,7 +102,7 @@ export function Navbar() {
                 <Link
                   className={`link ${
                     pathname === "/contact" ? "active" : ""
-                  } hover:text-primaryColor  font-montserrat`}
+                  } hover:text-primaryColor  font-montserrat tracking-tighter leading-tight`}
                   href="/contact"
                   aria-label="contact"
                 >

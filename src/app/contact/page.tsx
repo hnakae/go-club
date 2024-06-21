@@ -1,5 +1,4 @@
 import Container from "@/app/_components/container";
-import { Navbar } from "../_components/Navbar.1";
 // import { Events } from "@/app/_components/events";
 import JoinCommunity from "./join-community";
 import Header from "./header";
