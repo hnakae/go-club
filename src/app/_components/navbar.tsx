@@ -42,9 +42,9 @@ export function Navbar() {
 
   return (
     <>
-      {/**/}
+      {/*transition-all duration-200 linear  backdrop-blur-xl*/}
       <section
-        className={` z-50  transition-all duration-200 linear  backdrop-blur-xl bg-darkNav	 sticky top-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none ${
+        className={` z-50   bg-black	 sticky top-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none ${
           scrollDirection === "down"
             ? "-translate-y-full z-0"
             : "translate-y-0 z-0"
