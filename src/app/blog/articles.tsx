@@ -68,11 +68,11 @@ const Articles = () => {
           </div>
           <div className="font-lora mb-6">
             Here, you'll find in-depth articles on the fascinating world of Go
-            (also known as Baduk in Korea and Weiqi in China). Explore strategic
-            insights, historical context, and practical tips for improving your
-            game. These articles are designed to provide you with valuable
-            knowledge and actionable advice to enhance your understanding and
-            mastery of this ancient board game.
+            (also known as Baduk in Korea and Weiqi in China). Whether you're a
+            beginner seeking foundational knowledge or an experienced player
+            looking for advanced strategies, our curated selection is designed
+            to provide valuable knowledge and actionable advice to support your
+            journey in mastering Go.
           </div>
           <div className="grid grid-rows-1 grid-cols-3 gap-y-3 gap-x-4 ">
             {featuredPosts.length > 0 &&
@@ -91,8 +91,9 @@ const Articles = () => {
             Explore More
           </div>
           <div className="font-lora mb-6">
-            Explore our content by searching for topics. We have a wide range of
-            searchable articles that cover everything you need to know.
+            Explore our content by searching for topics of interest. We have a
+            wide range of searchable articles that cover everything you need to
+            know.
           </div>
           <div className="relative w-full mb-12">
             <input
