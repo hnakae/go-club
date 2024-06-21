@@ -17,15 +17,15 @@ export function Navbar() {
   const pathname = usePathname();
   return (
     <>
-      {" "}
+      {/**/}
       <section
-        className="z-50 bg-opaque text-neutralColor backdrop-blur-xl	 sticky top-0 flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
+        className="z-50  text-neutralColor mix-blend-difference  backdrop-blur-xl bg-opaque	 sticky top-0 flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
         // style={{ backdropFilter: "blur(10px)" }}
       >
         <div className="w-full  flex justify-between items-center ">
           <Link
             href="/"
-            className="font-montserrat   text-nowrap	 rounded-md text-3xl  font-bold tracking-tighter leading-tight flex items-center "
+            className="font-montserrat  text-nowrap	 rounded-md text-3xl  font-bold tracking-tighter leading-tight flex items-center "
           >
             Eugene Go Club
           </Link>

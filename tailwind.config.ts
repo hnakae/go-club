@@ -81,6 +81,21 @@ const config: Config = {
         xl: { min: "1367px", max: "1599px" }, // Laptop
         "2xl": { min: "1600px" }, // Desktop
       },
+      keyframes: {
+        bounce: {
+          "0%, 100%": {
+            transform: "translateY(0)",
+            animationTimingFunction: "ease-in",
+          },
+          "50%": {
+            transform: "translateY(15%)",
+            animationTimingFunction: "ease-out",
+          },
+        },
+      },
+      animation: {
+        bounce: "bounce 1s infinite",
+      },
     },
   },
   plugins: [],

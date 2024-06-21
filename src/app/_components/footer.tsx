@@ -154,7 +154,7 @@ export function Footer() {
           viewBox="0 0 512 512"
           width="30"
           height="30"
-          className="absolute bottom-1/4 hover:cursor-pointer animate-bounce w-full"
+          className="absolute bottom-1/4 hover:cursor-pointer  w-full"
           onClick={scrollToTop}
         >
           <g
