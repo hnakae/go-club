@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Menu from "./menu";
 // import { NavLink } from "react-router-dom";
 import { usePathname } from "next/navigation";
@@ -15,12 +15,33 @@ export function Navbar() {
   };
 
   const pathname = usePathname();
+
+  const [scrollY, setScrollY] = useState(0);
+  const [scrollDirection, setScrollDirection] = useState("up");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > scrollY) {
+        setScrollDirection("down");
+      } else {
+        setScrollDirection("up");
+      }
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrollY]);
   return (
     <>
       {/**/}
       <section
-        className="z-50  text-neutralColor   backdrop-blur-xl bg-opaque	 sticky top-0 flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none "
-        // style={{ backdropFilter: "blur(10px)" }}
+        className={`z-50  text-neutralColor transition-all duration-200 linear  backdrop-blur-xl bg-darkNav	 sticky top-0 flex justify-center items-center h-auto py-2 w-full mx-0 px-6  shadow-md select-none ${
+          scrollDirection === "down" ? "-translate-y-full" : "translate-y-0"
+        }`}
       >
         <div className="w-full  flex justify-between items-center">
           <Link

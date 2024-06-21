@@ -15,3 +15,16 @@
 .active {
   text-decoration: underline;
 }
+
+/* globals.css */
+/* Add this to your Tailwind CSS config if you're using custom classes */
+@layer utilities {
+  .hidden-navbar {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .visible-navbar {
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+  }
+}
