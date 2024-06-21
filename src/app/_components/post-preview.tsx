@@ -44,10 +44,10 @@ export function PostPreview({
           <h2 className="mt-3 leading-tight text-xl font-semibold font-montserrat  transition-all duration-75 ease-in-out ">
             {title}
           </h2>
-          <p className="font-lora text-sm pb-5 text-neutralColor">
+          {/* <p className="font-lora text-sm pb-5 text-neutralColor">
             by {author.name}
-          </p>
-          {/* <p className="font-lora pb-5 overflow-hidden ">{excerpt}</p> */}
+          </p> */}
+          <p className="font-lora pb-5 overflow-hidden ">{excerpt}</p>
         </div>
       </Link>
     </section>

@@ -1,13 +1,13 @@
 ---
-title: "Meetup Info"
-excerpt: "  Look for the gobans and listen for the clacking of slate and shell. We'll be on the west side near Magpie Coffee."
+title: "How to play"
+excerpt: "Lesson 1: Go Basics"
 coverImage: "/assets/blog/featured/cover.jpg"
 date: "2020-03-16T05:35:07.322Z"
 author:
   name: Daniel Takamori
   picture: "/assets/blog/authors/daniel.webp"
 ogImage:
-  url: "/assets/blog/featured/cover.jpg"
+  url: "/assets/images/atari.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
