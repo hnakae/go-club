@@ -47,7 +47,9 @@ export function PostPreview({
           {/* <p className="font-lora text-sm pb-5 text-neutralColor">
             by {author.name}
           </p> */}
-          <p className="font-lora pb-5 overflow-hidden ">{excerpt}</p>
+          <p className="font-lora pb-5 overflow-hidden text-neutralColor">
+            {excerpt}
+          </p>
         </div>
       </Link>
     </section>
