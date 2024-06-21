@@ -11,12 +11,12 @@ import GoldenRule from "./_components/goldenRule";
 import Articles from "./blog/articles";
 
 export default function Index() {
-  const allPosts = getAllPosts();
+  // const allPosts = getAllPosts();
 
   // const heroPost = allPosts[0];
   // console.log(heroPost);
 
-  const morePosts = allPosts.slice(3);
+  // const morePosts = allPosts.slice(3);
   // {morePosts.length > 0 && <GameReviews posts={morePosts} />}
   return (
     // bg-[#f0e7db]
