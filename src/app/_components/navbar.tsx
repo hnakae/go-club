@@ -45,7 +45,7 @@ export function Navbar() {
       {/**/}
       <section
         className={`z-50  text-neutralColor transition-all duration-200 linear  backdrop-blur-xl bg-darkNav	 sticky top-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none ${
-          scrollDirection === "down" ? "-translate-y-full" : "translate-y-0"
+          scrollDirection === "down" ? "-translate-y-full z-0" : "translate-y-0"
         }`}
       >
         <div className="w-full  flex justify-between items-center">
