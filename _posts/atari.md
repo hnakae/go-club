@@ -2,12 +2,12 @@
 title: "Atari"
 excerpt: "Capture a stone"
 coverImage: "/assets/images/placeholder-image.webp"
-date: ""
+date: "2020-03-16T05:35:07.322Z"
 author:
-  name:
-  picture: "/assets/blog/authors/joe.jpeg"
+  name: Daniel Takamori
+  picture: "/assets/blog/authors/daniel.webp"
 ogImage:
-  url: "/assets/blog/preview/cover.jpg"
+  url: "/assets/images/atari.jpg"
 ---
 
 https://senseis.xmp.net/?atari
