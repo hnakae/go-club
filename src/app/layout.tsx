@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display, Lora, Montserrat } from "next/font/google";
 
 import "./globals.css";
+import { Navbar } from "./_components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 const playfair = Playfair_Display({
@@ -84,6 +85,8 @@ export default function RootLayout({
       {/* <script type="text/javascript" src="player/js/all.compressed.js"></script>
 <div class="eidogo-player-auto" sgf="path/to/sgf/file.sgf"></div> */}
       <body className={inter.className}>
+        <Navbar />
+        <div className="fixed z-0 top-0 h-full w-full text-[200px] font-sans font-bold text-gray-200 bg-[url(/assets/images/slatebg.png)]" />
         <div
           className={`${playfair.className} ${lora.className} ${montserrat.className}  max-w-screen`}
         >

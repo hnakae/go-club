@@ -25,12 +25,12 @@ export function Navbar() {
         <div className="w-full  flex justify-between items-center">
           <Link
             href="/"
-            className="font-montserrat  mix-blend-difference text-nowrap	 rounded-md text-3xl  font-bold tracking-tighter leading-tight flex items-center "
+            className="font-montserrat  text-white text-nowrap	 rounded-md text-3xl  font-bold tracking-tighter leading-tight flex items-center "
           >
             Eugene Go Club
           </Link>
           <nav aria-label="primary menu">
-            <ul className="font-montserrat mix-blend-difference  flex space-x-2  items-center tracking-tighter leading-tight xs:hidden sm:hidden ">
+            <ul className="font-montserrat text-white flex space-x-2  items-center tracking-tighter leading-tight xs:hidden sm:hidden ">
               {/* <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
           <Link href="/contact">Contact</Link>
         </li> */}

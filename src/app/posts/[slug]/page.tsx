@@ -23,7 +23,7 @@ export default async function Post({ params }: Params) {
   return (
     <main className="">
       <div className="fixed z-0 top-0 h-full w-full text-[200px] font-sans font-bold text-gray-200 bg-[url(/assets/images/slatebg.png)]" />
-      <Navbar />
+      {/* <Navbar /> */}
       <Container>
         <article className="my-12   z-10 text-neutralColor">
           <PostHeader

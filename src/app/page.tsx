@@ -21,8 +21,6 @@ export default function Index() {
   return (
     // bg-[#f0e7db]
     <main className="max-w-screen bg-beige1">
-      <Navbar />
-
       <MeetUpInfo />
       <Container>
         {/* <Grid /> */}
