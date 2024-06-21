@@ -44,7 +44,7 @@ export function Navbar() {
     <>
       {/**/}
       <section
-        className={`z-50  text-neutralColor transition-all duration-200 linear  backdrop-blur-xl bg-darkNav	 sticky top-0 flex justify-center items-center h-auto py-2 w-full mx-0 px-6  select-none ${
+        className={`z-50  text-neutralColor transition-all duration-200 linear  backdrop-blur-xl bg-darkNav	 sticky top-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none ${
           scrollDirection === "down" ? "-translate-y-full" : "translate-y-0"
         }`}
       >
@@ -57,22 +57,6 @@ export function Navbar() {
           </Link>
           <nav aria-label="primary menu">
             <ul className="font-montserrat text-white flex space-x-2  items-center tracking-tighter leading-tight xs:hidden sm:hidden ">
-              {/* <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
-          <Link href="/contact">Contact</Link>
-        </li> */}
-              {/* <li className="cursor-pointer rounded-md  px-4 py-2  ">
-              <Link href="https://discord.gg/qVCqJYyVUX" target="_blank">
-                Discord
-              </Link>
-            </li>
-            <li className="cursor-pointer  rounded-md  px-4 py-2 ">
-              <Link
-                href="https://www.meetup.com/eugene-go-players/events"
-                target="_blank"
-              >
-                Meetup
-              </Link>
-            </li> */}
               <li
                 className="cursor-pointer rounded-md  px-4 py-2  "
                 aria-current="page"
@@ -101,29 +85,6 @@ export function Navbar() {
                   About
                 </Link>
               </li>
-              {/* <li>
-                <NavLink to="/">hahaha</NavLink>
-              </li> */}
-              {/* <li className="cursor-pointer rounded-md  px-4 py-2  ">
-                <Link
-                  className={`link ${
-                    pathname === "/how-to-play" ? "active" : ""
-                  }`}
-                  href="/how-to-play"
-                  aria-label="How to Play"
-                >
-                  How to Play
-                </Link>
-              </li> */}
-              {/* <li className="cursor-pointer  rounded-md  px-4 py-2 ">
-                <Link
-                  className={`link ${pathname === "/blog" ? "active" : ""}`}
-                  href="/blog"
-                  aria-label="Blog"
-                >
-                  Blog
-                </Link>
-              </li> */}
               <li className="cursor-pointer rounded-md  px-4 py-2">
                 <Link
                   className={`link ${
