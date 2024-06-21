@@ -1,5 +1,5 @@
 import Container from "@/app/_components/container";
-import { Navbar } from "@/app/_components/navbar";
+import { Navbar } from "../_components/Navbar.1";
 import { Events } from "@/app/_components/events";
 import Squares from "./articles";
 import MeetUpInfo from "../_components/meetup-info";

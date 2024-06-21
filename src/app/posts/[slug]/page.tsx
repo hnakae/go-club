@@ -7,7 +7,7 @@ import Container from "@/app/_components/container";
 import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
-import { Navbar } from "@/app/_components/navbar";
+import { Navbar } from "@/app/_components/Navbar.1";
 
 // import {Goban} from 'react-go-board';
 

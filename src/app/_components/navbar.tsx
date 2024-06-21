@@ -42,9 +42,9 @@ export function Navbar() {
 
   return (
     <>
-      {/*transition-all duration-200 linear  backdrop-blur-xl*/}
+      {/**/}
       <section
-        className={` z-50   bg-black	 sticky top-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none ${
+        className={` z-50  transition-all duration-300 linear backdrop-blur-lg  bg-darkNav	 sticky top-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none ${
           scrollDirection === "down"
             ? "-translate-y-full z-0"
             : "translate-y-0 z-0"
@@ -58,7 +58,7 @@ export function Navbar() {
             Eugene Go Club
           </Link>
           <nav aria-label="primary menu">
-            <ul className="font-montserrat text-white flex space-x-2  items-center tracking-tighter leading-tight xs:hidden sm:hidden ">
+            <ul className=" text-white flex space-x-2  items-center   xs:hidden sm:hidden ">
               <li
                 className="cursor-pointer rounded-md  px-4 py-2  "
                 aria-current="page"
@@ -66,7 +66,7 @@ export function Navbar() {
                 <Link
                   className={`link ${
                     pathname === "/" ? "active" : ""
-                  } hover:text-primaryColor`}
+                  } hover:text-primaryColor font-montserrat tracking-tighter `}
                   href="/"
                   aria-label="Home"
                 >
@@ -80,7 +80,7 @@ export function Navbar() {
                 <Link
                   className={`link ${
                     pathname === "/about" ? "active" : ""
-                  } hover:text-primaryColor`}
+                  } hover:text-primaryColor  font-montserrat`}
                   href="/about"
                   aria-label="About"
                 >
@@ -91,7 +91,7 @@ export function Navbar() {
                 <Link
                   className={`link ${
                     pathname === "/faqs" ? "active" : ""
-                  } hover:text-primaryColor`}
+                  } hover:text-primaryColor  font-montserrat`}
                   href="/faqs"
                   aria-label="FAQs"
                 >
@@ -102,7 +102,7 @@ export function Navbar() {
                 <Link
                   className={`link ${
                     pathname === "/contact" ? "active" : ""
-                  } hover:text-primaryColor`}
+                  } hover:text-primaryColor  font-montserrat`}
                   href="/contact"
                   aria-label="contact"
                 >
