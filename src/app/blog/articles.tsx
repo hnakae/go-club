@@ -16,7 +16,7 @@ const Articles = () => {
     const fetchData = async () => {
       const allPosts = await fetchPosts();
       setPosts(allPosts);
-      setFilteredPosts(allPosts.slice(2));
+      setFilteredPosts(allPosts);
     };
 
     fetchData();
@@ -39,7 +39,7 @@ const Articles = () => {
   };
   const featuredPosts = posts.filter(
     (post) =>
-      post.title.toLocaleLowerCase().includes("table of contents") ||
+      post.title.toLocaleLowerCase().includes("content map") ||
       post.title.toLocaleLowerCase().includes("meetup info")
   );
   // const morePosts = allPosts.slice(2);

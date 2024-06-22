@@ -1,5 +1,5 @@
 ---
-title: "Fundamental Theory #2"
+title: "Theory #2"
 excerpt: "Shape"
 coverImage: "/assets/images/cover.jpg"
 tags: "proverbs"
@@ -10,11 +10,3 @@ author:
 ogImage:
   url: "/assets/images/cover.jpg"
 ---
-
-## Preface
-
----
-
-## "Don't play near thickness"
-
-![image info](/assets/blog/proverb19/DontApproachThickness.PNG)

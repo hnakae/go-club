@@ -37,10 +37,10 @@ export function PostPreview({
             alt={`Cover Image for ${title}`}
             width={400}
             height={400}
-            className=" max-h-44 hover:scale-125 transition-transform ease-linear object-cover "
+            className=" max-h-[120px] hover:scale-125 transition-transform ease-linear object-cover "
           />{" "}
         </div>
-        <div className="flex flex-col justify-center items-start space-y-3 px-3 bg-primaryColor/5 ">
+        <div className="flex flex-col justify-start items-start space-y-3 px-3 bg-primaryColor/5 h-full">
           {/* <CoverImage title={title} src={author.picture} slug={slug} /> */}
           <h2 className="mt-3 leading-tight text-xl font-semibold font-montserrat  transition-all duration-75 ease-in-out ">
             {title}
