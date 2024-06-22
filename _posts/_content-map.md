@@ -16,7 +16,7 @@ ogImage:
 
 The proverbs are intended for a more beginner audience. They serve as general guiding principles which can help you avoid common pitfalls.
 
-1 [Don't surround territory with thickness](https://duckduckgo.com).
+1 [Don't surround territory with thickness](https://www.eugenego.club/posts/proverb20).
 
 ---
 
