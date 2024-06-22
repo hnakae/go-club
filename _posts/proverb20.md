@@ -1,6 +1,6 @@
 ---
-title: "Top 20 Proverbs"
-excerpt: "#20: Regarding Thickness"
+title: "Proverb #20"
+excerpt: "Don't surround territory with thickness."
 coverImage: "/assets/images/roots.jpg"
 tags: "proverbs"
 date: "2024-06-16"
