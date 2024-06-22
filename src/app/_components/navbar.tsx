@@ -88,7 +88,7 @@ export function Navbar() {
                   About
                 </Link>
               </li>
-              <li className="cursor-pointer rounded-md  px-4 py-2">
+              {/* <li className="cursor-pointer rounded-md  px-4 py-2">
                 <Link
                   className={`link ${
                     pathname === "/faqs" ? "active" : ""
@@ -98,7 +98,7 @@ export function Navbar() {
                 >
                   FAQs
                 </Link>
-              </li>
+              </li> */}
               <li className="cursor-pointer rounded-md  px-4 py-2">
                 <Link
                   className={`link ${

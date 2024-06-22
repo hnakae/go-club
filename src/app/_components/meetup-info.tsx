@@ -7,10 +7,10 @@ import Head from "next/head";
 const MeetUpInfo = () => {
   return (
     <>
-      <Head>
-        {/* Preload images */}
+      {/* <Head>
+        Preload images
         <link rel="preload" href="/assets/images/stones.jpg" as="image" />
-      </Head>
+      </Head> */}
       <div className="relative my-12 mx-6 flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  ">
         {/* <div className="fixed z-0 top-0 h-full w-full text-[200px] font-sans font-bold text-gray-200 bg-[url(/assets/images/slatebg.png)]" /> */}
 
@@ -45,6 +45,7 @@ const MeetUpInfo = () => {
               src="/assets/images/stones.jpg"
               alt="search icon"
               className=" rounded-full w-[360px] h-[360px] object-cover"
+              priority={true}
             />
           </div>
         </div>

@@ -1,7 +1,7 @@
 ---
 title: "Atari"
 excerpt: "Capture a stone"
-coverImage: "/assets/images/placeholder-image.webp"
+coverImage: "/assets/images/atari2.jpg"
 date: "2020-03-16T05:35:07.322Z"
 author:
   name: Daniel Takamori
