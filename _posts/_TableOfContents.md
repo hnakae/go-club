@@ -64,12 +64,12 @@ Fundamental Theory of Go
 
 The theory articles are intended for those who have mastered the proverbs, and want a deeper understanding beyond what proverbs, knowledge, and reading ability can provide.
 
-1 strength of stones
+1 strength of stones _coming soon_
 
-2 shape
+2 shape _coming soon_
 
-3 direction of play
+3 direction of play _coming soon_
 
-4 understanding attack
+4 understanding attack _coming soon_
 
-5 how to identify scrap stones
+5 how to identify scrap stones _coming soon_
