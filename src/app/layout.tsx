@@ -1,5 +1,5 @@
 import Footer from "@/app/_components/footer";
-import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
+import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Lora, Montserrat } from "next/font/google";
 
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   description: `Welcome to the club.`,
   openGraph: {
     title: `Eugene Go Club`,
-    images: [HOME_OG_IMAGE_URL],
+    // images: [HOME_OG_IMAGE_URL],
   },
 };
 

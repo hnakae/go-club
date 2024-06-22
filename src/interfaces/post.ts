@@ -3,6 +3,7 @@ import { type Author } from "./author";
 export type Post = {
   clickCount: number;
   slug: string;
+  tags: string;
   title: string;
   date: string;
   coverImage: string;

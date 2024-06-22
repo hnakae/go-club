@@ -12,8 +12,6 @@ export function PostBody({ content }: Props) {
         className={markdownStyles["markdown"]}
         dangerouslySetInnerHTML={{ __html: content }}
       />
-      <Eidogo />
-      <div>hi</div>
     </div>
   );
 }

@@ -12,6 +12,7 @@ type Props = {
   excerpt: string;
   author: Author;
   slug: string;
+  tags: string;
 };
 
 export function PostPreview({
