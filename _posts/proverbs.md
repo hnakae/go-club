@@ -11,7 +11,7 @@ ogImage:
   url: "/assets/images/roots.jpg"
 ---
 
-Here is #20 out of the top 20 proverbs that will serve as the foundation for the start of your journey to Go mastery. I recommend reading this one first, and work your way up the list to get the most out of this series.
+Here is #20 out of the top 20 proverbs that will serve as the foundation for the start of your journey to Go mastery. I recommend reading this one first, and work your way up the list to get the most out of this series. By the end of the series, you will have the foundational knowledge that will serve as the spring board for your future success in go.
 
 So let me ask you a question. What do you think is the reason that causes people not to improve? Is it because they don't know joseki? Or perhaps it's because they can't play the tesuji or do tsumego? If this was your answer, unfortunately, these aren't the reasons. Of course, tesuji and tsumego are undeniably reliable methods for improvement, but before we even go there, we need to address the foundation: how to think in Go and understand shapes.
 
@@ -136,3 +136,5 @@ The difference is astonishing, isn't it?
 This is why "Don't surround territory with thickness" is such an important proverb. Using the factory for its intended purpose to generate more profit in the game of Go looks like this.
 
 Of course, there are exceptions, but gaining in-game experience will sort that out. As long as you understand this proverb, you can be assured that improper use of thickness will not be the thing that holds back your progression. Please remember this proverb.
+
+I hope that this article served to clarify this proverb regarding the use of thickness, and also to serve as food for thought and inspiration for your next game, online or IRL at our club on Wednesdays. Thank you for reading this article to the very end. If you got this far, let me know! -Hiro
