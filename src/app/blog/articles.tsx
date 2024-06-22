@@ -37,7 +37,11 @@ const Articles = () => {
 
     setFilteredPosts(filtered);
   };
-  const featuredPosts = posts.slice(0, 2);
+  const featuredPosts = posts.filter(
+    (post) =>
+      post.title.toLocaleLowerCase().includes("table of contents") ||
+      post.title.toLocaleLowerCase().includes("meetup info")
+  );
   // const morePosts = allPosts.slice(2);
   return (
     <>
