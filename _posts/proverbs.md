@@ -72,7 +72,7 @@ There are many options here, but here is one move that has many good attacking f
 
 ![image info](/assets/blog/proverb20/proverb20-3.PNG)
 
-One follow-up that the move aims at is this: to threaten the 4 white stones on the bottom with a surround.
+One follow-up that the move aims at is this: to threaten the four white stones on the bottom with a surround.
 
 ---
 
