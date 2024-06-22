@@ -87,12 +87,12 @@ export function Footer() {
 
             <Link
               className={`link ${
-                pathname === "/faqs" ? "active" : ""
+                pathname === "/about" ? "active" : ""
               } hover:text-primaryColor`}
-              href="/faqs"
-              aria-label="FAQs"
+              href="/about"
+              aria-label="About"
             >
-              FAQs
+              About
             </Link>
             <Link
               className={`link ${
