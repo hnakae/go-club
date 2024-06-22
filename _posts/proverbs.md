@@ -35,14 +35,15 @@ I know this is strange, but Go is like a business. In this business of Go, we mu
 
 So given this factory, how do we make a profit? Of course, just having the factory is not going to generate profit. We have to use it somehow. Hopefully, we can generate maybe 10, 15, or 20 points with the factory. We have the land, the building, and the machines, and somehow we need to convert this into cash.
 
-Now we have two options:
+Now, we have two options with the factory:
 
-1. 1 - We produce products with the factory and sell the products for cash.
+1. 1 - We produce products with the factory and sell the products for cash. or
 2. 2 - We sell the factory for cash.
 
-Regarding converting thickness into profit, we also have two options:
+And with thickness, also two options:
 
-1. 1 - We use the thickness in an attack, and profit from the attack.
+1. 1 - We use the thickness in an attack, and profit with the attack.
+   or
 2. 2 - We settle for grabbing territory with the thickness.
 
 Perhaps you already get where I'm going with this. Factories are for creating products to sell to generate profit. They aren't meant to generate that cash by selling the land, the building, or the machines. It's not that we can't sell the factory, but if we do, we're probably already in the red.
@@ -69,7 +70,7 @@ There are many options here, but here is one move that has many good attacking f
 
 ![image info](/assets/blog/proverb20/proverb20-3.PNG)
 
-One follow-up that the move aims at is this: to put some pressure on whites 4 stones on the bottom with a surround.
+One follow-up that the move aims at is this: to threaten the 4 white stones on the bottom with a surround.
 
 ---
 
@@ -126,7 +127,7 @@ White then roughly connects up and we can see, that black has gained a little bi
 
 ![image info](/assets/blog/proverb20/proverb20-6.PNG)
 
-Let's compare this result with the variation where black attacks instead. Black uses his wall to attack and surround white, and in exchange for losing the potential to make territory in that area where white ends up living, black has generated a new wall which creates a ji-moyo(territory-moyo).
+Let's compare this result with the variation where black attacks instead. Black uses his wall to attack and surround white, and in exchange for losing the potential to make territory in that area where white ends up living, black has generated a new wall which can be used to create a ji-moyo(territory-moyo).
 
 ---
 
@@ -134,7 +135,7 @@ Let's compare this result with the variation where black attacks instead. Black 
 
 As you can probably tell, this result from attacking the weak group with the wall has a good relationship with the three stones black played on the left side, and the result will likely be more profitable than trying to surround territory with the wall in the first place.
 
-When you can use your thickness to attack a weak group to create a second wall to build a ji-moyo, we are using the factory as intended to generate the most profit, and this is the essence of how to think about thickness.
+When you can use your thickness to attack a weak group to create a second wall to build a ji-moyo with, we are using the factory as intended to generate the most profit, and this is the essence of how to think about thickness.
 
 Finally, let's look at the two results side by side and really take in the difference.
 
@@ -143,6 +144,8 @@ Finally, let's look at the two results side by side and really take in the diffe
 ![image info](/assets/blog/proverb20/proverb20-13.PNG)
 
 The difference is astonishing, isn't it?
+On the left, Black is up by 9.5 points with a 96.7% chance to win this game, according to Katago.
+On the right, White is up by 8.3 points with a 96.4% chance to win.
 
 This is why "Don't surround territory with thickness" is such an important proverb, putting it at #20 in my top 20 proverbs. Using the factory for its intended purpose to generate more profit, in the game of Go, looks like this.
 
