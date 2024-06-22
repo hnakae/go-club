@@ -33,8 +33,8 @@ export function Footer() {
         {/* <Quote /> */}
         {/* <UpArrow /> */}
         <div className="absolute bottom-1/4  text-[140px] font-sans font-bold text-gray-300 z-0 "></div>
-        <div className="flex justify-around items-start  py-12 ">
-          <div className="flex flex-col gap-4">
+        <div className="flex md:flex-col md:space-y-24 justify-around items-start  px-14 ">
+          <div className="flex flex-col gap-4 w-full">
             <div className=" px-5   flex-col flex items-center justify-center rounded-md  text-center z-10  ">
               {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
               <div className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl font-playfair">
@@ -72,80 +72,44 @@ export function Footer() {
               <GithubIcon className="lg:w-[30px]" /> */}
             </div>
           </div>
-          <div className="flex flex-col gap-4 z-10">
-            <div className="font-bold text-2xl">Browse</div>
+          <div className="flex justify-around w-full">
+            <div className="flex flex-col gap-4 z-10">
+              <div className="font-bold text-2xl">Browse</div>
 
-            <Link
-              className={`link ${
-                pathname === "/" ? "active" : ""
-              } hover:text-primaryColor`}
-              href="/"
-              aria-label="Home"
-            >
-              Home
-            </Link>
+              <Link
+                className={`link ${
+                  pathname === "/" ? "active" : ""
+                } hover:text-primaryColor`}
+                href="/"
+                aria-label="Home"
+              >
+                Home
+              </Link>
 
-            <Link
-              className={`link ${
-                pathname === "/about" ? "active" : ""
-              } hover:text-primaryColor`}
-              href="/about"
-              aria-label="About"
-            >
-              About
-            </Link>
-            <Link
-              className={`link ${
-                pathname === "/contact" ? "active" : ""
-              } hover:text-primaryColor`}
-              href="/contact"
-              aria-label="Contact"
-            >
-              Contact
-            </Link>
-          </div>
-          <div className="flex flex-col gap-4 z-10">
-            <div className="font-bold text-2xl">Activities</div>
-            <div>Play Games</div>
-            <div>Review & Analysis</div>
-            <div>Tournaments</div>
-          </div>
-          <div className="flex flex-col gap-4 z-10">
-            <div className="font-bold text-2xl relative">
-              <div>Contact</div>
+              <Link
+                className={`link ${
+                  pathname === "/about" ? "active" : ""
+                } hover:text-primaryColor`}
+                href="/about"
+                aria-label="About"
+              >
+                About
+              </Link>
+              <Link
+                className={`link ${
+                  pathname === "/contact" ? "active" : ""
+                } hover:text-primaryColor`}
+                href="/contact"
+                aria-label="Contact"
+              >
+                Contact
+              </Link>
             </div>
-            <div className="flex ">
-              {/* <Image
-                src="/icons/location.png"
-                alt="icon"
-                width={20}
-                height={20}
-                className="mr-1"
-              /> */}
-              <Location />
-              Eugene, Oregon
-            </div>
-            <div className="flex">
-              {/* <Image
-                src="/icons/email.png"
-                alt="icon"
-                width={20}
-                height={20}
-                className="mr-1"
-              /> */}
-              <Email />
-              contact@yourwebsite.com
-            </div>
-            <div className="flex">
-              {/* <Image
-                src="/icons/call.png"
-                alt="icon"
-                width={20}
-                height={20}
-                className="mr-1"
-              /> */}
-              <Call />
-              541-123-4567
+            <div className="flex flex-col gap-4 z-10">
+              <div className="font-bold text-2xl">Activities</div>
+              <div>Play Games</div>
+              <div>Review & Analysis</div>
+              <div>Tournaments</div>
             </div>
           </div>
         </div>
