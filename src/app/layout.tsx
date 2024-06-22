@@ -25,6 +25,7 @@ export const metadata: Metadata = {
   description: `Welcome to the club.`,
   openGraph: {
     title: `Eugene Go Club`,
+    images: [HOME_OG_IMAGE_URL],
   },
 };
 
