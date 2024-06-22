@@ -95,4 +95,4 @@ The difference is astonishing, isn't it?
 
 This is why "Don't surround territory with thickness" is such an important proverb. Using the factory for its intended purpose to generate more profit in the game of Go looks like this.
 
-Of course, there are exceptions, but gaining in-game experience will sort that out. As long as you understand this proverb, this will not be the thing that holds back your progress in learning and improving. Please remember this proverb.
+Of course, there are exceptions, but gaining in-game experience will sort that out. As long as you understand this proverb, this will not be the thing that holds back your progress in learning and improving. Please remember this proverb. 
