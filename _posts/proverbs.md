@@ -11,6 +11,8 @@ ogImage:
   url: "/assets/images/roots.jpg"
 ---
 
+## Preface
+
 Here's #20 out of the top 20 proverbs that will serve as the foundation for the start of your journey to Go mastery. I recommend reading this one first, and work your way up the list to get the most out of this series. By the end of the series, you will have the foundational knowledge that will serve as the spring board for your future success in go.
 
 So let me ask you a question. What do you think is the reason that causes people not to improve? Is it because they don't know joseki? Or perhaps it's because they can't find the tesuji or do tsumego? If this was your answer, (unfortunately), these aren't the reasons. Of course, tesuji and tsumego are undeniably reliable methods for improvement, but before we even go there, we need to address the foundation: how to think in Go and understand shapes.
@@ -23,7 +25,7 @@ But who is this guy to make such a claim? Sure, I may not be a professional or a
 
 Starting with proverb #20. This one is on the topic of how to think in Go. The proverb goes like this:
 
-"Don't surround territory with thickness."
+## "Don't surround territory with thickness."
 
 You may have heard of this one, but I assume many of you may not fully understand it. For those of you who want a concrete understanding of this proverb, I'll use an example to melt away any confusion. Once you grasp the image of what 'surrounding territory with thickness' looks like, you will clearly see the essence of the proverb, "Don't surround territory with thickness".
 
