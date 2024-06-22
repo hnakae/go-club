@@ -147,7 +147,7 @@ const Articles = () => {
                 />
               ))
             ) : (
-              <div>No posts found</div>
+              <div>Coming soon</div>
             )}
           </div>
         </div>
