@@ -1,5 +1,5 @@
 import Footer from "@/app/_components/footer";
-// import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
+import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Lora, Montserrat } from "next/font/google";
 
@@ -23,9 +23,9 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: `Eugene Go Club`,
   description: `Welcome to the club.`,
-  // openGraph: {
-  //   images: [`/public/assets/images/cover.jpg`],
-  // },
+  openGraph: {
+    images: [HOME_OG_IMAGE_URL],
+  },
 };
 
 export default function RootLayout({
