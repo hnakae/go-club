@@ -22,7 +22,7 @@ The proverbs are intended for a more beginner audience. They serve as general gu
 
 ## Topic: Theory
 
-(an ordered top 5 list of the most important theories. I recommend starting with number 5 and working your way up to number 1.)
+(an ordered top 5 list of the most important theories. I recommend starting with number 5 and working your way up to number 1. )
 
 The theory articles are intended for those who want a deeper understanding beyond what proverbs, knowledge, and reading ability can provide.
 

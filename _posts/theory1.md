@@ -6,7 +6,7 @@ tags: "proverbs"
 date: "2024-06-16"
 author:
   name: Hiro Nakae
-  picture: "/assets/images/profile2.png"
+  picture: "/assets/blog/authors/hiro.png"
 ogImage:
   url: "/assets/images/cover.jpg"
 ---
