@@ -17,7 +17,7 @@ So let me ask you a question. What do you think is the reason that causes people
 
 The 20 proverbs I'll share with you contain fundamental concepts that will serve to grow your roots so that your future development is well supported and unhindered. If you do not know, understand, and grasp these proverbs, your studies in Joseki, Tesuji, and reading will be meaningless for your improvement. Not only will they not be effective for your progress, but it will also just be a waste of your time. But don't worry, because here are the 20 proverbs that you need to know.
 
-But who is this guy to make such a claim? Sure, I may not be a professional or anything close to it, but I have reached 6 dan on Fox Weiqi and Tygem (the two largest Go servers) by following these guiding principles, and I believe that if you take these lessons to heart, that there is nothing stopping you from reaching a similar level or beyond.
+But who is this guy to make such a claim? Sure, I may not be a professional or anything close to it, but I've reached 6 dan on Fox Weiqi and Tygem (the two largest Go servers) by following these guiding principles, and I believe that if you take these lessons to heart, that there is nothing stopping you from reaching a similar level or beyond.
 
 ---
 
@@ -25,7 +25,7 @@ Starting with proverb #20. This one is on the topic of how to think in Go. The p
 
 "Don't surround territory with thickness."
 
-You may have heard of this one, but I assume many of you may not fully understand it. For those of you who want a concrete understanding of this proverb, here are some examples to melt away any confusion. Once you grasp the image of what 'surrounding territory with thickness' looks like, you will clearly see the essence of the proverb, "Don't surround territory with thickness".
+You may have heard of this one, but I assume many of you may not fully understand it. For those of you who want a concrete understanding of this proverb, I'll use an example to melt away any confusion. Once you grasp the image of what 'surrounding territory with thickness' looks like, you will clearly see the essence of the proverb, "Don't surround territory with thickness".
 
 ---
 
@@ -37,13 +37,13 @@ So given this factory, how do we make a profit? Of course, just having the facto
 
 Now, we have two options with the factory:
 
-1. 1 - We produce products with the factory and sell the products for cash. or
+1. 1 - We produce products with the factory and sell the products for cash. or...
 2. 2 - We sell the factory for cash.
 
 And with thickness, also two options:
 
 1. 1 - We use the thickness in an attack, and profit with the attack.
-   or
+   or...
 2. 2 - We settle for grabbing territory with the thickness.
 
 Perhaps you already get where I'm going with this. Factories are for creating products to sell to generate profit. They aren't meant to generate that cash by selling the land, the building, or the machines. It's not that we can't sell the factory, but if we do, we're probably already in the red.
@@ -54,7 +54,7 @@ And this is the essence of "Don't surround territory with thickness."
 
 ---
 
-Now, with this in mind, let's look at a concrete example.
+Now, with this in mind, let's take a look at a concrete example.
 
 ![image info](/assets/blog/proverb20/proverb20-1.PNG)
 
