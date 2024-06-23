@@ -9,13 +9,21 @@ type Props = {
   coverImage: string;
   date: string;
   author: Author;
+  excerpt: string;
 };
 
-export function PostHeader({ title, coverImage, date, author }: Props) {
+export function PostHeader({
+  title,
+  coverImage,
+  date,
+  author,
+  excerpt,
+}: Props) {
   return (
     <div className="border mx-6 px-14 py-10 max-w-[1128px] border-primaryColor rounded-md mb-12 shadow-md p-8  backdrop-blur-md">
       <div className="mt-6  ">
         <PostTitle>{title}</PostTitle>
+        <PostTitle>{excerpt}</PostTitle>
       </div>
       <div className="mb-8 w-full flex justify-center ">
         <CoverImage title={title} src={coverImage} />

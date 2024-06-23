@@ -28,6 +28,7 @@ export default async function Post({ params }: Params) {
             coverImage={post.coverImage}
             date={post.date}
             author={post.author}
+            excerpt={post.excerpt}
           />
           <PostBody content={content} />
         </article>
