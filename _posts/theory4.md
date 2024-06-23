@@ -1,8 +1,8 @@
 ---
-title: "Theory #4"
+title: "Rethinking Attack"
 excerpt: "Understanding what an attack is"
-coverImage: "/assets/images/cover.jpg"
-tags: "proverbs"
+coverImage: "/assets/blog/theory4/neo.jpg"
+tags: "theory"
 date: "2024-06-16"
 author:
   name: Hiro Nakae
@@ -10,3 +10,4 @@ author:
 ogImage:
   url: "/assets/images/cover.jpg"
 ---
+

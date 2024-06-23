@@ -1,7 +1,7 @@
 ---
 title: "Theory #1"
 excerpt: "The strength of stones"
-coverImage: "/assets/images/cover.jpg"
+coverImage: "/assets/blog/theory1/cat-origami.jpg"
 tags: "proverbs"
 date: "2024-06-16"
 author:

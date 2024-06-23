@@ -1,7 +1,7 @@
 ---
 title: "Theory #2"
 excerpt: "Shape"
-coverImage: "/assets/images/cover.jpg"
+coverImage: "/assets/blog/theory2/dog.jpg"
 tags: "proverbs"
 date: "2024-06-16"
 author:

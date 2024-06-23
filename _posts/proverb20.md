@@ -1,8 +1,8 @@
 ---
-title: "Proverbs"
+title: "Using Influence"
 excerpt: "Don't surround territory with thickness."
 coverImage: "/assets/images/roots.jpg"
-tags: "proverbs"
+tags: "proverb"
 date: "2024-06-16"
 author:
   name: Hiro Nakae

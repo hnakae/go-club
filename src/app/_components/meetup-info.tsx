@@ -16,16 +16,16 @@ const MeetUpInfo = () => {
 
         <div className="max-w-[1128px]  rounded-md flex  justify-center items-center  w-full  text-neutralColor z-20 border border-primaryColor backdrop-blur-md">
           {/* <Quote /> */}
-          <div className=" w-full p-10  flex items-center justify-around rounded-md  text-neutralColor    z-20  border-primaryColor ">
+          <div className=" w-full p-10  flex sm:flex-col-reverse xs:flex-col-reverse items-center justify-around rounded-md  text-neutralColor    z-20  border-primaryColor ">
             <div className="flex flex-col items-center justify-center">
-              <div className="mb-11 text-4xl font-extrabold tracking-tight lg:text-6xl font-playfair">
+              <div className="mb-2 text-6xl md:text-5xl sm:text-4xl xs:text-3xl xs:mt-6 sm:mt-8 font-extrabold tracking-tight  font-playfair">
                 {" "}
                 Wednesday Meetups
               </div>
-              <div className="font-montserrat text-xl opacity-60 mb-2">
+              <div className="font-montserrat text-2xl md:text-xl sm:text-lg xs:text-base opacity-60 mb-4 xs:mb-2">
                 5:30 pm - 9:00 pm.
               </div>
-              <div className="font-montserrat text-xl opacity-80 mb-3 ">
+              <div className="font-montserrat text-2xl md:text-xl sm:text-lg xs:text-base opacity-80 mb-3 ">
                 {" "}
                 @ 5th Street Alley near{" "}
                 <a
@@ -44,7 +44,7 @@ const MeetUpInfo = () => {
               height={400}
               src="/assets/images/stones.jpg"
               alt="search icon"
-              className=" rounded-full w-[360px] h-[360px] object-cover"
+              className=" rounded-full w-[360px] h-[360px] object-cover md:w-[250px] md:h-[250px] sm:w-[200px] sm:h-[200px] xs:w-[200px] xs:h-[200px]"
               priority={true}
             />
           </div>

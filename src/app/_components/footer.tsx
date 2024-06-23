@@ -29,22 +29,22 @@ export function Footer() {
         <link rel="preload" href="/icons/call.png" as="image" />
         <link rel="preload" href="/svgs/up-arrow.svg" as="image" />
       </Head>
-      <div className="relative flex flex-col justify-around h-screen max-w-[1128px] mx-auto">
+      <div className=" flex flex-col justify-around h-screen max-w-[1128px] mx-auto">
         {/* <Quote /> */}
         {/* <UpArrow /> */}
         <div className="absolute bottom-1/4  text-[140px] font-sans font-bold text-gray-300 z-0 "></div>
-        <div className="flex md:flex-col md:space-y-24 justify-around items-start  px-14 ">
+        <div className="flex md:flex-col sm:flex-col xs:flex-col md:space-y-24 justify-around items-start space-y-12 px-14 ">
           <div className="flex flex-col gap-4 w-full">
             <div className=" px-5   flex-col flex items-center justify-center rounded-md  text-center z-10  ">
               {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
-              <div className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl font-playfair">
+              <div className="scroll-m-20 text-4xl xs:text-3xl font-extrabold tracking-tight lg:text-5xl font-playfair">
                 {" "}
                 Wednesday Meetups
               </div>
-              <div className="font-montserrat text-xl my-4">
+              <div className="font-montserrat text-xl xs:text-lg my-4">
                 From 5:30 pm - 9:00 pm.
               </div>
-              <div className="font-montserrat text-xl font-semibold">
+              <div className="font-montserrat text-xl xs:text-lg font-semibold">
                 {" "}
                 @ 5th Street Alley near{" "}
                 <a

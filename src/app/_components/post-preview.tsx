@@ -29,7 +29,7 @@ export function PostPreview({
     //     <CoverImage slug={slug} title={title} src={coverImage} />
     //   </div>
     // </div>
-    <section className=" rounded-md overflow-hidden bg-baseColor   shadow-sm mb-3 flex flex-col border-primaryColor border hover:text-primaryColor">
+    <section className=" rounded-md overflow-hidden bg-baseColor  max-w-[400px] shadow-sm mb-3 flex flex-col border-primaryColor border hover:text-primaryColor">
       <Link href={`/posts/${slug}`} className=" ">
         <div className="overflow-hidden">
           <Image
