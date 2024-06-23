@@ -14,13 +14,14 @@ ogImage:
 ## Fundamental Theory Number 5
 
 On what basis do we determine whether a stone is scrap or not?
-How do we know if a stone is valuable and must be saved, or if a stone should be thrown away? This question may sound absurdly simple to the point that it may sound like an insult to your intelligence, but I promise that knowing with certainty whether a stone can be sacrificed or not, is a more difficult task than it may seem. There are many dan level players who would not be able to give you a concrete response. And, in the middle of a chaotic game with time pressure, this lack of clarity leads these dan players to make the mistake of saving stones which should not have been saved.
+How do we know if a stone is valuable and must be saved, or if a stone should be thrown away and sacrificed? This question may sound absurdly simple to the point that it may sound like an insult to your intelligence, but I promise that knowing with certainty whether a stone can be sacrificed or not, is more rare than it may seem. There are many dan level players who would not be able to give you a concrete response. And, in the middle of a chaotic game with time pressure, this lack of clarity leads these dan players to make the mistake of saving stones which should not have been saved.
 
 Before I reveal to you the answer, please take this moment to come up with two conditions that would categorize a stone as scrap.
 
 Now, let's take a look at what a scrap stone is.
 
 1 Stones that are stuck to alive stones.
+
 2 Stones that were played as kikashi.
 
 (kikashi are forcing moves)
@@ -52,6 +53,8 @@ Since we will not be saving scrap stones, we can play this one space jump to qui
 ![image info](/assets/blog/theory5/theory5-3.PNG)
 
 If for example white continues to threaten the scrap stones, just to be consistent with his initial plan, black can say thank you for going after scrap stones, and then play away to develop the biggest area of the board.
+
+---
 
 ![image info](/assets/blog/theory5/theory5-4.PNG)
 
