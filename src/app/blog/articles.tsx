@@ -66,7 +66,7 @@ const Articles = () => {
         ))}
       </Head>
       <div className="flex justify-center items-center  z-10 ">
-        <div className=" mx-6 px-14  xs:px-4 py-10 xs:py-2 rounded-md mb-4 max-w-[1128px]  border w-full  border-primaryColor text-neutralColor shadow-md  backdrop-blur-md ">
+        <div className=" mx-6 px-14  xs:px-4 py-10 xs:py-2 rounded-md mb-4 max-w-[1128px]  border border-primaryColor text-neutralColor shadow-md  backdrop-blur-md ">
           <div className="flex flex-col justify-center sm:items-center xs:items-center">
             <div className="font-playfair text-3xl xs:text-2xl font-bold mb-2 w-full sm:text-start sm:max-w-[400px]">
               Featured Articles
