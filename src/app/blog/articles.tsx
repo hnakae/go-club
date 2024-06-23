@@ -152,8 +152,49 @@ const Articles = () => {
                   />
                 ))
               ) : (
-                <div>Coming soon</div>
+                <section className="relative rounded-md overflow-hidden max-w-[400px] bg-baseColor   shadow-sm  mb-3 flex flex-col border-primaryColor border hover:text-primaryColor">
+                  <Image
+                    src="/assets/images/cover.jpg"
+                    alt="cover"
+                    width={400}
+                    height={400}
+                    className="h-full hover:scale-125 transition-transform ease-linear object-cover "
+                    placeholder="data:image/"
+                  />
+                  <div className="absolute text-white bg-darkNav top-0 left-0 w-full h-full backdrop-blur-[7px] flex justify-center items-center">
+                    Coming Soon
+                  </div>
+                  {/* <div className=" flex flex-col justify-start items-start space-y-3 px-3 bg-primaryColor/5 h-full">
+                <h3 className=" mt-3 leading-tight text-xl font-semibold font-montserrat transition-all duration-75 ease-in-out  ">
+                  title
+                </h3>
+                <p className="font-lora pb-5 overflow-hidden text-neutralColor">
+                  excerpt
+                </p>
+              </div> */}
+                </section>
               )}
+              <section className="relative rounded-md overflow-hidden max-w-[400px] bg-baseColor   shadow-sm  mb-3 flex flex-col border-primaryColor border hover:text-primaryColor">
+                <Image
+                  src="/assets/images/cover.jpg"
+                  alt="cover"
+                  width={400}
+                  height={400}
+                  className="h-full hover:scale-125 transition-transform ease-linear object-cover "
+                  placeholder="data:image/"
+                />
+                <div className="absolute text-white bg-darkNav top-0 left-0 w-full h-full backdrop-blur-[7px] flex justify-center items-center">
+                  Coming Soon
+                </div>
+                {/* <div className=" flex flex-col justify-start items-start space-y-3 px-3 bg-primaryColor/5 h-full">
+                <h3 className=" mt-3 leading-tight text-xl font-semibold font-montserrat transition-all duration-75 ease-in-out  ">
+                  title
+                </h3>
+                <p className="font-lora pb-5 overflow-hidden text-neutralColor">
+                  excerpt
+                </p>
+              </div> */}
+              </section>
             </div>
           </div>
         </div>
