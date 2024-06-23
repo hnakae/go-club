@@ -1,6 +1,5 @@
 import Container from "@/app/_components/container";
 import { HeroPost } from "@/app/_components/hero-post";
-import { GameReviews } from "@/app/_components/game-reviews";
 import { getAllPosts } from "@/lib/api";
 import MeetUpInfo from "./_components/meetup-info";
 // import JoinCommunity from "./contact/join-community";
