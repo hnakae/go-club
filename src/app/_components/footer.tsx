@@ -29,7 +29,7 @@ export function Footer() {
         <link rel="preload" href="/icons/call.png" as="image" />
         <link rel="preload" href="/svgs/up-arrow.svg" as="image" />
       </Head>
-      <div className=" flex flex-col justify-around h-screen max-w-[1128px] mx-auto">
+      <div className="relative flex flex-col justify-around h-screen max-w-[1128px] mx-auto">
         {/* <Quote /> */}
         {/* <UpArrow /> */}
         <div className="absolute bottom-1/4  text-[140px] font-sans font-bold text-gray-300 z-0 "></div>
