@@ -87,7 +87,7 @@ export default function RootLayout({
 <div class="eidogo-player-auto" sgf="path/to/sgf/file.sgf"></div> */}
       <body className={inter.className}>
         <Navbar />
-        <div className="fixed z-10 top-0 h-full w-full max-w-screen  bg-[url(/assets/images/slatebg.png)]" />
+        <div className="fixed z-10 top-0 left-0 h-full w-screen   bg-[url(/assets/images/slatebg.png)]" />
         <div
           className={`${playfair.className} ${lora.className} ${montserrat.className}  max-w-screen`}
         >

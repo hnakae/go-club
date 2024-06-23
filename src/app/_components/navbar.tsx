@@ -49,7 +49,7 @@ export function Navbar() {
     <>
       {/**/}
       <section
-        className={` z-50  transition-all duration-300 linear backdrop-blur-xl  bg-darkNav	shadow-md sticky top-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none`}
+        className={` z-50  transition-all duration-300 linear backdrop-blur-xl  bg-darkNav	shadow-md sticky top-0 left-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none`}
       >
         <div className="w-full  flex justify-between items-center">
           <Link
