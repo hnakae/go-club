@@ -34,47 +34,39 @@ export function Footer() {
         {/* <UpArrow /> */}
         <div className="absolute bottom-1/4  text-[140px] font-sans font-bold text-gray-300 z-0 "></div>
         <div className="flex md:flex-col sm:flex-col xs:flex-col md:space-y-24 justify-around items-start space-y-12 px-14 ">
-          <div className="flex flex-col gap-4 w-full">
-            <div className=" px-5   flex-col flex items-center justify-center rounded-md  text-center z-10  ">
-              {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
-              <div className="scroll-m-20 text-4xl xs:text-3xl font-extrabold tracking-tight lg:text-5xl font-playfair">
-                {" "}
-                Wednesday Meetups
-              </div>
-              <div className="font-montserrat text-xl xs:text-lg my-4">
-                From 5:30 pm - 9:00 pm.
-              </div>
-              <div className="font-montserrat text-xl xs:text-lg font-semibold">
-                {" "}
-                @ 5th Street Alley near{" "}
-                <a
-                  href="https://www.google.com/maps/place/Magpie+Coffeeshop/@44.0534091,-123.0906905,17z/data=!3m1!4b1!4m6!3m5!1s0x54c11f944e770925:0x5d79ed248cc805f2!8m2!3d44.0534091!4d-123.0906905!16s%2Fg%2F11rc73f_8q?entry=ttu"
-                  className="underline "
-                  target="_blank"
-                >
-                  Magpie Coffee
-                </a>
-              </div>
-              <Button />
+          <div className=" px-5   flex-col flex items-center justify-center w-full rounded-md  text-center z-10  ">
+            {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
+            <div className="mb-2 text-6xl md:text-5xl sm:text-4xl xs:text-3xl xs:mt-6 sm:mt-8 font-extrabold tracking-tight  font-playfair">
+              {" "}
+              Wednesday Meetups
+            </div>
+            <div className="font-montserrat text-2xl md:text-xl sm:text-lg xs:text-base opacity-60 my-4 xs:mb-2">
+              5:30 pm - 9:00 pm.
+            </div>
+            <div className="font-montserrat text-2xl md:text-xl sm:text-lg xs:text-base opacity-80 mb-3 ">
+              {" "}
+              @ 5th Street Alley near{" "}
+              <a
+                href="https://www.google.com/maps/place/Magpie+Coffeeshop/@44.0534091,-123.0906905,17z/data=!3m1!4b1!4m6!3m5!1s0x54c11f944e770925:0x5d79ed248cc805f2!8m2!3d44.0534091!4d-123.0906905!16s%2Fg%2F11rc73f_8q?entry=ttu"
+                className="underline "
+                target="_blank"
+              >
+                Magpie Coffee
+              </a>
+            </div>
+            <Button />
 
-              {/* <div className=" mt-12 p-4 rounded-md   bg-[#3a506b]">Primary</div>
+            {/* <div className=" mt-12 p-4 rounded-md   bg-[#3a506b]">Primary</div>
           <div className=" mt-12 p-4 rounded-md   bg-[#5bc0be]">Secondary</div>
           <div className=" mt-12 p-4 rounded-md   bg-[#f25f5c]">Accent</div>
           <div className=" mt-12 p-4 rounded-md   bg-[#ff7f11]">Brand</div>
           <div className=" mt-12 p-4 rounded-md border-2 border-[#cccccc]  bg-[#ffffff]">
             <div className="text-[#4a4a4a]">Card</div>
           </div> */}
-            </div>
-            <div className="flex  gap-5">
-              {/* <LinkedInIcon className="lg:w-[30px]" />
-              <DribbbleIcon className="lg:w-[30px]" />
-              <PinterestIcon className="lg:w-[30px]" />
-              <GithubIcon className="lg:w-[30px]" /> */}
-            </div>
           </div>
           <div className="flex justify-around w-full">
-            <div className="flex flex-col gap-4 z-10">
-              <div className="font-bold text-2xl">Browse</div>
+            <div className="flex flex-col items-center gap-4 z-10">
+              <div className="font-bold text-2xl xs:text-xl">Browse</div>
 
               <Link
                 className={`link ${
@@ -105,8 +97,8 @@ export function Footer() {
                 Contact
               </Link>
             </div>
-            <div className="flex flex-col gap-4 z-10">
-              <div className="font-bold text-2xl">Activities</div>
+            <div className="flex flex-col gap-4 z-10 xs:hidden">
+              <div className="font-bold text-2xl xs:text-xl">Activities</div>
               <div>Play Games</div>
               <div>Review & Analysis</div>
               <div>Tournaments</div>

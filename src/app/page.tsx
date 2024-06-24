@@ -19,22 +19,27 @@ export default function Index() {
   return (
     // bg-[#f0e7db]
     <main className="max-w-screen">
-      <MeetUpInfo />
       <Container>
-        {/* <Grid /> */}
-        {/* {morePosts.length > 0 && <GameReviews posts={morePosts} />} */}
-        {/* <HeroPost
-          title={heroPost.title}
-          coverImage={heroPost.coverImage}
-          date={heroPost.date}
-          author={heroPost.author}
-          slug={heroPost.slug}
-          excerpt={heroPost.excerpt}
-        /> */}
+        <MeetUpInfo />
         <Articles />
-
-        {/* <JoinCommunity /> */}
       </Container>
     </main>
   );
+}
+
+{
+  /* <Grid /> */
+}
+{
+  /* {morePosts.length > 0 && <GameReviews posts={morePosts} />} */
+}
+{
+  /* <HeroPost
+  title={heroPost.title}
+  coverImage={heroPost.coverImage}
+  date={heroPost.date}
+  author={heroPost.author}
+  slug={heroPost.slug}
+  excerpt={heroPost.excerpt}
+/> */
 }

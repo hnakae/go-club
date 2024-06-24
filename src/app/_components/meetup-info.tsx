@@ -7,16 +7,9 @@ import Head from "next/head";
 const MeetUpInfo = () => {
   return (
     <>
-      {/* <Head>
-        Preload images
-        <link rel="preload" href="/assets/images/stones.jpg" as="image" />
-      </Head> */}
-      <div className="relative my-12 mx-6 flex items-center justify-center  sm:flex-col xs:flex-col sm:mt-0 xs:mt-0 xs:bg-[#DFF8B4] sm:mb-6  ">
-        {/* <div className="fixed z-0 top-0 h-full w-full text-[200px] font-sans font-bold text-gray-200 bg-[url(/assets/images/slatebg.png)]" /> */}
-
-        <div className="max-w-[1128px]  rounded-md flex  justify-center items-center  w-full  text-neutralColor z-20 border border-primaryColor backdrop-blur-md">
-          {/* <Quote /> */}
-          <div className=" w-full p-10  flex sm:flex-col-reverse xs:flex-col-reverse items-center justify-around rounded-md  text-neutralColor    z-20  border-primaryColor ">
+      <div className="flex justify-center items-center  z-10 w-full   ">
+        <div className="    py-10 my-4 max-w-[1128px]  rounded-md flex  justify-center items-center  w-full xs:border-none xs:my-0  text-neutralColor z-20 border border-primaryColor backdrop-blur-md">
+          <div className=" w-full px-10  flex sm:flex-col-reverse xs:flex-col-reverse items-center justify-around rounded-md  text-neutralColor    z-20  border-primaryColor ">
             <div className="flex flex-col items-center justify-center">
               <div className="mb-2 text-6xl md:text-5xl sm:text-4xl xs:text-3xl xs:mt-6 sm:mt-8 font-extrabold tracking-tight  font-playfair">
                 {" "}

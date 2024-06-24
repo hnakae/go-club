@@ -20,7 +20,7 @@ export default async function Post({ params }: Params) {
   const content = await markdownToHtml(post.content || "");
 
   return (
-    <main className="">
+    <main className="flex items-center ">
       <Container>
         <article className="my-12   z-10 text-neutralColor">
           <PostHeader
