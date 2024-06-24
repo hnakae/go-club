@@ -1,7 +1,7 @@
 ---
 title: "Sacrifice"
 excerpt: "Making the judgement"
-coverImage: "/assets/blog/theory5/sacrifice3.jpg"
+coverImage: "/assets/blog/theory5/bird.jpg"
 tags: "proverbs"
 date: "2024-06-16"
 author:
