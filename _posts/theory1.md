@@ -10,3 +10,5 @@ author:
 ogImage:
   url: "/assets/images/cover.jpg"
 ---
+“So in war, the way is to avoid what is strong, and strike at what is weak.”
+― Sun Tzu, The Art of War
