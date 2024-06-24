@@ -11,11 +11,11 @@ const MeetUpInfo = () => {
         <div className="    py-10 my-4 max-w-[1128px]  rounded-md flex  justify-center items-center  w-full xs:border-none xs:my-0  text-neutralColor z-20 border border-primaryColor backdrop-blur-md">
           <div className=" w-full px-10  flex sm:flex-col-reverse xs:flex-col-reverse items-center justify-around rounded-md  text-neutralColor    z-20  border-primaryColor ">
             <div className="flex flex-col items-center justify-center">
-              <div className="mb-2 text-6xl md:text-5xl sm:text-4xl xs:text-3xl xs:mt-6 sm:mt-8 font-extrabold tracking-tight  font-playfair">
+              <div className=" text-6xl md:text-5xl sm:text-4xl xs:text-3xl xs:mt-6 sm:mt-8 font-extrabold tracking-tight  font-playfair">
                 {" "}
                 Wednesday Meetups
               </div>
-              <div className="font-montserrat text-2xl md:text-xl sm:text-lg xs:text-base opacity-60 mb-4 xs:mb-2">
+              <div className="font-montserrat text-2xl md:text-xl sm:text-lg xs:text-base opacity-60 my-2 xs:mb-2">
                 5:30 pm - 9:00 pm.
               </div>
               <div className="font-montserrat text-2xl md:text-xl sm:text-lg xs:text-base opacity-80 mb-3 ">

@@ -21,7 +21,7 @@ export function Footer() {
     });
   };
   return (
-    <footer className="relative  w-full      font-normal text-sm text-white   sm:text-base  ">
+    <footer className="relative  w-full     font-normal text-sm text-white   sm:text-base  ">
       <Head>
         {/* Preload images and SVGs */}
         {/* <link rel="preload" href="/icons/location.png" as="image" /> */}
@@ -29,14 +29,11 @@ export function Footer() {
         <link rel="preload" href="/icons/call.png" as="image" />
         <link rel="preload" href="/svgs/up-arrow.svg" as="image" />
       </Head>
-      <div className="relative flex flex-col justify-around h-screen max-w-[1128px] mx-auto">
-        {/* <Quote /> */}
-        {/* <UpArrow /> */}
-        <div className="absolute bottom-1/4  text-[140px] font-sans font-bold text-gray-300 z-0 "></div>
+      <div className="relative flex flex-col justify-around h-screen max-w-[1128px] mx-auto ">
         <div className="flex md:flex-col sm:flex-col xs:flex-col md:space-y-24 justify-around items-start space-y-12 px-14 ">
           <div className=" px-5   flex-col flex items-center justify-center w-full rounded-md  text-center z-10  ">
             {/* <div className="text-lg font-montserrat  ">Meetup Info</div> */}
-            <div className="mb-2 text-6xl md:text-5xl sm:text-4xl xs:text-3xl xs:mt-6 sm:mt-8 font-extrabold tracking-tight  font-playfair">
+            <div className=" text-6xl md:text-5xl sm:text-4xl xs:text-3xl xs:mt-6 sm:mt-8 font-extrabold tracking-tight  font-playfair">
               {" "}
               Wednesday Meetups
             </div>
@@ -65,9 +62,8 @@ export function Footer() {
           </div> */}
           </div>
           <div className="flex justify-around w-full">
-            <div className="flex flex-col items-center gap-4 z-10">
-              <div className="font-bold text-2xl xs:text-xl">Browse</div>
-
+            <div className="flex sm:flex-col md:flex-col lg:flex-col xl:flex-col 2xl:flex-col items-center gap-4 z-10">
+              <div className="font-bold text-2xl xs:hidden">Browse</div>
               <Link
                 className={`link ${
                   pathname === "/" ? "active" : ""
@@ -97,12 +93,12 @@ export function Footer() {
                 Contact
               </Link>
             </div>
-            <div className="flex flex-col gap-4 z-10 xs:hidden">
+            {/* <div className="flex flex-col gap-4 z-10 xs:hidden">
               <div className="font-bold text-2xl xs:text-xl">Activities</div>
               <div>Play Games</div>
               <div>Review & Analysis</div>
               <div>Tournaments</div>
-            </div>
+            </div> */}
           </div>
         </div>
         <svg
@@ -110,7 +106,7 @@ export function Footer() {
           viewBox="0 0 512 512"
           width="30"
           height="30"
-          className="absolute bottom-1/4 hover:cursor-pointer w-full z-10 "
+          className="absolute top-1/4 hover:cursor-pointer w-full z-10 "
           onClick={scrollToTop}
         >
           <g
@@ -136,19 +132,12 @@ m485 -261 c369 -43 750 -208 1045 -454 320 -266 563 -661 661 -1071 70 -293
             />
           </g>
         </svg>
-        <div className="absolute bottom-0 flex items-center justify-between py-4 px-12 w-full max-w-[1128px] ">
+        <div className="absolute bottom-0 flex items-center justify-start py-4 px-12 w-full max-w-[1128px] ">
           {/* <Logo /> */}
           <span className="z-10">
             {new Date().getFullYear()} &copy; All Rights Reserved.
           </span>
-
-          <div className="flex items-center lg:py-2 z-10">
-            Built With
-            <span className="text-brand text-2xl px-1 ">&#9825;</span>
-            by&nbsp; Hiro Nakae
-          </div>
         </div>
-        {/* <Grid /> */}
       </div>
     </footer>
   );
