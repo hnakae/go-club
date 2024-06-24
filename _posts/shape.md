@@ -1,6 +1,6 @@
 ---
-title: "Theory #2"
-excerpt: "Shape"
+title: "Shape"
+excerpt: "Be careful"
 coverImage: "/assets/blog/theory2/dog.jpg"
 tags: "proverbs"
 date: "2024-06-16"

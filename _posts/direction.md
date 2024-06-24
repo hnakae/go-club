@@ -177,7 +177,13 @@ Finally, let's compare the two outcomes.
 
 ![image info](/assets/blog/theory3/theory3-comparison.png)
 
-Need I say more?
+As you can see, one mistake in direction of play can completely change the flow of the game. So analyze the strength and weakness of the groups on the board for both sides and use the two rules:
+
+1 play from your weak group.
+
+2 push your opponent's weak group against your strong group.
+
+to correctly determine the right direction of play.
 
 ---
 
