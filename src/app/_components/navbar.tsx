@@ -59,7 +59,7 @@ export function Navbar() {
             Eugene Go Club
           </Link>
           <nav aria-label="primary menu">
-            <ul className=" text-white flex space-x-2  items-center   xs:hidden sm:hidden ">
+            <ul className=" text-white flex space-x-2  items-center  xs:hidden sm:hidden  ">
               <li
                 className="cursor-pointer rounded-md  px-4 py-2  "
                 aria-current="page"
@@ -113,21 +113,21 @@ export function Navbar() {
             </ul>
           </nav>
           <button
-            className="flex-col justify-center items-center md:hidden  lg:hidden xl:hidden 2xl:hidden "
+            className="flex-col justify-center items-center  md:hidden  lg:hidden xl:hidden 2xl:hidden "
             onClick={handleClick}
           >
             <span
-              className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
+              className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
                 isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
               }`}
             ></span>
             <span
-              className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
+              className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
                 isOpen ? "opacity-0" : "opacity-100"
               }`}
             ></span>
             <span
-              className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
+              className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
                 isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
               }`}
             ></span>

@@ -125,7 +125,7 @@ const Articles = () => {
                 type="search"
                 value={searchTerm}
                 onChange={handleSearchChange}
-                className="w-full sm:w-[400px] border rounded-lg p-4 pl-12 text-black"
+                className="w-full sm:max-w-[400px] border rounded-lg p-4 pl-12 text-black"
                 placeholder="Search..."
               />
               <div className="absolute left-4 top-1/2 transform -translate-y-1/2">
