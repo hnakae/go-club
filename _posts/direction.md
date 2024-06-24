@@ -2,7 +2,7 @@
 title: "Direction of Play"
 excerpt: "The key to a powerful game"
 coverImage: "/assets/blog/theory3/compass.webp"
-tags: "proverbs"
+tags: "Basics"
 date: "2024-06-16"
 author:
   name: Hiro Nakae

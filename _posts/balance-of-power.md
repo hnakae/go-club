@@ -2,7 +2,7 @@
 title: "The Balance of Power"
 excerpt: "Securing your survival"
 coverImage: "/assets/blog/theory1/cat-origami.jpg"
-tags: "proverbs"
+tags: "Basics"
 date: "2024-06-16"
 author:
   name: Hiro Nakae

@@ -52,7 +52,8 @@ const Articles = () => {
         (post) =>
           !featuredPosts.includes(post) &&
           (post.title.toLowerCase().includes(term) ||
-            post.author.name.toLowerCase().includes(term))
+            post.author.name.toLowerCase().includes(term) ||
+            post.tags.toLowerCase().includes(term))
       );
       setFilteredPosts(filtered);
     }
