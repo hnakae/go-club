@@ -1,6 +1,6 @@
 ---
 title: "Attack"
-excerpt: "Basic Concepts of Offense"
+excerpt: "Basic Concept of Offense"
 coverImage: "/assets/blog/theory4/neo.jpg"
 tags: "Basics"
 date: "2024-06-16"
