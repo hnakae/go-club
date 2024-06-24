@@ -43,9 +43,9 @@ When it comes to living stones, they're obviously already alive so there's no th
 
 We can rephrase these two key points like this as well:
 
-1 Moves near stones that aren't alive are big.
+1. Moves near stones that aren't alive are big.
 
-2 Moves with the threat of a follow up are big.
+2. Moves with the threat of a follow up are big.
 
 ---
 
@@ -75,9 +75,9 @@ Of course, the one space jump from one of these stones would be the most orthodo
 
 remember,
 
-1 moves near alive stones are small
+1. moves near alive stones are small
 
-2 moves with no follow up threat are small.
+2. moves with no follow up threat are small.
 
 So which is the correct answer, A or B?
 
@@ -86,7 +86,7 @@ So which is the correct answer, A or B?
 ![image info](/assets/blog/theory1/a.PNG)
 
 How did you do, did you get it right?
-The correct answer was to jump from the right side.
+The correct answer (A) is to jump from the right side.
 
 Perhaps you think that they're both one space jumps from the same group and so they're the same, but the nuance between these two moves effect the win rate by 6%. If you play A, white has about a 56% chance to win the game. But if you play B, white has about a 62% chance to win the game, according to katago on my machine.
 
@@ -100,3 +100,95 @@ First of all, stones near alive stones are small.
 Between the knight's move enclosure on the bottom left corner and the three stones in the bottom right quadrant, which of these two white groups is not alive? The enclosure on the left side is stable. It's alive. but the group on the right side has no eye shape and is a weak group. Therefore, instead of playing near the alive enclosure, playing near the weak group has more value.
 
 ---
+
+![image info](/assets/blog/theory1/b.PNG)
+
+So this move, is playing near the alive group.
+And, because you played near an alive group, you have no real follow up.
+
+---
+
+![image info](/assets/blog/theory1/a.PNG)
+
+This move, is playing near the weak group.
+And thus, you have very real follow up moves.
+
+![image info](/assets/blog/theory1/options.PNG)
+
+For example: if white tenukis (plays elsewhere), black can knight's move or cap.
+
+---
+
+![image info](/assets/blog/theory1/5-options.PNG)
+
+And even if white jumps again from the weak group, black can wedge to create these two cutting points.
+
+---
+
+So although the two one space jumps were both just one space jumps from the same group, we can find the better move if we use this universal concept. I hope that now you see that jumping from the right side near the weak group aiming at the many follow up moves is the better move.
+
+![image info](/assets/blog/theory1/comparison1.png)
+
+Once again, among the basic concepts of go, this one trumps them all by a landslide so let's look at another example to further consolidate this concept.
+
+---
+
+![image info](/assets/blog/theory1/6.PNG)
+
+Black to play.
+
+---
+
+![image info](/assets/blog/theory1/7.PNG)
+
+What do you think of this move? In terms of direction of play, black is playing according to 'play from your weak stones'. But, it contradicts the concept of the strength of stones. If you can see how this move is contradicting the strength of stones concept, you have a pretty good understanding of this key concept.
+
+---
+
+Let's determine the strength of the white group in the top left quadrant. It's pretty much invincible. It's alive. And this is the clue.
+
+![image info](/assets/blog/theory1/7.PNG)
+
+1. moves near alive stones are small.
+
+Clearly the move contradicts this point because the white group here is alive,
+
+2. moves with no follow up threat are small.
+
+and because white's group here is alive, there is absolutely no follow up threat against it. And so the move contradicts this point as well.
+
+---
+
+Interestingly, we can even say that this move contradicts point #2 of the direction of play. If you can tell how this move contradicts the 2nd point in the direction of play concept, I think that your reasoning ability is quite good.
+
+![image info](/assets/blog/theory1/7.PNG)
+
+Rule #2 of direction of play is to push your opponent's weak group against your thickness.
+
+Essentially, this large knight move is approaching white's strong group, and so from white's perspective, the opponent has just pushed himself into your strength for you! Wow, how generous. From this explanation, I think it is clear to see that black's large knight move here is actually bad direction.
+
+---
+
+And when we look at the 2nd rule of direction of play, I think some of you may have already noticed, but 'Push your opponent's weak group into your strong(alive) group' and 'moves near alive groups are small' are actually saying the same thing. So the rules of direction of play are guided by the fact that moves near alive stones are small, and moves without follow up threat are small. Even the concept of Sacrifice stones have the exact same principles underneath.
+
+---
+
+Then what would be a better move?
+
+![image info](/assets/blog/theory1/8.PNG)
+
+Because we don't want to approach white's thickness, this jump clearly commits to moving away from it. This move also helps increase the odds of the bottom side turning into a territory-moyo. And if not, this sort of position will aid in the fight when white jumps in to break it up.
+
+---
+
+![image info](/assets/blog/theory1/9.PNG)
+
+If you don't consider the center group weak, playing like this is also valid, but anyways when you consider the concept of the strength of stones, either of these moves would be better than willingly pressing yourself against the opponent's strong group.
+
+---
+
+And there you go, if you understand these basic concepts of go and apply them in your games, you will be able to successfully dodge the most common and severe mistakes by removing them from the list of considered moves. Please apply this in your next game.
+
+---
+
+Congradulations on reaching the end of this article! Now that you are up to speed with the fundamental concepts of go, the runway is now clear and you're ready for take off!
