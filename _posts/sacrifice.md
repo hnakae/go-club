@@ -1,6 +1,6 @@
 ---
 title: "Sacrifice"
-excerpt: "Making the judgement with certainty"
+excerpt: "Making the judgement"
 coverImage: "/assets/blog/theory5/sacrifice3.jpg"
 tags: "proverbs"
 date: "2024-06-16"

@@ -17,7 +17,7 @@ Given this game state where black has just played the attach, the question is, w
 
 The first thing we need to recognize is the strength of each of the groups. Which groups are weak? Which groups are strong?
 
-If we can't judge the strenth and weakness of a group, we won't be able to use the two fundamental theories of direction of,
+If we can't judge the strenth and weakness of a group, we won't be able to use the two basic concepts of direction of,
 
 1 play from your weak group.
 

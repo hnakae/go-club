@@ -1,6 +1,6 @@
 ---
 title: "Proverb"
-excerpt: "Using walls effectively"
+excerpt: "Using power effectively"
 coverImage: "/assets/images/roots.jpg"
 tags: "proverb"
 date: "2024-06-16"
