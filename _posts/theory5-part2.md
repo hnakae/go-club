@@ -116,7 +116,7 @@ Black attaches to escape the surround, and all of a sudden white's group on the 
 
 Finally, let's see the two results side by side.
 
-![image info](/assets/blog/theory5/part2/theory5-comparison2.PNG)
+![image info](/assets/blog/theory5/part2/theory5-comparison2.png)
 
 The difference is night and day.
 
@@ -124,10 +124,10 @@ Using the two conditions:
 
 1 Stones that are stuck to alive stones are scrap.
 
-![image info](/assets/blog/theory5/part1/theory5-comparison.PNG)
+![image info](/assets/blog/theory5/part1/theory5-comparison.png)
 
 2 Stones that were played as kikashi are scrap.
 
-![image info](/assets/blog/theory5/part2/theory5-comparison2.PNG)
+![image info](/assets/blog/theory5/part2/theory5-comparison2.png)
 
 Let's make sure that we correctly determine whether a stone is scrap or not, because the difference it makes puts this theory of scrap stones at number 5 in my top 5 fundamental theories.
