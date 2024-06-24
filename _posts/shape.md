@@ -10,3 +10,7 @@ author:
 ogImage:
   url: "/assets/images/cover.jpg"
 ---
+
+## Basic Concept of Go #2: Shape
+
+---

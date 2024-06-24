@@ -16,6 +16,10 @@ ogImage:
 
 ---
 
+## Basic Concepts of Go #4: Attack
+
+---
+
 What do you think is the basics of attack? Perhaps it's to capture your opponent's stones? Or perhaps it's to take away the opponent's base and eye-space? If these were the first things that came to mind, unfortunately, there's a high chance that you attack your opponent's stones to ironically recieve more damage than you dealt.
 
 Of course depending on the game, there are situations where you have to capture your opponent's stones, and situations where you have to take away the opponent's base and eyespace, but the basics of attack is simply:

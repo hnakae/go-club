@@ -11,7 +11,7 @@ ogImage:
   url: "/assets/blog/theory5/sacrifice-1.jpg"
 ---
 
-## How to determine scrap stones
+## Basic Concepts of Go #5: How to determine scrap stones
 
 On what basis do we determine whether a stone is scrap or not?
 How do we know if a stone is valuable and must be saved, or if a stone should be thrown away and sacrificed? This question may sound absurdly simple to the point that it may sound like an insult to your intelligence, but I promise that knowing with certainty whether a stone can be sacrificed or not, is more rare than it may seem. There are many dan level players who would not be able to give you a concrete response. And, in the middle of a chaotic game with time pressure, this lack of clarity leads these dan players to make the mistake of saving stones which should not have been saved.

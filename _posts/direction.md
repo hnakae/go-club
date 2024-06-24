@@ -11,6 +11,23 @@ ogImage:
   url: "/assets/blog/theory3/level99.png"
 ---
 
+## Basic Concepts of Go #3: Direction of Play
+
+---
+
+Imagine you need to reach a destination as quickly as possible, and so you get in the fastest vehicle that you can.
+But, you mistakenly choose the wrong destination point in your navigation system.
+How pointless to have the fast vehicle.
+No matter how many tesujis you know and how much you train your reading, if your direction of play is off, it'll all be put to waste.
+
+So here are the two key points for direction of play.
+
+1 play from your weak group.
+
+2 push your opponent's weak group against your strong group.
+
+---
+
 Given this game state where black has just played the attach, the question is, what is the correct direction of play here?
 
 ![image info](/assets/blog/theory3/theory3-1.PNG)
