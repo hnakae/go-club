@@ -3,16 +3,16 @@ import React from "react";
 
 const Menu = () => {
   return (
-    <div className="min-w-[70vw]  flex justify-around items-center fixed top-72 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32">
+    <div className="z-50 min-w-[70vw]  flex justify-around items-center fixed top-72 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32">
       <nav className="flex items-center flex-col justify-center space-y-4">
         <Link href="/" className="text-light">
           Home
         </Link>
         <Link href="/dashboard" className="text-light">
-          FAQs
+          About
         </Link>
         <Link href="/guides" className="text-light">
-          Events
+          Contact
         </Link>
       </nav>
 
