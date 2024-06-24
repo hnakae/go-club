@@ -35,13 +35,13 @@ Stones that were played as kikashi.
 
 ## Let's now take a look at an example to understand Condition #2
 
-![image info](/assets/blog/theory5/part2/theory5-9.png)
+![image info](/assets/blog/theory5/part2/theory5-9.PNG)
 
 Take a look at this game state. In this moment, black has an unstable group that is mostly surrounded, and the main topic is how he will settle this group.
 
 ---
 
-![image info](/assets/blog/theory5/part2/theory5-10.png)
+![image info](/assets/blog/theory5/part2/theory5-10.PNG)
 
 So, black turns and threatens to capture one stone to try and make his two eyes for life.
 
@@ -49,13 +49,13 @@ White's next move is the theme for this example.
 
 ---
 
-![image info](/assets/blog/theory5/part2/theory5-11.png)
+![image info](/assets/blog/theory5/part2/theory5-11.PNG)
 
 Here, white saves this one stone and here, we must determine if this stone was scrap or not.
 
 ---
 
-![image info](/assets/blog/theory5/part2/theory5-12.png)
+![image info](/assets/blog/theory5/part2/theory5-12.PNG)
 
 To figure this out, it would be unfair to not see how the moves in this area played out so let's back track and see.
 
@@ -63,11 +63,11 @@ Black had just played this tiger's mouth.
 
 ---
 
-![image info](/assets/blog/theory5/part2/theory5-13.png)
+![image info](/assets/blog/theory5/part2/theory5-13.PNG)
 
 ## white peeps
 
-![image info](/assets/blog/theory5/part2/theory5-14.png)
+![image info](/assets/blog/theory5/part2/theory5-14.PNG)
 
 black connects.
 
@@ -75,7 +75,7 @@ I think some of you get it now.
 
 ---
 
-![image info](/assets/blog/theory5/part2/theory5-10.png)
+![image info](/assets/blog/theory5/part2/theory5-10.PNG)
 
 If we go back to the original board position, we can now see that this white stone that black has turned around was a stone that was played as a kikashi, or forcing move. (The peep forcing the connection.)
 
@@ -85,13 +85,13 @@ And since we can't be saving scrap stones, white has to be overjoyed to sacrific
 
 ---
 
-![image info](/assets/blog/theory5/part2/theory5-15.png)
+![image info](/assets/blog/theory5/part2/theory5-15.PNG)
 
 The correct move here is to play the kosumi and completely seal black in, forcing black to take the scrap stone.
 
 ---
 
-![image info](/assets/blog/theory5/part2/theory5-16.png)
+![image info](/assets/blog/theory5/part2/theory5-16.PNG)
 
 When black does take the one scrap stone,
 White can just appreciate the fact that black just played a painfully small move.
