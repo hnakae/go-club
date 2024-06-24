@@ -33,6 +33,7 @@ export function HeroPost({
             height={400}
             className="max-h-[120px] hover:scale-125 transition-transform ease-linear object-cover"
             placeholder="data:image/"
+            priority
           />
         </div>
         <div className=" flex flex-col justify-start items-start space-y-3 px-3 bg-primaryColor/5 h-full">
