@@ -1,5 +1,5 @@
 ---
-title: "Proverb"
+title: "Proverb: Using Thickness"
 excerpt: "Don't surround territory with thickness."
 coverImage: "/assets/images/roots.jpg"
 tags: "0"
@@ -13,7 +13,7 @@ ogImage:
 
 ## "Don't surround territory with thickness."
 
-You may have heard of this one, but I assume many of you may not fully understand it. For those of you who want a concrete understanding of this proverb, I'll use an example to melt away any confusion. Once you grasp the image of what 'surrounding territory with thickness' looks like, you will clearly see the essence of the proverb, "Don't surround territory with thickness".
+You may have heard of this proverb, but I assume many of you may not fully understand it. For those of you who want a concrete understanding of this proverb, I'll use an example to melt away any confusion. Once you grasp the image of what 'surrounding territory with thickness' looks like, you will clearly see the essence of the proverb, "Don't surround territory with thickness".
 
 ---
 
