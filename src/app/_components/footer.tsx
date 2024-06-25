@@ -61,7 +61,7 @@ m485 -261 c369 -43 750 -208 1045 -454 320 -266 563 -661 661 -1071 70 -293
        
       </footer> */}
       <div className="flex justify-center items-center  z-10 w-full   ">
-        <div className="    py-10 my-4 max-w-[1128px]  rounded-md flex  justify-center items-center  w-full xs:border-none xs:my-0  text-neutralColor z-20 border border-primaryColor backdrop-blur-md">
+        <div className="    py-10 mb-4 max-w-[1128px]  rounded-md flex  justify-center items-center  w-full xs:border-none xs:my-0  text-neutralColor z-20 border border-primaryColor backdrop-blur-md">
           <div className=" w-full px-10  flex sm:flex-col-reverse xs:flex-col-reverse items-center justify-around rounded-md  text-neutralColor    z-20  border-primaryColor ">
             <MeetupInfo />
             <div className="flex sm:flex-col md:flex-col lg:flex-col xl:flex-col 2xl:flex-col items-center gap-4 z-10">
@@ -99,7 +99,7 @@ m485 -261 c369 -43 750 -208 1045 -454 320 -266 563 -661 661 -1071 70 -293
         </div>
       </div>
 
-      <div className="text-white  flex items-center justify-start py-4 px-12 w-full max-w-[1128px] ">
+      <div className="text-white  flex items-center justify-center py-4 px-12 w-full max-w-[1128px] ">
         <span className="z-10 opacity-60">
           {new Date().getFullYear()} &copy; All Rights Reserved.
         </span>

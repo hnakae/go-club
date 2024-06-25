@@ -9,7 +9,7 @@ export default function Contact() {
     <main className=" ">
       <Container>
         <Header />
-        <div className="w-full flex justify-center items-start z-10 text-neutralColor ">
+        <div className="w-full flex justify-center items-start z-10 mb-4 text-neutralColor ">
           <div className=" max-w-[1128px]  px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full ">
             {/* <JoinCommunity /> */}
             <Link
