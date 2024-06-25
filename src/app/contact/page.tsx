@@ -7,10 +7,10 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <main className=" ">
-      <Header />
       <Container>
+        <Header />
         <div className="w-full flex justify-center items-start z-10 text-neutralColor ">
-          <div className=" max-w-[1128px] mx-6 px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full ">
+          <div className=" max-w-[1128px]  px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full ">
             {/* <JoinCommunity /> */}
             <Link
               href="https://discord.com/channels/1164649557687275703/1164649557687275706"

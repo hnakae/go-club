@@ -83,8 +83,6 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      {/* <script type="text/javascript" src="player/js/all.compressed.js"></script>
-<div class="eidogo-player-auto" sgf="path/to/sgf/file.sgf"></div> */}
       <body className={inter.className}>
         <Navbar />
         <div className="fixed z-10 top-0 left-0 h-full w-full    bg-[url(/assets/images/slatebg.png)]" />
@@ -93,7 +91,6 @@ export default function RootLayout({
         >
           {children}
         </div>
-        {/* <div className="eidogo-player-auto" sgf="sgf/problem.sgf"></div> */}
         <Footer />
       </body>
     </html>
