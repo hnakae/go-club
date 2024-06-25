@@ -1,6 +1,6 @@
 import Container from "@/app/_components/container";
 import { getAllPosts } from "@/lib/api";
-import MeetUpInfo from "./_components/meetup-info";
+import MeetUpInfo from "./_components/home-header";
 import Articles from "./blog/articles";
 
 export default function Index() {
