@@ -96,7 +96,7 @@ Using the two key points of the strength of stones, we'll analyze why jumping fr
 
 ![image info](/assets/blog/theory1/a.PNG)
 
-First of all, stones near alive stones are small.
+First of all, moves near alive stones are small.
 Between the knight's move enclosure on the bottom left corner and the three stones in the bottom right quadrant, which of these two white groups is not alive? The enclosure on the left side is stable. It's alive. but the group on the right side has no eye shape and is a weak group. Therefore, instead of playing near the alive enclosure, playing near the weak group has more value.
 
 ---
