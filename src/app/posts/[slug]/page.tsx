@@ -7,6 +7,7 @@ import Container from "@/app/_components/container";
 import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
+import ExploreMore from "@/app/blog/exploreMore";
 
 // import {Goban} from 'react-go-board';
 
@@ -19,10 +20,16 @@ export default async function Post({ params }: Params) {
 
   const content = await markdownToHtml(post.content || "");
 
+  const allPosts = getAllPosts();
+
+  const nonFeaturedPosts = allPosts.filter(
+    (post) => !post.title.toLowerCase().includes("meetup info")
+  );
+
   return (
     <main className="flex items-center justify-center">
       <Container>
-        <article className="my-12 max-w-[800px]  z-10 text-neutralColor">
+        <article className="my-12 max-w-[900px]  z-10 text-neutralColor">
           <PostHeader
             title={post.title}
             coverImage={post.coverImage}
@@ -32,6 +39,13 @@ export default async function Post({ params }: Params) {
           />
           <PostBody content={content} />
         </article>
+        <div className="flex justify-center items-center  z-10 w-full ">
+          <div className=" px-14 py-10 rounded-md mb-4 max-w-[900px] w-full border xs:border-none xs:px-4 border-primaryColor text-neutralColor shadow-md backdrop-blur-md ">
+            <div className="flex flex-col justify-center sm:items-center xs:items-center w-full ">
+              <ExploreMore posts={nonFeaturedPosts} />
+            </div>
+          </div>
+        </div>
       </Container>
     </main>
   );
