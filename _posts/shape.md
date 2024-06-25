@@ -238,7 +238,7 @@ Perhaps you have seen this pattern in the corner before. Up to here, it is a com
 
 ![image info](/assets/blog/theory2/proverb/comparison-1.png)
 
-Now according to this proverb, these two moves moves, the three space extension on either the 3rd or 4th line, are locally the standard way to extend. This is a very popular joseki so I'm sure most go players know this as the standard pattern, but why is it two stones? Why is three spaces the most balanced and standard extension? Let me start by talking a little bit about what an extension is in the first place.
+Now according to this proverb, these two moves, the three space extension on either the 3rd or 4th line, are locally the standard way to extend. This is a very popular joseki so I'm sure most go players know this as the standard pattern, but why is it two stones? Why is three spaces the most balanced and standard extension? Let me start by talking a little bit about what an extension is in the first place.
 
 ---
 
