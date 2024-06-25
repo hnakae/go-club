@@ -1,20 +1,16 @@
 import markdownStyles from "./markdown-styles.module.css";
-// import ExploreMore from "../blog/exploreMore";
-// import { usePosts } from "../context/PostsContext";
 
 type Props = {
   content: string;
 };
 
 export function PostBody({ content }: Props) {
-  // const { featuredPosts, nonFeaturedPosts } = usePosts(); // Use the context
   return (
-    <div className=" w-full mb-4 px-14 py-10 border border-primaryColor rounded-md shadow-md   backdrop-blur-md">
+    <div className=" w-full mb-4 xs:px-4 sm:px-6 md:px-20 lg:px-44 xl:px-44 2xl:px-48 py-4 border border-primaryColor rounded-md shadow-md   backdrop-blur-md">
       <div
         className={markdownStyles["markdown"]}
         dangerouslySetInnerHTML={{ __html: content }}
       />
-      {/* <ExploreMore posts={nonFeaturedPosts} /> */}
     </div>
   );
 }
