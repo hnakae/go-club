@@ -209,5 +209,3 @@ As you can see, one mistake in direction of play can completely change the flow 
 2 push your opponent's weak group against your strong group.
 
 to correctly determine the right direction of play.
-
----

@@ -1,6 +1,6 @@
 ---
 title: "Proverb"
-excerpt: "Using power effectively"
+excerpt: "Don't surround territory with thickness."
 coverImage: "/assets/images/roots.jpg"
 tags: "proverb"
 date: "2024-06-16"
