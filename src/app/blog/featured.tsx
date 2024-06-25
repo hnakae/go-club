@@ -14,11 +14,14 @@ const Featured: React.FC<FeaturedProps> = ({ featuredPosts }) => {
         Featured Articles
       </div>
       <div className="font-lora mb-6 sm:max-w-[400px]">
-        Here, you'll find in-depth articles on the fascinating world of Go (also
-        known as Baduk in Korea and Weiqi in China). Whether you're a beginner
-        seeking foundational knowledge or an experienced player looking for
-        advanced strategies, our curated selection is designed to provide
-        valuable knowledge and inspiration for your next game.
+        Here, you'll find in-depth articles on the fascinating world of Go{" "}
+        <span className="xs:hidden sm:hidden">
+          (also known as Baduk in Korea and Weiqi in China)
+        </span>
+        . Whether you're a beginner seeking foundational knowledge or an
+        experienced player looking for advanced strategies, our curated
+        selection is designed to provide valuable knowledge and inspiration for
+        your next game.
       </div>
       <div className="grid grid-rows-1 grid-cols-3 gap-y-3 gap-x-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
         {featuredPosts.length > 0 &&

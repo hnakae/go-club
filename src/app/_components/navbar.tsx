@@ -17,6 +17,26 @@ export function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 768px)"); // md size
+
+    const handleMediaQueryChange = (event: MediaQueryListEvent) => {
+      if (event.matches) {
+        closeMenu();
+      }
+    };
+
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
+
   // useEffect(() => {
   //   let lastScrollY = window.pageYOffset;
   //   const handleScroll = () => {
@@ -134,7 +154,7 @@ export function Navbar() {
           </button>
         </div>
       </section>
-      {isOpen ? <Menu handleClick={handleClick} /> : null}
+      {isOpen ? <Menu closeMenu={closeMenu} /> : null}
     </>
   );
 }
