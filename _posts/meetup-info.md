@@ -40,4 +40,4 @@ If you are brand new, I recommend reading shape, as this one requires the least 
 
 ---
 
-I have a collection of go information that I have collected over the past 6 years or so, and these were the best of the best. Happy reading!
+Happy reading!
