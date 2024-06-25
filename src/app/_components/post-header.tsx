@@ -19,8 +19,8 @@ export function PostHeader({
   excerpt,
 }: Props) {
   return (
-    <div className="border w-full px-14 py-10 border-primaryColor rounded-md mb-12 shadow-md p-8  backdrop-blur-md">
-      <div className="mt-6  ">
+    <div className="border w-full px-14 py-10 my-4 border-primaryColor rounded-md  shadow-md p-8  backdrop-blur-md">
+      <div className=" ">
         <PostTitle>{title}</PostTitle>
         <PostTitle>{excerpt}</PostTitle>
       </div>
@@ -28,7 +28,7 @@ export function PostHeader({
         <CoverImage title={title} src={coverImage} />
       </div>
       <div className="max-w-2xl mx-auto">
-        <div className="block mb-6">
+        <div className="block">
           <Avatar name={author.name} picture={author.picture} />
         </div>
         {/* <div className="mb-6 text-lg px-16">

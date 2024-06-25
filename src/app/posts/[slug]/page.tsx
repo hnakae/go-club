@@ -29,7 +29,7 @@ export default async function Post({ params }: Params) {
   return (
     <main className="flex items-center justify-center">
       <Container>
-        <article className="my-12 max-w-[1128px]  z-10 text-neutralColor">
+        <article className=" max-w-[1128px]  z-10 text-neutralColor">
           <PostHeader
             title={post.title}
             coverImage={post.coverImage}
