@@ -2,7 +2,7 @@
 title: "Proverb"
 excerpt: "Don't surround territory with thickness."
 coverImage: "/assets/images/roots.jpg"
-tags: "proverb"
+tags: "0"
 date: "2024-06-16"
 author:
   name: Hiro Nakae
@@ -80,10 +80,6 @@ White attaches to the capping stone and tries to settle his group, but black is 
 
 ---
 
-<!-- ![image info](/assets/blog/proverb20/proverb20-7.PNG)
-
-![image info](/assets/blog/proverb20/proverb20-8.PNG) -->
-
 ![image info](/assets/blog/proverb20/proverb20-9.PNG)
 
 What black is actually aiming for with this attack is to create territory.
@@ -139,4 +135,4 @@ This is why "Don't surround territory with thickness" is such an important prove
 
 Of course, there are exceptions, but gaining in-game experience will sort that out. As long as you understand this proverb, you can be assured that improper use of thickness will not be the thing that holds back your progression. Please remember this proverb.
 
-I hope that this article served to clarify this proverb regarding the use of thickness, and also to serve as food for thought and inspiration for your next game, online or IRL at our club on Wednesdays. Thank you for reading this article to the very end. If you got this far, let me know what you think! -Hiro
+I hope that this article served to clarify this proverb regarding the use of thickness, and also to serve as food for thought and inspiration for your next game.

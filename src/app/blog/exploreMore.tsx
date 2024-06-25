@@ -33,6 +33,17 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
     }
   };
 
+  // Function to sort posts by tags (assuming tags are numeric strings)
+  const sortByTags = (a: Post, b: Post) => {
+    // Convert tags to integers for comparison
+    const tagA = parseInt(a.tags);
+    const tagB = parseInt(b.tags);
+    return tagA - tagB;
+  };
+
+  // Sort filtered posts by tags
+  filteredPosts.sort(sortByTags);
+
   return (
     <div className="z-30">
       <div className="font-playfair text-3xl font-bold mt-10 mb-2 w-full sm:max-w-[400px] xs:max-w-[400px]">

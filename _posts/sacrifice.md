@@ -1,8 +1,8 @@
 ---
-title: "Sacrifice"
+title: "Chapter 1: Sacrifice"
 excerpt: "Making the judgement"
 coverImage: "/assets/blog/theory5/bird.jpg"
-tags: "Basics"
+tags: "1"
 date: "2024-06-16"
 author:
   name: Hiro Nakae

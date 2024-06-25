@@ -1,8 +1,8 @@
 ---
-title: "Attack"
+title: "Chapter 2: Attack"
 excerpt: "Basic Concept of Offense"
 coverImage: "/assets/blog/theory4/neo.jpg"
-tags: "Basics"
+tags: "2"
 date: "2024-06-16"
 author:
   name: Hiro Nakae
