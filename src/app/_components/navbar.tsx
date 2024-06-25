@@ -134,7 +134,7 @@ export function Navbar() {
           </button>
         </div>
       </section>
-      {isOpen ? <Menu /> : null}
+      {isOpen ? <Menu handleClick={handleClick} /> : null}
     </>
   );
 }
