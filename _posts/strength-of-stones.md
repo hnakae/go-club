@@ -11,7 +11,7 @@ ogImage:
   url: "/assets/images/cover.jpg"
 ---
 
-“So in war, the way is to avoid what is strong, and strike at what is weak.”
+“If you know the enemy and know yourself, your victory will not stand in doubt”
 ― Sun Tzu, The Art of War
 
 ---

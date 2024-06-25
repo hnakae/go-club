@@ -11,6 +11,11 @@ ogImage:
   url: "/assets/blog/theory3/level99.png"
 ---
 
+“So in war, the way is to avoid what is strong, and strike at what is weak.”
+― Sun Tzu, The Art of War
+
+---
+
 ## Basic Concepts of Go #3: Direction of Play
 
 ---
@@ -203,6 +208,3 @@ As you can see, one mistake in direction of play can completely change the flow 
 to correctly determine the right direction of play.
 
 ---
-
-“If you know the enemy and know yourself, your victory will not stand in doubt”
-― Sun Tzu, The Art of War
