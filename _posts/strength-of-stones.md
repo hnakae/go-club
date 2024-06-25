@@ -113,13 +113,13 @@ And, because you played near an alive group, you have no real follow up.
 This move, is playing near the weak group.
 And thus, you have very real follow up moves.
 
-![image info](/assets/blog/theory1/options.PNG)
+![image info](/assets/blog/theory1/options.png)
 
 For example: if white tenukis (plays elsewhere), black can knight's move or cap.
 
 ---
 
-![image info](/assets/blog/theory1/5-options.PNG)
+![image info](/assets/blog/theory1/5-options.png)
 
 And even if white jumps again from the weak group, black can wedge to create these two cutting points.
 
