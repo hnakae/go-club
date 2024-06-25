@@ -60,16 +60,19 @@ Now let's look at white' groups. The group on the upper side is fully connected 
 ---
 
 ![image info](/assets/blog/theory3/theory3-2.PNG)
+
 This white group in the center as it is in the moment carries this weakness.
 
 ---
 
 ![image info](/assets/blog/theory3/theory3-3.PNG)
+
 If white responds by defending the cutting point,
 
 ---
 
 ![image info](/assets/blog/theory3/theory3-4.PNG)
+
 Black can jump.
 And white is left with zero eyes.
 
