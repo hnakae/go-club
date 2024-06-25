@@ -16,7 +16,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
       className=" rounded-md object-contain w-full pointer-events-none select-none max-h-[300px]"
       width={1300}
       height={630}
-      fetchPriority="high"
+      priority={true}
     />
   );
   return (
