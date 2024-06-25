@@ -344,7 +344,7 @@ Let's see a practical example of how we can use this to aid our decision making 
 
 ![image info](/assets/blog/theory2/proverb/18.PNG)
 
-White plays a pincer in response to black's approach move on the bottom left corner. Take not that on the upper left hand side, black has a two stone wall facing the left side of the board.
+White plays a pincer in response to black's approach move on the bottom left corner. Take a look at the group on the upper left hand side. Black has a two stone wall facing the left side of the board.
 
 ---
 
