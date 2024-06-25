@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 * {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  /* font-family: "M PLUS Rounded 1c", sans-serif; */
   /* font-weight: 400; */
   /* font-style: normal; */
   /* tracking-tighter leading-tight  */
@@ -36,6 +36,7 @@
   left: 0;
   height: 100%;
   width: 100%;
+  background: #3e3f40;
   background-image: url("/assets/images/slatebg.png");
   background-size: cover;
   background-position: center;
