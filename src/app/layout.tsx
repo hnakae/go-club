@@ -82,10 +82,11 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet"
         />
+        <link rel="preload" href="/assets/images/slatebg.png" as="image" />
       </head>
       <body className={inter.className}>
         <Navbar />
-        <div className="fixed z-10 top-0 left-0 h-full w-full    bg-[url(/assets/images/slatebg.png)]" />
+        <div className="background-image-container" />
         <div
           className={`${playfair.className} ${lora.className} ${montserrat.className}  `}
         >
