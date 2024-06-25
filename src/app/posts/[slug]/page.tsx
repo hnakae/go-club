@@ -29,7 +29,7 @@ export default async function Post({ params }: Params) {
   return (
     <main className="flex items-center justify-center">
       <Container>
-        <article className="my-12 max-w-[900px]  z-10 text-neutralColor">
+        <article className="my-12 max-w-[1128px]  z-10 text-neutralColor">
           <PostHeader
             title={post.title}
             coverImage={post.coverImage}
@@ -40,7 +40,7 @@ export default async function Post({ params }: Params) {
           <PostBody content={content} />
         </article>
         <div className="flex justify-center items-center  z-10 w-full ">
-          <div className=" px-14 py-10 rounded-md mb-4 max-w-[900px] w-full border xs:border-none xs:px-4 border-primaryColor text-neutralColor shadow-md backdrop-blur-md ">
+          <div className=" px-14 py-10 rounded-md mb-4 max-w-[1128px] w-full border xs:border-none xs:px-4 border-primaryColor text-neutralColor shadow-md backdrop-blur-md ">
             <div className="flex flex-col justify-center sm:items-center xs:items-center w-full ">
               <ExploreMore posts={nonFeaturedPosts} />
             </div>
