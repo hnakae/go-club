@@ -19,15 +19,19 @@ export function PostHeader({
   excerpt,
 }: Props) {
   return (
-    <div className="border w-full px-14 py-10 my-4 border-primaryColor rounded-md  shadow-md p-8  backdrop-blur-md flex justify-between items-center">
-      <div className="flex flex-col items-start ">
-        <PostTitle>{title}</PostTitle>
-        <div className="">
-          <Avatar name={author.name} picture={author.picture} />
+    <div className="flex justify-center items-center  z-10 w-full   ">
+      <div className="    py-10 my-4 max-w-[1128px]  rounded-md flex  justify-center items-center  w-full xs:border-none xs:my-0  text-neutralColor z-20 border border-primaryColor backdrop-blur-md">
+        <div className=" w-full px-10  flex sm:flex-col-reverse xs:flex-col-reverse  items-center justify-around rounded-md  text-neutralColor    z-20  border-primaryColor ">
+          <div className="flex flex-col items-start mt-4">
+            <PostTitle>{title}</PostTitle>
+            <div className="">
+              <Avatar name={author.name} picture={author.picture} />
+            </div>
+          </div>
+          <div className="">
+            <CoverImage title={title} src={coverImage} />
+          </div>
         </div>
-      </div>
-      <div className="">
-        <CoverImage title={title} src={coverImage} />
       </div>
     </div>
   );
