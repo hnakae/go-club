@@ -1,6 +1,9 @@
 // next.config.js
+
+const withMDX = require("@next/mdx")();
 const nextConfig = {
   reactStrictMode: true,
+  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
   images: {
     remotePatterns: [
       {
