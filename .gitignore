@@ -49,3 +49,4 @@ prisma/ .env
 
 # Prisma Client
 prisma/client
+

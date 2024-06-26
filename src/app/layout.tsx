@@ -86,7 +86,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <Navbar />
-        <div className="background-image-container" />
+        {/* <div className="background-image-container" /> */}
         <div
           className={`${playfair.className} ${lora.className} ${montserrat.className}  `}
         >
