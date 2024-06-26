@@ -12,3 +12,17 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model Post {
+  id         String   @id @default(cuid())
+  title      String
+  chapter    String
+  excerpt    String
+  coverImage String
+  author     String
+  tags       String
+  date       DateTime @default(now())
+  slug       String
+
+  content String
+}

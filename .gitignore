@@ -38,3 +38,14 @@ next-env.d.ts
 
 # docker
 .dockerignore
+compose.yaml
+Dockerfile
+
+# Prisma
+prisma/migrations/
+prisma/dev.db
+prisma/studio/
+prisma/ .env
+
+# Prisma Client
+prisma/client
