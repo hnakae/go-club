@@ -1,7 +1,8 @@
 ---
-title: "Chapter 3: Direction of Play"
+title: "Direction of Play"
 excerpt: "The key to a powerful game"
 coverImage: "/assets/blog/theory3/compass.webp"
+chapter: "Chapter 3"
 tags: "3"
 date: "2024-06-16"
 author:

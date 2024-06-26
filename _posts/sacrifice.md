@@ -1,7 +1,8 @@
 ---
-title: "Chapter 1: Sacrifice"
+title: "Sacrifice"
 excerpt: "Making the judgement"
 coverImage: "/assets/blog/theory5/bird.jpg"
+chapter: "Chapter 1"
 tags: "1"
 date: "2024-06-16"
 author:

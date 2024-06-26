@@ -1,7 +1,8 @@
 ---
-title: "Chapter 4: Shape"
+title: "Shape"
 excerpt: "Basic fighting shapes"
 coverImage: "/assets/blog/theory2/dog.jpg"
+chapter: "Chapter 4"
 tags: "4"
 date: "2024-06-16"
 author:

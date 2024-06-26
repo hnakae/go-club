@@ -1,7 +1,8 @@
 ---
-title: "Chapter 2: Attack"
+title: "Attack"
 excerpt: "Basic Concept of Offense"
 coverImage: "/assets/blog/theory4/neo.jpg"
+chapter: "Chapter 2"
 tags: "2"
 date: "2024-06-16"
 author:

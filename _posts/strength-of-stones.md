@@ -1,7 +1,8 @@
 ---
-title: "Chapter 5: The Strength of Stones"
+title: "The Strength of Stones"
 excerpt: "Unified Go Theory"
 coverImage: "/assets/blog/theory1/cat-origami.jpg"
+chapter: "Chapter 5"
 tags: "5"
 date: "2024-06-16"
 author:
