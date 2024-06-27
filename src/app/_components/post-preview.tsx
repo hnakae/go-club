@@ -13,6 +13,7 @@ type Props = {
   author: Author;
   slug: string;
   tags: string;
+  chapter: string;
 };
 
 export function PostPreview({
@@ -21,8 +22,12 @@ export function PostPreview({
   date,
   excerpt,
   author,
+  tags,
   slug,
+  chapter,
 }: Props) {
+  console.log("Chapter:", tags);
+
   return (
     // <div className="rounded-md shadow-sm  bg-white  w-full mx-3">
     //   <div className=" flex justify-center items-center ">
@@ -42,7 +47,8 @@ export function PostPreview({
         </div>
         <div className="flex flex-col justify-start items-start space-y-3 px-3 bg-primaryColor/5 h-full">
           {/* <CoverImage title={title} src={author.picture} slug={slug} /> */}
-          <h2 className="mt-3 leading-tight text-xl font-semibold font-montserrat  transition-all duration-75 ease-in-out ">
+          <p className="mt-3 font-montserrat">Chapter: {tags}</p>
+          <h2 className="mt-1 leading-tight text-xl font-semibold font-montserrat  transition-all duration-75 ease-in-out ">
             {title}
           </h2>
           {/* <p className="font-lora text-sm pb-5 text-neutralColor">

@@ -3,7 +3,7 @@ title: "Using Thickness"
 excerpt: "Don't surround territory with thickness."
 coverImage: "/assets/images/roots.jpg"
 chapter: "Proverb"
-tags: "0"
+tags: "proverbs"
 date: "2024-06-16"
 author:
   name: Hiro Nakae
