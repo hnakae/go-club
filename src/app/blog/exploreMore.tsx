@@ -82,6 +82,7 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
               slug={post.slug}
               excerpt={post.excerpt}
               tags={post.tags}
+              chapter={post.chapter}
             />
           ))
         ) : (

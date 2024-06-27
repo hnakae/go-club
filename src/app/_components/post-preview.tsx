@@ -26,14 +26,9 @@ export function PostPreview({
   slug,
   chapter,
 }: Props) {
-  console.log("Chapter:", tags);
+  console.log("Chapter:", chapter);
 
   return (
-    // <div className="rounded-md shadow-sm  bg-white  w-full mx-3">
-    //   <div className=" flex justify-center items-center ">
-    //     <CoverImage slug={slug} title={title} src={coverImage} />
-    //   </div>
-    // </div>
     <section className=" rounded-md overflow-hidden bg-primaryColor/5  max-w-[400px] shadow-sm mb-3 flex flex-col border-primaryColor border hover:text-primaryColor">
       <Link href={`/posts/${slug}`} className=" ">
         <div className="overflow-hidden">
@@ -49,7 +44,7 @@ export function PostPreview({
           {/* <CoverImage title={title} src={author.picture} slug={slug} /> */}
 
           <h2 className="mt-3 leading-tight text-xl font-semibold font-montserrat  transition-all duration-75 ease-in-out ">
-            {tags}: {title}
+            {chapter}: {title}
           </h2>
           {/* <p className="font-lora text-sm pb-5 text-neutralColor">
             by {author.name}
