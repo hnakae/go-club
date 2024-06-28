@@ -48,7 +48,7 @@ const Menu = ({ closeMenu }: NavbarProps) => {
           aria-label="About"
           onClick={closeMenu}
         >
-          About
+          Meetup Info
         </Link>
         <Link
           className={`link ${
