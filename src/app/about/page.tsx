@@ -26,13 +26,14 @@ export default function About() {
             <div className=" max-w-[1128px]  px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full space-y-6 ">
               {" "}
               <div className="max-w-[550px] flex justify-around items-center">
-                <div>
+                <div className="flex flex-col">
                   {" "}
                   <p>
                     {" "}
                     "Look for the gobans and listen for the clacking of slate
                     and shell. We'll be on the west side near Magpie Coffee."
                   </p>
+                  <p>-Daniel Takamori</p>
                 </div>
               </div>
             </div>
