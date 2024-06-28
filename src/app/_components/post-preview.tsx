@@ -26,7 +26,7 @@ export function PostPreview({
   slug,
   chapter,
 }: Props) {
-  console.log("Chapter:", chapter);
+  // console.log("Chapter:", chapter);
 
   return (
     <section className=" rounded-md overflow-hidden bg-primaryColor/5  max-w-[400px] shadow-sm mb-3 flex flex-col border-primaryColor border hover:text-primaryColor">

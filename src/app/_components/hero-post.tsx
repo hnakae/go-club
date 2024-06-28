@@ -12,6 +12,7 @@ type Props = {
   excerpt: string;
   author: Author;
   slug: string;
+  tags: string;
 };
 
 export function HeroPost({
@@ -21,6 +22,7 @@ export function HeroPost({
   excerpt,
   author,
   slug,
+  tags,
 }: Props) {
   return (
     <section className=" rounded-md overflow-hidden bg-primaryColor/5 max-w-[400px]  shadow-sm  mb-3 flex flex-col border-primaryColor border hover:text-primaryColor">

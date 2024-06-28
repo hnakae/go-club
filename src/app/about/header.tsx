@@ -1,12 +1,22 @@
+import Image from "next/image";
 import React from "react";
 
 const Header = () => {
   return (
-    <div className="max-w-[1128px] rounded-md flex my-4 justify-center items-center  w-full  text-neutralColor z-10">
-      {/* <Quote /> */}
-      <div className="backdrop-blur-md w-full p-24 flex-col flex items-center justify-center rounded-md  text-neutralColor  opacity-95  z-20 border border-primaryColor shadow-md">
-        <div className="font-playfair font-semibold  tracking-tighter      text-[32px]     border-neutralColor border-b ">
-          About
+    <div className="flex justify-center items-center  z-10 w-full   ">
+      <div className=" p-4   my-4 max-w-[1128px] xs:px-4 sm:px-6 md:px-20 lg:px-44 xl:px-44 2xl:px-48 rounded-md flex  justify-center  items-center  w-full xs:border-none xs:my-0  text-neutralColor z-20 border border-primaryColor backdrop-blur-md">
+        <div className=" w-full  flex sm:flex-col-reverse xs:flex-col-reverse  items-center justify-between rounded-md  text-neutralColor    z-20  border-primaryColor ">
+          <div className="font-playfair font-semibold  tracking-tighter      text-[32px]     border-neutralColor border-b ">
+            Meetup Info
+          </div>
+
+          <Image
+            src="/assets/images/5thstreetalley.jpg"
+            alt="5thstreet"
+            width={200}
+            height={200}
+            className="max-h-[250px] rounded-md "
+          />
         </div>
       </div>
     </div>

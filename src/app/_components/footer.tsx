@@ -83,7 +83,7 @@ m485 -261 c369 -43 750 -208 1045 -454 320 -266 563 -661 661 -1071 70 -293
                 href="/about"
                 aria-label="About"
               >
-                About
+                Meetup Info
               </Link>
               <Link
                 className={`link ${

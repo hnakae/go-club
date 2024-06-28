@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
 import markdownToHtml from "@/lib/markdownToHtml";
 import Container from "@/app/_components/container";
-import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 import ExploreMore from "@/app/blog/exploreMore";
@@ -22,7 +21,7 @@ export default async function Post({ params }: Params) {
   const allPosts = getAllPosts();
 
   const nonFeaturedPosts = allPosts.filter(
-    (post) => !post.title.toLowerCase().includes("meetup info")
+    (post) => !post.tags.toLowerCase().includes("featured")
   );
 
   return (

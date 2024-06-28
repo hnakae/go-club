@@ -21,21 +21,21 @@ ogImage:
 
 ---
 
-What do you think is the basics of attack? Perhaps it's to capture your opponent's stones? Or perhaps it's to take away the opponent's base and eye-space? If these were the first things that came to mind, unfortunately, there's a high chance that you attack your opponent's stones to ironically recieve more damage than you dealt.
+What do you think are the basics of attack? Perhaps it's capturing your opponent's stones? Or maybe it's taking away the opponent's base and eye-space? If these were the first things that came to mind, unfortunately, there's a high chance that you attack your opponent's stones only to ironically receive more damage than you dealt.
 
-Of course depending on the game, there are situations where you have to capture your opponent's stones, and situations where you have to take away the opponent's base and eyespace, but the basics of attack is simply:
+Of course, depending on the game, there are situations where you have to capture your opponent's stones and situations where you have to take away the opponent's base and eye-space, but the basics of attack are simply:
 
 To know the joy of making your opponent play a painful move.
 
-You may think I'm a sadist, but when it comes to attack, to know the joy of making your opponent play painful moves is significantly more important than capturing your opponent's stones.
+You may think I'm a sadist, but when it comes to attack, knowing the joy of making your opponent play painful moves is significantly more important than capturing your opponent's stones.
 
-There's a lot of kyu players who will see a weak group and immediately take the base and chase the group around, but this is not an attack.
+Many kyu players see a weak group and immediately take the base and chase the group around, but this is not an attack.
 
 If you surround the group instead and force them to live, then this would be a legitimate attack.
 
-What I mean by this is, it's not 'taking away the base of a group = an attack', but rather 'make your opponent play a low value move = an attack'. To rephrase this, an attack is when you make your opponent play a low value move.
+What I mean is, it's not 'taking away the base of a group = an attack', but rather 'making your opponent play a low-value move = an attack'. To rephrase, an attack is when you make your opponent play a low-value move.
 
-So to surround your opponent's stones to force them to live small, is the important thing in an attack. By trapping your opponent inside and forcing them to play a painfully low value move, you have succeeded in attacking.
+So, surrounding your opponent's stones to force them to live small is the important thing in an attack. By trapping your opponent inside and forcing them to play a painfully low-value move, you have succeeded in attacking.
 
 Let's look at an example.
 
@@ -71,17 +71,17 @@ White sticks his head out with this attach,
 
 ![image info](/assets/blog/theory4/6.PNG)
 
-black extends,
+Black extends,
 
 ---
 
 ![image info](/assets/blog/theory4/7.PNG)
 
-white pincer. White no longer is in a position where being captured is of serious concern, and in addition, black's upper group and right side stones have been split apart, and black's overall position is now ironically thinner than white's position.
+White pincers. White is no longer in a position where being captured is a serious concern. Additionally, Black's upper group and right-side stones have been split apart, and Black's overall position is now ironically thinner than White's position.
 
-If it goes like this, could we really call this an attack? Black started the 'attack' but the result looks like black is now in more danger than white is.
+If it goes like this, can we really call this an attack? Black started the 'attack,' but the result looks like Black is now in more danger than White.
 
-This is a prime example of the proverb, "trying too hard to kill is the root of being killed"
+This is a prime example of the proverb, "trying too hard to kill is the root of being killed."
 
 ---
 

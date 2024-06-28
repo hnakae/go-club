@@ -19,6 +19,8 @@ export default function Contact() {
             >
               Discord
             </Link>
+            {/* <div>contact@info.com</div>
+            <div>541-000-0000</div> */}
           </div>
         </div>
       </Container>
