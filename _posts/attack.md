@@ -17,7 +17,7 @@ ogImage:
 
 ---
 
-## Intro
+## Intro: Basic Concepts of Go #4: Attack
 
 What do you think are the basics of attack?
 

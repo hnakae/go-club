@@ -17,7 +17,7 @@ ogImage:
 
 ---
 
-## Intro
+## Intro: Basic Concepts of Go #3: Direction of Play
 
 Imagine you need to reach a destination as quickly as possible, and so you get in the fastest vehicle that you can.
 But, you mistakenly lock in the wrong destination point in your navigation system.
@@ -26,7 +26,7 @@ No matter how many tesujis you know and how much you train your reading, if your
 
 ---
 
-## Basic Concepts of Go #3: Direction of Play
+## How to determine the correct direction of play?
 
 ---
 

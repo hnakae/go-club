@@ -12,7 +12,7 @@ ogImage:
   url: "/assets/blog/theory5/sacrifice-1.jpg"
 ---
 
-## Intro
+## Intro: Basic Concepts of Go #5: Sacrifice
 
 How do we correctly determine what stones are scrap?
 What do we get from sacrificing scrap stones?
@@ -22,7 +22,7 @@ Knowing exactly how and why we sacrifice stones will not only make our games mor
 
 ---
 
-## How to determine what to sacrifice
+## How to determine what to sacrifice?
 
 _1 Stones that are stuck to alive stones._
 

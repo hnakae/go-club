@@ -12,13 +12,21 @@ ogImage:
   url: "/assets/images/cover.jpg"
 ---
 
-## Basic Concept of Go #2: Shape
+## Intro: Basic Concepts of Go #2: Shape
+
+Perhaps there are some people that question the importance of shapes. Is it really that important?
+
+Of course there are cases where playing the bad shape turns out to be a good move, but if you ignore shape, the efficiency of your stones will go down. So, it's highly advisable to just remember these shapes so that you immediately recognize them.
+
+The important thing to prioritize here is to learn how to play using the proper form. This means using good shape and using theory to make consistent choices. Then and only then, do we start remembering the exceptions. If we don't approach it in this order, there will be no traction and nothing will stick.
 
 ---
 
-This is a list of examples that explain the bad shapes which you must avoid at all costs, as well as the most standard examples of good shape. If you aren't aware of these shapes and the shapes repeatedly come up in your games, these inefficiencies will hold you back so much that it will practically nullify your joseki/tsumego/tesuji studies.
+## How do we think about shape?
 
-Perhaps there are some people that question the importance of shapes. Is it really that important? Of course there are cases where playing the bad shape turns out to be a good move, but if you ignore shape, the efficiency of your stones will go down. So such cases are the rare exception. It is highly advisable, to just remember these shapes and simply play accordingly. Of course the rare exceptions do exist, but the important thing to prioritize here is to learn how to play, using the proper form. Then and only then, do we start remembering the exceptions. If we don't approach it in this order, there will be no traction and nothing will stick.
+When it comes to foundational knowledge, these shapes are like the basics of basics. Just by getting exposure to these shapes, you will instantly recognize them in your games and be able to immediately start avoiding the most common mistakes.
+
+Of course active learning and acquiring new skills and knowledge contribute to your improvement, but negating the worst habits will double the effectiveness of your efforts.
 
 For this reason, this article is quite dense and will be comprised of 5 chapters.
 
@@ -26,25 +34,31 @@ For this reason, this article is quite dense and will be comprised of 5 chapters
 
 ## Table of Contents
 
-Empty Triangle
+Bad Shape #1: Empty Triangle
 
-Split Shape
+Bad Shape #2: Split Shape
 
-Raw Peep
+Bad Shape #3: Raw Peep
 
-two stone walls need three space extensions
+Good Shape #1: two stone walls need three space extensions
 
-hane at the head of two stones
+Good Shape #2: hane at the head of two stones
 
 ---
 
-## The Empty Triangle.
+## Bad Shape #1: The Empty Triangle.
 
 ![image info](/assets/blog/theory2/1.PNG)
 
 The representative bad shape. If you don't understand why the empty triangle is bad, you can just say 'this move is bad because it's an empty triangle'. For now. The priority is to make it a habit to not play bad shape.
 
-Here are some more examples.
+But just as a thought experiment, lay down three stones in a straight line and three stones in the shape of an empty triangle. Now count the liberties that each group has. Remember, both of these shapes are using the same number of stones.
+
+---
+
+Example:
+
+_Black to Play_
 
 ![image info](/assets/blog/theory2/8.PNG)
 
@@ -52,11 +66,15 @@ White extend. Now the problem here is how to respond without making bad shape.
 
 ---
 
+_empty triangle_
+
 ![image info](/assets/blog/theory2/9.PNG)
 
 This response covers for the connection, but as you can see, black has formed an empty triangle.
 
 ---
+
+_empty triangle_
 
 ![image info](/assets/blog/theory2/10.PNG)
 
@@ -64,11 +82,15 @@ Here's another response that results in an empty triangle in black's shape.
 
 ---
 
+_bamboo connection_
+
 ![image info](/assets/blog/theory2/11.PNG)
 
 So looking past the previous two ways, we come across this response. This time, we avoided making an empty triange. We instead have a good shape, called a bamboo joint. This automatically moves this response up to the top of our list, compared to our previous two ideas.
 
 ---
+
+_indirect response_
 
 ![image info](/assets/blog/theory2/12.PNG)
 
@@ -76,7 +98,9 @@ This is an indirect response that you could think of to avoid the empty triangle
 
 ---
 
-## The Split Shape
+## Bad Shape #2: The Split Shape
+
+Example #1:
 
 ![image info](/assets/blog/theory2/2.PNG)
 
@@ -85,11 +109,17 @@ Similar to the empty triangle, there are exceptions to the rule, but the first p
 
 ---
 
+Example #2:
+
 ![image info](/assets/blog/theory2/13.PNG)
 
-This too, is an example of split shape. So if your opponent is able to play in between your stones and move through your shape, it is considered a split shape. When you opponent goes in between the two stones and splits them apart, both stones immediately become stale. They no longer serve the player's position in an effective way. There are reasons for this, but first and foremost, it's easiest to treat it as a rule of law and just remember that the split shape is bad shape. It's like the law that you must have a driver's license to drive a vehicle on public roads. Of course, if someone is in critical condition and needs immediate medical attention, someone who in practice could drive the person to the hospital but does not have a license, would be a legitimate exception case to the rule. But if everyone were to ignore this law because there are exceptions to the case, there will be casualties and chaos. So if you play the split shape with an awareness that this is an exception to the rule, and the resolve to play it anyways with full acceptance of the risks associated, things are a bit different, but if the awareness and distinction is not there, and blindly play the split shape, your go will not take form and will crumble. So please make it a habit to not play the split shape.
+This too, is an example of split shape. From black's perspective, this is almost strictly forbidden. From white's perspective, we absolutely jump on the opportunity to split this shape.
 
 ---
+
+Example:
+
+_In practice_
 
 ![image info](/assets/blog/theory2/14.PNG)
 
@@ -149,19 +179,29 @@ And if you decide to play from above instead, white will always push here. and b
 
 ![image info](/assets/blog/theory2/c-comparison.png)
 
-Now if given the previous position, would you have this extend against the white stones? Or would you rather have this knight's move? I think most of you would prefer to have the knight's move. So in this way, we can understand the reasoning for why split shape is bad via tewari analysis, or the rearrangement of move order to study the resulting shape, but if you are still at a kyu level, doing this sort of analysis in the middle of a game and making the right decision will be pretty tough. So, just the thought, "These two options make a split shape so let's automatically remove them from our list of candidate moves" will be good enough. Nothing will trump an understanding of the reasoning for these guiding principles, but the first priority is to simply ingrain the habit of not playing split shape in your games.
+Now if given the previous position, would you have this extend against the white stones? Or would you rather have this knight's move? I think most of you would prefer to have the knight's move.
+
+Nothing will trump an understanding of the reasoning for these guiding principles, but the first priority is to simply ingrain the habit of not playing split shape in your games.
+
+Regarding the exceptions, if you are already at dan level and the situation calls for it, then with the awareness that this is an exception to the rule, and the resolve to play it anyways with full acceptance of the risks associated, you can consider it. But if the awareness and distinction is not there, and you blindly allow the opponent to split your shape, your go will not take form and will crumble.
 
 ---
 
-## The Raw Peep
+## Bad Shape #3: The Raw Peep
+
+Example #1:
 
 ![image info](/assets/blog/theory2/3.PNG)
 
 For this one, perhaps it's the first time you've heard of such a rule. This one is slightly less severe of a mistake than the empty triangle and split shape, but in some cases it can be even worse. Consider these three the top 3 of bad shapes.
 
-The definition of "The raw peep" is, when you peep a cutting point when the direct cut was working. If we look at it another way, you're finding a cutting point that the opponent is likely thinking of fixing, and then peeping it to help him find the timing to fix that cutting point. Essentially, from your opponent's point of view, it's a thankyou move. Let's look at an example.
+## The definition of "The raw peep" is, when you peep a cutting point when the direct cut was working.
+
+If we look at it another way, you're finding a cutting point that the opponent is likely thinking of fixing, and then peeping it to help him find the timing to fix that cutting point. Essentially, from your opponent's point of view, it's a thank you move. Let's look at an example.
 
 ---
+
+_Example #2_
 
 ![image info](/assets/blog/theory2/19.PNG)
 
@@ -223,7 +263,7 @@ I think it's clear that these two peeps have completely different meanings. I be
 
 ---
 
-## Three space extension from a two stone wall
+## Good Shape #1: Three space extension from a two stone wall
 
 ![image info](/assets/blog/theory2/5.PNG)
 
@@ -237,11 +277,15 @@ Perhaps you have seen this pattern in the corner before. Up to here, it is a com
 
 ---
 
+Examples:
+
 ![image info](/assets/blog/theory2/proverb/comparison-1.png)
 
 Now according to this proverb, these two moves, the three space extension on either the 3rd or 4th line, are locally the standard way to extend. This is a very popular joseki so I'm sure most go players know this as the standard pattern, but why is it two stones? Why is three spaces the most balanced and standard extension? Let me start by talking a little bit about what an extension is in the first place.
 
 ---
+
+_Black to Play_
 
 ![image info](/assets/blog/theory2/proverb/2.PNG)
 
@@ -341,13 +385,17 @@ Like this or this. And because this splitting option by black worries white, it'
 
 ---
 
-Let's see a practical example of how we can use this to aid our decision making in a real game.
+_Let's see a practical example of how we can use this to aid our decision making in a real game._
+
+_Black to Play_
 
 ![image info](/assets/blog/theory2/proverb/18.PNG)
 
 White plays a pincer in response to black's approach move on the bottom left corner. Take a look at the group on the upper left hand side. Black has a two stone wall facing the left side of the board.
 
 ---
+
+_Over Concentrated_
 
 ![image info](/assets/blog/theory2/proverb/19.PNG)
 
@@ -356,6 +404,8 @@ If we end up playing this two space extension from the two stone wall, we're pla
 Then what is the alternative? We know that because of shape, we want to avoid this two space extension.
 
 ---
+
+_The right idea_
 
 ![image info](/assets/blog/theory2/proverb/20.PNG)
 
@@ -383,7 +433,7 @@ Now, we move onto the final topic.
 
 ---
 
-## Hane at the head of two stones
+## Good Shape #2: Hane at the head of two stones
 
 ![image info](/assets/blog/theory2/proverb/a.PNG)
 
@@ -392,6 +442,10 @@ This hane, for either side, is a _vital point_. you may not understand why these
 We can say that for either side, the hane starts the process of constricting your opponent's liberties (dame-zumari), or that this aims at good follow ups, but the order of priority when learning as a beginner is to simply remember to hane the head of two stones.
 
 ---
+
+Example #1:
+
+_White to Play_
 
 ![image info](/assets/blog/theory2/proverb2/3.PNG)
 
@@ -435,6 +489,10 @@ and end up missing your opportunity to play the vital point, and even worse, hav
 
 ---
 
+Example #2:
+
+_Black to Play_
+
 ![image info](/assets/blog/theory2/proverb2/10.PNG)
 
 I think that the previous example was perhaps too basic and uninteresting to some folks, so let's step it up a little bit. Black jumps in, and white attaches underneath.
@@ -458,3 +516,33 @@ So what black needs to do here instead of bumping is to come up with a response 
 ![image info](/assets/blog/theory2/proverb2/b.PNG)
 
 This is why we would prefer to think about these two hanes, rather than the bumping move. When thinking about the proverb, hane at the head of two stones, not only is it important to recognize when you have the opportunity to strike the vital point, but also as important to prevent playing in a way that gives your opponent the hane at the head of your two stones.
+
+---
+
+## Recap
+
+The Good:
+
+![image info](/assets/blog/theory2/proverb/good.png)
+
+![image info](/assets/blog/theory2/proverb2/a.png)
+
+The Bad:
+
+![image info](/assets/blog/theory2/proverb/theBad.png)
+
+The Ugly:
+
+![image info](/assets/blog/theory2/proverb/ugly.png)
+
+---
+
+## Conclusion
+
+As I mentioned at the beginning of this article, these are the shapes that make or break your foundation.
+
+While active learning and acquiring new skills and knowledge contribute to your improvement, negating the bad habits will double the effectiveness of your efforts.
+
+Remember, Shape is more fundamental than Sacrifice, Attack, or Direction of play. The most important to get right, only second to the corner stone concept of Strength of Stones.
+
+-Hiro Nakae
