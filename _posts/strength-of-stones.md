@@ -17,36 +17,33 @@ ogImage:
 
 ---
 
-## Basic Concepts of Go #1: The Strength of Stones
+## Intro: Basic Concepts of Go #1: The Strength of Stones
 
----
-
-This one is crucial. If you read the basic concepts of Go (from 5 to 2), that's good, but you can forget them all. Just remember this one concept. The reason why this concept on the strength of stones is so important, is that when you really break down and get to the essence of each of the other four concepts, what you will find is that they are all connected by this one concept.
+This one is crucial. As I mentioned at the end of the previous chapter, this is the cornerstone concept. If you read the basic concepts of Go (from 5 to 2), that's good, but you can forget them all. Just remember this one concept. The reason why this concept on the strength of stones is so important, is that when you really break down and get to the essence of each of the other four concepts, what you will find is that they can all be reduced to this one concept.
 
 Just like when you checkmate the king in chess, and guarantee your victory, the moment you master this concept, it wouldn't be an exaggeration to say that you have a _comprehensive understanding of all the basic theories of go_. This is the basic theory that encompasses everything about Go.
 
 ---
 
+## The golden rules
+
 So let's get on with the two key points:
 
-1 Moves near alive stones are small.
+## _1) Moves near alive stones are small._
 
-2 Moves without the threat of a follow up are small.
+## _2) Moves without the threat of a follow up are small._
 
 ---
 
-These are the two. Burn these into your memory so that when you wake up from this simulation you still remember them.
-
-The two points share a close relationship.
-When it comes to living stones, they're obviously already alive so there's no threat that you can aim for. Basically there isn't much of a follow up against such a group. Thus, moves in this area are small.
+This is it. Burn these into your memory so that when you wake up from this simulation you still remember them.
 
 ---
 
 We can rephrase these two key points like this as well:
 
-1. Moves near stones that aren't alive are big.
+## _1) Moves near stones that aren't alive are big._
 
-2. Moves with the threat of a follow up are big.
+## _2) Moves with the threat of a follow up are big._
 
 ---
 
@@ -76,9 +73,9 @@ Of course, the one space jump from one of these stones would be the most orthodo
 
 remember,
 
-1. moves near alive stones are small
+## _1) Moves near alive stones are small._
 
-2. moves with no follow up threat are small.
+## _2) Moves without the threat of a follow up are small._
 
 So which is the correct answer, A or B?
 
@@ -150,11 +147,11 @@ Let's determine the strength of the white group in the top left quadrant. It's p
 
 ![image info](/assets/blog/theory1/7.PNG)
 
-1. moves near alive stones are small.
+## _1) Moves near alive stones are small._
 
 Clearly the move contradicts this point because the white group here is alive,
 
-2. moves with no follow up threat are small.
+## _2) Moves without the threat of a follow up are small._
 
 and because white's group here is alive, there is absolutely no follow up threat against it. And so the move contradicts this point as well.
 
@@ -188,8 +185,29 @@ If you don't consider the center group weak, playing like this is also valid, bu
 
 ---
 
-And there you go, if you understand these basic concepts of go and apply them in your games, you will be able to successfully dodge the most common and severe mistakes by removing them from the list of considered moves. Please apply this in your next game.
+## Recap
+
+## _1) Moves near alive stones are small._
+
+## _2) Moves without the threat of a follow up are small._
 
 ---
 
-Congradulations on reaching the end of this article! Now that you are up to speed with the fundamental concepts of go, the runway is now clear and you're ready for take off!
+## Conclusion
+
+We started off with how to Sacrifice stones,
+
+then moved onto the theory of Attack,
+
+and Direction of play,
+
+And the importance of Shape,
+
+Before finally bringing it together with The Strength of Stones as the corner stone concept.
+
+These 5 chapters will serve as the foundational knowledge you can always rely on to make theory backed positional judgement. As someone who is dedicated enough to read all of this and now knows all of the 5 concepts, your go will stand out from the rest of the crowd. There are many accessible resources on joseki, tsumego, and pro games online, and your competition will also have access to those resources, but these 5 concepts will give you an edge that most will have trouble acquiring all of. I truly believe that the moment you master these concepts, it wouldn't be an exaggeration to say that you have a _comprehensive understanding of all the basic theories of go_. Remember, The Strength of Stones is the basic theory that encompasses everything about Go!
+
+---
+
+Congratulations on reaching the end of this article! Now that you are up to speed with the fundamental concepts of go, the runway is now clear and you're ready for take off!
+-Hiro Nakae
