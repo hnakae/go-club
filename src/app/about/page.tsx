@@ -17,8 +17,8 @@ export default function About() {
 
             <p className="text-lg mb-3">Are beginners welcome?</p>
             <p className="mb-6">
-              We welcome everyone. Beginners can find similar level opponents,
-              or play teaching games equalized with handicap stones.{" "}
+              Beginners are absolutely welcome! Beginners can find similar level
+              opponents, or play teaching games equalized with handicap stones.{" "}
             </p>
 
             <p className="text-lg mb-3">How can we get in contact?</p>
