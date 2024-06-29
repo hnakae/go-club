@@ -14,36 +14,27 @@ ogImage:
 
 ## "Don't surround territory with thickness."
 
-You may have heard of this proverb, but I assume many of you may not fully understand it. For those of you who want a concrete understanding of this proverb, I'll use an example to melt away any confusion. Once you grasp the image of what 'surrounding territory with thickness' looks like, you will clearly see the essence of the proverb, "Don't surround territory with thickness".
+---
+
+## Intro
+
+So let's start with a metaphor. Thickness is a factory.
+
+In this business of Go, we must use our assets (thickness in this case) to generate profit. So given this factory, how do we make a profit of maybe 10, 15, or 20 points?
+
+Now, we have two options:
+
+_1. Get whatever points you can next to the wall (sell the factory)_
+
+or,
+
+_2. Use the thickness to surround a weak group and use the outcome to make points (make products)_
+
+Obviously, Factories aren't meant to generate profit by selling the land, the building, or the machines. It's not that we can't sell the factory, but this conversion isn't the intended purpose of a factory. If we use the factory as intended, we can generate more profit than if we sell it. Let's take a look at what I mean.
 
 ---
 
-Let me start with a metaphor. Thickness is a factory.
-
-I know this is strange, but Go is like a business. In this business of Go, we must use our assets (thickness in this case) to generate profit. First of all, thickness won't be just 1 or 2 stones. Generally, it will be closer to 5-10 stones, give or take some, and they are like the many robots and machines within a factory. And in these factories, all of these individual things work together to be a factory.
-
-So given this factory, how do we make a profit? Of course, just having the factory is not going to generate profit. We have to use it somehow. Hopefully, we can generate maybe 10, 15, or 20 points with the factory. We have the land, the building, and the machines, and somehow we need to convert this into cash.
-
-Now, we have two options with the factory:
-
-1. 1 - We produce products with the factory and sell the products for cash. or...
-2. 2 - We sell the factory for cash.
-
-And with thickness, also two options:
-
-1. 1 - We use the thickness in an attack, and profit with the attack.
-   or...
-2. 2 - We settle for grabbing territory with the thickness.
-
-Perhaps you already get where I'm going with this. Factories are for creating products to sell to generate profit. They aren't meant to generate that cash by selling the land, the building, or the machines. It's not that we can't sell the factory, but if we do, we're probably already in the red.
-
-And so this is the way to think about thickness. To surround territory with thickness is to sell the factory. This conversion is not the intended purpose of a factory. If we use the factory as intended, we can generate more profit than if we sell it. Of course, we can sell the factory, but if we just use the factory to generate an attack, this attack converts into more profit than just selling the factory.
-
-And this is the essence of "Don't surround territory with thickness."
-
----
-
-Now, with this in mind, let's take a look at a concrete example.
+Example: _Black to Play_
 
 ![image info](/assets/blog/proverb20/proverb20-1.PNG)
 
@@ -84,7 +75,11 @@ White attaches to the capping stone and tries to settle his group, but black is 
 ![image info](/assets/blog/proverb20/proverb20-9.PNG)
 
 What black is actually aiming for with this attack is to create territory.
-Now that black has used his thickness to attack (cap and surround), he has generated a secondary thickness facing the left side of the board. Black takes up position on the left side with two approach moves and the star point on the side...
+Now that black has used his thickness to attack (cap and surround), he has generated a secondary thickness facing the left side of the board. Black takes up position on the left side with two approach moves and the star point on the side.
+
+---
+
+_2. Use the thickness to surround a weak group and use the outcome(secondary influence) to make points(via territory-moyo)_
 
 But what's the difference between the first thickness and this second thickness? Why do we try to make this second thickness territory? Doesn't it go against everything I just explained? Well, let me introduce you to the distinction between a moyo and a ji-moyo.
 
@@ -132,8 +127,16 @@ The difference is astonishing, isn't it?
 On the left, Black is up by 9.5 points with a 96.7% chance to win this game, according to Katago.
 On the right, White is up by 8.3 points with a 96.4% chance to win.
 
-This is why "Don't surround territory with thickness" is such an important proverb, putting it at #20 in my top 20 proverbs. Using the factory for its intended purpose to generate more profit, in the game of Go, looks like this.
+---
 
-Of course, there are exceptions, but gaining in-game experience will sort that out. As long as you understand this proverb, you can be assured that improper use of thickness will not be the thing that holds back your progression. Please remember this proverb.
+## Conclusion
 
-I hope that this article served to clarify this proverb regarding the use of thickness, and also to serve as food for thought and inspiration for your next game.
+By focusing on just defending your points when you have power, you are missing out on an opportunity to accomplish multiple things at once. By using your influence (thick wall with no defects) to attack, you can force your opponent to play defensive moves that make very little points. And you can force them to play towards an uninteresting direction of play. And on top of this, _you_ get to play the expansive moves that potentially both players were looking at for future development.
+
+So when you play against a territorial opponent and end up with a lot of influence, remember this proverb, "Don't surround territory with thickness", and you will be able to generate the positive exchange that power can afford.
+
+---
+
+I hope that this article served to clarify this proverb regarding the use of thickness, and to serve as food for thought and inspiration for your next game.
+
+-Hiro Nakae
