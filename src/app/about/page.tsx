@@ -36,7 +36,7 @@ export default function About() {
           </div>
         </section>
         {/* images */}
-        <section className="flex items-center w-full max-w-[1128px] ">
+        <section className="flex items-center w-full max-w-[1128px] xs:hidden sm:hidden  md:hidden">
           <div className="h-full w-[350px] flex justify-center items-center border overflow-hidden border-primaryColor mr-4 mb-4 rounded-md">
             <Image
               src="/assets/images/5thstreetalley.jpg"
