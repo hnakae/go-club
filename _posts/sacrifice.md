@@ -12,24 +12,31 @@ ogImage:
   url: "/assets/blog/theory5/sacrifice-1.jpg"
 ---
 
-## Basic Concepts of Go #5: How to determine scrap stones
+## Intro
 
-On what basis do we determine whether a stone is scrap or not?
-How do we know if a stone is valuable and must be saved, or if a stone should be thrown away and sacrificed? This question may sound absurdly simple to the point that it may sound like an insult to your intelligence, but I promise that knowing with certainty whether a stone can be sacrificed or not, is more rare than it may seem. There are many dan level players who would not be able to give you a concrete response. And, in the middle of a chaotic game with time pressure, this lack of clarity leads these dan players to make the mistake of saving stones which should not have been saved.
+How do we correctly determine what stones are scrap?
+What do we get from sacrificing scrap stones?
+What are the consequences of not sacrificing the scrap?
 
-1 Stones that are stuck to alive stones.
+Knowing exactly how and why we sacrifice stones will not only make our games more sophisticated, but we will also obtain more freedom and control over the flow of the game. My goal here is to give you a framework that can lighten the cognitive load for this decision making process for when you are under time pressure in a game of Go.
 
-2 Stones that were played as kikashi(forcing moves).
+---
+
+## How to determine what to sacrifice
+
+_1 Stones that are stuck to alive stones._
+
+_2 Stones that were played as kikashi(forcing moves)._
 
 Using these two conditions, we must determine if a stone is scrap or not. Of course there are exceptions, but on a fundamental level, this is what we use to judge if a stone is scrap or not.
 
 ---
 
-Let's take a look at some examples to clarify these two conditions.
+## _1) Stones that are stuck to alive stones._
 
-## Starting with Condition #1:
+Example:
 
-Stones that are stuck to alive groups.
+_Black to Play_
 
 ![image info](/assets/blog/theory5/part1/theory5-1.PNG)
 
@@ -89,13 +96,19 @@ now behold the difference this makes.
 
 This is the meaning of Condition #1, Stones stuck to alive groups are scrap.
 
-## Let's now take a look at an example to understand Condition #2
+## _2) Stones that were played as kikashi(forcing moves)._
+
+_The situation:_
 
 ![image info](/assets/blog/theory5/part2/theory5-9.PNG)
 
 Take a look at this game state. In this moment, black has an unstable group that is mostly surrounded, and the main topic is how he will settle this group.
 
 ---
+
+Example:
+
+_White to Play_
 
 ![image info](/assets/blog/theory5/part2/theory5-10.PNG)
 
@@ -176,14 +189,34 @@ Finally, let's see the two results side by side.
 
 The difference is night and day.
 
-Using the two conditions:
+---
 
-1 Stones that are stuck to alive stones are scrap.
+Recap:
+
+## 1) Stones that are stuck to alive stones are scrap.
 
 ![image info](/assets/blog/theory5/part1/theory5-comparison.png)
 
-2 Stones that were played as kikashi are scrap.
+On the left, we failed to identify the scrap stones, so we missed the chance to play the moves we really want. And since we now owe moves to commit to saving the entire thing, we probably won't ever get to play the moves we really wanted.
+
+On the right, we correctly identified the scrap stones and got to play the move we really want. And we don't owe anything so we have the freedom to continue playing what we want.
+
+## 2) Stones that were played as kikashi are scrap.
 
 ![image info](/assets/blog/theory5/part2/theory5-comparison2.png)
 
-Let's make sure that we correctly determine whether a stone is scrap or not, because the difference it makes puts this theory of scrap stones at number 5 in my top 5 fundamental theories.
+On the left, we got baited into saving a scrap stone and missed our opportunity to surround in sente. Because we didn't get the surround and connect, we will now be very busy managing all of our weak groups.
+
+On the right, we allowed the capture of the scrap stone and successfully surrounded in sente. This gives us the freedom to play what we want.
+
+---
+
+## Conclusion
+
+Now that we have these two conditions for identifying stones that are no longer valuable, we can now sacrifice with more certainty. Correct application of sacrifice isn't just some fancy strategy that conceptually makes your game more sophisticated. It actually gives you more freedom to play the moves you really want.
+
+---
+
+I hope that this will help you make the judgement on sacrifice more decisively. I hope that it helps you avoid frustrating situations where you are running with a group that you have no use for, and that the added opportunities to tenuki and take sente give you more freedom and control over your games. Personally, after learning this way of thinking, in those moments where I had to make the tough decision to sacrifice or not, I was able to rely on these concrete definitions to inform my decision making where before, there was no consistency in the decision making.
+
+-Hiro Nakae
