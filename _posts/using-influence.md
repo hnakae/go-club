@@ -34,7 +34,9 @@ Obviously, Factories aren't meant to generate profit by selling the land, the bu
 
 ---
 
-Example: _Black to Play_
+Example:
+
+_Black to Play_
 
 ![image info](/assets/blog/proverb20/proverb20-1.PNG)
 
@@ -79,7 +81,7 @@ Now that black has used his thickness to attack (cap and surround), he has gener
 
 ---
 
-_2. Use the thickness to surround a weak group and use the outcome(secondary influence) to make points(via territory-moyo)_
+## _Use thickness to surround a weak group and use the outcome(secondary influence) to make points(via territory-moyo)_
 
 But what's the difference between the first thickness and this second thickness? Why do we try to make this second thickness territory? Doesn't it go against everything I just explained? Well, let me introduce you to the distinction between a moyo and a ji-moyo.
 
@@ -89,7 +91,7 @@ Simply put, there is thickness and then there is thickness that is likely to bec
 
 ![image info](/assets/blog/proverb20/proverb20-10.PNG)
 
-Let's go back to black's first move and play to surround territory with the thickness instead of attacking and see how this looks. Black plays this knight's move to surround territory with the wall.
+Let's go back to black's first move and play to surround territory with the thickness instead of attacking and see how this looks. Black plays this knight's move to make territory with the wall.
 
 ---
 
@@ -101,19 +103,19 @@ White responds and black responds, staying consistent with his plan to make any 
 
 ![image info](/assets/blog/proverb20/proverb20-12.PNG)
 
-White then roughly connects up and we can see, that black has gained a little bit of territory, minus what white got, adding up to very little profit in total. It's hard to call this a ji-moyo, or thickness that is likely to become a lot of territory. It was just a moyo.
+White then roughly connects up and we can see, that black has gained a little bit of territory, minus what white got, adding up to very little profit in total. Because white is perfectly fine with this result, black has not created a lead yet. But given the fact that white had a weak group near black's army, there must have been a way to drive the weak group into our line of soldiers to really put the pressure on white's overall position.
 
 ---
 
 ![image info](/assets/blog/proverb20/proverb20-6.PNG)
 
-Let's compare this result with the variation where black attacks instead. Black uses his wall to attack and surround white, and in exchange for losing the potential to make territory in that area where white ends up living, black has generated a new wall which can be used to create a ji-moyo(territory-moyo).
+Let's compare this result with the variation where black attacks instead. Black plays from the far side of the wall and routes the enemy toward the main army, and in exchange for giving up the potential to make territory in that area where white is cornered, black has generated a new wall which can be used to create a territory-moyo.
 
 ---
 
 ![image info](/assets/blog/proverb20/proverb20-9.PNG)
 
-As you can probably tell, this result from attacking the weak group with the wall has a good relationship with the three stones black played on the left side, and the result will likely be more profitable than trying to surround territory with the wall in the first place.
+Notice the contrast between white's poor position and black's expansive position.
 
 When you can use your thickness to attack a weak group to create a second wall to build a ji-moyo with, we are using the factory as intended to generate the most profit, and this is the essence of how to think about thickness.
 
@@ -124,16 +126,18 @@ Finally, let's look at the two results side by side and really take in the diffe
 ![image info](/assets/blog/proverb20/proverb20-13.PNG)
 
 The difference is astonishing, isn't it?
-On the left, Black is up by 9.5 points with a 96.7% chance to win this game, according to Katago.
-On the right, White is up by 8.3 points with a 96.4% chance to win.
+
+On the left, black successfully used his power to break up white's position in a way that supports his expansion. Black is up by 9.5 points with a 96.7% chance to win this game, according to Katago.
+
+On the right, black wielded power timidly and as a result, all of black's stones are overconcentrated on just the right side of the board while white has claimed everything else. White is up by 8.3 points with a 96.4% chance to win.
 
 ---
 
 ## Conclusion
 
-By focusing on just defending your points when you have power, you are missing out on an opportunity to accomplish multiple things at once. By using your influence (thick wall with no defects) to attack, you can force your opponent to play defensive moves that make very little points. And you can force them to play towards an uninteresting direction of play. And on top of this, _you_ get to play the expansive moves that potentially both players were looking at for future development.
+By focusing on just defending your points when you have power, you are missing out on an opportunity to accomplish multiple things at once. By using your influence (thick wall with no defects) to attack, you can force your opponent to play defensive moves that make very little points. And you deny the interesting direction of play. On top of this, _you_ get to play the expansive moves that potentially both players were looking at for future development.
 
-So when you play against a territorial opponent and end up with a lot of influence, remember this proverb, "Don't surround territory with thickness", and you will be able to generate the positive exchange that power can afford.
+So when you play against a territorial opponent and end up with a lot of influence, remember the nuances of the proverb, "Don't surround territory with thickness", and you will be able to generate the positive exchange that power can often afford.
 
 ---
 
