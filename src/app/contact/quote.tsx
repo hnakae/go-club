@@ -1,42 +1,32 @@
 import Image from "next/image";
 import React from "react";
-import Avatar from "../_components/avatar";
 
 const Quote = () => {
   return (
-    <section className="   sm:mb-6  flex justify-center items-center">
-      <div className="max-w-[1128px]  rounded-md py-4 w-full flex  justify-center  space-x-12 items-end   sm:flex-col-reverse  xs:space-y-3 sm:space-y-3 ">
-        <div className="px-6 w-[310px] flex flex-col  justify-center items-start  py-6 backdrop-blur-sm opacity-95  rounded-lg ml-3 sm:ml-0 border border-primaryColor bg-primaryColor/5 shadow-md">
-          {/* <div className="absolute top-[-16px] left-4 bg-baseColor">
-              <Image src="/icons/quote.png" alt="icon" width={30} height={30} />
-            </div> */}
-          {/* style={{ textIndent: "2em" }} */}
-          <p className="font-lora mb-4">
-            Look for the gobans and listen for the clacking of slate and shell.
-            We'll be on the west side near Magpie Coffee.
-          </p>
-          <div className="font-montserrat text-xl font-bold flex">
-            Daniel Takamori
-            <Image
-              src="/icons/quote.png"
-              alt="icon"
-              width={30}
-              height={30}
-              className="ml-12 rotate-180 "
-            />
-          </div>
-        </div>
-        <div className="relative flex justify-center items-end   ">
-          {/* <div className="absolute bottom-0 w-full h-[180px] rounded-b-md bg-[url(/assets/images/greenSquiggles.jpg)]"></div> */}
+    <section className="flex justify-between items-center mb-4 w-full h-[320px]  rounded-md ">
+      <div className=" border border-primaryColor w-full backdrop-blur-md text-white rounded-md h-full mr-4 flex flex-col justify-center items-center px-4">
+        <p className="font-montserrat tracking-tighter  mb-4 max-w-[400px] px-12 text-xl">
+          Look for the gobans and listen for the clacking of slate and shell.
+          We'll be on the west side near Magpie Coffee.
+        </p>
+        <div className="font-montserrat text-lg font-bold flex items-start w-full px-12 max-w-[400px]">
+          <p className="opacity-80">Daniel Takamori</p>
           <Image
-            src="/assets/images/daniel-edited.png"
-            width={200}
-            height={200}
-            alt="daniel"
-            className="z-20 mb-0 rounded-md border border-primaryColor bg-primaryColor/5 shadow-md" // Set margin-bottom to 0 to align properly
+            src="/icons/w-quote.png"
+            alt="icon"
+            width={30}
+            height={30}
+            className="ml-3 rotate-180 -translate-y-3 translate-x-16"
           />
         </div>
       </div>
+      <Image
+        src="/assets/images/daniel-edited.png"
+        width={247}
+        height={300}
+        alt="daniel"
+        className="z-20  rounded-md border border-primaryColor backdrop-blur-md bg-primaryColor/20 shadow-md "
+      />
     </section>
   );
 };

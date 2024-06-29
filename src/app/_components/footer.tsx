@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Quote from "../contact/quote";
+import Quote from "../contact/quoteasdf/";
 import Grid from "./grid";
 import Head from "next/head";
 import Button from "./ui/cta-button";

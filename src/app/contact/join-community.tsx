@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Quote from "./quote";
+import Quote from "./quoteasdf/";
 import Head from "next/head";
 import Quotation from "../_components/svgs/quotation";
 

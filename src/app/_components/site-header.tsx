@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import Quote from "../contact/quote";
+import Quote from "../contact/quoteasdf/";
 import Button from "./ui/cta-button";
 import Head from "next/head";
 import MeetupInfo from "./meetup-info";
