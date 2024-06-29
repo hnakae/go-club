@@ -17,22 +17,30 @@ ogImage:
 
 ---
 
+## Intro
+
+Imagine you need to reach a destination as quickly as possible, and so you get in the fastest vehicle that you can.
+But, you mistakenly lock in the wrong destination point in your navigation system.
+How pointless to have the fast vehicle.
+No matter how many tesujis you know and how much you train your reading, if your direction of play is off, it'll all be put to waste.
+
+---
+
 ## Basic Concepts of Go #3: Direction of Play
 
 ---
 
-Imagine you need to reach a destination as quickly as possible, and so you get in the fastest vehicle that you can.
-But, you mistakenly choose the wrong destination point in your navigation system.
-How pointless to have the fast vehicle.
-No matter how many tesujis you know and how much you train your reading, if your direction of play is off, it'll all be put to waste.
-
 So here are the two key points for direction of play.
 
-1 play from your weak group.
+## _1) Play from your weak group._
 
-2 push your opponent's weak group against your strong group.
+## _2) Push your opponent's stones towards your strong group._
 
 ---
+
+Example:
+
+_White to Play_
 
 Given this game state where black has just played the attach, the question is, what is the correct direction of play here?
 
@@ -44,7 +52,7 @@ If we can't judge the strenth and weakness of a group, we won't be able to use t
 
 1 play from your weak group.
 
-2 push your opponent's weak group against your strong group.
+2 push your opponent's stones against your strong group.
 
 in order to make the correct decision.
 
@@ -86,11 +94,11 @@ So we can say that this group is a weak group.
 Great, so now we've checked the status of all groups on the board for both sides.
 White has a weak group in the center so we'll have to care for it as we play our next moves. With this in mind, we'll look at the two fundamental theories of direction.
 
-Rule #1: Move from your weak group.
+## Rule #1: Move from your weak group.
 
 Following rule #1, playing from the center group that doesn't have clear eye shape yet, is the right direction of play.
 
-Rule #2: Press your opponent's weak group against your wall, thickness, or strong group.
+## Rule #2: Push your opponent's stones towards your strong group.
 
 Following rule #2, playing to press black's weak group against white's strong group will be the right direction of play.
 
@@ -173,11 +181,7 @@ Now let's see what would happen if white plays from the wrong direction of play.
 
 White jumps from strong group.
 
-1 play from your weak group.
-
-2 push your opponent's weak group against your strong group.
-
-We can clearly see that white is moving from the strong group, breaking the first fundamental rule of direction.
+We can clearly see that white is moving from the strong group, contradicting the first fundamental rule of direction, Move from your weak group.
 
 ---
 
@@ -199,14 +203,28 @@ But black will now return to this bumping move and secure a clean escape out int
 
 ---
 
+## Recap:
+
+## _1) Play from your weak group._
+
+## _2) Push your opponent's stones towards your strong group._
+
 Finally, let's compare the two outcomes.
 
 ![image info](/assets/blog/theory3/theory3-comparison.png)
 
-As you can see, one mistake in direction of play can completely change the flow of the game. So analyze the strength and weakness of the groups on the board for both sides and use the two rules:
+On the left, white makes the first direction of play mistake. Instead of playing from the weak group, white plays from the strong group. White also makes the second direction of play mistake, that is to push your opponent towards your weak group. This choice contradicted both of the basic ideas of correct direction of play.
 
-1 play from your weak group.
+On the right, white takes the correct direction of play by playing from white's weak group. And by moving from the weaker group, this consequently allowed white to also push the opponent's stones toward white's stronger group. This choice uses both of the ideas of correct direction of play theory.
 
-2 push your opponent's weak group against your strong group.
+---
 
-to correctly determine the right direction of play.
+## Conclusion
+
+As you can see, one direction of play mistake can completely change the flow of the game. You may have noticed, that by contradicting the first rule: "play from your weak group", you will consequently contradict the second rule: "push your opponent towards your strong group."
+
+“So in war, the way is to avoid what is strong, and strike at what is weak.”
+― Sun Tzu, The Art of War
+
+"And let them play towards your strength, and away from your weakness."
+-Hiro Nakae
