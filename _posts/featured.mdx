@@ -1,5 +1,5 @@
 ---
-title: "Author's Note"
+title: "New Feature"
 excerpt: "Getting Started"
 tags: "featured"
 coverImage: "/assets/images/cat.jpg"
@@ -11,32 +11,21 @@ ogImage:
   url: "/assets/blog/featured/cover.jpg"
 ---
 
-import Button from '/src/app/_components/ui/cta-button.tsx';
+import Button from '@/app/_components/ui/cta-button.tsx';
 
-<div className="py-4 flex flex-col space-y-3 justify-center items-start">
+import EidogoViewer from '@/app/_components/eidogo/EidogoViewer';
 
-  <div className="text-xl"> About the articles</div>
+<div className="py-10 flex flex-col space-y-3 justify-center items-start ">
 
-  Hey everyone, based on some feedback I got, I decided to detail the organization of the articles we have so far.
-
-
-  <div className="text-xl"> For those looking for the full breakdown:</div>
-
-  I recommend reading the articles in this order. The proverb one first, then Theory chapters 1 - 5. My reasoning for this is that when you read chapter 1 and perhaps realize how useful the ideas presented within are, the hope is that when you read the next chapter, and realize that I have ranked that topic higher than the previous, it will give you the appreciation for that topic based on the fact that it is ranked higher than the previous topic which was already quite useful. And so by the time you get to chapter 5, you will hopefully appreciate how important the main idea is.
+  <div className="text-xl font-medium "> Here's an embedded SGF viewer:</div>
 
 
-  <div className="text-xl"> For those who want to skip ahead to chapter 5:</div>
-
-  I agree that it is better to do so than to start at the beginning and never reach ch.5 due to time constraints etc. But some of the 'aha' moments will probably not happen for you because this chapter intends to explain the deeper reasoning behind the previous chapters. Perhaps one day I can make the content self contained, but for now it is how it is.
-
-
-  <div className="text-xl"> For absolute beginners:</div>
   
-  I have to recommend the chapter on Shape first and foremost. Particularly the first three sections regarding bad shape. I understand that many of these articles are written to a single digit kyu audience, and perhaps a bit out of touch with what someone just getting into this world may need, but in my mind, these fundamental concepts will inevitably start to play a big role in your games, so if you're curious I wouldn't say to skip anything. I believe that at whatever level someone is, no matter how difficult a concept may or may not be, we can always try to understand the concept with our current level of understanding. And this personal reasoning around that topic will be enough to work with.
 
-  Happy reading
+  <EidoGoViewer sgf="/sgf/file.sgf" />
 
-  <Button />
+
+  
 
 </div>
 

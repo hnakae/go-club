@@ -2,6 +2,8 @@ import Footer from "@/app/_components/footer";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Lora, Montserrat } from "next/font/google";
 
+import Script from "next/script";
+
 import "./globals.css";
 import { Navbar } from "./_components/navbar";
 
@@ -22,6 +24,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: `Eugene Go Club`,
   description: `Welcome to the club.`,
+  metadataBase: new URL("https://eugenego.club"),
 };
 
 export default function RootLayout({
@@ -32,6 +35,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <Script
+          src="http://eidogo.com/player/js/all.compressed.js"
+          strategy="beforeInteractive"
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

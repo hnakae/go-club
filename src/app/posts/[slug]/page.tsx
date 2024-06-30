@@ -5,7 +5,7 @@ import { getAllPosts, getPostBySlug } from "@/lib/api";
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import Container from "@/app/_components/container";
-import { PostBody } from "@/app/_components/post-body";
+// import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 import ExploreMore from "@/app/blog/exploreMore";
 import dynamic from "next/dynamic";
