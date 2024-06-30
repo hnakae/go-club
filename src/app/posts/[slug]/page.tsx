@@ -13,7 +13,7 @@ import dynamic from "next/dynamic";
 // import {Goban} from 'react-go-board';
 
 const ClientMDXRemote = dynamic(
-  () => import("../../_components/mdx/ClientMDXRemote"),
+  () => import("@/app/_components/mdx/ClientMDXRemote"),
   {
     ssr: false,
   }
@@ -53,7 +53,7 @@ export default async function Post({ params }: Params) {
             chapter={post.chapter}
           />
           {/* <PostBody content={content} /> */}
-          <div className="w-full mb-4 xs:px-4 sm:px-6 md:px-20 lg:px-44 xl:px-44 2xl:px-48 border border-primaryColor rounded-md shadow-md backdrop-blur-md">
+          <div className="w-full mb-4 xs:px-4 sm:px-6 md:px-20 lg:px-44 xl:px-44 2xl:px-48 border border-primaryColor rounded-md shadow-md backdrop-blur-md min-h-screen">
             <ClientMDXRemote {...mdxSource} />
           </div>
         </article>
