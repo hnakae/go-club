@@ -13,7 +13,7 @@ const MeetupInfo = () => {
         5th Street Alley near{" "}
         <a
           href="https://www.google.com/maps/place/Magpie+Coffeeshop/@44.0534091,-123.0906905,17z/data=!3m1!4b1!4m6!3m5!1s0x54c11f944e770925:0x5d79ed248cc805f2!8m2!3d44.0534091!4d-123.0906905!16s%2Fg%2F11rc73f_8q?entry=ttu"
-          className="underline "
+          className="underline font-montserrat text-2xl  md:text-xl sm:text-lg xs:text-base"
           target="_blank"
         >
           Magpie Coffee
