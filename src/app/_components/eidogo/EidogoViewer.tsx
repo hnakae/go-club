@@ -28,7 +28,7 @@ const EidoGoViewer: React.FC<EidoGoViewerProps> = ({ sgf }) => {
         } catch (error) {
           console.error("Error initializing EidoGo player:", error);
         }
-      }, 100); // 100ms delay
+      }, 0); // 100ms delay
 
       return () => clearTimeout(timer);
     }
@@ -49,8 +49,8 @@ const EidoGoViewer: React.FC<EidoGoViewerProps> = ({ sgf }) => {
         ref={containerRef}
         style={{
           width: "400px",
-          height: "400px",
-          border: "1px solid black",
+          height: "700px",
+          // border: "1px solid black",
           position: "relative",
           zIndex: 1000,
         }}

@@ -27,10 +27,10 @@ export function PostHeader({
           <div className="flex flex-col items-start mt-4">
             {chapter}
             <PostTitle>{title}</PostTitle>
-            <Avatar name={author.name} picture={author.picture} />
+            {/* <Avatar name={author.name} picture={author.picture} /> */}
           </div>
 
-          <CoverImage title={title} src={coverImage} />
+          {/* <CoverImage title={title} src={coverImage} /> */}
         </div>
       </div>
     </div>

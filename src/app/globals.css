@@ -48,6 +48,34 @@ body {
   background-image: url("/assets/images/slatebg.png");
 }
 
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+* {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

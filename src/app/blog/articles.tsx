@@ -6,8 +6,11 @@ import { Post } from "@/interfaces/post";
 
 const Articles: React.FC<{ initialPosts: Post[] }> = ({ initialPosts }) => {
   // Filter featured posts
-  const featuredPosts = initialPosts.filter((post) =>
-    post.tags.toLowerCase().includes("featured")
+  const featuredPosts = initialPosts.filter(
+    (post) =>
+      post.tags.toLowerCase().includes("featured") ||
+      post.tags.toLowerCase().includes("3") ||
+      post.tags.toLowerCase().includes("5")
   );
 
   // Filter non-featured posts
