@@ -55,7 +55,7 @@ h1 {
   line-height: 1.2;
   letter-spacing: -0.05em;
   color: #ffffff;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 h2 {
@@ -65,7 +65,7 @@ h2 {
   line-height: 1.2;
   letter-spacing: -0.05em;
   color: #ffffff;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 h3 {
@@ -75,7 +75,7 @@ h3 {
   line-height: 1.2;
   letter-spacing: -0.05em;
   color: #ffffff;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 * {
