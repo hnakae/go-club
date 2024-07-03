@@ -12,116 +12,129 @@ ogImage:
   url: "/assets/images/cover.jpg"
 ---
 
-“If you know the enemy and know yourself, your victory will not stand in doubt”
-― Sun Tzu, The Art of War
 
----
 
-## Intro: Basic Concepts of Go #1: The Strength of Stones
+<div className="mt-8"/>
+
+# The Basic Theory of Go
+
+<div className="mt-4"/>
 
 This one is crucial. As I mentioned at the end of the previous chapter, this is the cornerstone concept. If you read the basic concepts of Go (from 5 to 2), that's good, but you can forget them all. Just remember this one concept. The reason why this concept on the strength of stones is so important, is that when you really break down and get to the essence of each of the other four concepts, what you will find is that they can all be reduced to this one concept.
 
 Just like when you checkmate the king in chess, and guarantee your victory, the moment you master this concept, it wouldn't be an exaggeration to say that you have a _comprehensive understanding of all the basic theories of go_. This is the basic theory that encompasses everything about Go.
 
----
+<div className="mt-8"/>
 
 ## The golden rules
 
-So let's get on with the two key points:
+<div className="mt-4"/>
 
-## _1) Moves near alive stones are small._
+## 1) Moves near alive stones(strong stones) are small.
 
-## _2) Moves without the threat of a follow up are small._
+ <div className="mt-2"/>
 
----
+## 2) Moves without the threat of a follow up are small.
 
-This is it. Burn these into your memory so that when you wake up from this simulation you still remember them.
-
----
+<div className="mt-8"/>
 
 We can rephrase these two key points like this as well:
 
-## _1) Moves near stones that aren't alive are big._
+<div className="mt-4"/>
 
-## _2) Moves with the threat of a follow up are big._
+## 1) Moves near stones that aren't alive(weak stones) are big.
 
----
+<div className="mt-2"/>
 
-When stones are not yet alive, we can expect to be able to threaten a follow up move. Thus, moves in this are are big.
+## 2) Moves with the threat of a follow up are big.
 
----
+<div className="mt-8"/>
+
+When stones are not yet alive, they are weaker and we can expect to find follow up moves. Thus, moves in this are are big.
+
+<div className="mt-8"/>
+
+## Example 1
 
 Let's look at some examples, and along the way I'll show how this concept can be connected to the other basic concepts.
 
-![image info](/assets/blog/theory1/1.PNG)
+<ImageText src="/assets/blog/theory1/1.PNG" text1="White has just played this knight's move to check black's group here on the bottom side. If you guessed that the jump from one of these two black stones was the right move, I think you have an understanding of the 5 concepts.
+" text2="Direction of Play - Rule #1: Play from your weak groups. Since black's group here is checked on both sides and there is a 2nd line stone due to the Q3 kick, Black's two stones have little eye-space and is unstable. So, we want to move from these guys since they're not alive and consequently weak."/>
 
-White has just played this knight's move to check black's group here on the bottom side. If you guessed that the jump from one of these two black stones was the right move, I think you have an understanding of the 5 concepts.
+<div className="mt-8"/>
 
-Direction of Play - Rule #1: Play from your weak groups. Since black's group here is checked on both sides and there is a 2nd line stone due to the Q3 kick, Black's two stones have little eye-space and is unstable. So, we want to move from these guys since they're not alive and consequently weak.
+<ImageText src="/assets/blog/theory3/theory3-15.PNG" text1="Perhaps you've noticed, that `play from your weak groups`, is the same as `Moves near weak stones are big`. We play from the weak group not only because of good direction, but also because we need to defend against moves with follow ups.
+" text2="We can also say `push weak stones towards our strength`, is the same as `Moves near strong stones are small` because are effectively pushing weak stones towards our strength is making the opponent play moves that lack follow up."/>
 
----
 
-But did you notice, that rule #1 of Direction of Play stating play from your weak groups, is similar to rule #1 of strength of stones? Of course, we play from the weak group because moves near alive stones are small. I think you now understand that the strength of stones is saying the same thing as the direction of play.
+<div className="mt-8"/>
 
-Moving on from the review of direction of play, let's consider how black should continue from here.
+## Example 1: Options A & B
 
-![image info](/assets/blog/theory1/2.PNG)
+<div className="mt-4"/>
 
-Of course, the one space jump from one of these stones would be the most orthodox response, but the problem here is there are two options for where to jump from. So, this is the problem at hand for this example; take a look at the two options.
+Now back to the example at hand, the one space jump from one of these stones would be the most orthodox response, but the problem here is there are two options for where to jump from. Here are the two options.
+
+<div className="mt-2"/>
 
 ![image info](/assets/blog/theory1/comparison1.png)
 
-remember,
+<div className="mt-2"/>
 
-## _1) Moves near alive stones are small._
+Using the two guidelines, 
 
-## _2) Moves without the threat of a follow up are small._
+<div className="mt-2"/>
 
-So which is the correct answer, A or B?
 
----
+## 1) Moves near alive stones are small.
 
-![image info](/assets/blog/theory1/a.PNG)
+<div className="mt-2"/>
 
-How did you do, did you get it right?
-The correct answer (A) is to jump from the right side.
+## 2) Moves without the threat of a follow up are small.
 
-Perhaps you think that they're both one space jumps from the same group and so they're the same, but the nuance between these two moves effect the win rate by 6%. If you play A, white has about a 56% chance to win the game. But if you play B, white has about a 62% chance to win the game, according to katago on my machine.
+<div className="mt-2"/>
 
----
+Which is the correct answer, A or B?
+
+<div className="mt-8"/>
+
+## Correct Answer
+
+<div className="mt-4"/>
+
+<ImageText src="/assets/blog/theory1/a.PNG" text1="How did you do, did you get it right?
+The correct answer (A) is to jump from the right side." text2="Perhaps you think that they're both one space jumps from the same group and so they're the same, but the nuance between these two moves effect the win rate by 6%. If you play A, white has about a 56% chance to win the game. But if you play B, white has about a 62% chance to win the game, according to katago on my machine."/>
+
 
 Using the two key points of the strength of stones, we'll analyze why jumping from the stone on the right is better.
 
-![image info](/assets/blog/theory1/a.PNG)
+<div className="mt-4"/>
 
-First of all, moves near alive stones are small.
-Between the knight's move enclosure on the bottom left corner and the three stones in the bottom right quadrant, which of these two white groups is not alive? The enclosure on the left side is stable. It's alive. but the group on the right side has no eye shape and is a weak group. Therefore, instead of playing near the alive enclosure, playing near the weak group has more value.
+<ImageText src="/assets/blog/theory1/a.PNG" text1="First of all, moves near alive stones are small.
+Between the knight's move enclosure on the bottom left corner and the three stones in the bottom right quadrant, which of these two white groups is not alive?" text2="The enclosure on the left side is stable. It's alive. but the group on the right side has no eye shape and is a weak group. Therefore, instead of playing near the alive enclosure, playing near the weak group has more value."/>
 
----
+## Wrong Answer
 
-![image info](/assets/blog/theory1/b.PNG)
+ <ImageText src="/assets/blog/theory1/b.PNG" text1="So this move, is playing near the alive group." text2="And, because you played near an alive group, you have no real follow up."/>
 
-So this move, is playing near the alive group.
-And, because you played near an alive group, you have no real follow up.
 
----
+## Follow Moves against Weak Group
 
-![image info](/assets/blog/theory1/a.PNG)
-
-This move, is playing near the weak group.
-And thus, you have very real follow up moves.
+<div className="mt-4"/>
 
 ![image info](/assets/blog/theory1/options.png)
 
 For example: if white tenukis (plays elsewhere), black can knight's move or cap.
 
----
+<div className="mt-8"/>
 
 ![image info](/assets/blog/theory1/5-options.png)
 
 And even if white jumps again from the weak group, black can wedge to create these two cutting points.
 
----
+<div className="mt-8"/>
+
+## Example 1 Recap
 
 So although the two one space jumps were both just one space jumps from the same group, we can find the better move if we use this universal concept. I hope that now you see that jumping from the right side near the weak group aiming at the many follow up moves is the better move.
 
@@ -129,47 +142,50 @@ So although the two one space jumps were both just one space jumps from the same
 
 Once again, among the basic concepts of go, this one trumps them all by a landslide so let's look at another example to further consolidate this concept.
 
----
+<div className="mt-8"/>
 
-![image info](/assets/blog/theory1/6.PNG)
+## Example 2
+
+<div className="mt-4"/>
 
 Black to play.
 
----
+<div className="mt-2"/>
 
-![image info](/assets/blog/theory1/7.PNG)
+![image info](/assets/blog/theory1/6.PNG)
 
-What do you think of this move? In terms of direction of play, black is playing according to 'play from your weak stones'. But, it contradicts the concept of the strength of stones. If you can see how this move is contradicting the strength of stones concept, you have a pretty good understanding of this key concept.
 
----
+<div className="mt-8"/>
 
-Let's determine the strength of the white group in the top left quadrant. It's pretty much invincible. It's alive. And this is the clue.
+ <ImageText src="/assets/blog/theory1/7.PNG" text1="What do you think of this move? In terms of direction of play, black is playing according to 'play from your weak stones'. But, it contradicts the concept of the strength of stones. " text2="If you can see how this move is contradicting the strength of stones, you have a pretty solid understanding of what moves are big or not."/>
 
-![image info](/assets/blog/theory1/7.PNG)
 
-## _1) Moves near alive stones are small._
 
-Clearly the move contradicts this point because the white group here is alive,
+Let's analyze the strength of the white group in the top left quadrant. It's pretty much invincible because there it's fully connected up, with plenty of eye shape. We can say that it's alive. 
 
-## _2) Moves without the threat of a follow up are small._
+<div className="mt-2"/>
 
-and because white's group here is alive, there is absolutely no follow up threat against it. And so the move contradicts this point as well.
+## 1) Moves near alive stones are small.
 
----
+<div className="mt-2"/>
 
-Interestingly, we can even say that this move contradicts point #2 of the direction of play. If you can tell how this move contradicts the 2nd point in the direction of play concept, I think that your reasoning ability is quite good.
+## 2) Moves without the threat of a follow up are small.
 
-![image info](/assets/blog/theory1/7.PNG)
+<ImageText src="/assets/blog/theory1/7.PNG" text1="This move is playing towards strong, alive stones." text2="Which means there's no immediate follow up threat. So ultimately, this follows `play from weak stones` but is actually a small move."/>
 
-Rule #2 of direction of play is to push your opponent's weak group against your thickness.
 
-Essentially, this large knight move is approaching white's strong group, and so from white's perspective, the opponent has just pushed himself into your strength for you! Wow, how generous. From this explanation, I think it is clear to see that black's large knight move here is actually bad direction.
+Interestingly, we can even say that this move contradicts 'Push your opponent's weak stones towards your strong stones'. 
 
----
+<div className="mt-2"/>
+
+<ImageText src="/assets/blog/theory1/7.PNG" text1="Essentially, this large knight move is approaching white's strong group, and so from white's perspective, the opponent has just pushed himself into your strength for you!" text2="How generous. From this explanation, I think it is clear to see that black's large knight move here is actually bad direction."/>
+
+
+
 
 And when we look at the 2nd rule of direction of play, I think some of you may have already noticed, but 'Push your opponent's weak group into your strong(alive) group' and 'moves near alive groups are small' are actually saying the same thing. So the rules of direction of play are guided by the fact that moves near alive stones are small, and moves without follow up threat are small. Even the concept of Sacrifice stones have the exact same principles underneath.
 
----
+<div className="mt-8"/>
 
 Then what would be a better move?
 
@@ -177,23 +193,23 @@ Then what would be a better move?
 
 Because we don't want to approach white's thickness, this jump clearly commits to moving away from it. This move also helps increase the odds of the bottom side turning into a territory-moyo. And if not, this sort of position will aid in the fight when white jumps in to break it up.
 
----
+<div className="mt-8"/>
 
 ![image info](/assets/blog/theory1/9.PNG)
 
 If you don't consider the center group weak, playing like this is also valid, but anyways when you consider the concept of the strength of stones, either of these moves would be better than willingly pressing yourself against the opponent's strong group.
 
----
+<div className="mt-8"/>
 
-## Recap
+# Recap
 
-## _1) Moves near alive stones are small._
+## 1) Moves near alive stones are small.
 
-## _2) Moves without the threat of a follow up are small._
+## 2) Moves without the threat of a follow up are small.
 
----
+<div className="mt-8"/>
 
-## Conclusion
+# Conclusion
 
 We started off with how to Sacrifice stones,
 
@@ -207,7 +223,11 @@ Before finally bringing it together with The Strength of Stones as the corner st
 
 These 5 chapters will serve as the foundational knowledge you can always rely on to make theory backed positional judgement. As someone who is dedicated enough to read all of this and now knows all of the 5 concepts, your go will stand out from the rest of the crowd. There are many accessible resources on joseki, tsumego, and pro games online, and your competition will also have access to those resources, but these 5 concepts will give you an edge that most will have trouble acquiring all of. I truly believe that the moment you master these concepts, it wouldn't be an exaggeration to say that you have a _comprehensive understanding of all the basic theories of go_. Remember, The Strength of Stones is the basic theory that encompasses everything about Go!
 
----
+<div className="mt-8"/>
 
-Congratulations on reaching the end of this article! Now that you are up to speed with the fundamental concepts of go, the runway is now clear and you're ready for take off!
+Congratulations on reaching the end of this article! Now that you are up to speed with the fundamental concepts of go, the runway is now clear and you're ready for lift off!
 -Hiro Nakae
+
+
+“If you know the enemy and know yourself, your victory will not stand in doubt”
+― Sun Tzu, The Art of War
