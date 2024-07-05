@@ -3,6 +3,7 @@ import Container from "@/app/_components/container";
 import JoinCommunity from "./join-community";
 import Header from "./header";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -14,9 +15,16 @@ export default function Contact() {
             {/* <JoinCommunity /> */}
             <Link
               href="https://discord.com/channels/1164649557687275703/1164649557687275706"
-              className="text-blue-500 underline"
+              className="text-blue-500 underline flex "
               target="_blank"
             >
+              <Image
+                src="/icons/discord.png"
+                alt="discord icon"
+                width={25}
+                height={25}
+                className="pointer-events-none mr-2"
+              />{" "}
               Discord
             </Link>
             {/* <div>contact@info.com</div>
