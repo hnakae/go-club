@@ -12,7 +12,17 @@ ogImage:
   url: "/assets/blog/theory5/sacrifice-1.jpg"
 ---
 
-## Intro: Basic Concepts of Go #5: Sacrifice
+<div className="mt-8"/>
+
+# Sacrifice Scrap Stones
+
+<div className="mt-2"/>
+
+## Intro
+
+<div className="mt-4"/>
+
+
 
 How do we correctly determine what stones are scrap?
 What do we get from sacrificing scrap stones?
@@ -20,180 +30,168 @@ What are the consequences of not sacrificing the scrap?
 
 Knowing exactly how and why we sacrifice stones will not only make our games more sophisticated, but we will also obtain more freedom and control over the flow of the game. My goal here is to give you a framework that can lighten the cognitive load for this decision making process for when you are under time pressure in a game of Go.
 
----
+<div className="mt-4"/>
 
-## How to determine what to sacrifice?
+# How to determine what to sacrifice?
 
-_1 Stones that are stuck to alive stones._
+<div className="mt-4"/>
 
-_2 Stones that were played as kikashi(forcing moves)._
+## 1 Stones that are stuck to alive stones.
+
+<div className="mt-2"/>
+
+## 2 Stones that were played as kikashi(forcing moves).
+
+<div className="mt-4"/>
 
 Using these two conditions, we must determine if a stone is scrap or not. Of course there are exceptions, but on a fundamental level, this is what we use to judge if a stone is scrap or not.
 
----
+<div className="mt-4"/>
 
-## _1) Stones that are stuck to alive stones._
+# 1) Stones that are stuck to alive stones.
+
+<div className="mt-4"/>
 
 Example:
 
+<div className="mt-2"/>
+
 _Black to Play_
 
-![image info](/assets/blog/theory5/part1/theory5-1.PNG)
+<ImageText src="/assets/blog/theory5/part1/theory5-1.PNG" text1="Take a look at this game state. In the top left quadrant, we can see that the two black stones in the corner are dead, making the D16 cutting stone irrelevant. Given this analysis, we know that all of white's stones are completely alive. So this means that all of the stones that are attached to the alive white group are scrap! More specifically, the three stones that white just played against are scrap.
+" text2="Although those stones are scrap, white is making the mistake of trying to capture the scrap. In this moment, black can play well and not make the mistake white made."/>
 
-Take a look at this game state. In the top left quadrant, we can see that the two black stones in the corner are dead, making the D16 cutting stone irrelevant. Given this analysis, we know that all of white's stones are completely alive. So this means that all of the stones that are attached to the alive white group are scrap! More specifically, the three stones that white just played against are scrap.
 
-Although those stones are scrap, white is making the mistake of trying to capture the scrap. In this moment, black can play well and not make the mistake white made.
 
----
-
-![image info](/assets/blog/theory5/part1/theory5-2.PNG)
-
+<ImageText src="/assets/blog/theory5/part1/theory5-2.PNG" text1="
 Since we will not be saving scrap stones, we can play this one space jump to quickly develop the upper right and also roughly connect up with G12.
+" text2=""/>
 
----
 
-![image info](/assets/blog/theory5/part1/theory5-3.PNG)
+<ImageText src="/assets/blog/theory5/part1/theory5-3.PNG" text1="If for example white continues to threaten the scrap stones, just to be consistent with his initial plan, black can say thank you for going after scrap stones, and then play away to develop the biggest area of the board.
+" text2=""/>
 
-If for example white continues to threaten the scrap stones, just to be consistent with his initial plan, black can say thank you for going after scrap stones, and then play away to develop the biggest area of the board.
 
----
+<ImageText src="/assets/blog/theory5/part1/theory5-4.PNG" text1="like so. And if white plays C14 to capture the three stones now, it would be a slow, low value, and low impact move.
+" text2=""/>
 
-![image info](/assets/blog/theory5/part1/theory5-4.PNG)
 
-like so. And if white plays C14 to capture the three stones now, it would be a slow, low value, and low impact move.
 
----
+<ImageText src="/assets/blog/theory5/part1/theory5-5.PNG" text1="On the other hand, let's see what will happen if black does save the scrap stones. Black hane,
 
-![image info](/assets/blog/theory5/part1/theory5-5.PNG)
+" text2=""/>
 
-On the other hand, let's see what will happen if black does save the scrap stones. Black hane,
 
----
+<ImageText src="/assets/blog/theory5/part1/theory5-6.PNG" text1="white hane,
 
-![image info](/assets/blog/theory5/part1/theory5-6.PNG)
+" text2=""/>
 
-white hane,
 
----
 
-![image info](/assets/blog/theory5/part1/theory5-7.PNG)
+<ImageText src="/assets/blog/theory5/part1/theory5-7.PNG" text1="black connect.
 
-black connect.
+" text2="
+black has saved the three stones that are attached to white's alive group, but there is nothing that black can hope to achieve by doing so. Saving the three stones won't give him anything to aim at in the corner, because those two black stones are dead. So there is no utility in saving this null cutting stone."/>
 
-black has saved the three stones that are attached to white's alive group, but there is nothing that black can hope to achieve by doing so. Saving the three stones won't give him anything to aim at in the corner, because those two black stones are dead. So there is no utility in saving this null cutting stone.
 
----
 
-![image info](/assets/blog/theory5/part1/theory5-8.PNG)
+<ImageText src="/assets/blog/theory5/part1/theory5-8.PNG" text1="Not only that, but white can play this kind of continuation to separate the entire group from the right side. Black has just increased his burden for nothing in return.
 
-Not only that, but white can play this kind of continuation to separate the entire group from the right side. Black has just increased his burden for nothing in return.
+" text2=""/>
 
----
+
+
 
 ![image info](/assets/blog/theory5/part1/theory5-comparison.png)
 
 now behold the difference this makes.
 
-This is the meaning of Condition #1, Stones stuck to alive groups are scrap.
+This is why we sacrifice Stones stuck to alive groups.
 
-## _2) Stones that were played as kikashi(forcing moves)._
+<div className="mt-8"/>
 
-_The situation:_
+# 2) Stones that were played as kikashi(forcing moves).
 
-![image info](/assets/blog/theory5/part2/theory5-9.PNG)
+<div className="mt-4"/>
 
-Take a look at this game state. In this moment, black has an unstable group that is mostly surrounded, and the main topic is how he will settle this group.
+<ImageText src="/assets/blog/theory5/part2/theory5-9.PNG" text1="Take a look at this game state. In this moment, black has an unstable group that is mostly surrounded, and the main topic is how he will settle this group.
 
----
+" text2=""/>
+
+
 
 Example:
 
 _White to Play_
 
-![image info](/assets/blog/theory5/part2/theory5-10.PNG)
+<ImageText src="/assets/blog/theory5/part2/theory5-10.PNG" text1="So, black turns and threatens to capture one stone to try and make his two eyes for life.
 
-So, black turns and threatens to capture one stone to try and make his two eyes for life.
+" text2="White's next move is the theme for this example."/>
 
-White's next move is the theme for this example.
+<ImageText src="/assets/blog/theory5/part2/theory5-11.PNG" text1="Here, white saves this one stone and here, we must determine if this stone was scrap or not.
 
----
+" text2=""/>
 
-![image info](/assets/blog/theory5/part2/theory5-11.PNG)
+<ImageText src="/assets/blog/theory5/part2/theory5-12.PNG" text1="To figure this out, it would be unfair to not see how the moves in this area played out so let's back track and see.
+" text2="
+Black had just played this tiger's mouth."/>
 
-Here, white saves this one stone and here, we must determine if this stone was scrap or not.
+<ImageText src="/assets/blog/theory5/part2/theory5-13.PNG" text1="white peeps
+" text2=""/>
 
----
+<ImageText src="/assets/blog/theory5/part2/theory5-14.PNG" text1="black connects.
+" text2="I think some of you get it now."/>
 
-![image info](/assets/blog/theory5/part2/theory5-12.PNG)
-
-To figure this out, it would be unfair to not see how the moves in this area played out so let's back track and see.
-
-Black had just played this tiger's mouth.
-
----
-
-![image info](/assets/blog/theory5/part2/theory5-13.PNG)
-
-white peeps
-
-![image info](/assets/blog/theory5/part2/theory5-14.PNG)
-
-black connects.
-
-I think some of you get it now.
-
----
-
-![image info](/assets/blog/theory5/part2/theory5-10.PNG)
-
+<ImageText src="/assets/blog/theory5/part2/theory5-10.PNG" text1="
 If we go back to the original board position, we can now see that this white stone that black has turned around was a stone that was played as a kikashi, or forcing move. (The peep forcing the connection.)
+" text2="Which means, that this stone falls under 'stones played as kikashi'.
+And since we can't be saving scrap stones, white has to be overjoyed to sacrifice this stone."/>
 
-Which means, that this stone falls under condition #2 for determining scrap stones.
 
-And since we can't be saving scrap stones, white has to be overjoyed to sacrifice this stone.
 
----
 
-![image info](/assets/blog/theory5/part2/theory5-15.PNG)
 
-The correct move here is to play the kosumi and completely seal black in, forcing black to take the scrap stone.
+<ImageText src="/assets/blog/theory5/part2/theory5-15.PNG" text1="The correct move here is to play the kosumi and completely seal black in, forcing black to take the scrap stone.
+" text2=""/>
 
----
 
-![image info](/assets/blog/theory5/part2/theory5-16.PNG)
 
-When black does take the one scrap stone,
-White can just appreciate the fact that black just played a painfully small move.
+<ImageText src="/assets/blog/theory5/part2/theory5-16.PNG" text1="When black does take the one scrap stone,
+" text2="White can just appreciate the fact that black just played a painfully small move."/>
 
----
 
-![image info](/assets/blog/theory5/part2/theory5-17.PNG)
-
-After relishing in the fact that your opponent was forced to play a painfully small move, you can go ahead and play the biggest area on the board, completely outpacing the opponent.
-
-From black's perspective, he has just captured one scrap stone for a grand total of 2 points, while white has completed the surround in sente, made the weak stick on the bottom side of the board strong via the relationship between it and the surrounding stones, and invaded the corner.
-
----
+<ImageText src="/assets/blog/theory5/part2/theory5-17.PNG" text1="After relishing in the fact that your opponent was forced to play a painfully small move, you can go ahead and play the biggest area on the board, completely outpacing the opponent.
+" text2="From black's perspective, he has just captured one scrap stone for a grand total of 2 points, while white has completed the surround in sente, made the weak stick on the bottom side of the board strong via the relationship between it and the surrounding stones, and invaded the corner."/>
 
 But let's see what it looks like if white saves the scrap stone.
 
-![image info](/assets/blog/theory5/part2/theory5-18.PNG)
+<div className="mt-4"/>
 
-Black attaches to escape the surround, and all of a sudden white's group on the right is disconnected and isolated within black's moyo.
+<ImageText src="/assets/blog/theory5/part2/theory5-18.PNG" text1="Black attaches to escape the surround, and all of a sudden white's group on the right is disconnected and isolated within black's moyo.
 
----
+" text2=""/>
+
+
 
 Finally, let's see the two results side by side.
 
+<div className="mt-4"/>
+
 ![image info](/assets/blog/theory5/part2/theory5-comparison2.png)
+
+<div className="mt-4"/>
 
 The difference is night and day.
 
----
+<div className="mt-8"/>
 
-Recap:
+## Recap:
 
-## 1) Stones that are stuck to alive stones are scrap.
+<div className="mt-4"/>
+
+# 1) Stones that are stuck to alive stones are scrap.
+
+<div className="mt-4"/>
 
 ![image info](/assets/blog/theory5/part1/theory5-comparison.png)
 
@@ -201,22 +199,36 @@ On the left, we failed to identify the scrap stones, so we missed the chance to 
 
 On the right, we correctly identified the scrap stones and got to play the move we really want. And we don't owe anything so we have the freedom to continue playing what we want.
 
-## 2) Stones that were played as kikashi are scrap.
+<div className="mt-8"/>
+
+# 2) Stones that were played as kikashi are scrap.
+
+<div className="mt-4"/>
 
 ![image info](/assets/blog/theory5/part2/theory5-comparison2.png)
+
+<div className="mt-4"/>
 
 On the left, we got baited into saving a scrap stone and missed our opportunity to surround in sente. Because we didn't get the surround and connect, we will now be very busy managing all of our weak groups.
 
 On the right, we allowed the capture of the scrap stone and successfully surrounded in sente. This gives us the freedom to play what we want.
 
----
+<div className="mt-8"/>
 
 ## Conclusion
 
+<div className="mt-4"/>
+
 Now that we have these two conditions for identifying stones that are no longer valuable, we can now sacrifice with more certainty. Correct application of sacrifice isn't just some fancy strategy that conceptually makes your game more sophisticated. It actually gives you more freedom to play the moves you really want.
 
----
+<div className="mt-4"/>
 
-I hope that this will help you make the judgement on sacrifice more decisively. I hope that it helps you avoid frustrating situations where you are running with a group that you have no use for, and that the added opportunities to tenuki and take sente give you more freedom and control over your games. Personally, after learning this way of thinking, in those moments where I had to make the tough decision to sacrifice or not, I was able to rely on these concrete definitions to inform my decision making where before, there was no consistency in the decision making.
+I hope that this will help you make the judgement on sacrifice more decisively. I hope that it helps you avoid frustrating situations where you are running with a group that you have no use for, and that the added opportunities to tenuki and take sente give you more freedom and control over your games.
 
+<div className="mt-4"/>
+
+ After I learned this way of thinking, in those moments where I had to make the tough decision to sacrifice or not, I was able to rely on these concrete definitions to inform my decision making where before, there was no consistency in the decision making.
+
+<div className="mt-4"/>
 -Hiro Nakae
+<div className="mt-8"/>
