@@ -1,3 +1,4 @@
+"use client";
 import Container from "@/app/_components/container";
 // import { Events } from "@/app/_components/events";
 import JoinCommunity from "./join-community";

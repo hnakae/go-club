@@ -19,6 +19,7 @@ const nextConfig = {
             style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com;
             font-src 'self' https://fonts.gstatic.com;
             img-src 'self' data:;
+            frame-src 'self' https://online-go.com;
           `
               .replace(/\s{2,}/g, " ")
               .trim(),

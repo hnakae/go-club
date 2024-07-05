@@ -10,6 +10,7 @@ export default function About() {
     <main className=" ">
       <Container>
         <Header />
+
         {/* faq */}
         <section className="w-full flex justify-center items-start z-10 text-neutralColor mb-4">
           <div className=" max-w-[1128px]  px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full  ">
