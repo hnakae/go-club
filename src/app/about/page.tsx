@@ -3,6 +3,13 @@ import Container from "@/app/_components/container";
 import Header from "./header";
 import Image from "next/image";
 import Quote from "../contact/quote";
+import MyCalendar from "../_components/calendar/MyCalendar";
+
+// import dynamic from "next/dynamic";
+
+// const MyCalendar = dynamic(() => import("../_components/calendar/MyCalendar"), {
+//   ssr: false,
+// });
 // import { QA } from "./faqs";
 
 export default function About() {
@@ -37,7 +44,7 @@ export default function About() {
           </div>
         </section>
         {/* images */}
-        <section className="flex items-center w-full max-w-[1128px] xs:hidden sm:hidden  md:hidden">
+        <section className="flex items-center w-full max-w-[1128px] xs:hidden sm:hidden  md:hidden mb-4">
           <div className="h-full w-[350px] max-h-[320px] flex justify-center items-center border overflow-hidden border-primaryColor mr-4 mb-4 rounded-md">
             <Image
               src="/assets/images/5thstreetalley.jpg"
@@ -48,6 +55,9 @@ export default function About() {
             />
           </div>
           <Quote />
+        </section>
+        <section className="w-full  flex justify-center mb-4">
+          <MyCalendar />
         </section>
       </Container>
     </main>
