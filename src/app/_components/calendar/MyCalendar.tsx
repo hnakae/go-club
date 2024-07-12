@@ -7,7 +7,7 @@ import "react-calendar/dist/Calendar.css";
 type ValuePiece = Date | null;
 type Value = ValuePiece | [ValuePiece, ValuePiece];
 
-const MyCalendar: React.FC = () => {
+const MyCalendar = () => {
   const [value, onChange] = useState<Value>(new Date());
 
   return (

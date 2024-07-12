@@ -13,10 +13,10 @@ export default function Contact() {
         <Header />
         <div className="w-full flex justify-center items-start z-10 mb-4 text-neutralColor ">
           <div className=" max-w-[1128px]  px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full ">
-            {/* <JoinCommunity /> */}
+            {/* discord */}
             <Link
               href="https://discord.com/channels/1164649557687275703/1164649557687275706"
-              className="text-blue-500 underline flex "
+              className="text-blue-500 underline flex mb-3"
               target="_blank"
             >
               <Image
@@ -28,8 +28,11 @@ export default function Contact() {
               />{" "}
               Discord
             </Link>
-            {/* <div>contact@info.com</div>
-            <div>541-000-0000</div> */}
+
+            <div>Daniel Pono Takamori</div>
+            <div className="mb-3">971-533-7727</div>
+
+            <div>contact@eugenego.club</div>
           </div>
         </div>
       </Container>

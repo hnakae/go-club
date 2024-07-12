@@ -20,7 +20,7 @@ const MeetupInfo = () => {
         </a>
       </div>{" "}
       <div className="font-montserrat text-2xl md:text-xl sm:text-lg xs:text-base opacity-60 my-2 ">
-        5:00 pm - 9:00 pm.
+        5:30 pm - 9:00 pm.
       </div>
     </div>
   );
