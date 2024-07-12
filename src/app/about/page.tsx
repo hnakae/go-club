@@ -17,7 +17,31 @@ export default function About() {
     <main className=" ">
       <Container>
         <Header />
-
+        {/* <section className="flex sm:flex-col justify-between items-center mb-4  w-full max-w-[1128px]   rounded-md ">
+          <Image
+            src="/assets/images/5thstreetalley.jpg"
+            width={247}
+            height={300}
+            alt="daniel"
+            className="z-20  rounded-md border border-primaryColor backdrop-blur-md bg-primaryColor/20 shadow-md mr-4 "
+          />
+          <div className=" border border-primaryColor w-full min-w-[310px] backdrop-blur-md text-white rounded-md h-full flex flex-col justify-center items-center px-4 py-10 overflow-hidden">
+            <p className="font-montserrat tracking-tighter  mb-4 max-w-[400px] px-12 text-xl">
+              Look for the gobans and listen for the clacking of slate and
+              shell. We'll be on the west side near Magpie Coffee.
+            </p>
+            <div className="font-montserrat text-lg font-bold flex items-start w-full px-12 max-w-[400px]">
+              <p className="opacity-80">Daniel Takamori</p>
+              <Image
+                src="/icons/w-quote.png"
+                alt="icon"
+                width={30}
+                height={30}
+                className="ml-3 rotate-180 -translate-y-3 translate-x-16"
+              />
+            </div>
+          </div>
+        </section> */}
         {/* about */}
         <section className="w-full flex justify-center items-start z-10 text-neutralColor mb-4">
           <div className=" max-w-[1128px]  px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full  ">
@@ -35,6 +59,10 @@ export default function About() {
               best place to get in contact with us.
             </p>
           </div>
+        </section>
+        {/* images */}
+        <section className="flex items-center w-full max-w-[1128px]  mb-4">
+          <Quote />
         </section>
         {/* faq */}
         <section className="w-full flex justify-center items-start z-10 text-neutralColor mb-4">
@@ -61,10 +89,7 @@ export default function About() {
             </div>
           </div>
         </section>
-        {/* images */}
-        <section className="flex items-center w-full max-w-[1128px]  mb-4">
-          <Quote />
-        </section>
+
         {/* <section className="w-full  flex justify-center mb-4">
           <MyCalendar />
         </section> */}

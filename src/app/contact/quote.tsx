@@ -3,20 +3,20 @@ import React from "react";
 
 const Quote = () => {
   return (
-    <section className="flex justify-between items-center mb-4 w-full h-[320px]  rounded-md ">
+    <section className="flex justify-between items-center w-full h-[320px]  rounded-md ">
       <div className=" border border-primaryColor w-full backdrop-blur-md text-white rounded-md h-full mr-4 flex flex-col justify-center items-center px-4">
-        <p className="font-montserrat tracking-tighter  mb-4 max-w-[400px] px-12 text-xl">
+        <p className="font-montserrat tracking-tighter  mb-4 max-w-[400px] text-clip px-12 sm:px-0 xs:px-0 text-xl md:text-lg sm:text-base xs:text-base">
           Look for the gobans and listen for the clacking of slate and shell.
           We'll be on the west side near Magpie Coffee.
         </p>
-        <div className="font-montserrat text-lg font-bold flex items-start w-full px-12 max-w-[400px]">
+        <div className="font-montserrat text-lg font-bold flex items-start w-full px-12 sm:px-0 max-w-[400px]">
           <p className="opacity-80">Daniel Takamori</p>
           <Image
             src="/icons/w-quote.png"
             alt="icon"
             width={30}
             height={30}
-            className="ml-3 rotate-180 -translate-y-3 translate-x-16"
+            className="ml-3 rotate-180 -translate-y-3 translate-x-16 sm:translate-x-0 xs:translate-x-0"
           />
         </div>
       </div>
