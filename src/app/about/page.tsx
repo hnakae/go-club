@@ -29,10 +29,10 @@ export default function About() {
               want to learn! (Feel free to bring a board if you have one!)
             </p>
             <p className="mb-6">
-              *We will endeavor to post updates about meeting times/places in
-              our Discord Server, and will also try to update the facebook page
-              and meetup page, but the Discord will always be up to date and is
-              the best place to get in contact with us
+              We will endeavor to post updates about meeting times/places in our
+              Discord server, and will also try to update the Facebook page and
+              Meetup page, but the Discord will always be up to date and is the
+              best place to get in contact with us.
             </p>
           </div>
         </section>
