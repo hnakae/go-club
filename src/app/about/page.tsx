@@ -42,10 +42,7 @@ export default function About() {
             </div>
           </div>
         </section> */}
-        {/* images */}
-        <section className="flex items-center w-full max-w-[1128px]  mb-4">
-          <Quote />
-        </section>
+
         {/* about */}
         <section className="w-full flex justify-center items-start z-10 text-neutralColor mb-4">
           <div className=" max-w-[1128px]  px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full  ">
@@ -90,7 +87,10 @@ export default function About() {
             </div>
           </div>
         </section>
-
+        {/* images */}
+        <section className="flex items-center w-full max-w-[1128px]  mb-4">
+          <Quote />
+        </section>
         {/* <section className="w-full  flex justify-center mb-4">
           <MyCalendar />
         </section> */}
