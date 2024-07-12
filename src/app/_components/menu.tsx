@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
@@ -23,11 +24,19 @@ const Menu = ({ closeMenu }: NavbarProps) => {
         <div className="text-light/50 dark:text-dark/50 ">Get in touch</div>
         <Link
           href="https://discord.com/channels/1164649557687275703/1164649557687275706"
-          className="text-light"
+          className="text-blue-500 underline flex "
           target="_blank"
         >
+          {/* <Image
+            src="/icons/discord.png"
+            alt="discord icon"
+            width={25}
+            height={25}
+            className="pointer-events-none mr-2"
+          />{" "} */}
           Discord
         </Link>
+        <div>contact@eugenego.club</div>
       </nav>
       <nav className="flex items-center flex-col justify-center space-y-4 ">
         <Link
