@@ -34,7 +34,7 @@ const HomeHeader = () => {
               height={400}
               src="/assets/images/stones.jpg"
               alt="search icon"
-              className=" rounded-full w-[340px] h-[340px] object-cover md:w-[250px] md:h-[250px] sm:w-[200px] sm:h-[200px] xs:w-[200px] xs:h-[200px]"
+              className=" rounded-full w-[340px] h-[340px] object-cover md:w-[250px] md:h-[250px] sm:w-[200px] sm:h-[200px] xs:w-[200px] xs:h-[200px] select-none"
               priority={true}
             />
           </div>
