@@ -25,7 +25,7 @@ const MeetupInfo = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-full  z-30">
-      <div className=" text-6xl md:text-5xl sm:text-4xl xs:text-3xl xs:mt-6 sm:mt-8 font-extrabold tracking-tight  font-playfair">
+      <div className=" text-6xl md:text-5xl sm:text-4xl xs:text-3xl xs:mt-6 sm:mt-8 font-extrabold tracking-tight mb-2 font-playfair">
         {" "}
         <button
           onClick={() => handleDayClick()}
