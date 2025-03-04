@@ -12,8 +12,7 @@ export default function Contact() {
       <Container>
         <Header />
         <div className="w-full flex justify-center items-start z-10 mb-4 text-neutralColor ">
-          <div className=" max-w-[1128px]  px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full ">
-            {/* discord */}
+          <div className=" max-w-[1128px]  px-14 py-10  flex-col flex items-center justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full ">
             <Link
               href="https://discord.com/channels/1164649557687275703/1164649557687275706"
               className="text-blue-500 underline flex mb-3"
@@ -30,6 +29,7 @@ export default function Contact() {
             </Link>
 
             <div>Daniel Pono Takamori</div>
+
             <div className="mb-3">971-533-7727</div>
 
             <div>contact@eugenego.club</div>
