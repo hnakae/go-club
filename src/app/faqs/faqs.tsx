@@ -2,6 +2,13 @@ export function QA() {
   return (
     <div className="w-full flex justify-center items-start z-10 text-neutralColor h-screen">
       <div className=" max-w-[1128px] mx-6 px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full ">
+        {/* Hmm. In Go, players place stones on a grid, and the goal is to surround territory. The key rules involve capturing stones by surrounding them, ensuring liberties (empty adjacent points), and preventing suicide moves. Ko rule is also important to prevent infinite loops. */}
+        <div className="font-playfair  py-6 h-fit  text-[24px] flex flex-col items-center justify-center border-b-2 ">
+          What is Go?
+        </div>
+        <div className="font-lora  py-6 h-fit    flex flex-col items-center justify-center mb-6 text-[18px]">
+        Hmm. In Go, players place stones on a grid, and the goal is to surround territory. The key rules involve capturing stones by surrounding them, ensuring liberties (empty adjacent points), and preventing suicide moves. Ko rule is also important to prevent infinite loops.
+        </div>
         <div className="font-playfair  py-6 h-fit  text-[24px] flex flex-col items-center justify-center border-b-2 ">
           Are beginners welcome?
         </div>

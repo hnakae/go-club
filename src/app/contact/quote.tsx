@@ -3,8 +3,8 @@ import React from "react";
 
 const Quote = () => {
   return (
-    <section className="flex justify-between items-center w-full h-[320px]  rounded-md ">
-      <div className=" border border-primaryColor w-full backdrop-blur-md text-white rounded-md h-full mr-4 flex flex-col justify-center items-center px-4">
+    <section className="flex justify-evenly items-center w-full h-[320px]  rounded-md ">
+      <div className=" border border-primaryColor w-full backdrop-blur-md text-white rounded-md  mr-4 flex flex-col justify-center items-center px-4 h-full">
         <p className="font-montserrat tracking-tighter  mb-4 max-w-[400px] text-clip px-12 sm:px-0 xs:px-0 text-xl md:text-lg sm:text-base xs:text-base">
           Look for the gobans and listen for the clacking of slate and shell.
           We'll be on the west side near Magpie Coffee.
@@ -25,7 +25,7 @@ const Quote = () => {
         width={247}
         height={300}
         alt="daniel"
-        className="z-20  rounded-md border border-primaryColor backdrop-blur-md bg-primaryColor/20 shadow-md "
+        className="z-20  rounded-md border border-primaryColor backdrop-blur-md bg-primaryColor/20 shadow-md h-full"
       />
     </section>
   );

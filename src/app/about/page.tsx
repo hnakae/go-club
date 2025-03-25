@@ -65,16 +65,30 @@ export default function About() {
         {/* faq */}
         <section className="w-full flex justify-center items-start z-10 text-neutralColor mb-4">
           <div className=" max-w-[1128px]  px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full  ">
-            <p className="mb-3 text-xl ">FAQs</p>
-            <br />
-            <p className="text-lg mb-3">Q: Are beginners welcome?</p>
-            <p className="mb-6">
+            {/* <p className="mb-3 text-xl ">FAQs</p>
+            <br /> */}
+            <div className="font-playfair  py-6 h-fit  text-[24px] flex flex-col items-center justify-center border-b-2 ">
+              Q: What is Go?
+            </div>
+            <div className="font-lora  py-6 h-fit    flex flex-col items-center justify-center mb-6 text-[18px]">
+              Hmm. In Go, players place stones on a grid, and the goal is to
+              surround territory. The key rules involve capturing stones by
+              surrounding them, ensuring liberties (empty adjacent points), and
+              preventing suicide moves. Ko rule is also important to prevent
+              infinite loops.
+            </div>
+            <p className="font-playfair  py-6 h-fit  text-[24px] flex flex-col items-center justify-center border-b-2">
+              Q: Are beginners welcome?
+            </p>
+            <p className="font-lora  py-6 h-fit    flex flex-col items-center justify-center mb-6 text-[18px]">
               Beginners are absolutely welcome! Beginners can find similar level
               opponents, or play teaching games equalized with handicap stones.{" "}
             </p>
 
-            <p className="text-lg mb-3">Q: How can we get in contact?</p>
-            <p className="mb-6">
+            <p className="font-playfair  py-6 h-fit  text-[24px] flex flex-col items-center justify-center border-b-2">
+              Q: How can we get in contact?
+            </p>
+            <p className="font-lora  py-6 h-fit    flex flex-col items-center justify-center mb-6 text-[18px]">
               Discord is always up to date and will be the best place to reach
               someone who can help with any questions. The Discord link is in
               the Contact Page.
@@ -88,8 +102,13 @@ export default function About() {
           </div>
         </section>
         {/* images */}
-        <section className="flex items-center w-full max-w-[1128px]  mb-4">
-          <Quote />
+        {/* images */}
+        {/* images */}
+        {/* images */}
+        <section className="w-full flex justify-center mb-4">
+          <div className="w-full max-w-[1128px] ">
+            <Quote />
+          </div>
         </section>
         {/* <section className="w-full  flex justify-center mb-4">
           <MyCalendar />
