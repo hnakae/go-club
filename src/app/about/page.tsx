@@ -39,7 +39,7 @@ export default function About() {
           <div className=" max-w-[1128px]  px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full  ">
             {/* <p className="mb-3 text-xl ">FAQs</p>
             <br /> */}
-            <div className="font-playfair  py-6 h-fit  text-[24px] flex flex-col items-center justify-center border-b-2 ">
+            <div className="font-playfair  pb-6 h-fit  text-[24px] flex flex-col items-center justify-center border-b-2 ">
               Q: What is Go?
             </div>
             <div className="font-lora  py-6 h-fit    flex flex-col items-center justify-center mb-6 text-[18px]">
