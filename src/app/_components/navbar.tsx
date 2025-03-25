@@ -105,7 +105,7 @@ export function Navbar() {
                   href="/about"
                   aria-label="About"
                 >
-                  Meetup Info
+                  About
                 </Link>
               </li>
               {/* <li className="cursor-pointer rounded-md  px-4 py-2">

@@ -27,12 +27,41 @@ export default function Contact() {
               />{" "}
               Discord
             </Link>
-
+            <Link
+              href="https://www.meetup.com/eugene-go-players/?eventOrigin=event_home_page"
+              className="text-blue-500 underline flex mb-3"
+              target="_blank"
+            >
+              <Image
+                src="/icons/meetup.png"
+                alt="meetup icon"
+                width={25}
+                height={25}
+                className="pointer-events-none mr-2"
+              />{" "}
+              Meetup
+            </Link>
+            
+            <Link
+              href="https://www.facebook.com/groups/EugeneGoClub"
+              className="text-blue-500 underline flex mb-3"
+              target="_blank"
+            >
+              <Image
+                src="/icons/facebook.png"
+                alt="facebok icon"
+                width={25}
+                height={25}
+                className="pointer-events-none mr-2"
+              />{" "}
+              Facebook
+            </Link>
             <div>Daniel Pono Takamori</div>
 
             <div className="mb-3">971-533-7727</div>
 
             <div>contact@eugenego.club</div>
+            <div>eugenego.contact@gmail.com</div>
           </div>
         </div>
       </Container>
