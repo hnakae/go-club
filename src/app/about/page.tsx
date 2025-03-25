@@ -25,7 +25,7 @@ export default function About() {
               Open to players of all skill levels and complete beginners who
               want to learn! (Feel free to bring a board if you have one!)
             </p>
-            <p className="mb-6">
+            <p className="">
               We will endeavor to post updates about meeting times/places in our
               Discord server, and will also try to update the Facebook page and
               Meetup page, but the Discord will always be up to date and is the
