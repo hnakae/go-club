@@ -75,8 +75,8 @@ const config: Config = {
       },
       screens: {
         xs: { max: "479px" }, // iPhone Portrait confirmed
-        sm: { min: "480px", max: "767px" }, // iPhone Landscape
-        md: { min: "768px", max: "1023px" }, // iPad Portrait
+        sm: { min: "480px", max: "755px" }, // iPhone Landscape
+        md: { min: "756px", max: "1023px" }, // iPad Portrait
         lg: { min: "1024px", max: "1366px" }, // iPad Landscape
         xl: { min: "1367px", max: "1599px" }, // Laptop
         "2xl": { min: "1600px" }, // Desktop

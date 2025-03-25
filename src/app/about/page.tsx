@@ -20,9 +20,7 @@ export default function About() {
         {/* about */}
         <section className="w-full flex justify-center items-start z-10 text-neutralColor mb-4">
           <div className=" max-w-[1128px]  px-14 py-10  flex-col flex items-start justify-start rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full  ">
-            <p className="mb-3 text-xl ">About us</p>
-            <br />
-            {/* <p className="text-lg mb-3">Are beginners welcome?</p> */}
+         
             <p className="mb-6">
               Open to players of all skill levels and complete beginners who
               want to learn! (Feel free to bring a board if you have one!)

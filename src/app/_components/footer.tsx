@@ -64,7 +64,7 @@ m485 -261 c369 -43 750 -208 1045 -454 320 -266 563 -661 661 -1071 70 -293
           <div className=" w-full px-10  flex sm:flex-col-reverse xs:flex-col-reverse items-center justify-around rounded-md  text-neutralColor    z-20  border-primaryColor ">
             <MeetupInfo />
             <div className="flex sm:flex-col md:flex-col lg:flex-col xl:flex-col 2xl:flex-col items-center gap-4 z-10">
-              <svg
+              {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
                 width="30"
@@ -94,8 +94,8 @@ m485 -261 c369 -43 750 -208 1045 -454 320 -266 563 -661 661 -1071 70 -293
 825 -841 843 -33 17 -44 17 -83 0z"
                   />
                 </g>
-              </svg>
-              <div className="font-bold text-2xl xs:hidden">Browse</div>
+              </svg> */}
+              {/* <div className="font-bold text-2xl xs:hidden">Browse</div> */}
               <Link
                 className={`link ${
                   pathname === "/" ? "active" : ""
@@ -113,7 +113,7 @@ m485 -261 c369 -43 750 -208 1045 -454 320 -266 563 -661 661 -1071 70 -293
                 href="/about"
                 aria-label="About"
               >
-                Meetup Info
+                About
               </Link>
               <Link
                 className={`link ${

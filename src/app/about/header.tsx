@@ -6,7 +6,7 @@ const Header = () => {
       {/* <Quote /> */}
       <div className="backdrop-blur-md w-full p-24 flex-col flex items-center justify-center rounded-md  text-neutralColor  opacity-95  z-20 border border-primaryColor shadow-md">
         <div className="font-playfair font-semibold  tracking-tighter      text-[32px]     border-neutralColor border-b ">
-          Meetup Info
+          About us
         </div>
       </div>
     </div>

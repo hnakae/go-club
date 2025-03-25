@@ -37,37 +37,8 @@ export function Navbar() {
     };
   }, []);
 
-  // useEffect(() => {
-  //   let lastScrollY = window.pageYOffset;
-  //   const handleScroll = () => {
-  //     const currentScrollY = window.pageYOffset;
-
-  //     if (currentScrollY > lastScrollY + 10) {
-  //       // Scrolling down, hide navbar
-  //       setScrollDirection("down");
-  //     } else if (currentScrollY < lastScrollY - 10) {
-  //       // Scrolling up, show navbar
-  //       setScrollDirection("up");
-  //     }
-
-  //     lastScrollY = currentScrollY > 0 ? currentScrollY : 0;
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
-  // ${
-  //   scrollDirection === "down"
-  //     ? "-translate-y-full z-0"
-  //     : "translate-y-0 z-0"
-  // }
-
   return (
     <>
-      {/**/}
       <section
         className={`z-50  transition-all duration-300 linear backdrop-blur-xl  bg-darkNav	shadow-md sticky top-0 left-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none`}
       >
