@@ -21,19 +21,12 @@ const Menu = ({ closeMenu }: NavbarProps) => {
         >
           Meetup
         </Link> */}
-        <div className="text-light/50 dark:text-dark/50 ">Get in touch</div>
+        <div className="">Get in touch</div>
         <Link
           href="https://discord.com/channels/1164649557687275703/1164649557687275706"
           className="text-blue-500 underline flex "
           target="_blank"
         >
-          {/* <Image
-            src="/icons/discord.png"
-            alt="discord icon"
-            width={25}
-            height={25}
-            className="pointer-events-none mr-2"
-          />{" "} */}
           Discord
         </Link>
         <div>contact@eugenego.club</div>

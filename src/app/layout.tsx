@@ -1,6 +1,7 @@
 import Footer from "@/app/_components/footer";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Lora, Montserrat } from "next/font/google";
+import ScrollPositionManager from './_components/scroll-position-manager';
 
 import "./globals.css";
 import { Navbar } from "./_components/navbar";
@@ -27,9 +28,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <head>
@@ -85,7 +86,9 @@ export default function RootLayout({
         <div
           className={`${playfair.className} ${lora.className} ${montserrat.className}  `}
         >
-          {children}
+          <ScrollPositionManager>
+            {children}
+          </ScrollPositionManager>
         </div>
         <Footer />
       </body>

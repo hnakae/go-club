@@ -9,8 +9,8 @@ const Articles: React.FC<{ initialPosts: Post[] }> = ({ initialPosts }) => {
   const featuredPosts = initialPosts.filter(
     (post) =>
       // post.tags.toLowerCase().includes("learn") ||
-      post.tags.toLowerCase().includes("3") ||
-      post.tags.toLowerCase().includes("5")
+      post.tags.toLowerCase().includes("5") ||
+      post.tags.toLowerCase().includes("3")
   );
 
   // Filter non-featured posts
