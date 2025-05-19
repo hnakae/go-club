@@ -10,7 +10,7 @@ const Articles: React.FC<{ initialPosts: Post[] }> = ({ initialPosts }) => {
     (post) =>
       // post.tags.toLowerCase().includes("learn") ||
       post.tags.toLowerCase().includes("5") ||
-      post.tags.toLowerCase().includes("3")
+      post.tags.toLowerCase().includes("0")
   );
 
   // Filter non-featured posts
