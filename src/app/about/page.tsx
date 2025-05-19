@@ -68,8 +68,13 @@ export default function About() {
 
             {/* <div>Event Calendar coming soon</div> */}
             <div>
-              Updated {new Date().getMonth() + 1}/{new Date().getDate()}/
-              {new Date().getFullYear()}
+              Updated {(() => {
+                // Create date object for Pacific Time (UTC-7 or UTC-8 depending on DST)
+                const now = new Date();
+                // Adjust to Pacific Time (PT is either UTC-7 or UTC-8)
+                const pacificTime = new Date(now.toLocaleString("en-US", {timeZone: "America/Los_Angeles"}));
+                return `${pacificTime.getMonth() + 1}/${pacificTime.getDate()}/${pacificTime.getFullYear()}`;
+              })()}
             </div>
           </div>
         </section>
