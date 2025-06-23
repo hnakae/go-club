@@ -2,6 +2,7 @@ import Footer from "@/app/_components/footer";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Lora, Montserrat } from "next/font/google";
 import ScrollPositionManager from './_components/scroll-position-manager';
+import Script from 'next/script';
 
 import "./globals.css";
 import { Navbar } from "./_components/navbar";
@@ -122,6 +123,18 @@ export default function RootLayout({
           </ScrollPositionManager>
         </div>
         <Footer />
+        <Script id="structured-data" type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Eugene Go Club",
+              "url": "https://eugenego.club",
+              "logo": "https://eugenego.club/favicon/android-chrome-512x512.png",
+              "description": "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays for games, lessons, and community."
+            }
+          `}
+        </Script>
       </body>
     </html>
   );
