@@ -22,9 +22,40 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://eugenego.club"),
-  title: `Eugene Go Club`,
-  description: `Welcome to the club.`,
-};
+  title: {
+    default: "Eugene Go Club | Go/Baduk/Weiqi Players in Eugene, Oregon",
+    template: "%s | Eugene Go Club"
+  },
+  description: "Eugene Go Club is a community of Go/Baduk/Weiqi players in Eugene, Oregon. Join our weekly meetups on Wednesdays and Sundays for games, lessons, and community.",
+  keywords: ["Eugene Go Club", "Go game", "Baduk", "Weiqi", "Eugene Oregon", "board games", "Go players", "Go community", "strategic board game"],
+  creator: "Eugene Go Club",
+  publisher: "Eugene Go Club",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://eugenego.club",
+    title: "Eugene Go Club | Go/Baduk/Weiqi Players in Eugene, Oregon",
+    description: "Eugene Go Club is a community of Go/Baduk/Weiqi players in Eugene, Oregon. Join our weekly meetups on Wednesdays and Sundays for games, lessons, and community.",
+    siteName: "Eugene Go Club",
+    images: [
+      {
+        url: "/assets/images/cover.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Eugene Go Club"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Eugene Go Club | Go/Baduk/Weiqi Players in Eugene, Oregon",
+    description: "Eugene Go Club is a community of Go/Baduk/Weiqi players in Eugene, Oregon. Join our weekly meetups on Wednesdays and Sundays.",
+    images: ["/assets/images/cover.jpg"]
+  },
+  alternates: {
+    canonical: "https://eugenego.club"
+  }
+}
 
 export default function RootLayout({
   children,
