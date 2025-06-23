@@ -14,7 +14,7 @@ const Featured: React.FC<FeaturedProps> = ({ featuredPosts }) => {
         Featured Articles
       </div>
       <div className="font-lora mb-6 sm:max-w-[400px]">
-        Welcome to the Eugene Go Club, the official Go/Baduk/Weiqi club in Eugene, Oregon. 
+        Welcome to the Eugene Go Club, the official Go club in Eugene, Oregon. 
         <span className="xs:hidden sm:hidden">
           {" "}Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays.
         </span>
