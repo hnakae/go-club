@@ -68,7 +68,7 @@ const HomeHeader = () => {
                       {SUNDAY}
                     </div>
                     <div className="font-montserrat text-2xl md:text-xl sm:text-lg xs:text-base opacity-80 my-2 group-hover:text-primaryColor transition-colors duration-200">
-                      12:00 - 3:00 pm.
+                      12:00 - 2:30 pm.
                     </div>
                   </div>
                 </a>

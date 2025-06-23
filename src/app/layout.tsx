@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     default: "Eugene Go Club | Go/Baduk/Weiqi Players in Eugene, Oregon",
     template: "%s | Eugene Go Club"
   },
-  description: "Eugene Go Club is a community of Go/Baduk/Weiqi players in Eugene, Oregon. Join our weekly meetups on Wednesdays and Sundays for games, lessons, and community.",
-  keywords: ["Eugene Go Club", "Go game", "Baduk", "Weiqi", "Eugene Oregon", "board games", "Go players", "Go community", "strategic board game"],
+  description: "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays for games, lessons, and community.",
+  keywords: ["Eugene Go Club", "eugenego.club", "Go game", "Baduk", "Weiqi", "Eugene Oregon", "board games", "Go players", "Go community", "strategic board game"],
   creator: "Eugene Go Club",
   publisher: "Eugene Go Club",
   openGraph: {
@@ -35,21 +35,21 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://eugenego.club",
     title: "Eugene Go Club | Go/Baduk/Weiqi Players in Eugene, Oregon",
-    description: "Eugene Go Club is a community of Go/Baduk/Weiqi players in Eugene, Oregon. Join our weekly meetups on Wednesdays and Sundays for games, lessons, and community.",
+    description: "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays.",
     siteName: "Eugene Go Club",
     images: [
       {
         url: "/assets/images/cover.jpg",
         width: 1200,
         height: 630,
-        alt: "Eugene Go Club"
+        alt: "Eugene Go Club - Go players in Eugene, Oregon"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Eugene Go Club | Go/Baduk/Weiqi Players in Eugene, Oregon",
-    description: "Eugene Go Club is a community of Go/Baduk/Weiqi players in Eugene, Oregon. Join our weekly meetups on Wednesdays and Sundays.",
+    title: "Eugene Go Club | eugenego.club",
+    description: "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays.",
     images: ["/assets/images/cover.jpg"]
   },
   alternates: {
