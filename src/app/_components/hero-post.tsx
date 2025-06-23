@@ -25,21 +25,21 @@ export function HeroPost({
   tags,
 }: Props) {
   return (
-    <section className=" rounded-md overflow-hidden bg-primaryColor/5 max-w-[400px]  shadow-sm  mb-3 flex flex-col border-primaryColor border hover:text-primaryColor">
-      <Link href={`/posts/${slug}`} className=" ">
+    <section className="rounded-md overflow-hidden bg-primaryColor/5 max-w-[400px] shadow-sm mb-3 flex flex-col border-primaryColor border hover:border-primaryColor/80 hover:shadow-md transition-all group">
+      <Link href={`/posts/${slug}`} className="">
         <div className="overflow-hidden">
           <Image
             src={coverImage}
             alt="cover"
             width={400}
             height={400}
-            className="max-h-[120px] hover:scale-125 transition-transform ease-linear object-cover"
+            className="max-h-[120px] group-hover:scale-110 group-hover:brightness-110 transition-all duration-300 ease-out object-cover"
             placeholder="data:image/"
             priority={true}
           />
         </div>
-        <div className=" flex flex-col justify-start items-start space-y-3 px-3 bg-primaryColor/5 h-full">
-          <h3 className=" mt-3 leading-tight text-xl font-semibold font-montserrat transition-all duration-75 ease-in-out  ">
+        <div className="flex flex-col justify-start items-start space-y-3 px-3 bg-primaryColor/5 h-full group-hover:bg-primaryColor/10 transition-colors duration-300">
+          <h3 className="mt-3 leading-tight text-xl font-semibold font-montserrat group-hover:text-primaryColor transition-colors duration-300 ease-in-out">
             {title}
           </h3>
           <p className="font-lora pb-5 overflow-hidden text-neutralColor">

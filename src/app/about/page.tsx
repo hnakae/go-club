@@ -5,7 +5,6 @@ import Container from "@/app/_components/container";
 import Header from "./header";
 import Image from "next/image";
 import Quote from "../contact/quote";
-import MyCalendar from "../_components/calendar/MyCalendar";
 
 export default function About() {
   // Save and restore scroll position
