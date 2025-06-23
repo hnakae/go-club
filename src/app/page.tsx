@@ -7,16 +7,12 @@ import Articles from "./blog/articles";
 export default function Index() {
   const allPosts = getAllPosts();
 
-  // const heroPost = allPosts[0];
-  // console.log(heroPost);
-
-  // const morePosts = allPosts.slice(3);
-  // {morePosts.length > 0 && <GameReviews posts={morePosts} />}
-
-  //  sgfString="(;GM[1]FF[4]CA[UTF-8]AP[Sabaki:0.52.2]KM[7.5]SZ[19]DT[2023-05-30];B[dd];W[pd];B[dp];W[pp];B[fc];W[pj];B[jj])"
   return (
     <main className="max-w-screen">
-      {/* <SGFViewer /> */}
+      {/* Add a clear description that's visible but can be styled to fit your design */}
+      <div className="sr-only">
+        Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays for games, lessons, and community.
+      </div>
       <Container>
         <MeetUpInfo />
         <Articles initialPosts={allPosts} />

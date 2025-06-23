@@ -5,6 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
+      disallow: ['/api/', '/admin/'],
     },
     sitemap: 'https://eugenego.club/sitemap.xml',
     host: 'https://eugenego.club',
