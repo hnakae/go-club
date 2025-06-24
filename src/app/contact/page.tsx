@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <main className=" ">
+    <main className="select-none">
       <Container>
         <Header />
         <div className="w-full flex justify-center items-start z-10 mb-4 text-neutralColor ">
@@ -18,6 +18,7 @@ export default function Contact() {
                 href="https://discord.com/channels/1164649557687275703/1164649557687275706"
                 className="hover:underline hover:text-primaryColor flex mb-3"
                 target="_blank"
+                draggable={false}
               >
                 <Image
                   src="/icons/discord.png"
@@ -32,6 +33,7 @@ export default function Contact() {
                 href="https://www.meetup.com/eugene-go-players/?eventOrigin=event_home_page"
                 className="hover:text-primaryColor  hover:underline flex mb-3"
                 target="_blank"
+                draggable={false}
               >
                 <Image
                   src="/icons/meetup.png"
@@ -46,6 +48,7 @@ export default function Contact() {
                 href="https://www.facebook.com/groups/EugeneGoClub"
                 className="hover:text-primaryColor  hover:underline flex mb-3"
                 target="_blank"
+                draggable={false}
               >
                 <Image
                   src="/icons/facebook.png"
@@ -60,6 +63,7 @@ export default function Contact() {
                 href="https://baduk.club/club/eugene"
                 className="hover:text-primaryColor  hover:underline flex mb-3"
                 target="_blank"
+                draggable={false}
               >
                 <Image
                   src="/icons/badukclub.png"
@@ -74,6 +78,7 @@ export default function Contact() {
                 href="https://online-go.com/group/6435"
                 className="hover:text-primaryColor  hover:underline flex mb-3"
                 target="_blank"
+                draggable={false}
               >
                 <Image
                   src="/icons/ogs.png"

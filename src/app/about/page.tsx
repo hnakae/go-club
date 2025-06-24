@@ -34,7 +34,7 @@ export default function About() {
   }, []);
 
   return (
-    <main className=" ">
+    <main className=" select-none">
       <Container>
         <Header />
         {/* about */}

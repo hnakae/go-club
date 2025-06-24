@@ -30,29 +30,30 @@ const HomeHeader = () => {
         {/* Content */}
         <div className="w-full flex sm:flex-col-reverse xs:flex-col-reverse items-center justify-around rounded-md text-neutralColor z-20 relative px-6">
           <div className="flex flex-col items-center w-full">
-            {/* <div className="text-6xl md:text-5xl sm:text-4xl xs:text-3xl xs:mt-6 sm:mt-8 font-extrabold tracking-tight mb-6 font-playfair text-white drop-shadow">
-              Our Meetups
-            </div> */}
+            <div className="text-6xl md:text-5xl sm:text-4xl xs:text-3xl xs:mt-6 sm:mt-8 font-extrabold tracking-tight mb-6 font-playfair text-white drop-shadow-md select-none">
+              Welcome to the Club! 
+            </div>
 
             <div className="flex md:flex-row sm:flex-col xs:flex-col w-full justify-center gap-6">
               {/* Wednesday */}
               <a
                 href={wheelMapUrl}
+                draggable={false}
                 target="_blank"
                 className="flex flex-col items-center justify-center md:w-1/2 w-full p-8 md:p-10 rounded-2xl cursor-pointer
-                  bg-white/10 border border-white/10 ring-1 ring-white/10 backdrop-blur-xl 
+                  bg-black/30 border border-white/10 ring-1 ring-primaryColor/30 backdrop-blur-xl 
                   shadow-[0_4px_20px_rgba(255,255,255,0.05)] 
                   hover:shadow-[0_6px_30px_rgba(255,255,255,0.08)] 
                   hover:ring-primaryColor/30 transition-all duration-200 group"
               >
-                <div className="text-4xl md:text-3xl sm:text-2xl xs:text-xl font-bold mb-4 font-playfair underline text-primaryColor group-hover:text-primaryColor transition opacity-90  group-hover:opacity-100">
+                <div className="text-4xl md:text-3xl sm:text-2xl xs:text-xl font-bold mb-4 font-playfair underline text-primaryColor  group-hover:text-primaryColor transition ">
                   Wednesday
                 </div>
                 <div className="flex flex-col items-center text-primaryColor">
-                  <div className="font-montserrat text-xl opacity-90 my-1 text-primaryColor transition  group-hover:opacity-100">
+                  <div className="font-montserrat text-xl  my-1 text-white drop-shadow-md transition  ">
                     {WEDNESDAY}
                   </div>
-                  <div className="font-montserrat text-xl opacity-90 my-1 text-primaryColor transition  group-hover:opacity-100">
+                  <div className="font-montserrat text-xl  my-1 text-white drop-shadow-md transition  ">
                     5:30 - 9:00 pm
                   </div>
                 </div>
@@ -62,20 +63,21 @@ const HomeHeader = () => {
               <a
                 href={newDayMapUrl}
                 target="_blank"
+                draggable={false}
                 className="flex flex-col items-center justify-center md:w-1/2 w-full p-8 md:p-10 rounded-2xl cursor-pointer
-                  bg-white/10 border border-white/10 ring-1 ring-white/10 backdrop-blur-xl 
+                  bg-black/30 border border-white/10 ring-1 ring-primaryColor/30 backdrop-blur-xl 
                   shadow-[0_4px_20px_rgba(255,255,255,0.05)] 
                   hover:shadow-[0_6px_30px_rgba(255,255,255,0.08)] 
                   hover:ring-primaryColor/30 transition-all duration-200 group"
               >
-                <div className="text-4xl md:text-3xl sm:text-2xl xs:text-xl font-bold mb-4 font-playfair underline text-primaryColor group-hover:text-primaryColor transition opacity-90  group-hover:opacity-100">
+                <div className="text-4xl md:text-3xl sm:text-2xl xs:text-xl font-bold mb-4 font-playfair underline text-primaryColor group-hover:text-primaryColor transition ">
                   Sunday
                 </div>
                 <div className="flex flex-col items-center text-white">
-                  <div className="font-montserrat text-xl opacity-90 my-1 text-primaryColor transition  group-hover:opacity-100">
+                  <div className="font-montserrat text-xl  my-1 text-white drop-shadow-md transition  ">
                     {SUNDAY}
                   </div>
-                  <div className="font-montserrat text-xl opacity-90 my-1 text-primaryColor transition group-hover:opacity-100">
+                  <div className="font-montserrat text-xl  my-1 text-white drop-shadow-md transition ">
                     12:00 - 2:30 pm
                   </div>
                 </div>
@@ -85,13 +87,14 @@ const HomeHeader = () => {
             {/* Join Discord */}
             <Link
               href="/contact"
+              draggable={false}
               className="
                 relative 
                 mt-10 px-7 py-3 
                 rounded-full 
                 text-white text-base font-medium 
                 backdrop-blur-xl 
-                bg-white/10 
+                bg-black/30 
                 border border-white/10 
                 ring-1 ring-white/10 
                 shadow-[0_4px_20px_rgba(255,255,255,0.05)] 
@@ -101,7 +104,7 @@ const HomeHeader = () => {
                 hover:text-primaryColor group
               "
             >
-              <span className="relative z-10 text-primaryColor transition-all duration-200 opacity-90 font-semibold  group-hover:opacity-100">
+              <span className="relative z-10 text-white drop-shadow-md transition-all duration-200 font-semibold hover:text-primaryColor ">
                 Join Our Discord
               </span>
             </Link>

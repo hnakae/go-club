@@ -45,36 +45,39 @@ export function Navbar() {
         <div className="w-full  flex justify-between items-center">
           <Link
             href="/"
-            className="font-montserrat  text-white text-nowrap	 rounded-md text-3xl  font-bold tracking-tighter leading-tight flex items-center "
+            className="font-montserrat  text-white hover:text-primaryColor text-nowrap	 rounded-md text-3xl  font-bold tracking-tighter leading-tight flex items-center "
+            draggable={false}
           >
             Eugene Go Club
           </Link>
           <nav aria-label="primary menu">
             <ul className=" text-white flex space-x-2  items-center  xs:hidden sm:hidden  ">
               <li
-                className="cursor-pointer rounded-md  px-4 py-2  "
+                className="cursor-pointer rounded-md    "
                 aria-current="page"
               >
                 <Link
-                  className={`link ${
+                  className={`link px-4 py-2 block ${
                     pathname === "/" ? "active" : ""
                   } hover:text-primaryColor font-montserrat tracking-tighter leading-tight `}
                   href="/"
                   aria-label="Home"
+                  draggable={false}
                 >
                   Home
                 </Link>
               </li>
               <li
-                className="cursor-pointer rounded-md  px-4 py-2  "
+                className="cursor-pointer rounded-md    "
                 aria-current="page"
               >
                 <Link
-                  className={`link ${
+                  className={`link  px-4 py-2 block ${
                     pathname === "/about" ? "active" : ""
                   } hover:text-primaryColor  font-montserrat tracking-tighter leading-tight`}
                   href="/about"
                   aria-label="About"
+                  draggable={false}
                 >
                   About
                 </Link>
@@ -90,13 +93,14 @@ export function Navbar() {
                   FAQs
                 </Link>
               </li> */}
-              <li className="cursor-pointer rounded-md  px-4 py-2">
+              <li className="cursor-pointer rounded-md  ">
                 <Link
-                  className={`link ${
+                  className={`link  px-4 py-2 block ${
                     pathname === "/contact" ? "active" : ""
                   } hover:text-primaryColor  font-montserrat tracking-tighter leading-tight`}
                   href="/contact"
                   aria-label="contact"
+                  draggable={false}
                 >
                   Contact
                 </Link>

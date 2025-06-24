@@ -102,6 +102,7 @@ m485 -261 c369 -43 750 -208 1045 -454 320 -266 563 -661 661 -1071 70 -293
                 } hover:text-primaryColor`}
                 href="/"
                 aria-label="Home"
+                draggable={false}
               >
                 Home
               </Link>
@@ -112,6 +113,7 @@ m485 -261 c369 -43 750 -208 1045 -454 320 -266 563 -661 661 -1071 70 -293
                 } hover:text-primaryColor`}
                 href="/about"
                 aria-label="About"
+                draggable={false}
               >
                 About
               </Link>
@@ -121,6 +123,7 @@ m485 -261 c369 -43 750 -208 1045 -454 320 -266 563 -661 661 -1071 70 -293
                 } hover:text-primaryColor`}
                 href="/contact"
                 aria-label="Contact"
+                draggable={false}
               >
                 Contact
               </Link>
@@ -129,7 +132,7 @@ m485 -261 c369 -43 750 -208 1045 -454 320 -266 563 -661 661 -1071 70 -293
         </div>
       </div>
 
-      <div className="text-white  flex items-center justify-center py-4 px-12 w-full max-w-[1128px] ">
+      <div className="text-white  flex items-center justify-center py-4 px-12 w-full max-w-[1128px] select-none">
         <span className="z-10 opacity-60">
           {new Date().getFullYear()} &copy; All Rights Reserved.
         </span>

@@ -10,14 +10,11 @@ type FeaturedProps = {
 const Featured: React.FC<FeaturedProps> = ({ featuredPosts }) => {
   return (
     <>
-      <div className="font-playfair text-3xl xs:text-2xl font-bold mb-2 w-full sm:text-start sm:max-w-[400px]">
+      <div className="font-playfair text-3xl xs:text-2xl font-bold mb-2 w-full sm:text-start sm:max-w-[400px] text-primaryColor">
         Featured Articles
       </div>
       <div className="font-lora mb-6 sm:max-w-[400px]">
-        Welcome to the official Go club in Eugene, Oregon. 
-        <span className="xs:hidden sm:hidden">
-          {" "}Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays.
-        </span>
+        
       </div>
       <div className="grid grid-rows-1 grid-cols-3 gap-y-3 gap-x-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
         {featuredPosts.length > 0 &&

@@ -16,6 +16,7 @@ const Quote = () => {
             alt="icon"
             width={30}
             height={30}
+            draggable={false}
             className="ml-3 rotate-180 -translate-y-3 translate-x-16 sm:translate-x-0 xs:translate-x-0"
           />
         </div>
@@ -25,6 +26,7 @@ const Quote = () => {
         width={247}
         height={300}
         alt="daniel"
+        draggable={false}
         className="z-20  rounded-md border border-primaryColor backdrop-blur-md bg-primaryColor/20 shadow-md h-full"
       />
     </section>
