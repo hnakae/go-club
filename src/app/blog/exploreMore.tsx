@@ -46,7 +46,7 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
 
   return (
     <div className="z-30">
-      <div className="font-playfair text-3xl font-bold mt-10 mb-2 w-full sm:max-w-[400px] xs:max-w-[400px] text-white">
+      <div className="font-playfair text-3xl font-bold mt-8 mb-2 w-full sm:max-w-[400px] xs:max-w-[400px] text-white">
         Explore More
       </div>
       <div className="font-lora mb-6 w-full sm:max-w-[400px] xs:max-w-[400px]">

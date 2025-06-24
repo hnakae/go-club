@@ -29,7 +29,7 @@ export function PostPreview({
   // console.log("Chapter:", chapter);
 
   return (
-    <section className="rounded-md overflow-hidden bg-primaryColor/5 max-w-[400px] shadow-sm mb-3 flex flex-col border-primaryColor border hover:border-primaryColor/80 hover:shadow-md transition-all group ring-1 ring-primaryColor/30 hover:ring-primaryColor/50">
+    <section className="rounded-md overflow-hidden bg-primaryColor/5 max-w-[400px] shadow-sm mb-2 flex flex-col border-primaryColor border hover:border-primaryColor/80 hover:shadow-md transition-all group ring-1 ring-primaryColor/30 hover:ring-primaryColor/50">
       <Link href={`/posts/${slug}`} draggable={false} className="">
         <div className="overflow-hidden">
           <Image
