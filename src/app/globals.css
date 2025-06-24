@@ -89,6 +89,11 @@ h3 {
   color: #ffffff;
 }
 
+img {
+  -webkit-user-drag: none;
+}
+
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
