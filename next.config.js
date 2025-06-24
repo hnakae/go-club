@@ -1,6 +1,5 @@
-// next.config.js
-
 const withMDX = require("@next/mdx")();
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -25,6 +24,21 @@ const nextConfig = {
               .trim(),
           },
         ],
+      },
+    ];
+  },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "eugenego.club",
+          },
+        ],
+        destination: "https://www.eugenego.club/:path*",
+        permanent: true,
       },
     ];
   },
