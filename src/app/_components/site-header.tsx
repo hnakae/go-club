@@ -34,7 +34,7 @@ const HomeHeader = () => {
               Welcome to the Club! 
             </div>
 
-            <div className="flex md:flex-row sm:flex-col xs:flex-col w-full justify-center gap-6">
+            <div className="flex md:flex-row sm:flex-col xs:flex-col w-full justify-center gap-4">
               {/* Wednesday */}
               <a
                 href={wheelMapUrl}
@@ -90,7 +90,7 @@ const HomeHeader = () => {
               draggable={false}
               className="
                 relative 
-                mt-10 px-7 py-3 
+                mt-9 px-7 py-3 
                 rounded-full 
                 text-white text-base font-medium 
                 backdrop-blur-xl 
