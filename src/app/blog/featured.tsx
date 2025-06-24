@@ -3,6 +3,8 @@ import Image from "next/image";
 import { HeroPost } from "../_components/hero-post";
 import { Post } from "@/interfaces/post";
 
+// Renamed Featured to Foundations of Strong Play. (strength/surround)
+
 type FeaturedProps = {
   featuredPosts: Post[];
 };
@@ -10,13 +12,13 @@ type FeaturedProps = {
 const Featured: React.FC<FeaturedProps> = ({ featuredPosts }) => {
   return (
     <>
-      <div className="font-playfair text-3xl xs:text-2xl font-bold mb-2 w-full sm:text-start sm:max-w-[400px] text-white">
-        Featured Articles
+      <div className="font-playfair text-3xl xs:text-2xl font-bold w-full sm:text-start sm:max-w-[400px] text-white my-2">
+        Foundations of Strong Play
       </div>
-      <div className="font-lora mb-6 sm:max-w-[400px]">
-        
+      <div className="font-lora mb-4 sm:max-w-[400px] w-full text-start">
+        Core principles for decision-making
       </div>
-      <div className="grid grid-rows-1 grid-cols-3 gap-y-2 gap-x-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
+      <div className="grid grid-rows-1 grid-cols-2  gap-x-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
         {featuredPosts.length > 0 &&
           featuredPosts.map((featuredPost) => (
             <HeroPost

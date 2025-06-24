@@ -4,6 +4,9 @@ import Image from "next/image";
 import { Post } from "@/interfaces/post";
 import { PostPreview } from "../_components/post-preview";
 
+// Renamed Featured to Begginer Basics. (shape/direction)
+
+
 type ExploreMoreProps = {
   posts: Post[]; // Pass all non-featured posts
 };
@@ -12,8 +15,13 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredPosts, setFilteredPosts] = useState<Post[]>(posts);
 
+  // Only include posts from chapters 2 and 3
+  const chapterFilteredPosts = posts.filter(
+    (post) => post.chapter === "Chapter 2" || post.chapter === "Chapter 3"
+  );
+
   useEffect(() => {
-    setFilteredPosts(posts);
+    setFilteredPosts(chapterFilteredPosts);
   }, [posts]);
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -46,13 +54,14 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
 
   return (
     <div className="z-30">
-      <div className="font-playfair text-3xl font-bold mt-8 mb-2 w-full sm:max-w-[400px] xs:max-w-[400px] text-white">
-        Explore More
+      <div className="font-playfair text-3xl font-bold mt-6 mb-2 w-full sm:max-w-[400px] xs:max-w-[400px] text-white">
+        Beginner Basics
       </div>
-      <div className="font-lora mb-6 w-full sm:max-w-[400px] xs:max-w-[400px]">
-        
+      <div className="font-lora mb-4 w-full sm:max-w-[400px] xs:max-w-[400px]">
+        Learn the basics of Go
       </div>
-      <div className="relative w-full sm:max-w-[400px] xs:max-w-[400px] mb-4">
+      {/* Search bar */}
+      {/* <div className="relative w-full sm:max-w-[400px] xs:max-w-[400px] mb-4">
         <input
           type="search"
           value={searchTerm}
@@ -68,8 +77,8 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
             alt="search icon"
           />
         </div>
-      </div>
-      <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-y-2 gap-x-4">
+      </div> */}
+      <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-y-2 gap-x-4">
         {filteredPosts.length > 0 ? (
           filteredPosts.map((post) => (
             <PostPreview
