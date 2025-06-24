@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://eugenego.club/sitemap.xml',
-    host: 'https://eugenego.club',
+    sitemap: 'https://www.eugenego.club/sitemap.xml',
+    host: 'https://www.eugenego.club',
   }
 }
