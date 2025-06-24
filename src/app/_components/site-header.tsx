@@ -41,7 +41,7 @@ const HomeHeader = () => {
                 draggable={false}
                 target="_blank"
                 className="flex flex-col items-center justify-center md:w-1/2 w-full p-8 md:p-10 rounded-2xl cursor-pointer
-                  bg-black/30 border border-white/10 ring-1 ring-primaryColor/30 backdrop-blur-xl 
+                  bg-black/30 hover:bg-primaryColor/5 border border-primaryColor/5 ring-1 ring-primaryColor/30 backdrop-blur-xl 
                   shadow-[0_4px_20px_rgba(255,255,255,0.05)] 
                   hover:shadow-[0_6px_30px_rgba(255,255,255,0.08)] 
                   hover:ring-primaryColor/30 transition-all duration-200 group"
@@ -65,7 +65,7 @@ const HomeHeader = () => {
                 target="_blank"
                 draggable={false}
                 className="flex flex-col items-center justify-center md:w-1/2 w-full p-8 md:p-10 rounded-2xl cursor-pointer
-                  bg-black/30 border border-white/10 ring-1 ring-primaryColor/30 backdrop-blur-xl 
+                  bg-black/30 hover:bg-primaryColor/5 border border-primaryColor/5 ring-1 ring-primaryColor/30 backdrop-blur-xl 
                   shadow-[0_4px_20px_rgba(255,255,255,0.05)] 
                   hover:shadow-[0_6px_30px_rgba(255,255,255,0.08)] 
                   hover:ring-primaryColor/30 transition-all duration-200 group"
@@ -95,16 +95,17 @@ const HomeHeader = () => {
                 text-white text-base font-medium 
                 backdrop-blur-xl 
                 bg-black/30 
-                border border-white/10 
-                ring-1 ring-white/10 
+                hover:bg-primaryColor/5
+                border border-primaryColor/5 
+                ring-1 
                 shadow-[0_4px_20px_rgba(255,255,255,0.05)] 
                 transition-all duration-200 
                 hover:shadow-[0_6px_30px_rgba(255,255,255,0.08)] 
-                hover:ring-primaryColor/30 
+                ring-primaryColor/30 
                 hover:text-primaryColor group
               "
             >
-              <span className="relative z-10 text-white drop-shadow-md transition-all duration-200 font-semibold group-hover:text-primaryColor ">
+              <span className="relative z-10 text-white  drop-shadow-md transition-all duration-200 font-semibold group-hover:text-primaryColor ">
                 Join Our Discord
               </span>
             </Link>
