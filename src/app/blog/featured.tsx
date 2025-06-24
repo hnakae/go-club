@@ -16,7 +16,7 @@ const Featured: React.FC<FeaturedProps> = ({ featuredPosts }) => {
       <div className="font-lora mb-6 sm:max-w-[400px]">
         
       </div>
-      <div className="grid grid-rows-1 grid-cols-3 gap-y-3 gap-x-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
+      <div className="grid grid-rows-1 grid-cols-3 gap-y-2 gap-x-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
         {featuredPosts.length > 0 &&
           featuredPosts.map((featuredPost) => (
             <HeroPost

@@ -52,12 +52,12 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
       <div className="font-lora mb-6 w-full sm:max-w-[400px] xs:max-w-[400px]">
         
       </div>
-      <div className="relative w-full sm:max-w-[400px] xs:max-w-[400px] mb-12">
+      <div className="relative w-full sm:max-w-[400px] xs:max-w-[400px] mb-4">
         <input
           type="search"
           value={searchTerm}
           onChange={handleSearchChange}
-          className="w-full sm:max-w-[400px] border rounded-lg p-4 pl-12 text-black"
+          className="w-full sm:max-w-[400px]  rounded-lg p-4 pl-12 text-primaryColor caret-primaryColor focus:outline-primaryColor"
           placeholder="Search..."
         />
         <div className="absolute left-4 top-1/2 transform -translate-y-1/2">
@@ -69,7 +69,7 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-y-3 gap-x-3">
+      <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-y-2 gap-x-4">
         {filteredPosts.length > 0 ? (
           filteredPosts.map((post) => (
             <PostPreview
@@ -95,7 +95,7 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
               placeholder="data:image/"
             />
             <div className="absolute text-white bg-darkNav top-0 left-0 w-full h-full backdrop-blur-[7px] flex justify-center items-center">
-              Coming Soon
+              Search by chapter (0-5)
             </div>
           </section>
         )}

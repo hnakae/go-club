@@ -23,7 +23,7 @@ const Articles: React.FC<{ initialPosts: Post[] }> = ({ initialPosts }) => {
   return (
     <>
       <div className="flex justify-center items-center  z-10 w-full ">
-        <div className=" px-14 py-10 rounded-md mb-4 max-w-[1128px] w-full border xs:border-none xs:px-4 border-primaryColor text-neutralColor shadow-md backdrop-blur-md ">
+        <div className=" px-4 sm:px-6 md:px-8 lg:px-12 xl:px-14 py-10 rounded-md mb-4 max-w-[1128px] w-full border xs:border-none xs:px-4 border-primaryColor text-neutralColor shadow-md backdrop-blur-md ">
           <div className="flex flex-col justify-center sm:items-center xs:items-center w-full ">
             <Featured featuredPosts={featuredPosts} />
             <ExploreMore posts={nonFeaturedPosts} />
