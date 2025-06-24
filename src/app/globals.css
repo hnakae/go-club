@@ -17,6 +17,7 @@
 
 .active {
   text-decoration: underline;
+  font-color: primaryColor;
 }
 
 /* globals.css */

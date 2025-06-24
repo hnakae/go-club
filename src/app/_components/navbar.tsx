@@ -40,7 +40,7 @@ export function Navbar() {
   return (
     <>
       <section
-        className={`z-50  transition-all duration-300 linear backdrop-blur-xl  bg-darkNav	shadow-md sticky top-0 left-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none`}
+        className={`relative z-50  transition-all duration-300 linear backdrop-blur-xl  bg-darkNav	shadow-md top-0 left-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none`}
       >
         <div className="w-full  flex justify-between items-center">
           <Link
@@ -58,7 +58,7 @@ export function Navbar() {
               >
                 <Link
                   className={`link px-4 py-2 block ${
-                    pathname === "/" ? "active" : ""
+                    pathname === "/" ? "text-primaryColor underline" : ""
                   } hover:text-primaryColor font-montserrat tracking-tighter leading-tight `}
                   href="/"
                   aria-label="Home"
@@ -73,7 +73,7 @@ export function Navbar() {
               >
                 <Link
                   className={`link  px-4 py-2 block ${
-                    pathname === "/about" ? "active" : ""
+                    pathname === "/about" ? "text-primaryColor underline" : ""
                   } hover:text-primaryColor  font-montserrat tracking-tighter leading-tight`}
                   href="/about"
                   aria-label="About"
@@ -96,7 +96,7 @@ export function Navbar() {
               <li className="cursor-pointer rounded-md  ">
                 <Link
                   className={`link  px-4 py-2 block ${
-                    pathname === "/contact" ? "active" : ""
+                    pathname === "/contact" ? "text-primaryColor underline" : ""
                   } hover:text-primaryColor  font-montserrat tracking-tighter leading-tight`}
                   href="/contact"
                   aria-label="contact"
@@ -129,7 +129,9 @@ export function Navbar() {
           </button>
         </div>
       </section>
-      {isOpen ? <Menu closeMenu={closeMenu} /> : null}
+      {/* {isOpen ? <Menu closeMenu={closeMenu} /> : null} */}
+      <Menu closeMenu={closeMenu} show={isOpen} />
+
     </>
   );
 }

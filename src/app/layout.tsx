@@ -142,8 +142,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Eugene Go Club",
-              "url": "https://eugenego.club",
-              "logo": "https://eugenego.club/favicon/android-chrome-512x512.png",
+              "url": "https://www.eugenego.club",
+              "logo": "https://www.eugenego.club/favicon/android-chrome-512x512.png",
               "description": "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays for games, lessons, and community."
             }
           `}

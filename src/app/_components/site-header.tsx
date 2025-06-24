@@ -41,20 +41,20 @@ const HomeHeader = () => {
                 href={wheelMapUrl}
                 draggable={false}
                 target="_blank"
-                className="max-w-[400px] flex flex-col items-center justify-center md:w-1/2 w-full p-8 md:p-10 rounded-2xl cursor-pointer
+                className="max-w-[400px] flex flex-col items-center justify-center md:w-1/2 w-full p-6 md:p-10 rounded-2xl cursor-pointer
                   bg-black/30  border border-primaryColor/5 ring-1 ring-primaryColor/30 backdrop-blur-xl 
                   shadow-[0_4px_20px_rgba(255,255,255,0.05)] 
                   hover:shadow-[0_6px_30px_rgba(255,255,255,0.08)] 
                   hover:ring-primaryColor/50 transition-all duration-150 group"
               >
-                <div className="text-3xl md:text-3xl sm:text-2xl xs:text-xl font-bold mb-2 font-playfair underline text-primaryColor  group-hover:text-primaryColor transition ">
+                <div className="text-2xl md:text-2xl sm:text-2xl xs:text-xl font-bold mb-2 font-playfair underline text-primaryColor  group-hover:text-primaryColor transition ">
                   Wednesday
                 </div>
                 <div className="flex flex-col items-center text-primaryColor">
-                  <div className="font-montserrat text-xl  my-1 text-white/90 drop-shadow-md transition font-semibold ">
+                  <div className="font-montserrat text-xl  my-1 text-white drop-shadow-md transition tracking-tight ">
                     {WEDNESDAY}
                   </div>
-                  <div className="font-montserrat text-xl  my-1 text-white drop-shadow-md transition  ">
+                  <div className="font-montserrat text-lg  my-1 text-white drop-shadow-md transition  ">
                     5:30 - 9:00 pm
                   </div>
                 </div>
@@ -65,20 +65,20 @@ const HomeHeader = () => {
                 href={newDayMapUrl}
                 target="_blank"
                 draggable={false}
-                className="max-w-[400px] flex flex-col items-center justify-center md:w-1/2 w-full p-8 md:p-10 rounded-2xl cursor-pointer
+                className="max-w-[400px] flex flex-col items-center justify-center md:w-1/2 w-full p-6 md:p-10 rounded-2xl cursor-pointer
                   bg-black/30  border border-primaryColor/5 ring-1 ring-primaryColor/30 backdrop-blur-xl 
                   shadow-[0_4px_20px_rgba(255,255,255,0.05)] 
                   hover:shadow-[0_6px_30px_rgba(255,255,255,0.08)] 
                   hover:ring-primaryColor/50 transition-all duration-150 group"
               >
-                <div className="text-3xl md:text-3xl sm:text-2xl xs:text-xl font-bold mb-2 font-playfair underline text-primaryColor group-hover:text-primaryColor transition ">
+                <div className="text-2xl md:text-2xl sm:text-2xl xs:text-xl font-bold mb-2 font-playfair underline text-primaryColor group-hover:text-primaryColor transition ">
                   Sunday
                 </div>
                 <div className="flex flex-col items-center text-white">
-                  <div className="font-montserrat text-xl  my-1 text-white/90 drop-shadow-md transition  font-semibold">
+                  <div className="font-montserrat text-xl  my-1 text-white drop-shadow-md transition tracking-tight">
                     {SUNDAY}
                   </div>
-                  <div className="font-montserrat text-xl  my-1 text-white drop-shadow-md transition ">
+                  <div className="font-montserrat text-lg  my-1 text-white drop-shadow-md transition ">
                     12:00 - 2:30 pm
                   </div>
                 </div>

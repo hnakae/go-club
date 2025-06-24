@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "eugenego.club" }],
+      "destination": "https://www.eugenego.club/:path*",
+      "permanent": true
+    }
+  ]
+}
