@@ -33,14 +33,14 @@ export function HeroPost({
             alt="cover"
             width={400}
             height={400}
-            className="max-h-[120px]  group-hover:brightness-105 transition-all duration-300 ease-out object-cover"
+            className="max-h-[120px]  group-hover:brightness-105 transition-all duration-150 ease-out object-cover"
             placeholder="data:image/"
             priority={true}
             draggable={false}
           />
         </div>
-        <div className="flex flex-col justify-start items-start space-y-3 px-3 bg-primaryColor/5 h-full group-hover:bg-primaryColor/10 transition-colors duration-300">
-          <h3 className="mt-3 leading-tight text-xl font-semibold font-montserrat text-primaryColor transition-colors duration-300 ease-in-out">
+        <div className="flex flex-col justify-start items-start space-y-3 px-3 bg-primaryColor/5 h-full group-hover:bg-primaryColor/10 transition-colors duration-150">
+          <h3 className="mt-3 leading-tight text-xl font-semibold font-montserrat text-primaryColor transition-colors duration-150 ease-in-out">
             {title}
           </h3>
           <p className="font-lora pb-5 overflow-hidden text-neutralColor">

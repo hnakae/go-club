@@ -29,7 +29,7 @@ export function PostPreview({
   // console.log("Chapter:", chapter);
 
   return (
-    <section className="rounded-md overflow-hidden bg-primaryColor/5 max-w-[400px] shadow-sm mb-3 flex flex-col border-primaryColor border hover:border-primaryColor/80 hover:shadow-md transition-all group">
+    <section className="rounded-md overflow-hidden bg-primaryColor/5 max-w-[400px] shadow-sm mb-3 flex flex-col border-primaryColor border hover:border-primaryColor/80 hover:shadow-md transition-all group ring-1 ring-primaryColor/30 hover:ring-primaryColor/50">
       <Link href={`/posts/${slug}`} draggable={false} className="">
         <div className="overflow-hidden">
           <Image
@@ -38,13 +38,13 @@ export function PostPreview({
             width={400}
             height={400}
             draggable={false}
-            className="max-h-[120px]  group-hover:brightness-105 transition-all duration-300 ease-out object-cover"
+            className="max-h-[120px]  group-hover:brightness-105 transition-all duration-150 ease-out object-cover"
           />{" "}
         </div>
-        <div className="flex flex-col justify-start items-start space-y-3 px-3 bg-primaryColor/5 h-full group-hover:bg-primaryColor/10 transition-colors duration-300">
+        <div className="flex flex-col justify-start items-start space-y-3 px-3 bg-primaryColor/5 h-full group-hover:bg-primaryColor/10 transition-colors duration-150">
           {/* <CoverImage title={title} src={author.picture} slug={slug} /> */}
 
-          <h2 className="mt-3 leading-tight text-xl font-semibold font-montserrat text-primaryColor transition-colors duration-300 ease-in-out">
+          <h2 className="mt-3 leading-tight text-xl font-semibold font-montserrat text-primaryColor transition-colors duration-150 ease-in-out">
             {title}
           </h2>
           {/* <p className="font-lora text-sm pb-5 text-neutralColor">

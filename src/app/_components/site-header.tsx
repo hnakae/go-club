@@ -31,7 +31,7 @@ const HomeHeader = () => {
         <div className="w-full flex sm:flex-col-reverse xs:flex-col-reverse items-center justify-around rounded-md text-neutralColor z-20 relative px-6">
           <div className="flex flex-col items-center w-full">
             <div className="text-6xl md:text-5xl sm:text-4xl xs:text-3xl xs:mt-6 sm:mt-8 font-extrabold tracking-tight mb-6 font-playfair text-white drop-shadow-md select-none">
-              Welcome to the Club! 
+              Welcome to the Club!
             </div>
 
             <div className="flex md:flex-row sm:flex-col xs:flex-col w-full justify-center gap-4">
@@ -41,10 +41,10 @@ const HomeHeader = () => {
                 draggable={false}
                 target="_blank"
                 className="flex flex-col items-center justify-center md:w-1/2 w-full p-8 md:p-10 rounded-2xl cursor-pointer
-                  bg-black/30 hover:bg-primaryColor/5 border border-primaryColor/5 ring-1 ring-primaryColor/30 backdrop-blur-xl 
+                  bg-black/30  border border-primaryColor/5 ring-1 ring-primaryColor/30 backdrop-blur-xl 
                   shadow-[0_4px_20px_rgba(255,255,255,0.05)] 
                   hover:shadow-[0_6px_30px_rgba(255,255,255,0.08)] 
-                  hover:ring-primaryColor/30 transition-all duration-200 group"
+                  hover:ring-primaryColor/50 transition-all duration-150 group"
               >
                 <div className="text-4xl md:text-3xl sm:text-2xl xs:text-xl font-bold mb-4 font-playfair underline text-primaryColor  group-hover:text-primaryColor transition ">
                   Wednesday
@@ -65,10 +65,10 @@ const HomeHeader = () => {
                 target="_blank"
                 draggable={false}
                 className="flex flex-col items-center justify-center md:w-1/2 w-full p-8 md:p-10 rounded-2xl cursor-pointer
-                  bg-black/30 hover:bg-primaryColor/5 border border-primaryColor/5 ring-1 ring-primaryColor/30 backdrop-blur-xl 
+                  bg-black/30  border border-primaryColor/5 ring-1 ring-primaryColor/30 backdrop-blur-xl 
                   shadow-[0_4px_20px_rgba(255,255,255,0.05)] 
                   hover:shadow-[0_6px_30px_rgba(255,255,255,0.08)] 
-                  hover:ring-primaryColor/30 transition-all duration-200 group"
+                  hover:ring-primaryColor/50 transition-all duration-150 group"
               >
                 <div className="text-4xl md:text-3xl sm:text-2xl xs:text-xl font-bold mb-4 font-playfair underline text-primaryColor group-hover:text-primaryColor transition ">
                   Sunday
@@ -86,6 +86,31 @@ const HomeHeader = () => {
 
             {/* Join Discord */}
             <Link
+  href="/contact"
+  draggable={false}
+  className="
+    relative 
+    mt-9 px-7 py-3 
+    rounded-full 
+    text-white text-base font-medium 
+    backdrop-blur-xl 
+    bg-black/30 
+    border border-primaryColor/5 
+    ring-1 ring-primaryColor/30 
+    shadow-[0_4px_20px_rgba(255,255,255,0.05)] 
+    hover:shadow-[0_6px_30px_rgba(255,255,255,0.08)] 
+    hover:ring-primaryColor/50 
+    transition-all duration-150 
+    group
+  "
+>
+  <span className="relative z-10 text-white drop-shadow-md transition-all duration-150 font-semibold ">
+    Join Our <span className="text-[#5865F2] transition-all duration-150 drop-shadow-md font-semibold">Discord</span>
+  </span>
+</Link>
+
+
+            {/* <Link
               href="/contact"
               draggable={false}
               className="
@@ -99,16 +124,16 @@ const HomeHeader = () => {
                 border border-primaryColor/5 
                 ring-1 
                 shadow-[0_4px_20px_rgba(255,255,255,0.05)] 
-                transition-all duration-200 
+                transition-all duration-150 
                 hover:shadow-[0_6px_30px_rgba(255,255,255,0.08)] 
                 ring-primaryColor/30 
-                hover:text-primaryColor group
+                 group
               "
             >
-              <span className="relative z-10 text-white  drop-shadow-md transition-all duration-200 font-semibold group-hover:text-primaryColor ">
+              <span className="relative z-10 text-white  drop-shadow-md transition-all duration-150 font-semibold  ">
                 Join Our Discord
               </span>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
