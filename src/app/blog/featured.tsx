@@ -10,7 +10,7 @@ type FeaturedProps = {
 const Featured: React.FC<FeaturedProps> = ({ featuredPosts }) => {
   return (
     <>
-      <div className="font-playfair text-3xl xs:text-2xl font-bold mb-2 w-full sm:text-start sm:max-w-[400px] text-primaryColor">
+      <div className="font-playfair text-3xl xs:text-2xl font-bold mb-2 w-full sm:text-start sm:max-w-[400px] text-white">
         Featured Articles
       </div>
       <div className="font-lora mb-6 sm:max-w-[400px]">
