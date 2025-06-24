@@ -52,7 +52,7 @@ const HomeHeader = () => {
                   <div className="font-montserrat text-xl opacity-90 my-1 text-primaryColor transition  group-hover:opacity-100">
                     {WEDNESDAY}
                   </div>
-                  <div className="font-montserrat text-xl opacity-80 my-1 text-primaryColor transition  group-hover:opacity-100">
+                  <div className="font-montserrat text-xl opacity-90 my-1 text-primaryColor transition  group-hover:opacity-100">
                     5:30 - 9:00 pm
                   </div>
                 </div>
@@ -75,7 +75,7 @@ const HomeHeader = () => {
                   <div className="font-montserrat text-xl opacity-90 my-1 text-primaryColor transition  group-hover:opacity-100">
                     {SUNDAY}
                   </div>
-                  <div className="font-montserrat text-xl opacity-80 my-1 text-primaryColor transition group-hover:opacity-100">
+                  <div className="font-montserrat text-xl opacity-90 my-1 text-primaryColor transition group-hover:opacity-100">
                     12:00 - 2:30 pm
                   </div>
                 </div>
@@ -101,7 +101,7 @@ const HomeHeader = () => {
                 hover:text-primaryColor group
               "
             >
-              <span className="relative z-10 text-primaryColor transition-all duration-200 opacity-80  group-hover:opacity-100">
+              <span className="relative z-10 text-primaryColor transition-all duration-200 opacity-90 font-semibold  group-hover:opacity-100">
                 Join Our Discord
               </span>
             </Link>

@@ -33,7 +33,7 @@ export function HeroPost({
             alt="cover"
             width={400}
             height={400}
-            className="max-h-[120px] group-hover:scale-110 group-hover:brightness-110 transition-all duration-300 ease-out object-cover"
+            className="max-h-[120px]  group-hover:brightness-105 transition-all duration-300 ease-out object-cover"
             placeholder="data:image/"
             priority={true}
           />
