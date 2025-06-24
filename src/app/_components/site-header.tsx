@@ -104,7 +104,7 @@ const HomeHeader = () => {
                 hover:text-primaryColor group
               "
             >
-              <span className="relative z-10 text-white drop-shadow-md transition-all duration-200 font-semibold hover:text-primaryColor ">
+              <span className="relative z-10 text-white drop-shadow-md transition-all duration-200 font-semibold group-hover:text-primaryColor ">
                 Join Our Discord
               </span>
             </Link>
