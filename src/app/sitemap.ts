@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { getAllPosts } from '@/lib/api'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://eugenego.club'
+  const baseUrl = 'https://www.eugenego.club'
   const posts = getAllPosts()
   
   // Get current date for lastModified
