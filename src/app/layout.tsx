@@ -21,42 +21,55 @@ const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
+// constants (optional, to avoid repetition)
+const BASE_URL = "https://www.eugenego.club";
+const TITLE = "Eugene Go Club | Weekly Meetups";
+const DESCRIPTION =
+  "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays.";
+const OG_IMAGE = "/assets/images/cover.jpg";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://eugenego.club"),
+  metadataBase: new URL(BASE_URL),
   title: {
-    default: "Eugene Go Club | Go/Baduk/Weiqi Players in Eugene, Oregon",
+    default: TITLE,
     template: "%s | Eugene Go Club"
   },
-  description: "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays for games, lessons, and community.",
-  keywords: ["Eugene Go Club", "eugenego.club", "Go game", "Baduk", "Weiqi", "Eugene Oregon", "board games", "Go players", "Go community", "strategic board game"],
+  description: DESCRIPTION,
+  keywords: [
+    "Eugene Go Club", "eugenego.club", "Go game", "Baduk", "Weiqi", "Eugene Oregon",
+    "board games", "Go players", "Go community", "strategic board game", "eugene go.club",
+    "eugene go club", "aga", "american go association", "eugene branch", "hiro nakae",
+    "local go club", "how to play go"
+  ],
   creator: "Eugene Go Club",
   publisher: "Eugene Go Club",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://eugenego.club",
-    title: "Eugene Go Club | Go/Baduk/Weiqi Players in Eugene, Oregon",
-    description: "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays.",
+    url: BASE_URL,
+    title: TITLE,
+    description: DESCRIPTION,
     siteName: "Eugene Go Club",
     images: [
       {
-        url: "/assets/images/cover.jpg",
+        url: OG_IMAGE,
         width: 1200,
         height: 630,
-        alt: "Eugene Go Club - Go players in Eugene, Oregon"
+        alt: "Eugene Go Club - Weekly Meetups"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Eugene Go Club | eugenego.club",
-    description: "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays.",
-    images: ["/assets/images/cover.jpg"]
+    title: TITLE,
+    description: DESCRIPTION,
+    images: [OG_IMAGE]
   },
   alternates: {
-    canonical: "https://eugenego.club"
+    canonical: BASE_URL
   }
-}
+};
+
 
 export default function RootLayout({
   children,
