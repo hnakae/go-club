@@ -58,7 +58,7 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
           value={searchTerm}
           onChange={handleSearchChange}
           className="w-full sm:max-w-[400px]  rounded-lg p-4 pl-12 text-primaryColor caret-primaryColor focus:outline-primaryColor"
-          placeholder="Search..."
+          placeholder="Search by chapter (0-5)"
         />
         <div className="absolute left-4 top-1/2 transform -translate-y-1/2">
           <Image
