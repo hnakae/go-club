@@ -74,12 +74,11 @@ const config: Config = {
         montserrat: ["Montserrat", "sans-serif"],
       },
       screens: {
-        xs: { max: "479px" }, // iPhone Portrait confirmed
-        sm: { min: "480px", max: "755px" }, // iPhone Landscape
-        md: { min: "756px", max: "1023px" }, // iPad Portrait
-        lg: { min: "1024px", max: "1366px" }, // iPad Landscape
-        xl: { min: "1367px", max: "1599px" }, // Laptop
-        "2xl": { min: "1600px" }, // Desktop
+        sm: '480px',
+        md: '756px',
+        lg: '1024px',
+        xl: '1200px',
+        '2xl': '1600px',
       },
       keyframes: {
         bounce: {

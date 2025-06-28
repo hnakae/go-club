@@ -23,9 +23,9 @@ const montserrat = Montserrat({
 
 // constants (optional, to avoid repetition)
 const BASE_URL = "https://www.eugenego.club";
-const TITLE = "Eugene Go Club | Weekly Meetups";
+const TITLE = "Eugene Go Club";
 const DESCRIPTION =
-  "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays.";
+  "Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays.";
 const OG_IMAGE = "/assets/images/cover.jpg";
 
 export const metadata: Metadata = {
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   keywords: [
     "Eugene Go Club", "eugenego.club", "Go game", "Baduk", "Weiqi", "Eugene Oregon",
     "board games", "Go players", "Go community", "strategic board game", "eugene go.club",
-    "eugene go club", "aga", "american go association", "eugene branch", "hiro nakae",
+    "eugene go club", "aga", "american go association", "hiro nakae",
     "local go club", "how to play go"
   ],
   creator: "Eugene Go Club",
@@ -129,7 +129,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         <div
-          className={`${playfair.className} ${lora.className} ${montserrat.className}  `}
+          className={`${playfair.className} ${lora.className} ${montserrat.className} pt-16 `}
         >
           <ScrollPositionManager>
             {children}

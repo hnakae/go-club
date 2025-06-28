@@ -22,25 +22,21 @@ export function Navbar() {
   };
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(min-width: 768px)"); // md size
-
-    const handleMediaQueryChange = (event: MediaQueryListEvent) => {
-      if (event.matches) {
-        closeMenu();
-      }
-    };
-
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
 
     return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+      document.body.style.overflow = 'auto';
     };
-  }, []);
+  }, [isOpen]);
 
   return (
     <>
       <section
-        className={`relative z-50  transition-all duration-300 linear backdrop-blur-xl  bg-darkNav	shadow-md top-0 left-0 flex justify-center items-center  py-2 w-full mx-0 px-6  select-none`}
+        className={`fixed z-50 transition-all linear backdrop-blur-xl ${isOpen ? 'bg-transparent' : 'bg-darkNav'} shadow-md top-0 left-0 flex justify-center items-center py-2 w-full mx-0 px-6 select-none`}
       >
         <div className="w-full  flex justify-between items-center">
           <Link
@@ -51,9 +47,9 @@ export function Navbar() {
             Eugene Go Club
           </Link>
           <nav aria-label="primary menu">
-            <ul className=" text-white flex space-x-2  items-center  xs:hidden sm:hidden  ">
+            <ul className="text-white hidden space-x-2 items-center xl:flex">
               <li
-                className="cursor-pointer rounded-md    "
+                className="cursor-pointer rounded-md"
                 aria-current="page"
               >
                 <Link
@@ -68,7 +64,7 @@ export function Navbar() {
                 </Link>
               </li>
               <li
-                className="cursor-pointer rounded-md    "
+                className="cursor-pointer rounded-md"
                 aria-current="page"
               >
                 <Link
@@ -93,7 +89,7 @@ export function Navbar() {
                   FAQs
                 </Link>
               </li> */}
-              <li className="cursor-pointer rounded-md  ">
+              <li className="cursor-pointer rounded-md">
                 <Link
                   className={`link  px-4 py-2 block ${
                     pathname === "/contact" ? "text-primaryColor underline" : ""
@@ -108,21 +104,21 @@ export function Navbar() {
             </ul>
           </nav>
           <button
-            className="flex-col justify-center items-center  md:hidden  lg:hidden xl:hidden 2xl:hidden "
+            className="flex flex-col justify-center items-center xl:hidden z-50 p-2"
             onClick={handleClick}
           >
             <span
-              className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
+              className={`bg-light block transition-all ease-out h-0.5 w-6 rounded-sm ${
                 isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
               }`}
             ></span>
             <span
-              className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
+              className={`bg-light block transition-all ease-out h-0.5 w-6 rounded-sm my-0.5 ${
                 isOpen ? "opacity-0" : "opacity-100"
               }`}
             ></span>
             <span
-              className={`bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
+              className={`bg-light block transition-all ease-out h-0.5 w-6 rounded-sm ${
                 isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
               }`}
             ></span>
