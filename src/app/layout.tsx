@@ -129,7 +129,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         <div
-          className={`${playfair.className} ${lora.className} ${montserrat.className} pt-16 `}
+          className={`${playfair.className} ${lora.className} ${montserrat.className} pt-16 xl:pt-[120px]`}
         >
           <ScrollPositionManager>
             {children}

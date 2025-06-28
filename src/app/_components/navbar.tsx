@@ -36,7 +36,7 @@ export function Navbar() {
   return (
     <>
       <section
-        className={`fixed z-50 transition-all linear backdrop-blur-xl ${isOpen ? 'bg-transparent' : 'bg-darkNav shadow-md xl:h-[120px]'} top-0 left-0 flex justify-center items-center py-2 w-full mx-0 px-6 select-none`}
+        className={`fixed z-50 transition-all linear backdrop-blur-xl ${isOpen ? 'bg-transparent px-6' : 'bg-darkNav shadow-md xl:h-[120px] px-6 xl:px-12'} top-0 left-0 flex justify-center items-center py-2 w-full mx-0 select-none`}
       >
         <div className="w-full  flex justify-between items-center">
           <Link
