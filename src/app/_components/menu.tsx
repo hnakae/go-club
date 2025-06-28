@@ -16,15 +16,15 @@ const Menu = ({ closeMenu, show }: NavbarProps) => {
       className={`
         fixed top-0 left-0 w-full h-full bg-[#141E26] text-neutralColor
         flex flex-col pt-0
-        transition-opacity ease-in-out
+        
         ${show ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}
         z-40
       `}
     >
       
-      <nav className="flex flex-col items-start gap-12 px-12 pt-[120px] w-full">
+      <nav className="flex flex-col items-start gap-12 px-6 pt-[120px] w-full">
         <Link
-          className={`text-lg font-montserrat tracking-tight hover:text-primaryColor transition-colors duration-300 ${
+          className={`text-lg font-montserrat tracking-tight hover:text-primaryColor transition-colors duration-300 pl-6 ${
             pathname === "/" ? "text-primaryColor" : ""
           }`}
           href="/"
@@ -34,7 +34,7 @@ const Menu = ({ closeMenu, show }: NavbarProps) => {
           Home
         </Link>
         <Link
-          className={`text-lg font-montserrat tracking-tight hover:text-primaryColor transition-colors duration-300 ${
+          className={`text-lg font-montserrat tracking-tight hover:text-primaryColor transition-colors duration-300 pl-6 ${
             pathname === "/about" ? "text-primaryColor" : ""
           }`}
           href="/about"
@@ -44,7 +44,7 @@ const Menu = ({ closeMenu, show }: NavbarProps) => {
           About
         </Link>
         <Link
-          className={`text-lg font-montserrat tracking-tight hover:text-primaryColor transition-colors duration-300 ${
+          className={`text-lg font-montserrat tracking-tight hover:text-primaryColor transition-colors duration-300 pl-6 ${
             pathname === "/contact" ? "text-primaryColor" : ""
           }`}
           href="/contact"

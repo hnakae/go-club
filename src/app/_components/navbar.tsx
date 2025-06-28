@@ -24,24 +24,27 @@ export function Navbar() {
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
+      document.body.style.paddingRight = '17px'; // Adjust as needed for scrollbar width
     } else {
       document.body.style.overflow = 'auto';
+      document.body.style.paddingRight = '0px';
     }
 
     return () => {
       document.body.style.overflow = 'auto';
+      document.body.style.paddingRight = '0px';
     };
   }, [isOpen]);
 
   return (
     <>
       <section
-        className={`fixed z-50 transition-all linear backdrop-blur-xl ${isOpen ? 'bg-transparent px-6' : 'bg-darkNav shadow-md xl:h-[120px] px-6 xl:px-12'} top-0 left-0 flex justify-center items-center py-2 w-full mx-0 select-none`}
+        className={`fixed z-50 backdrop-blur-xl ${isOpen ? 'bg-transparent px-6 pr-[41px]' : 'bg-darkNav shadow-md xl:h-[120px] px-6 xl:px-12'} top-0 left-0 flex justify-center items-center py-2 w-full mx-0 select-none`}
       >
         <div className="w-full  flex justify-between items-center">
           <Link
             href="/"
-            className={`font-montserrat  text-white hover:text-primaryColor text-nowrap	 rounded-md text-3xl  font-bold tracking-tighter leading-tight flex items-center transition-opacity duration-300 ${
+            className={`font-montserrat  text-white hover:text-primaryColor text-nowrap	 rounded-md text-3xl  font-bold tracking-tighter leading-tight flex items-center ${
               isOpen ? "opacity-0" : "opacity-100"
             }`}
             draggable={false}
@@ -110,17 +113,17 @@ export function Navbar() {
             onClick={handleClick}
           >
             <span
-              className={`bg-light block transition-all ease-out h-0.5 w-6 rounded-sm ${
+              className={`bg-light block h-0.5 w-6 rounded-sm ${
                 isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
               }`}
             ></span>
             <span
-              className={`bg-light block transition-all ease-out h-0.5 w-6 rounded-sm my-0.5 ${
+              className={`bg-light block h-0.5 w-6 rounded-sm my-0.5 ${
                 isOpen ? "opacity-0" : "opacity-100"
               }`}
             ></span>
             <span
-              className={`bg-light block transition-all ease-out h-0.5 w-6 rounded-sm ${
+              className={`bg-light block h-0.5 w-6 rounded-sm ${
                 isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
               }`}
             ></span>
