@@ -15,14 +15,14 @@ const Menu = ({ closeMenu, show }: NavbarProps) => {
     <div
       className={`
         fixed top-0 left-0 w-full h-full bg-[#141E26] text-neutralColor
-        flex flex-col items-center justify-center
+        flex flex-col pt-0
         transition-opacity ease-in-out
         ${show ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}
         z-40
       `}
     >
       
-      <nav className="flex flex-col items-center gap-12">
+      <nav className="flex flex-col items-start gap-12 px-12 pt-[120px] w-full">
         <Link
           className={`text-lg font-montserrat tracking-tight hover:text-primaryColor transition-colors duration-300 ${
             pathname === "/" ? "text-primaryColor" : ""
