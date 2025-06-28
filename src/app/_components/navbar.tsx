@@ -41,7 +41,9 @@ export function Navbar() {
         <div className="w-full  flex justify-between items-center">
           <Link
             href="/"
-            className="font-montserrat  text-white hover:text-primaryColor text-nowrap	 rounded-md text-3xl  font-bold tracking-tighter leading-tight flex items-center "
+            className={`font-montserrat  text-white hover:text-primaryColor text-nowrap	 rounded-md text-3xl  font-bold tracking-tighter leading-tight flex items-center transition-opacity duration-300 ${
+              isOpen ? "opacity-0" : "opacity-100"
+            }`}
             draggable={false}
           >
             Eugene Go Club
