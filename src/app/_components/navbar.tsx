@@ -52,7 +52,7 @@ export function Navbar() {
             Eugene Go Club
           </Link>
           <nav aria-label="primary menu">
-            <ul className={`text-white hidden space-x-2 items-center ${isOpen ? '' : 'xl:flex'}`}>
+            <ul className={`text-white hidden space-x-2 items-center ${isOpen ? '' : 'md:flex'}`}>
               <li
                 className="cursor-pointer rounded-md"
                 aria-current="page"
@@ -109,7 +109,7 @@ export function Navbar() {
             </ul>
           </nav>
           <button
-            className={`flex flex-col justify-center items-center z-50 p-2 ${isOpen ? '' : 'xl:hidden'}`}
+            className={`flex flex-col justify-center items-center z-50 p-2 ${isOpen ? '' : 'md:hidden'}`}
             onClick={handleClick}
           >
             <span
