@@ -1,3 +1,4 @@
+import { getAllPosts } from "@/lib/api";
 import Footer from "@/app/_components/footer";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Lora, Montserrat } from "next/font/google";
@@ -76,6 +77,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const allPosts = getAllPosts();
+
   return (
     <html lang="en">
       <head>
@@ -126,16 +129,16 @@ export default function RootLayout({
         />
         <link rel="preload" href="/assets/images/slatebg.png" as="image" />
       </head>
-      <body className={inter.className}>
+      <body className={`flex flex-col min-h-screen ${inter.className}`}>
         <Navbar />
         <div
-          className={`${playfair.className} ${lora.className} ${montserrat.className} pt-16 xl:pt-[120px]`}
+          className={`flex-grow ${playfair.className} ${lora.className} ${montserrat.className} pt-16 xl:pt-[120px]`}
         >
           <ScrollPositionManager>
             {children}
           </ScrollPositionManager>
         </div>
-        <Footer />
+        <Footer allPosts={allPosts} />
         <Script id="structured-data" type="application/ld+json">
           {`
             {
