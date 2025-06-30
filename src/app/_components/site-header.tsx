@@ -14,7 +14,7 @@ const HomeHeader = () => {
 
   return (
     <div className="flex justify-center items-center z-10 w-full">
-      <div className="relative  my-4 max-w-[1128px] rounded-md flex justify-center items-center w-full xs:border-none xs:my-0 text-neutralColor z-20 border border-primaryColor overflow-hidden">
+      <div className="relative mb-4 py-4 max-w-[1128px] rounded-md flex justify-center items-center w-full xs:border-none xs:my-0 text-neutralColor z-20 border border-primaryColor overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
@@ -30,7 +30,7 @@ const HomeHeader = () => {
         {/* Content */}
         <div className="w-full flex sm:flex-col-reverse xs:flex-col-reverse items-center justify-around rounded-md text-neutralColor z-20 relative px-6">
           <div className="flex flex-col items-center w-full">
-            <div className="text-5xl md:text-5xl sm:text-4xl xs:text-3xl my-6 font-extrabold tracking-tight font-playfair text-white drop-shadow-md select-none">
+            <div className="text-5xl md:text-5xl sm:text-4xl xs:text-3xl my-8 font-extrabold tracking-tight font-playfair text-white drop-shadow-md select-none">
               Welcome to the Club!
             </div>
 
