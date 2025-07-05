@@ -13,7 +13,8 @@ const nextConfig = {
             value: `
             default-src 'self';
             script-src 'self' 'unsafe-inline' 'unsafe-eval';
-            script-src-elem 'self' 'unsafe-inline' http://eidogo.com;
+            script-src-elem 'self' 'unsafe-inline' http://eidogo.com http://localhost:4001;
+            connect-src 'self' http://localhost:4001;
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
             style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com;
             font-src 'self' https://fonts.gstatic.com;
@@ -24,6 +25,14 @@ const nextConfig = {
               .trim(),
           },
         ],
+      },
+    ];
+  },
+  async rewrites() {
+    return [
+      {
+        source: "/admin",
+        destination: "/admin/index.html",
       },
     ];
   },
