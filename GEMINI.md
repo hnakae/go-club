@@ -14,6 +14,3 @@ This section lists key files and their purposes.
 
 This section lists common commands used in the project.
 
-## Reminders
-
-Always run gemini-2.5-pro. I have access to the student plan.
