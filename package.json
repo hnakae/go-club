@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build",
+    "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"next\"",
+    "build": "tinacms build && next build",
     "start": "next start"
   },
   "dependencies": {
@@ -24,10 +24,12 @@
     "remark-html": "^16.0.1",
     "sharp": "^0.33.4",
     "tailwind-merge": "^2.3.0",
+    "tinacms": "^2.7.9",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@tinacms/cli": "^1.9.9",
+    "@types/node": "^20.19.4",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",

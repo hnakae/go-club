@@ -50,3 +50,5 @@ prisma/ .env
 # Prisma Client
 prisma/client
 
+
+node_modules
