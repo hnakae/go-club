@@ -1,4 +1,4 @@
-import { defineConfig } from "tinacms";
+import { defineConfig, TinaCMS, LocalAuthProvider } from "tinacms";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -25,6 +25,8 @@ export default defineConfig({
       publicFolder: "public",
     },
   },
+  authProvider: new LocalAuthProvider(),
+  
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [

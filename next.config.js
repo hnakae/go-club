@@ -13,13 +13,13 @@ const nextConfig = {
             value: `
             default-src 'self';
             script-src 'self' 'unsafe-inline' 'unsafe-eval';
-            script-src-elem 'self' 'unsafe-inline' http://eidogo.com http://localhost:4001;
-            connect-src 'self' http://localhost:4001;
+            script-src-elem 'self' 'unsafe-inline' http://eidogo.com http://localhost:4001 https://app.tina.io;
+            connect-src 'self' http://localhost:4001 https://app.tina.io;
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
             style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com;
             font-src 'self' https://fonts.gstatic.com;
             img-src 'self' data:;
-            frame-src 'self' https://online-go.com;
+            frame-src 'self' https://online-go.com https://app.tina.io https://github.com;
           `
               .replace(/\s{2,}/g, " ")
               .trim(),
