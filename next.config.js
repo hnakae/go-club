@@ -17,7 +17,7 @@ const nextConfig = {
             connect-src 'self' http://localhost:4001 https://app.tina.io https://identity.tinajs.io https://content.tinajs.io;
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
             style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com;
-            font-src 'self' https://fonts.gstatic.com;
+            font-src 'self' https://fonts.gstatic.com data:;
             img-src 'self' data:;
             frame-src 'self' https://online-go.com https://app.tina.io https://github.com;
           `
