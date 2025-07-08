@@ -14,7 +14,7 @@ const nextConfig = {
             default-src 'self';
             script-src 'self' 'unsafe-inline' 'unsafe-eval';
             script-src-elem 'self' 'unsafe-inline' http://eidogo.com http://localhost:4001 https://app.tina.io;
-            connect-src 'self' http://localhost:4001 https://app.tina.io;
+            connect-src 'self' http://localhost:4001 https://app.tina.io https://identity.tinajs.io;
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
             style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com;
             font-src 'self' https://fonts.gstatic.com;
