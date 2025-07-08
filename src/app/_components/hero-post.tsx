@@ -34,7 +34,7 @@ export function HeroPost({
             width={400}
             height={400}
             className="max-h-[120px]  group-hover:brightness-105 transition-all duration-150 ease-out object-cover"
-            placeholder="data:image/"
+            placeholder="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
             priority={true}
             draggable={false}
           />

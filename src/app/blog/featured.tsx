@@ -39,7 +39,7 @@ const Featured: React.FC<FeaturedProps> = ({ featuredPosts }) => {
             width={400}
             height={400}
             className="h-full hover:scale-125 transition-transform ease-linear object-cover"
-            placeholder="data:image/"
+            placeholder="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
           />
           <div className="absolute text-white bg-darkNav top-0 left-0 w-full h-full backdrop-blur-[7px] flex justify-center items-center flex-col">
             <div>Explore More</div>
