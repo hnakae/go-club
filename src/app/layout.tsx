@@ -127,7 +127,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet"
         />
-        <link rel="preload" href="/assets/images/slatebg.png" as="image" />
+        {/* <link rel="preload" href="/assets/images/slatebg.png" as="image" /> */}
       </head>
       <body className={`flex flex-col min-h-screen ${inter.className}`}>
         <Navbar />
