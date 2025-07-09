@@ -2,46 +2,23 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
 import markdownToHtml from "@/lib/markdownToHtml";
+// import markdownToHtml from "@/lib/markdownToHtml";
 import Container from "@/app/components/container";
+// import { PostBody } from "@/app/components/post-body";
 import { PostHeader } from "@/app/components/post-header";
 import { PostBody } from "@/app/components/post-body";
 import ExploreMore from "@/app/blog/exploreMore";
-import { useTina } from "tinacms/dist/react";
-import client from "../../../../tina/__generated__/client";
+// import {Goban} from 'react-go-board';
 
 export default async function Post({ params }: Params) {
-  const { data } = await client.queries.post({
-    relativePath: `${params.slug}.md`,
-  });
-
-  const { data: liveData } = useTina({
-    query: `
-      query PostQuery($relativePath: String!) {
-        post(relativePath: $relativePath) {
-          title
-          body
-          coverImage
-          date
-          author {
-            name
-            picture
-          }
-          excerpt
-          chapter
-        }
-      }
-    `,
-    variables: { relativePath: `${params.slug}.md` },
-    data,
-  });
-
-  const post = liveData.post;
+  const post = getPostBySlug(params.slug);
 
   if (!post) {
     return notFound();
   }
 
-  const content = await markdownToHtml(post.body || "");
+  // const content = await markdownToHtml(post.content || "");
+  const content = await markdownToHtml(post.content || "");
 
   const allPosts = getAllPosts();
 

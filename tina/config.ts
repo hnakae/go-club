@@ -48,55 +48,10 @@ export default defineConfig({
             label: "Body",
             isBody: true,
           },
-          {
-            type: "image",
-            name: "coverImage",
-            label: "Cover Image",
-          },
-          {
-            type: "datetime",
-            name: "date",
-            label: "Date",
-          },
-          {
-            type: "object",
-            name: "author",
-            label: "Author",
-            fields: [
-              {
-                type: "string",
-                name: "name",
-                label: "Name",
-              },
-              {
-                type: "image",
-                name: "picture",
-                label: "Picture",
-              },
-            ],
-          },
-          {
-            type: "string",
-            name: "excerpt",
-            label: "Excerpt",
-            ui: {
-              component: "textarea",
-            },
-          },
-          {
-            type: "string",
-            name: "chapter",
-            label: "Chapter",
-          },
         ],
         ui: {
         },
       },
     ],
-  },
-  cms: {
-    branch,
-    authProvider: new LocalAuthProvider(),
-    live: true,
   },
 });
