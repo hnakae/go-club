@@ -38,10 +38,8 @@ export default async function Post({ params }: Params) {
             excerpt={post.excerpt}
             chapter={post.chapter}
           />
-          {/* <PostBody content={content} /> */}
-          <div className="w-full mb-4 xs:px-4 sm:px-6 md:px-20 lg:px-44 xl:px-44 2xl:px-48 border border-primaryColor rounded-md shadow-md backdrop-blur-md min-h-screen">
-            <PostBody content={content} />
-          </div>
+          <PostBody content={content} />
+          
         </article>
         <div className="flex justify-center items-center  z-10 w-full ">
           <div className=" px-14 py-10 rounded-md mb-4 max-w-[1128px] w-full border xs:border-none xs:px-4 border-primaryColor text-neutralColor shadow-md backdrop-blur-md ">
