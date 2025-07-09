@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import Container from "@/app/_components/container";
+import Container from "@/app/components/container";
 import Header from "./header";
 import Image from "next/image";
 import Quote from "../contact/quote";

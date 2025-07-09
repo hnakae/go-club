@@ -4,13 +4,13 @@ export type Post = {
   clickCount: number;
   slug: string;
   chapter: string;
-  tags: string;
+  tags: string; // used for sorting
   title: string;
   date: string;
   coverImage: string;
   author: Author;
   excerpt: string;
-  ogImage: {
+  ogImage?: {
     url: string;
   };
   content: string;

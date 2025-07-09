@@ -1,6 +1,6 @@
 "use client";
-import Container from "@/app/_components/container";
-// import { Events } from "@/app/_components/events";
+import Container from "@/app/components/container";
+// import { Events } from "@/app/components/events";
 import JoinCommunity from "./join-community";
 import Header from "./header";
 import Link from "next/link";

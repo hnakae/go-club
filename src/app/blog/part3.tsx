@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { Post } from "@/interfaces/post";
-import { PostPreview } from "../_components/post-preview";
+import { PostPreview } from "../components/post-preview";
 
 type Part3Props = {
   posts: Post[];

@@ -1,8 +1,8 @@
-import Container from "@/app/_components/container";
+import Container from "@/app/components/container";
 import { getAllPosts } from "@/lib/api";
-import MeetUpInfo from "./_components/site-header";
+import MeetUpInfo from "./components/site-header";
 import Articles from "./blog/articles";
-// import SGFViewer from "@/app/_components/custom/SGFViewer";
+// import SGFViewer from "@/app/components/custom/SGFViewer";
 
 export default function Index() {
   const allPosts = getAllPosts();

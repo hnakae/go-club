@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Post } from "@/interfaces/post";
-import { PostPreview } from "../_components/post-preview";
+import { PostPreview } from "../components/post-preview";
 
 // Renamed Featured to Begginer Basics. (shape/direction)
 
@@ -35,7 +35,7 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
         (post) =>
           post.title.toLowerCase().includes(term) ||
           post.author.name.toLowerCase().includes(term) ||
-          post.tags.toLowerCase().includes(term)
+          post.tags?.toLowerCase().includes(term)
       );
       setFilteredPosts(filtered);
     }
@@ -43,9 +43,9 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
 
   // Function to sort posts by tags (assuming tags are numeric strings)
   const sortByTags = (a: Post, b: Post) => {
-    // Convert tags to integers for comparison
-    const tagA = parseInt(a.tags);
-    const tagB = parseInt(b.tags);
+    // Convert tags to integers for comparison, providing a default if undefined
+    const tagA = parseInt(a.tags || "0"); // Assuming "0" is a reasonable default for sorting
+    const tagB = parseInt(b.tags || "0"); // Assuming "0" is a reasonable default for sorting
     return tagA - tagB;
   };
 

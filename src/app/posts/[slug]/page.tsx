@@ -1,23 +1,14 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
+import markdownToHtml from "@/lib/markdownToHtml";
 // import markdownToHtml from "@/lib/markdownToHtml";
-import { serialize } from "next-mdx-remote/serialize";
-import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
-import Container from "@/app/_components/container";
-// import { PostBody } from "@/app/_components/post-body";
-import { PostHeader } from "@/app/_components/post-header";
+import Container from "@/app/components/container";
+// import { PostBody } from "@/app/components/post-body";
+import { PostHeader } from "@/app/components/post-header";
+import { PostBody } from "@/app/components/post-body";
 import ExploreMore from "@/app/blog/exploreMore";
-import dynamic from "next/dynamic";
-
 // import {Goban} from 'react-go-board';
-
-const ClientMDXRemote = dynamic(
-  () => import("@/app/_components/mdx/ClientMDXRemote"),
-  {
-    ssr: false,
-  }
-);
 
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
@@ -27,17 +18,12 @@ export default async function Post({ params }: Params) {
   }
 
   // const content = await markdownToHtml(post.content || "");
-  const mdxSource = await serialize(post.content || "", {
-    mdxOptions: {
-      remarkPlugins: [],
-      rehypePlugins: [],
-    },
-  });
+  const content = await markdownToHtml(post.content || "");
 
   const allPosts = getAllPosts();
 
   const nonFeaturedPosts = allPosts.filter(
-    (post) => !post.tags.toLowerCase().includes("featured")
+    (post) => !post.tags?.toLowerCase().includes("featured")
   );
 
   return (
@@ -54,7 +40,7 @@ export default async function Post({ params }: Params) {
           />
           {/* <PostBody content={content} /> */}
           <div className="w-full mb-4 xs:px-4 sm:px-6 md:px-20 lg:px-44 xl:px-44 2xl:px-48 border border-primaryColor rounded-md shadow-md backdrop-blur-md min-h-screen">
-            <ClientMDXRemote {...mdxSource} />
+            <PostBody content={content} />
           </div>
         </article>
         <div className="flex justify-center items-center  z-10 w-full ">
@@ -88,7 +74,7 @@ export function generateMetadata({ params }: Params): Metadata {
     title,
     openGraph: {
       title,
-      images: [post.ogImage.url],
+      images: [post.ogImage?.url || '/assets/images/cover.jpg'], // Fallback to a default image
     },
   };
 }

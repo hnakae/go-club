@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { HeroPost } from "../_components/hero-post";
+import { HeroPost } from "../components/hero-post";
 import { Post } from "@/interfaces/post";
 
 // Renamed Featured to Foundations of Strong Play. (strength/surround)

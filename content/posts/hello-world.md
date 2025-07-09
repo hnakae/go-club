@@ -1,5 +1,8 @@
 ---
 title: Hello, World!
+tags: "uncategorized"
+ogImage:
+  url: "/assets/images/cover.jpg"
 ---
 
 ## Hello World!

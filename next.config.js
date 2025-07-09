@@ -1,5 +1,3 @@
-const withMDX = require("@next/mdx")();
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -51,7 +49,7 @@ const nextConfig = {
       },
     ];
   },
-  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
+  pageExtensions: ["js", "jsx", "ts", "tsx"],
   images: {
     remotePatterns: [
       {
@@ -64,4 +62,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withMDX(nextConfig);
+module.exports = nextConfig;

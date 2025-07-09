@@ -1,12 +1,12 @@
 import { getAllPosts } from "@/lib/api";
-import Footer from "@/app/_components/footer";
+import Footer from "@/app/components/footer";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Lora, Montserrat } from "next/font/google";
-import ScrollPositionManager from './_components/scroll-position-manager';
+import ScrollPositionManager from "./components/scroll-position-manager";
 import Script from 'next/script';
 
 import "./globals.css";
-import { Navbar } from "./_components/navbar";
+import { Navbar } from "./components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 const playfair = Playfair_Display({

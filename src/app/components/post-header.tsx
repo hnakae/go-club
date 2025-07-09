@@ -1,6 +1,6 @@
 import Avatar from "./avatar";
 import CoverImage from "./cover-image";
-import { PostTitle } from "@/app/_components/post-title";
+import { PostTitle } from "@/app/components/post-title";
 import { type Author } from "@/interfaces/author";
 
 type Props = {
