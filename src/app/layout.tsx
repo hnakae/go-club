@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display, Lora, Montserrat } from "next/font/google";
 import ScrollPositionManager from "./components/scroll-position-manager";
 import Script from 'next/script';
+import { TinaCMS, TinaProvider } from "tinacms";
+import client from "../../tina/__generated__/client";
 
 import "./globals.css";
 import { Navbar } from "./components/navbar";
@@ -135,7 +137,9 @@ export default function RootLayout({
           className={`flex-grow ${playfair.className} ${lora.className} ${montserrat.className} pt-16 xl:pt-[120px]`}
         >
           <ScrollPositionManager>
-            {children}
+            <TinaProvider cms={new TinaCMS({})}>
+              {children}
+            </TinaProvider>
           </ScrollPositionManager>
         </div>
         <Footer allPosts={allPosts} />
