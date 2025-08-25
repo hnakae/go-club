@@ -15,7 +15,7 @@ const JoinCommunity = () => {
             Join the conversation and meet other folks like you!
           </p>
           {/* <a
-          href="https://discord.com/channels/1164649557687275703/1164649557687275706"
+          href="https://discord.gg/n2Bh9avz6d"
           target="_blank"
           className="text-[14px] w-40 flex justify-center items-center rounded-md py-2 px-2 bg-[#2D2D2D] text-white cursor-pointer transition-opacity hover:bg-black"
         >

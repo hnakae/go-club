@@ -27,7 +27,7 @@ export function Footer() {
             />
           </Link>
           <Link
-            href="https://discord.com/channels/1164649557687275703/1174766988787208345"
+            href="https://discord.gg/n2Bh9avz6d"
             target="_blank"
           >
             <Image

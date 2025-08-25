@@ -32,7 +32,7 @@ export function Navbar() {
           <Link href="/contact">Contact</Link>
         </li> */}
             <li className="cursor-pointer rounded-md  px-4 py-2  ">
-              <Link href="https://discord.gg/qVCqJYyVUX" target="_blank">
+              <Link href="https://discord.gg/n2Bh9avz6d" target="_blank">
                 Discord
               </Link>
             </li>

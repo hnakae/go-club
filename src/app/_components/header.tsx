@@ -19,7 +19,7 @@ const Header = () => {
         <Link href="/contact">Contact</Link>
       </li> */}
         <li className="cursor-pointer hover:underline rounded-md hover:bg-slate-200 px-4 py-2">
-          <Link href="https://discord.gg/qVCqJYyVUX" target="_blank">
+          <Link href="https://discord.gg/n2Bh9avz6d" target="_blank">
             Discord
           </Link>
         </li>
