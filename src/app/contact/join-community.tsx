@@ -72,7 +72,7 @@ const JoinCommunity = () => {
             />
           </Link>
           <Link
-            href="https://discord.com/channels/1164649557687275703/1174766988787208345"
+            href="https://discord.com/n2Bh9avz6d"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -15,7 +15,7 @@ export default function Contact() {
           <div className="text-neutralColor max-w-[1128px]  px-14 py-10 justify-around flex items-center rounded-md  border border-primaryColor  shadow-md   backdrop-blur-md w-full ">
             <ul>
               <Link
-                href="https://discord.com/channels/1164649557687275703/1164649557687275706"
+                href="https://discord.com/n2Bh9avz6d"
                 className="hover:underline hover:text-primaryColor flex mb-3"
                 target="_blank"
                 draggable={false}
