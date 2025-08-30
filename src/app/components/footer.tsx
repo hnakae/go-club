@@ -86,7 +86,7 @@ export function Footer({ allPosts }: { allPosts: Post[] }) {
           {/* <div className="flex flex-col items-center md:items-start gap-4">
             <div className="font-bold text-xl font-montserrat tracking-tighter">Contacts</div>
             <Link
-              href="https://discord.com/n2Bh9avz6d"
+              href="https://discord.gg/n2Bh9avz6d"
               className="link font-montserrat tracking-tighter leading-tight hover:text-primaryColor transition-colors"
               target="_blank"
               rel="noopener noreferrer"

@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { Post } from "@/interfaces/post";
 import { PostPreview } from "../components/post-preview";
@@ -13,33 +13,22 @@ type ExploreMoreProps = {
 
 const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [filteredPosts, setFilteredPosts] = useState<Post[]>(posts);
 
   // Only include posts from chapters 2 and 3
   const chapterFilteredPosts = posts.filter(
     (post) => post.chapter === "Chapter 2" || post.chapter === "Chapter 3"
   );
 
-  useEffect(() => {
-    setFilteredPosts(chapterFilteredPosts);
-  }, [posts]);
-
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const term = e.target.value.toLowerCase();
-    setSearchTerm(term);
-
-    if (term === "") {
-      setFilteredPosts(posts);
-    } else {
-      const filtered = posts.filter(
-        (post) =>
-          post.title.toLowerCase().includes(term) ||
-          post.author.name.toLowerCase().includes(term) ||
-          post.tags?.toLowerCase().includes(term)
-      );
-      setFilteredPosts(filtered);
-    }
+    setSearchTerm(e.target.value);
   };
+
+  const filteredPosts = chapterFilteredPosts.filter(
+    (post) =>
+      post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      post.author.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      post.tags?.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   // Function to sort posts by tags (assuming tags are numeric strings)
   const sortByTags = (a: Post, b: Post) => {
@@ -50,7 +39,7 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
   };
 
   // Sort filtered posts by tags
-  filteredPosts.sort(sortByTags);
+  const sortedPosts = [...filteredPosts].sort(sortByTags);
 
   return (
     <div className="z-30">
@@ -79,8 +68,8 @@ const ExploreMore: React.FC<ExploreMoreProps> = ({ posts }) => {
         </div>
       </div> */}
       <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-y-2 gap-x-4">
-        {filteredPosts.length > 0 ? (
-          filteredPosts.map((post) => (
+        {sortedPosts.length > 0 ? (
+          sortedPosts.map((post) => (
             <PostPreview
               key={post.slug}
               title={post.title}
