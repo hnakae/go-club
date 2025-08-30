@@ -11,7 +11,7 @@ type FeaturedProps = {
 
 const Featured: React.FC<FeaturedProps> = ({ featuredPosts }) => {
   return (
-    <>
+    <div>
       <div className="font-playfair text-3xl xs:text-2xl font-bold w-full sm:text-start sm:max-w-[400px] text-white my-2">
         Foundations of Strong Play
       </div>
@@ -46,7 +46,7 @@ const Featured: React.FC<FeaturedProps> = ({ featuredPosts }) => {
           </div>
         </section> */}
       </div>
-    </>
+    </div>
   );
 };
 
