@@ -2,15 +2,9 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import { MEETINGS } from "@/lib/meetings";
 
 const HomeHeader = () => {
-  const WEDNESDAY = "The Wheel Apizza Pub";
-  const SUNDAY = "New Day Bakery";
-
-  const wheelMapUrl =
-    "https://www.google.com/maps/place/The+Wheel+Apizza+Pub/@44.0557582,-123.1000482,17z/data=!4m14!1m7!3m6!1s0x54c11e0d72a0a967:0xf477d5fb21b6bc28!2sThe+Wheel+Apizza+Pub!8m2!3d44.0557582!4d-123.0974733!16s%2Fg%2F11ggwbmgbh!3m5!1s0x54c11e0d72a0a967:0xf477d5fb21b6bc28!8m2!3d44.0557582!4d-123.0974733!16s%2Fg%2F11ggwbmgbh?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D";
-  const newDayMapUrl =
-    "https://www.google.com/maps/place/New+Day+Bakery/@44.0549823,-123.1110014,17z/data=!3m1!4b1!4m6!3m5!1s0x54c11e715f5e96e5:0x7dd72a7928d6b996!8m2!3d44.0549823!4d-123.1084265!16s%2Fg%2F1tdprd2x?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D";
 
   return (
     <div className="flex justify-center items-center z-10 w-full">
@@ -38,7 +32,7 @@ const HomeHeader = () => {
             <div className="flex md:flex-row sm:flex-col xs:flex-col w-full justify-center items-center gap-2">
               {/* Wednesday */}
               <a
-                href={wheelMapUrl}
+                href={MEETINGS.wednesday.mapUrl}
                 draggable={false}
                 target="_blank"
                 className="max-w-[400px] flex flex-col items-center justify-center md:w-1/2 w-full p-6 md:p-10 rounded-2xl cursor-pointer
@@ -52,17 +46,17 @@ const HomeHeader = () => {
                 </div>
                 <div className="flex flex-col items-center text-primaryColor">
                   <div className="font-montserrat text-xl  my-1 text-white drop-shadow-md transition tracking-tight ">
-                    {WEDNESDAY}
+                    {MEETINGS.wednesday.place}
                   </div>
                   <div className="font-montserrat text-lg  my-1 text-white drop-shadow-md transition  ">
-                    5:30 - 9:00 pm
+                    {MEETINGS.wednesday.time}
                   </div>
                 </div>
               </a>
 
               {/* Sunday */}
               <a
-                href={newDayMapUrl}
+                href={MEETINGS.sunday.mapUrl}
                 target="_blank"
                 draggable={false}
                 className="max-w-[400px] flex flex-col items-center justify-center md:w-1/2 w-full p-6 md:p-10 rounded-2xl cursor-pointer
@@ -76,10 +70,10 @@ const HomeHeader = () => {
                 </div>
                 <div className="flex flex-col items-center text-white">
                   <div className="font-montserrat text-xl  my-1 text-white drop-shadow-md transition tracking-tight">
-                    {SUNDAY}
+                    {MEETINGS.sunday.place}
                   </div>
                   <div className="font-montserrat text-lg  my-1 text-white drop-shadow-md transition ">
-                    12:00 - 2:30 pm
+                    {MEETINGS.sunday.time}
                   </div>
                 </div>
               </a>

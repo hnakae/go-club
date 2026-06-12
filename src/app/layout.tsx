@@ -1,6 +1,7 @@
 import { getAllPosts } from "@/lib/api";
 import Footer from "@/app/components/footer";
 import type { Metadata } from "next";
+import { MEETINGS } from "@/lib/meetings";
 import { Inter, Playfair_Display, Lora, Montserrat } from "next/font/google";
 import ScrollPositionManager from "./components/scroll-position-manager";
 import Script from 'next/script';
@@ -25,8 +26,7 @@ const montserrat = Montserrat({
 // constants (optional, to avoid repetition)
 const BASE_URL = "https://www.eugenego.club";
 const TITLE = "Eugene Go Club";
-const DESCRIPTION =
-  "Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays.";
+const DESCRIPTION = `Join our weekly meetups at ${MEETINGS.wednesday.place} on Wednesdays and ${MEETINGS.sunday.place} on Sundays.`;
 const OG_IMAGE = "/assets/images/cover.jpg";
 
 export const metadata: Metadata = {
@@ -147,7 +147,7 @@ export default function RootLayout({
               "name": "Eugene Go Club",
               "url": "https://www.eugenego.club",
               "logo": "https://www.eugenego.club/favicon/android-chrome-512x512.png",
-              "description": "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at The Wheel Apizza Pub on Wednesdays and New Day Bakery on Sundays for games, lessons, and community."
+              "description": "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at ${MEETINGS.wednesday.place} on Wednesdays and ${MEETINGS.sunday.place} on Sundays for games, lessons, and community."
             }
           `}
         </Script>
