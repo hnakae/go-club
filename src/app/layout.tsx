@@ -1,5 +1,5 @@
 import { getAllPosts } from "@/lib/api";
-import Footer from "@/app/components/footer";
+import { Footer } from "@/app/components/footer";
 import type { Metadata } from "next";
 import { MEETINGS } from "@/lib/meetings";
 import { Inter, Playfair_Display, Lora, Montserrat } from "next/font/google";
@@ -72,12 +72,16 @@ export const metadata: Metadata = {
 };
 
 
+function FooterWithData() {
+  const allPosts = getAllPosts();
+  return <Footer allPosts={allPosts} />;
+}
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const allPosts = getAllPosts();
 
   return (
     <html lang="en">
@@ -113,20 +117,6 @@ export default function RootLayout({
         />
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-          rel="stylesheet"
-        />
         {/* <link rel="preload" href="/assets/images/slatebg.png" as="image" /> */}
       </head>
       <body className={`flex flex-col min-h-screen ${inter.className}`}>
@@ -138,18 +128,16 @@ export default function RootLayout({
             {children}
           </ScrollPositionManager>
         </div>
-        <Footer allPosts={allPosts} />
+        <FooterWithData />
         <Script id="structured-data" type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Eugene Go Club",
-              "url": "https://www.eugenego.club",
-              "logo": "https://www.eugenego.club/favicon/android-chrome-512x512.png",
-              "description": "Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at ${MEETINGS.wednesday.place} on Wednesdays and ${MEETINGS.sunday.place} on Sundays for games, lessons, and community."
-            }
-          `}
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Eugene Go Club",
+            "url": "https://www.eugenego.club",
+            "logo": "https://www.eugenego.club/favicon/android-chrome-512x512.png",
+            "description": `Eugene Go Club is the official Go/Baduk/Weiqi club in Eugene, Oregon. Join our weekly meetups at ${MEETINGS.wednesday.place} on Wednesdays and ${MEETINGS.sunday.place} on Sundays for games, lessons, and community.`
+          })}
         </Script>
       </body>
     </html>

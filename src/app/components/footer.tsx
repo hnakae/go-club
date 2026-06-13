@@ -1,9 +1,6 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import MeetupInfo from "./meetup-info";
-import Container from "./container";
-
 import { Post } from "@/interfaces/post";
 
 export function Footer({ allPosts }: { allPosts: Post[] }) {
@@ -11,20 +8,17 @@ export function Footer({ allPosts }: { allPosts: Post[] }) {
 
   
 
-  const scrollToTop = () => {{
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }};
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <footer className="bg-darkNav text-white backdrop-blur-xl shadow-md">
       <div className="container mx-auto px-6 xl:px-12">
-        <div className="py-12 flex flex-col md:flex-row items-start md:justify-start gap-8">
-         
+        <div className="py-12 flex flex-col md:flex-row items-center md:justify-center gap-8 md:gap-16">
+
           {/* Navigate */}
-          <div className="flex flex-col items-center md:items-start gap-4">
+          <div className="flex flex-col items-center gap-4">
             <div className="font-bold text-xl font-montserrat tracking-tighter">Navigate</div>
             <Link
               className={`link font-montserrat tracking-tighter leading-tight ${
@@ -59,7 +53,7 @@ export function Footer({ allPosts }: { allPosts: Post[] }) {
           </div>
 
           {/* Featured Posts */}
-          <div className="flex flex-col items-center md:items-start gap-4">
+          <div className="flex flex-col items-center gap-4">
             <div className="font-bold text-xl font-montserrat tracking-tighter">Featured Posts</div>
             {allPosts
               .filter(
